@@ -1,0 +1,1865 @@
+---
+title: "Figures For Oligo Manuscript"
+author: "Stefan Filges"
+date: '`r format(Sys.Date())`'
+output: 
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+    theme: sandstone
+    highlight: tango
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Setup
+
+```{r, message=FALSE, warning=FALSE}
+checkPackages <- function(requiredPackages){
+  for(package in requiredPackages){
+    if(!require(package, character.only = TRUE)){
+      install.packages(package, dependencies = TRUE)
+      require(package, character.only = TRUE)
+    }
+  }
+}
+
+packages <- c('tidyverse', 'gridExtra', 'RColorBrewer', 'stringr', 'tis')
+checkPackages(requiredPackages = packages)
+
+library(EnvStats)
+library(Hmisc)
+library(ggpmisc)
+```
+
+Set the working directory and import plotting functions. We then load the paths
+to the Debarcer output folders into the samplePaths variable and create a
+datframe "sampleNames", that contains the sample metadata based on the folder name.
+Lastly, a new tibble is initialized into which all consensus table will be loaded 
+in the next step.
+
+```{r, warning=FALSE}
+# Define working directory containing Debarcer output files
+#main = '/Users/xfilst/Documents/GitHub/oligo_analysis/'
+main = "C:/Users/stefa/OneDrive - Göteborgs Universitet/GitHub/oligo_analysis/"
+
+source('helper_functions_oligo.R')
+
+# Should individual files with VAF be printed?
+print.individual.files = FALSE
+
+# Create table of sample directory paths
+samplePaths <- list.dirs(
+  path = paste(main, "data/DebarcerOutput", sep = ""),
+  recursive = FALSE
+)
+
+#
+# Create dataframe with sample metadata
+sampleNames <- list.dirs(
+  path = paste(main, "data/DebarcerOutput", sep = ""),
+  recursive = FALSE,
+  full.names = FALSE
+)
+
+sampleNames <- as.data.frame(do.call(rbind, strsplit(sampleNames, '_')))
+colnames(sampleNames) <- c('Manufacturer', 'InsertType', 'Purification', 'Batch', 'Replicate')
+sampleNames$File <- samplePaths
+
+# Initialize consensus table object
+cons.table = tibble()
+```
+
+### Import files
+
+For each sample the consensus 10 files are loaded and metadata is added to the 
+consensus table for filtering later on.
+
+```{r, warning=FALSE, echo=FALSE, message=FALSE}
+for(i in 1:nrow(sampleNames)){
+
+  samplePath <- sampleNames$File[i]
+
+  consFile <- list.files(
+    path = paste(samplePath, '/tables/', sep = ''), 
+    pattern = '.bamPositionComposition.cons10.txt',
+    full.names = TRUE
+  )
+  
+  # Read sample data
+  cons.table.temp <- readr::read_delim(
+    file = consFile,
+    delim = '\t',
+    col_types = cols(
+      Amplicon = col_character(),
+      Alias = col_character(),
+      Position = col_double(),
+      Reference = col_character(),
+      rawA = col_double(),
+      rawC = col_double(),
+      rawD = col_double(),
+      rawG = col_double(),
+      rawI = col_double(),
+      rawN = col_double(),
+      rawT = col_double(),
+      rawDepth = col_double(),
+      consA = col_double(),
+      consC = col_double(),
+      consD = col_double(),
+      consG = col_double(),
+      consI = col_double(),
+      consN = col_double(),
+      consT = col_double(),
+      consDepth = col_double()
+      )
+    )
+  
+    # Add sample meta data to consensus table
+    cons.table.temp$Manufacturer <- sampleNames$Manufacturer[i]
+    cons.table.temp$InsertType <- sampleNames$InsertType[i]
+    cons.table.temp$Purification <- sampleNames$Purification[i]
+    cons.table.temp$Batch <- sampleNames$Batch[i]
+    cons.table.temp$Replicate <- sampleNames$Replicate[i]
+
+    #cons.table.temp <- cons.table.temp %>% 
+    #  dplyr::filter(!is.na(Alias))
+
+    cons.table <- cons.table %>% 
+      dplyr::bind_rows(cons.table.temp)
+}
+
+# Change names of factor variables
+cons.table$Manufacturer <- forcats::fct_recode(
+  cons.table$Manufacturer, 
+  IDT = 'idt', 
+  BS = 'bs',
+  SA = 'sig',
+  EF = 'eurofins'
+)
+
+cons.table$Purification <- forcats::fct_recode(
+  cons.table$Purification, 
+  desalted = 'des'
+)
+
+cons.table$InsertType <- forcats::fct_recode(
+  cons.table$InsertType, 
+  Insert_1 = 'fwd', 
+  Insert_2 = 'rev'
+)
+```
+
+### Remove reference allele counts
+
+Set all reference allele counts to 0, so that only non-reference counts remain
+for each position.
+
+```{r}
+cons.table.filtered <- cons.table %>%
+  dplyr::filter(
+    InsertType %in% c('Insert_1', 'Insert_2'),
+    Position >= 19, 
+    Position <= 80
+  )
+
+for(j in 1:nrow(cons.table.filtered)) {
+  row <- cons.table.filtered[j,]
+  if( row$ProbableRef == 'A' ) {
+    cons.table.filtered[j,]$consA <- 0
+    cons.table.filtered[j,]$rawA <- 0
+  }
+  else if( row$ProbableRef == 'C' ) {
+    cons.table.filtered[j,]$consC <- 0
+    cons.table.filtered[j,]$rawC <- 0
+  }
+  else if( row$ProbableRef == 'G' ) {
+    cons.table.filtered[j,]$consG <- 0
+    cons.table.filtered[j,]$rawG <- 0
+  }
+  else if( row$ProbableRef == 'T' ) {
+    cons.table.filtered[j,]$consT <- 0
+    cons.table.filtered[j,]$rawT <- 0
+  }
+}
+```
+
+
+### Count deletions
+
+```{r}
+cons.table.filtered
+
+del.count <- cons.table.filtered %>% 
+  group_by(Manufacturer, InsertType,Purification, Batch) %>% 
+  summarise(del_error = 100*mean(consD)/mean(consDepth))
+
+del.count
+
+
+subs.count <- cons.table.filtered %>% 
+  group_by(Manufacturer, InsertType,Purification, Batch) %>% 
+  summarise(del_error = median(consA+consC+consG+consT)/mean(consDepth))
+
+subs.count
+
+```
+
+## SiMSen-Seq error correction
+
+```{r, message=FALSE}
+amplicon.plot.data <- cons.table.filtered %>%
+    dplyr::mutate(
+      raw_error = 100*(rawA+rawC+rawG+rawT+rawD+rawI)/rawDepth,
+      cons_error = 100*(consA+consC+consG+consT+consD+consI)/consDepth
+    ) %>%
+    dplyr::filter(Manufacturer != "control", InsertType == "Insert_1") %>%
+    tidyr::unite('Type', Manufacturer, Purification, sep = ' ') %>%
+    dplyr::group_by(Position, InsertType, ProbableRef) %>%
+    dplyr::summarise(
+      cons_error = mean(cons_error),
+      raw_error = mean(raw_error)
+    ) %>% 
+  tidyr::gather("error_type", "error", -c("Position", "InsertType", "ProbableRef"))
+
+labels <- amplicon.plot.data %>%
+  dplyr::ungroup() %>%
+  dplyr::distinct(Position, ProbableRef)
+
+error_plot <- ggplot(
+  data = amplicon.plot.data, 
+  mapping = aes(
+    x = Position,
+    y = error,
+    fill = error_type)
+  ) +
+  geom_bar(stat = 'identity', position = 'dodge', width = 0.75) +
+  scale_x_continuous(breaks=labels$Position, labels=labels$ProbableRef) +
+  theme_classic() +
+  facet_wrap(InsertType ~ ., scales = 'free_x', nrow = 1)
+
+error_plot
+
+ggsave(filename = 'Figure_1c_insert_1.pdf', plot = error_plot, device = 'pdf')
+
+
+amplicon.plot.data <- cons.table.filtered %>%
+    dplyr::mutate(
+      raw_error = 100*(rawA+rawC+rawG+rawT+rawD+rawI)/rawDepth,
+      cons_error = 100*(consA+consC+consG+consT+consD+consI)/consDepth
+    ) %>%
+    dplyr::filter(Manufacturer != "control", InsertType == "Insert_2") %>%
+    tidyr::unite('Type', Manufacturer, Purification, sep = ' ') %>%
+    dplyr::group_by(Position, InsertType, ProbableRef) %>%
+    dplyr::summarise(
+      cons_error = mean(cons_error),
+      raw_error = mean(raw_error)
+    ) %>% 
+  tidyr::gather("error_type", "error", -c("Position", "InsertType", "ProbableRef"))
+
+labels <- amplicon.plot.data %>%
+  dplyr::ungroup() %>%
+  dplyr::distinct(Position, ProbableRef)
+
+error_plot <- ggplot(
+  data = amplicon.plot.data, 
+  mapping = aes(
+    x = Position,
+    y = error,
+    fill = error_type)
+  ) +
+  geom_bar(stat = 'identity', position = 'dodge', width = 0.75) +
+  scale_x_continuous(breaks=labels$Position, labels=labels$ProbableRef) +
+  theme_classic() +
+  facet_wrap(InsertType ~ ., scales = 'free_x', nrow = 1) + 
+  scale_fill_brewer(palette = "Pastel1")
+
+error_plot
+
+ggsave(filename = 'Figure_1c_insert_2.pdf', plot = error_plot, device = 'pdf')
+```
+
+## Quantifying deletions in consensus reads
+
+We load the consensus reads and meta data for each sample and then count the
+number of deletions in each consensus read. For each sample we then determine
+the fraction of reads containing 1 to 7 or more deleted bases. Note, that the 
+deletions do not have to be consecutive, but can be spread throughout the read.
+
+```{r, message=FALSE}
+#---------------------// Reference sequences //---------------------------------
+primer_1 ="GTGGTGAGGCTCCCCTTT"
+primer_2 = "CAAAGCTGTTCCGTCCCAGT"
+
+forward_insert = "ATACAGAATATCTGTTCGCACTCCGAGTGCGGCTTGCGGAGATTCTCTTCCTCTGTGCGCCG"
+reverse_insert = "CTTGCGGAGATTCTCTTCCTCTGTGCGCCGATACAGAATATCTGTTCGCACTCCGAGTGCGG"
+#-------------------------------------------------------------------------------
+
+df = data.frame()
+df2 = data.frame()
+for(i in 1:nrow(sampleNames)){
+  out.file <- ''
+  
+  row <- sampleNames[i,]
+  row2 <- sampleNames[i,]
+  dir <- paste(sampleNames$File[i], '/tables/', sep = '')
+  
+  reads.file <- list.files(
+    path = dir, 
+    pattern ='.consensusSequences.cons10.txt.gz',
+    full.names = TRUE
+  )
+  
+  #file <- read.csv(
+  #  file = reads.file, 
+  #  header = TRUE, 
+  #  sep = '\t', 
+  #  stringsAsFactors = FALSE
+  #)
+  
+  file <- readr::read_delim(
+    file = reads.file,
+    delim = "\t",
+    col_names = c("position","barcode", "counts","sequence")
+  )
+  
+  file <- drop_na(as.data.frame(file))
+  
+  #colnames(file) <- c("position","barcode", "counts","sequence")
+  
+  file <- file[file$counts >= 10,]
+  file <- file[file$barcode != "",]
+  
+  total_reads <- length(file$position)
+  
+  # Trim primer sequences from start of amplicon
+  
+  primer_1_length <- nchar(primer_1)
+  
+  # find amplicon start
+  file$amplicon_start <- sub(".*:", "", file$position)
+  
+  # difference to primer length
+  file$difference <- rep(primer_1_length + 1, length(file$position)) - as.numeric(file$amplicon_start)
+  
+  file$trimmed <- substring(file$sequence, file$difference + 1)
+  file$trimmed <- substring(file$trimmed, 1, 62)
+  
+  file$length_trim <- nchar(file$trimmed)
+  
+  file$n_D <- stringr::str_count(string = file$trimmed, pattern = 'D')
+  file$n_D2 <- stringr::str_count(string = file$trimmed, pattern = 'DD')
+  file$n_D3 <- stringr::str_count(string = file$trimmed, pattern = 'DDD')
+  file$n_D4 <- stringr::str_count(string = file$trimmed, pattern = 'DDDD')
+  file$n_D5 <- stringr::str_count(string = file$trimmed, pattern = 'DDDDD')
+  file$length <- nchar(file$trimmed)
+  
+  
+  row$`0` <- 100*(nrow(file[file$n_D == 0,])/total_reads)
+  row$`1` <- 100*(nrow(file[file$n_D == 1,])/total_reads)
+  row$`2` <- 100*(nrow(file[file$n_D == 2,])/total_reads)
+  row$`3` <- 100*(nrow(file[file$n_D == 3,])/total_reads)
+  row$`4` <- 100*(nrow(file[file$n_D == 4,])/total_reads)
+  row$`5` <- 100*(nrow(file[file$n_D == 5,])/total_reads)
+  row$`6` <- 100*(nrow(file[file$n_D == 6,])/total_reads)
+  row$`>7` <- 100*(nrow(file[file$n_D >= 7,])/total_reads)
+  
+  row2$n_two_errors <- nrow(file %>% dplyr::filter(n_D == 2))
+  row2$n_two_errors_together <- nrow(file %>% dplyr::filter(n_D == 2, n_D2 == 1))
+  
+  row2$n_three_errors <- nrow(file %>% dplyr::filter(n_D == 3))
+  row2$n_three_errors_together <- nrow(file %>% dplyr::filter(n_D == 3, n_D3 == 1)) + 
+    nrow(file %>% dplyr::filter(n_D == 3, n_D2 == 1)) - 
+    nrow(file %>% dplyr::filter(n_D == 3, n_D3 == 1)) 
+  
+  row2$n_four_errors <- nrow(file %>% dplyr::filter(n_D == 4))
+  row2$n_four_errors_together <- nrow(file %>% dplyr::filter(n_D == 4, n_D3 == 1))+
+    nrow(file %>% dplyr::filter(n_D == 4, n_D2 == 2)) -
+    nrow(file %>% dplyr::filter(n_D == 4, n_D4 == 1)) 
+
+  df <- rbind(df,row)
+  df2 <- rbind(df2,row2)
+}
+
+# Change names of factor variables
+df$Manufacturer <- forcats::fct_recode(
+  df$Manufacturer, 
+  IDT = 'idt', 
+  BS = 'bs',
+  SA = 'sig',
+  EF = 'eurofins'
+)
+
+df$Purification <- forcats::fct_recode(
+  df$Purification, 
+  desalted = 'des'
+)
+
+df$InsertType <- forcats::fct_recode(
+  df$InsertType, 
+  Insert_1 = 'fwd', 
+  Insert_2 = 'rev'
+)
+
+write.csv(
+  x = df, 
+  file = paste(Sys.Date(),'consensus_read_deletions_counts.csv', sep = '_')
+)
+
+
+
+# Change names of factor variables
+df2$Manufacturer <- forcats::fct_recode(
+  df2$Manufacturer, 
+  IDT = 'idt', 
+  BS = 'bs',
+  SA = 'sig',
+  EF = 'eurofins'
+)
+
+df2$Purification <- forcats::fct_recode(
+  df2$Purification, 
+  desalted = 'des'
+)
+
+df2$InsertType <- forcats::fct_recode(
+  df2$InsertType, 
+  Insert_1 = 'fwd', 
+  Insert_2 = 'rev'
+)
+
+data_2 <- df2 %>% 
+  dplyr::mutate(ratio = if_else(n_two_errors != 0, n_two_errors_together/n_two_errors, 0)) %>% 
+  tidyr::unite("Type", Manufacturer, Purification, InsertType, sep = " ") %>%
+  dplyr::group_by(Type) %>%
+  dplyr::summarise(mean = mean(ratio), sd = sd(ratio))
+
+
+data_3 <- df2 %>% 
+  dplyr::mutate(ratio = if_else(n_three_errors != 0, n_three_errors_together/n_three_errors, 0)) %>% 
+  tidyr::unite("Type", Manufacturer, Purification, InsertType, sep = " ") %>%
+  dplyr::group_by(Type) %>%
+  dplyr::summarise(mean = mean(ratio), sd = sd(ratio))
+
+
+data_4 <- df2 %>% 
+  dplyr::mutate(ratio = if_else(n_four_errors != 0, n_four_errors_together/n_four_errors, 0)) %>% 
+  tidyr::unite("Type", Manufacturer, Purification, InsertType, sep = " ") %>%
+  dplyr::group_by(Type) %>%
+  dplyr::summarise(mean = mean(ratio), sd = sd(ratio)) 
+
+
+data_2["Del"] <- "2"
+data_3["Del"] <- "3"
+data_4["Del"] <- "4"
+
+
+data <- rbind(data_2,data_3,data_4)
+
+
+boxplot_deletions <- ggplot2::ggplot(
+  data = data, 
+  mapping = aes(
+    x = as.factor(Del), 
+    y = 100*(mean)
+    )
+  ) +
+  geom_boxplot(colour = "grey50") +
+  geom_jitter(
+      width = 0.1
+    ) +
+  xlab(label = "Number of Deletions") +
+  ylab(label = "At least two consecutive deletions (%)") +
+  theme_minimal() +
+  theme(
+    axis.title = element_text(size = 12,colour = "black"),
+    axis.text = element_text(size = 10,colour = "black"),
+    axis.ticks = element_line(size = 1),
+    panel.border = element_blank(), 
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line = element_line(colour = 'black'),
+    legend.position = "bottom"
+    )
+  
+boxplot_deletions
+
+ggsave(filename = 'boxplot_deletions.pdf', plot = boxplot_deletions, device = 'pdf')
+
+
+df3 <- df %>% 
+  tidyr::unite("Type", Manufacturer, Purification, InsertType, sep = " ") %>%
+  dplyr::group_by(Type) %>%
+  dplyr::summarise(mean = mean(`0`), )
+
+
+order <- df3[order(df3$mean, decreasing = TRUE),]$Type
+
+
+
+data$Type <- as.factor(data$Type)
+data$Type <- forcats::fct_relevel(data$Type, c('IDT gblocks Insert_1','IDT gblocks Insert_2', 'control MCF7 Insert_1'), after = Inf)
+#data$Type <- fct_relevel(data$Type, order)
+
+barplot_deletions <- ggplot2::ggplot(
+  data = data, 
+  mapping = aes(
+    x = Type, 
+    y = 100*mean
+    )
+  ) +
+  facet_wrap(Del ~ ., ncol = 1, strip.position="right") +
+  geom_bar(stat = "identity") +
+  geom_hline(yintercept = 0) + 
+  theme_minimal() +
+  theme(
+    axis.title = element_text(size = 12,colour = "black"),
+    axis.text = element_text(size = 10,colour = "black"),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    axis.ticks = element_line(size = 1),
+    panel.border = element_blank(), 
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line = element_line(colour = 'black'),
+    legend.position = "bottom"
+    )
+
+
+barplot_deletions
+
+ggsave(filename = 'barplot_deletions.pdf', plot = barplot_deletions, device = 'pdf')
+
+```
+
+
+### Figure 1b
+
+Now we plot the fraction of deletions in consensus 10 reads for the two insert 
+variants and all 3 batches side-by-side.
+
+```{r}
+plot_data <- df %>% 
+  tidyr::gather(
+    key = 'Deletions', 
+    value = 'Fraction of reads', 
+    -c(Manufacturer,InsertType,Purification,Batch,Replicate,File)
+  ) %>%
+  dplyr::filter(InsertType != 'gDNA') %>%
+  tidyr::unite(col = 'Type', Manufacturer, Purification, sep = ' ') %>%
+  dplyr::group_by(Type, InsertType, Deletions) %>%
+  dplyr::summarise(`Fraction of reads` = mean(`Fraction of reads`))
+
+
+plot_data$Deletions <- forcats::fct_relevel(plot_data$Deletions, '>7', after = Inf)
+plot_data$Type <- forcats::fct_relevel(plot_data$Type, c('IDT gblocks', 'control MCF7'), after = Inf)
+
+# Custom colour palette: blue -> green -> red
+plot_colours <- c('#11122F', '#3462AB', '#5EA4D1', '#92D1DA', '#B9DDD5', '#F7C75D', '#E3985B', '#D31D00')
+
+figure1b <- ggplot2::ggplot(
+  data = plot_data, 
+  mapping = aes(
+    x = Type, 
+    y = `Fraction of reads`, 
+    fill = Deletions
+    )
+  ) +
+  geom_bar(position=position_stack(reverse = TRUE) , stat = 'identity') +
+  facet_wrap(InsertType~., scales = 'free_x', strip.position = 'right') +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(
+      hjust = 1,
+      angle = 45,
+      size = 9
+    ),
+    panel.border = element_blank(), 
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line = element_line(colour = 'black'),
+    legend.position = "bottom"
+    ) +
+  #scale_fill_brewer(palette = 'Spectral',direction = -1) +
+  scale_fill_manual(values = plot_colours) +
+  coord_cartesian(ylim = c(85,NA))
+
+figure1b
+  
+ggsave(filename = 'Figure_1b.pdf', plot = figure1b, device = 'pdf')
+```
+
+## Wilcox test
+
+```{r wilcoxon, echo=FALSE}
+cons.variants <- cons.table.filtered %>%
+      dplyr::mutate(
+        subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
+        subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
+        indels_raw = 100*(rawD+rawI)/rawDepth,
+        indels_cons = 100*(consD+consI)/consDepth,
+        total_cons =  100*(consA+consC+consG+consT+consD+consI)/consDepth
+      ) %>%
+      dplyr::filter(
+        InsertType == 'Insert_1',
+        Batch == c("b1", "b2", "b3"),
+        Manufacturer != "control"
+      ) %>%
+      tidyr::unite('Type', Manufacturer, Purification, InsertType, Batch, sep = ' ') %>%
+      dplyr::group_by(Type) %>%
+  dplyr::select(Position, Type, indels_cons)
+
+wilcox_results = stats::pairwise.wilcox.test(
+  x = cons.variants$indels_cons, 
+  g = cons.variants$Type, 
+  exact = FALSE, 
+  paired = TRUE, 
+  p.adjust.method = "bonferroni"
+)
+
+
+write.table(
+  x = wilcox_results$p.value, file = "wilcoxon_test_results_insert_1.csv",
+  sep = ",", row.names = TRUE
+  )
+
+wilcox_results$p.value 
+
+
+cons.variants <- cons.table.filtered %>%
+      dplyr::mutate(
+        subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
+        subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
+        indels_raw = 100*(rawD+rawI)/rawDepth,
+        indels_cons = 100*(consD+consI)/consDepth,
+        total_cons =  100*(consA+consC+consG+consT+consD+consI)/consDepth
+      ) %>%
+      dplyr::filter(
+        InsertType == 'Insert_2',
+        Batch == c("b1", "b2", "b3"),
+        Manufacturer != "control"
+      ) %>%
+      tidyr::unite('Type', Manufacturer, Purification, InsertType, Batch, sep = ' ') %>%
+      dplyr::group_by(Type) %>%
+  dplyr::select(Position, Type, indels_cons)
+
+wilcox_results = stats::pairwise.wilcox.test(
+  x = cons.variants$indels_cons, 
+  g = cons.variants$Type, 
+  exact = FALSE, 
+  paired = TRUE, 
+  p.adjust.method = "bonferroni"
+)
+
+
+write.table(
+  x = wilcox_results$p.value, file = "wilcoxon_test_results_insert_2.csv",
+  sep = ",", row.names = TRUE
+  )
+
+wilcox_results$p.value 
+```
+
+
+
+## Dinucleotide combinations
+
+```{r dinucleotides, echo=FALSE}
+cons.variants <- cons.table.filtered %>%
+      dplyr::mutate(
+        subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
+        subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
+        indels_raw = 100*(rawD+rawI)/rawDepth,
+        indels_cons = 100*(consD+consI)/consDepth,
+        total_cons =  100*(consA+consC+consG+consT+consD+consI)/consDepth
+      ) %>%
+      dplyr::filter(
+        InsertType == 'Insert_2',
+        Batch == c("b1", "b2", "b3"),
+        Manufacturer != "control",
+        Position >= 49,
+        Position <= 80
+      ) %>%
+      tidyr::unite('Type', Manufacturer, Purification, InsertType, Batch, sep = ' ') %>%
+      dplyr::group_by(Type) %>%
+  dplyr::select(Position,ProbableRef, Type, indels_cons) %>%
+  dplyr::arrange(Position, .by_group = TRUE)
+
+
+
+A = data.frame()
+
+for( i in 1:nrow(cons.variants) ){
+  
+  row <- cons.variants[i,]
+  
+  position <- cons.variants$Position[i]
+  next_base <- cons.variants$ProbableRef[i+1]
+  
+  if(position < 80){
+    row$next_base <- next_base
+  } else {
+    row$next_base <- 'C'
+  }
+  
+  A <- rbind(A,row)
+
+}
+
+
+
+base_plot_data <- A %>% ungroup() %>% group_by(next_base) %>% 
+  summarise(
+    mean_error = mean(indels_cons),
+    sd_error = sd(indels_cons)/sqrt(n())
+    )
+
+A_error <- A[A$next_base == 'A',]$indels_cons
+C_error <- A[A$next_base == 'C',]$indels_cons
+T_error <- A[A$next_base == 'T',]$indels_cons
+G_error <- A[A$next_base == 'G',]$indels_cons
+
+t.test(x = A_error, y = C_error)
+t.test(x = A_error, y = G_error)
+t.test(x = T_error, y = G_error)
+t.test(x = T_error, y = C_error)
+t.test(x = C_error, y = G_error)
+
+
+
+base_plot <- ggplot(
+  data = base_plot_data,
+  mapping = aes(
+    x=next_base,
+    y=mean_error,
+    fill=next_base
+    )
+  ) +
+  geom_bar(stat = "identity") +
+  scale_fill_brewer(palette = "Set1") +
+  theme_minimal() +
+  theme(
+    axis.title = element_text(size = 16,colour = "black"),
+    axis.text = element_text(size = 14,colour = "black"),
+    axis.ticks = element_line(size = 1),
+    panel.border = element_blank(), 
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line = element_line(colour = 'black'),
+    legend.position = "bottom"
+    ) +
+  xlab("Base") +
+  ylab("Deletion error (%)") +
+  geom_errorbar(
+   mapping = aes(ymin = mean_error-sd_error, ymax = mean_error+sd_error), 
+    position = position_dodge(
+      width = 0.6, 
+      preserve = "single"
+    ), 
+    width = 0.25
+    ) 
+
+base_plot
+
+
+data_to_plot <- cons.variants %>% ungroup() %>% group_by(Position, ProbableRef) %>% summarise(error = indels_cons - mean(indels_cons))
+
+
+dinuc_plot <- ggplot2::ggplot(
+  data = cons.variants, 
+  mapping = aes(
+    x = as.factor(Position), 
+    y = indels_cons,
+    fill = ProbableRef
+    )
+  ) +
+  geom_boxplot() +
+  theme_minimal() +
+  theme(
+    axis.title = element_text(size = 12,colour = "black"),
+    axis.text = element_text(size = 10,colour = "black"),
+    axis.ticks = element_line(size = 1),
+    panel.border = element_blank(), 
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line = element_line(colour = 'black'),
+    legend.position = "bottom"
+    ) +
+  scale_fill_brewer(palette = "Set1") +
+  xlab("Nucleotide position") +
+  ylab("Deletion error (%)")
+
+dinuc_plot
+
+
+ggsave(filename = 'base_plot_insert_2.pdf', plot = base_plot, device = 'pdf', width = 6, height = 6)
+ggsave(filename = 'dinuc_plot_insert2_.pdf', plot = dinuc_plot, device = 'pdf', width = 12, height = 8)
+```
+```{r, echo=FALSE}
+
+cons.variants_1 <- cons.table.filtered %>%
+      dplyr::mutate(
+        subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
+        subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
+        indels_raw = 100*(rawD+rawI)/rawDepth,
+        indels_cons = 100*(consD+consI)/consDepth,
+        total_cons =  100*(consA+consC+consG+consT+consD+consI)/consDepth
+      ) %>%
+      dplyr::filter(
+        InsertType == 'Insert_1',
+        Batch == c("b1", "b2", "b3"),
+        Manufacturer != "control",
+        Position >= 19,
+        Position <= 50
+      ) %>%
+      tidyr::unite('Type', Manufacturer, Purification, InsertType, Batch, sep = ' ') %>%
+      dplyr::group_by(Type) %>%
+  dplyr::select(Position,ProbableRef, Type, indels_cons) %>%
+  dplyr::arrange(Position, .by_group = TRUE)
+
+cons.variants_2 <- cons.table.filtered %>%
+      dplyr::mutate(
+        subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
+        subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
+        indels_raw = 100*(rawD+rawI)/rawDepth,
+        indels_cons = 100*(consD+consI)/consDepth,
+        total_cons =  100*(consA+consC+consG+consT+consD+consI)/consDepth
+      ) %>%
+      dplyr::filter(
+        InsertType == 'Insert_2',
+        Batch == c("b1", "b2", "b3"),
+        Manufacturer != "control",
+        Position >= 49,
+        Position <= 80
+      ) %>%
+      tidyr::unite('Type', Manufacturer, Purification, InsertType, Batch, sep = ' ') %>%
+      dplyr::group_by(Type) %>%
+  dplyr::select(Position,ProbableRef, Type, indels_cons) %>%
+  dplyr::arrange(Position, .by_group = TRUE)
+
+
+a_1 <- c(25, 33, 41, 49)
+b_1 <- c(26, 34, 42, 50)
+
+
+a_2 <- c(55, 63, 71, 79)
+b_2 <- c(56, 64, 72, 80)
+
+
+c <- cons.variants_1 %>% group_by(Position,ProbableRef) %>% summarise(mean=median(indels_cons)) %>% filter(Position %in% a_1)
+d <- cons.variants_1 %>% group_by(Position,ProbableRef) %>% summarise(mean=median(indels_cons)) %>% filter(Position %in% b_1)
+e <- cons.variants_2 %>% group_by(Position,ProbableRef) %>% summarise(mean=median(indels_cons)) %>% filter(Position %in% a_2)
+f <- cons.variants_2 %>% group_by(Position,ProbableRef) %>% summarise(mean=median(indels_cons)) %>% filter(Position %in% b_2)
+
+
+wilcox.test(c$mean, d$mean, paired = TRUE, alternative = "two.sided")
+
+wilcox.test(e$mean, f$mean, paired = TRUE, alternative = "two.sided")
+
+
+before <- c(c$mean, e$mean)
+after <- c(d$mean, f$mean)
+
+
+insert <- c("Sequence variant 1","Sequence variant 1","Sequence variant 1","Sequence variant 1","Sequence variant 2","Sequence variant 2","Sequence variant 2","Sequence variant 2")
+
+base <- c("A", "C", "T", "G","A", "C", "T", "G","A", "C", "T", "G","A", "C", "T", "G")
+
+df <- data.frame(before = before, after = after, insert = insert, base = base) 
+df <- df %>% tidyr::gather("group", "value", -c("insert", "base"))
+
+df <- df %>% mutate(group=replace(group, group=="before", "5'")) %>% mutate(group=replace(group, group=="after", "3'"))
+
+
+plot <- ggplot(df, aes(x=group, y=value, group = base, col = base)) +
+    geom_point(size=2) +
+    geom_line() +
+    xlab("") + ylab("Median deletion error (%)") +
+    facet_wrap(~insert) +
+    theme_classic(base_size = 13) +
+    theme(legend.position="top") + 
+    scale_color_brewer(palette = "Set1")
+
+
+plot
+
+ggsave(filename = 'sequential_error_plot.pdf', plot = plot, device = 'pdf', width = 8, height = 4)
+```
+
+
+
+## Correlations
+
+
+Are deletions and substitutions correlated with each other?
+
+```{r corrplot, echo=FALSE}
+cons.variants <- cons.table.filtered %>%
+      dplyr::mutate(
+        subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
+        subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
+        indels_raw = 100*(rawD+rawI)/rawDepth,
+        indels_cons = 100*(consD+consI)/consDepth,
+        total_cons =  100*(consA+consC+consG+consT+consD+consI)/consDepth
+      ) %>%
+      dplyr::filter(
+        InsertType == 'Insert_1',
+        Batch == 'b1',
+        Manufacturer != "control"
+      ) %>%
+      tidyr::unite('Type', Manufacturer, Purification, sep = ' ') %>%
+      dplyr::group_by(Position, InsertType, Batch) %>%
+      dplyr::summarise(
+        Substitutions = mean(subsitutions_cons),
+        subs_std = sd(subsitutions_cons),
+        Deletions = mean(indels_cons),
+        indels_std = sd(indels_cons),
+        Error = mean(total_cons)
+      ) %>% ungroup()
+
+
+M <- cons.variants %>% select(Position, Substitutions, Deletions) 
+cor.test(x = M$Deletions, y = M$Substitutions, method = "spearman")
+```
+
+Is the mean level of substitutions signficantly different from SiMSen-Seq background?
+
+```{r corrplot, echo=FALSE}
+cons.variants <- cons.table.filtered %>%
+      dplyr::mutate(
+        subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
+        subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
+        indels_raw = 100*(rawD+rawI)/rawDepth,
+        indels_cons = 100*(consD+consI)/consDepth,
+        total_cons =  100*(consA+consC+consG+consT+consD+consI)/consDepth
+      ) %>%
+      dplyr::filter(
+        InsertType == c('Insert_1', 'Insert_2'),
+        Batch == c('b1', 'b2', 'b3'),
+        Manufacturer != "control"
+      ) %>%
+      tidyr::unite('Type', Manufacturer, Purification, sep = ' ') %>%
+      dplyr::group_by(Type, Position, InsertType, Batch) %>%
+      dplyr::summarise(
+        Substitutions = mean(subsitutions_cons),
+        subs_std = sd(subsitutions_cons),
+        Deletions = mean(indels_cons),
+        indels_std = sd(indels_cons),
+        Error = mean(total_cons)
+      ) %>% ungroup()
+
+
+M <- cons.variants %>% 
+  dplyr::group_by(Type, InsertType, Batch) %>%
+  dplyr::select(Position, Substitutions) %>% 
+  dplyr::summarise(mean = mean(Substitutions))
+  
+
+t.test(M$mean, mu = 0.0005, alternative = "two.sided")
+```
+
+### Correlations by batches
+
+```{r corrplot, echo=FALSE}
+
+insertType = c('Insert_1', 'Insert_2')
+batches = c('b1','b2','b3')
+
+
+for(insert in insertType){
+  for(b in batches){
+    
+    cons.variants <- cons.table.filtered %>%
+      dplyr::mutate(
+        subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
+        subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
+        indels_raw = 100*(rawD+rawI)/rawDepth,
+        indels_cons = 100*(consD+consI)/consDepth,
+        total_cons =  100*(consA+consC+consG+consT+consD+consI)/consDepth
+      ) %>%
+      dplyr::filter(
+        InsertType == insert,
+        Batch == b,
+        Manufacturer != "control"
+      ) %>%
+      tidyr::unite('Type', Manufacturer, Purification, sep = ' ') %>%
+      dplyr::group_by(Position, Type, InsertType, Batch) %>%
+      dplyr::summarise(
+        Substitutions = mean(subsitutions_cons),
+        subs_std = sd(subsitutions_cons),
+        Deletions = mean(indels_cons),
+        indels_std = sd(indels_cons),
+        Error = mean(total_cons)
+      ) %>% ungroup()
+    
+    variants <- c("Substitutions", "Deletions", "Error")
+    
+    cons.variants$Type <- forcats::fct_relevel(cons.variants$Type, c('IDT gblocks', 'control MCF7'), after = Inf)
+    
+    for(var in variants){
+      
+      M <- cons.variants %>% select(Position, Type, !!as.symbol(var)) %>%
+        spread(Type, !!as.symbol(var)) %>% select(-Position)
+      
+      # Compute correlation matrix
+      cor <- round(cor(M, method = "spearman"),1)
+      cor[cor>=1] <- NA
+      
+      # Test for association between paired samples
+      res1 <- corrplot::cor.mtest(
+        mat = M, 
+        conf.level = .95, 
+        method = "spearman", 
+        exact = FALSE,
+        alternative = "two.sided"
+      )
+      
+      print(paste(var,"_",insert,"_",b,"; ", mean(cor, na.rm = TRUE), sep =""))
+      
+      pAdj <- p.adjust(c(res1[[1]]), method = "BH")
+      resAdj <- matrix(pAdj, ncol = dim(res1[[1]])[1])
+      
+      colnames(resAdj) <- colnames(M)
+      rownames(resAdj) <- colnames(M)
+      
+      cor_plot <- ggcorrplot::ggcorrplot(
+        corr = cor, 
+        p.mat = resAdj,
+        sig.level = 0.05,
+        lab = TRUE, 
+        ggtheme = theme_minimal(),
+        lab_size = 5, 
+        show.diag = FALSE
+        ) + 
+        scale_fill_gradient2(
+          limit = c(
+            min(cor, na.rm = TRUE),
+            max(cor, na.rm = TRUE)
+            ), 
+          low = viridis::viridis(100)[1], 
+          high =  viridis::viridis(100)[100], 
+          mid = viridis::viridis(100)[50], 
+          midpoint = mean(c(min(cor, na.rm = TRUE),max(cor, na.rm = TRUE)))
+          )
+      
+      write.table(
+        x = M, 
+        file = paste("correlation_data_",var,"_",insert,"_",b,".csv", sep = ""), 
+        sep = ";"
+        )
+      
+      write.table(
+        x = resAdj, 
+        file = paste("correlation_adjusted_p_values",var,"_",insert,"_",b,".csv", sep = ""), 
+        sep = ";"
+        )
+    
+      ggsave(
+        filename = paste("Figure_X_corrrelation_plot_",var,"_",insert,"_",b,".pdf", sep = ""),
+        plot = cor_plot, 
+        device = 'pdf'
+        )
+    }
+  }
+}
+```
+
+
+### Correlations for all batches together
+
+```{r, echo=FALSE}
+cons.variants <- cons.table.filtered %>%
+      dplyr::mutate(
+        subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
+        subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
+        indels_raw = 100*(rawD+rawI)/rawDepth,
+        indels_cons = 100*(consD+consI)/consDepth,
+        total_cons =  100*(consA+consC+consG+consT+consD+consI)/consDepth
+      ) %>%
+      dplyr::filter(
+        InsertType == 'Insert_2',
+        Manufacturer != "control",
+        Batch %in% c('b1','b2','b3')
+      ) %>%
+      tidyr::unite('Type', Manufacturer, Purification, Batch, sep = ' ') %>%
+      dplyr::group_by(Position, Type, InsertType) %>%
+      dplyr::summarise(
+        Substitutions = mean(subsitutions_cons),
+        subs_std = sd(subsitutions_cons),
+        Deletions = mean(indels_cons),
+        indels_std = sd(indels_cons),
+        Error = mean(total_cons)
+      ) %>% ungroup()
+
+
+cons.variants$Type <- forcats::fct_relevel(cons.variants$Type, c('IDT gblocks b1', 'control MCF7'), after = Inf)
+    
+mean_errors <- cons.variants %>% 
+  group_by(Type) %>% 
+  summarise(
+    mean_subs = mean(Substitutions), 
+    mean_dels = mean(Deletions),
+    mean_total = mean(Substitutions+Deletions)
+  )
+
+
+print("Mean deletion error: ")
+mean(mean_errors$mean_dels)
+
+print("Mean substitution error: ")
+mean(mean_errors$mean_subs)
+
+
+variants <- c("Substitutions", "Deletions", "Error")
+
+for(var in variants){
+  M <- cons.variants %>% 
+  select(Position, Type, !!as.symbol(var)) %>%
+  spread(Type, !!as.symbol(var)) %>% select(-Position)
+      
+  # Compute correlation matrix
+  cor <- round(cor(M, method = "spearman"),1)
+  cor[cor>=1] <- NA
+        
+  # Test for association between paired samples
+  res1 <- corrplot::cor.mtest(
+    mat = M, 
+    conf.level = .95, 
+    method = "spearman", 
+    exact = FALSE,
+    alternative = "two.sided"
+  )
+        
+  #print(paste(var,"_",insert,"; ", mean(cor, na.rm = TRUE), sep =""))
+  
+  # Adjust p-values for multiple testing
+  pAdj <- p.adjust(c(res1[[1]]), method = "BH")
+  resAdj <- matrix(pAdj, ncol = dim(res1[[1]])[1])
+        
+  colnames(resAdj) <- colnames(M)
+  rownames(resAdj) <- colnames(M)
+        
+  cor_plot <- ggcorrplot::ggcorrplot(
+    corr = cor, 
+    p.mat = resAdj,
+    sig.level = 0.05,
+    lab = TRUE, 
+    type = 'upper',
+    ggtheme = theme_minimal(),
+    lab_size = 2, 
+    show.diag = FALSE
+    ) + 
+    scale_fill_gradient2(
+      limit = c(
+        min(cor, na.rm = TRUE),
+        max(cor, na.rm = TRUE)
+        ),
+      low = viridis::viridis(100)[1], 
+      high =  viridis::viridis(100)[100], 
+      mid = viridis::viridis(100)[50], 
+      midpoint = mean(c(min(cor, na.rm = TRUE),max(cor, na.rm = TRUE)))
+    )
+  
+  cor_plot
+        
+  write.table(
+    x = M,
+    file = paste("correlation_data_",var,"_",insert,"_all-batches",".csv", sep = ""),
+    sep = ";"
+  )
+        
+  write.table(
+    x = resAdj,
+    file = paste("correlation_adjusted_p_values",var,"_",insert,"_all-batches",".csv", sep = ""),
+    sep = ";"
+  )
+      
+  ggplot2::ggsave(
+    filename = paste("Figure_X_corrrelation_plot_",var,"_",insert,"_all-batches",".pdf", sep = ""),
+    plot = cor_plot,
+    device = 'pdf'
+  )
+}
+
+```
+
+```{r Figure2a, echo=FALSE}
+figure_2 <- figure_2_plot(
+  data = cons.table.filtered,
+  insertType = c('Insert_1', 'gDNA'),
+  batch = c('b1','b2','b3')
+)
+
+figure_2
+
+ggsave(filename = 'Figure_2_v2.pdf', plot = figure_2, device = 'pdf')
+```
+
+## Figure 3
+
+**Insert variant 1.** b1, b2, b3 denote different batches. Lines show the mean error 
+with ribbons indicating standard deviation (n = 3 technical replicates).
+
+```{r}
+# Select data for plotting
+cons.variants <- cons.table.filtered %>%
+  dplyr::mutate(
+    subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
+    subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
+    indels_raw = 100*(rawD+rawI)/rawDepth,
+    indels_cons = 100*(consD+consI)/consDepth,
+    cons_error = 100*(consA+consC+consG+consT+consD+consI)/consDepth
+  ) %>%
+  dplyr::filter(
+    Manufacturer %in% c('IDT', 'SA'),
+    InsertType %in% c('Insert_1'),
+    Batch %in% c('b2', 'b3'),
+    Position >= 19, 
+    Position <= 80
+    ) %>%
+  dplyr::group_by(Position, Manufacturer,Purification, InsertType, Batch, ProbableRef) %>%
+  dplyr::summarise(
+    `Consensus 10 error (%)` = mean(cons_error),
+    sd = sd(cons_error)
+  )
+
+labels <- cons.variants %>%
+  dplyr::ungroup() %>%
+  dplyr::distinct(Position, ProbableRef)
+
+# Create plot object
+amplicon_plot <- ggplot(
+  data = cons.variants, 
+  mapping = aes(
+    x = Position,
+    y = `Consensus 10 error (%)`,
+    fill = Batch
+    )
+  ) + 
+  geom_line(mapping = aes(col=Batch)) +
+  geom_ribbon(
+    mapping = aes(
+      ymin=`Consensus 10 error (%)`-sd,
+      ymax=`Consensus 10 error (%)`+sd
+    ), 
+    alpha = 0.5
+  ) +
+  theme_minimal() + 
+  facet_wrap(Purification ~ Manufacturer,scales = 'free_x', ncol = 1,strip.position = 'right') +
+  scale_x_continuous(breaks=labels$Position, labels=labels$ProbableRef) +
+  scale_fill_manual(values=c("gray55", "#f6be4c", "#469ed4")) +
+  scale_color_manual(values=c("gray55", "#f6be4c", "#469ed4")) + 
+  theme(
+    axis.text.x = element_text(size = 6), 
+    panel.border = element_blank(), 
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line = element_line(colour = "black"),
+    axis.ticks.x = element_line(colour = "black"),
+    axis.ticks.y = element_line(colour = "black")
+    ) +
+  geom_hline(
+    yintercept = 0,
+    colour="gray55",
+    linetype="dashed"
+  ) 
+
+amplicon_plot
+
+ggsave(
+  plot = amplicon_plot,
+  filename = 'Figure_3.pdf', 
+  device = 'pdf'
+)
+```
+
+```{r}
+
+cons.variants <- cons.table.filtered %>%
+  dplyr::mutate(
+    subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
+    subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
+    indels_raw = 100*(rawD+rawI)/rawDepth,
+    indels_cons = 100*(consD+consI)/consDepth,
+    cons_error = 100*(consA+consC+consG+consT+consD+consI)/consDepth
+  ) %>%
+  dplyr::filter(
+    Manufacturer %in% c('IDT', 'SA'),
+    Purification %in% c('desalted', 'PAGE'),
+    InsertType %in% c('Insert_2'),
+    Position >= 19, 
+    Position <= 80
+    ) %>%
+  dplyr::group_by(Position, Manufacturer,Purification, InsertType, Batch, ProbableRef) %>%
+  dplyr::summarise(
+    cons_error = mean(cons_error),
+    sd = sd(cons_error)
+  )
+
+df <- cons.variants %>% ungroup() %>% 
+  group_by(Manufacturer,Purification,InsertType,Batch) %>%
+  summarise(
+    mean_error = mean(cons_error),
+    median_error = median(cons_error)
+    )
+  
+plot <- ggplot(
+  data = cons.variants, 
+  mapping = aes(x=Batch,y=cons_error, fill = Batch)
+  ) +
+  geom_boxplot() + theme_classic() + 
+  scale_fill_manual(values=c("gray55", "#f6be4c", "#469ed4")) +
+  scale_color_manual(values=c("gray55", "#f6be4c", "#469ed4")) + 
+  theme(
+    axis.text.x = element_text(size = 6), 
+    panel.border = element_blank(), 
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line = element_line(colour = "black"),
+    axis.ticks.x = element_line(colour = "black"),
+    axis.ticks.y = element_line(colour = "black")
+    ) +
+  geom_hline(
+    yintercept = 0,
+    colour="gray55",
+    linetype="dashed"
+  ) 
+
+plot
+
+
+df2 <- cons.variants %>% ungroup() %>% tidyr::unite('Type', Manufacturer, Purification, sep = ' ') %>%
+  dplyr::select(Position, Type,Batch, cons_error)
+
+
+res.aov2 <- aov(cons_error ~ Type + Batch, data = df2)
+summary(res.aov2)
+
+TukeyHSD(res.aov2, which = "Type")
+TukeyHSD(res.aov2, which = "Batch")
+
+```
+
+
+
+```{r}
+
+cons.variants <- cons.table.filtered %>%
+  dplyr::mutate(
+    subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
+    subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
+    indels_raw = 100*(rawD+rawI)/rawDepth,
+    indels_cons = 100*(consD+consI)/consDepth,
+    cons_error = 100*(consA+consC+consG+consT+consD+consI)/consDepth
+  ) %>%
+  dplyr::filter(
+    Manufacturer %in% c('IDT', 'SA'),
+    Purification %in% c('desalted', 'PAGE'),
+    InsertType %in% c('Insert_2'),
+    Position >= 19, 
+    Position <= 80
+    ) %>%
+  dplyr::group_by(Position, Manufacturer,Purification, InsertType, Batch, ProbableRef) %>%
+  dplyr::summarise(
+    `Consensus 10 error (%)` = mean(cons_error),
+    sd = sd(cons_error)
+  )
+
+consvar <- cons.variants %>% ungroup() %>%
+  dplyr::mutate(Type = paste(Manufacturer,Purification, sep = '_')) %>%
+  group_by(Type, Batch) %>%
+  dplyr::mutate(`Difference to mean error` = `Consensus 10 error (%)` - mean(`Consensus 10 error (%)`))
+
+
+# Create plot object
+plot <- ggplot(
+  data = consvar, 
+  mapping = aes(
+    x = Position,
+    y = `Difference to mean error`,
+    fill = Batch
+    )
+  ) + 
+  geom_bar(mapping = aes(col=Batch),position="dodge", stat="identity", colour="black") + 
+  facet_grid(Type ~ Batch,scales = 'free_x') +
+  theme_minimal() + 
+  scale_fill_manual(values=c("gray55", "#f6be4c", "#469ed4")) +
+  scale_color_manual(values=c("gray55", "#f6be4c", "#469ed4")) + 
+  theme(
+    axis.text.x = element_text(size = 9), 
+    panel.border = element_blank(), 
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line = element_line(colour = "black"),
+    axis.ticks.x = element_line(colour = "black"),
+    axis.ticks.y = element_line(colour = "black")
+    ) +  coord_cartesian(ylim = c(NA, 1.5)) +
+  geom_hline(
+    yintercept = 0
+  ) 
+
+plot
+
+ggsave(
+  plot = plot,
+  filename = 'Figure_2_insert_2_alternative_v1.pdf', 
+  device = 'pdf', width = 8, height = 6
+)
+
+compute_correlation <- function(data,batch){
+  corr <- data %>% ungroup() %>%
+  dplyr::mutate(Type = paste(Manufacturer,Purification, sep = '_')) %>%
+  group_by(Type) %>%
+  select(Position, `Consensus 10 error (%)`) %>%
+  filter(Type == batch) %>%
+  tidyr::spread(Batch, `Consensus 10 error (%)`)
+
+  corr <- as.data.frame(corr)
+  rownames(corr) <- corr$Position
+  corr$Type <- NULL
+  corr$Position <- NULL
+  
+  r <- Hmisc::rcorr(as.matrix(corr), type="spearman")
+  
+  return(r)
+}
+
+
+df <- cons.variants %>% ungroup() %>%
+  dplyr::mutate(Type = paste(Manufacturer,Purification, sep = '_')) %>%
+  group_by(Type, Batch) %>%
+  select(Position, `Consensus 10 error (%)`) %>%
+  filter(Type == "IDT_desalted") %>%
+  tidyr::spread(Batch, `Consensus 10 error (%)`)
+
+# Perform outlier test
+test <- EnvStats::rosnerTest(df$b2,k = 5)
+
+# Index for outliers in the original data set
+outliers <- test$all.stats[test$all.stats$Outlier == TRUE,]$Obs.Num
+
+
+```
+
+## Figure 4
+
+**Insert variant 2.** b1, b2, b3 denote different batches. Lines show the mean error 
+with ribbons indicating standard deviation (n = 3 technical replicates).
+
+```{r}
+cons.variants <- cons.table.filtered %>%
+  dplyr::mutate(
+    subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
+    subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
+    indels_raw = 100*(rawD+rawI)/rawDepth,
+    indels_cons = 100*(consD+consI)/consDepth,
+    cons_error = 100*(consA+consC+consG+consT+consD+consI)/consDepth
+  ) %>%
+  dplyr::filter(
+    Manufacturer %in% c("IDT", "SA"),
+    Purification %in% c("desalted", "PAGE"),
+    InsertType %in% c("Insert_2"),
+    Position >= 19, 
+    Position <= 80
+    ) %>%
+  dplyr::group_by(Position, Manufacturer,Purification, InsertType, Batch, ProbableRef) %>%
+  dplyr::summarise(
+    `Consensus 10 error (%)` = mean(cons_error),
+    sd = sd(cons_error)
+  )
+
+cons.variants <- drop_na(cons.variants)
+
+labels <- cons.variants %>%
+  dplyr::ungroup() %>%
+  dplyr::distinct(Position, ProbableRef)
+
+amplicon_plot <- ggplot(
+  data = cons.variants, 
+  mapping = aes(
+    x = Position,
+    y = `Consensus 10 error (%)`,
+    fill = Batch
+    )
+  ) + 
+  geom_line(mapping = aes(col=Batch)) +
+  geom_ribbon(
+    mapping = aes(
+      ymin=`Consensus 10 error (%)`-sd,
+      ymax=`Consensus 10 error (%)`+sd
+    ), alpha=0.5
+  ) +
+  theme_minimal() + 
+  expand_limits(y = 1.5) +
+  facet_wrap(Purification ~ Manufacturer,scales = 'free', ncol = 1,strip.position = 'right') +
+  scale_x_continuous(breaks=labels$Position, labels=labels$ProbableRef) +
+  scale_fill_manual(values=c("gray55", '#f6be4c', '#469ed4')) +
+  scale_color_manual(values=c('gray55', '#f6be4c', '#469ed4')) + 
+  theme(
+    axis.text.x = element_text(size = 6), 
+    panel.border = element_blank(), 
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line = element_line(colour = 'black'),
+    axis.ticks.x = element_line(colour = 'black'),
+    axis.ticks.y = element_line(colour = 'black')
+    ) +
+  geom_hline(
+    yintercept = 0,
+    colour = 'gray55',
+    linetype = 'dashed'
+  ) 
+
+amplicon_plot
+
+ggsave(
+  plot = amplicon_plot,
+  filename = 'Figure_4.pdf',
+  device = 'pdf'
+)
+```
+
+## Supplemental Figures
+
+
+### Supplemental Fig. 1a
+
+```{r, warning=FALSE}
+cq_values <- read.table(file = "data/cq_tp1_dilution_series.csv", sep = ",", header = TRUE)
+cq_values <- cq_values %>% 
+  tidyr::gather("Replicate", "Cq", -c("Type", "Input")) %>% 
+  dplyr::filter(Input != 0, Type == "MCF-7")
+
+
+my.formula <- y ~ x
+
+cq_plot <- ggplot2::ggplot(data = cq_values, mapping = aes(x = log(Input,10), y = Cq)) + 
+  geom_point(aes(shape = Type, fill = "black"), size = 3) + 
+  theme_bw() +
+  geom_smooth(method = "lm", formula = my.formula, col = "black") +
+  ggpmisc::stat_poly_eq(
+    formula = my.formula, col = "black",
+    aes(label = paste(..eq.label.., ..rr.label.., sep = "~~~")), 
+    parse = TRUE
+  ) + 
+  xlab(label = "Log DNA concentration (ng)") + 
+  ylab(label = "Cq-value") +
+  theme(
+    axis.text = element_text(size = 12),
+    axis.title = element_text(size = 14),
+    legend.position = "none"
+  )
+
+cq_plot
+
+ggsave(
+  filename = 'Supplemental_Figure_1a.pdf',
+  plot = cq_plot, 
+  device = 'pdf'
+)
+
+```
+
+
+### Supplemental Fig. 1b
+
+```{r, warning=FALSE}
+
+electropherogram <- readr::read_csv(file = "tp1_electropherogram.csv") 
+
+electropherogram <- electropherogram %>% dplyr::mutate(
+    `MCF7 DNA` = rowMeans(select(electropherogram, starts_with("ptc")), na.rm = TRUE),
+    NTC = rowMeans(select(electropherogram, starts_with("ntc")), na.rm = TRUE)
+  ) %>% 
+  dplyr::select(`Size (bp)`, `MCF7 DNA`, NTC) %>%
+  tidyr::gather("Sample", "Fluorescence",-c(`Size (bp)`)) %>%
+  dplyr::filter(
+    `Size (bp)` > 0,
+    `Size (bp)` < 200
+  )
+
+
+fa_plot <- ggplot(
+  data = electropherogram,
+  mapping = aes(
+    x = `Size (bp)`,
+    y = Fluorescence
+    ),
+  col = Sample
+  ) + 
+  geom_line(aes(col = Sample)) +
+  theme_minimal() + 
+  theme(
+    axis.text = element_text(size = 12), 
+    panel.border = element_blank(), 
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line = element_line(colour = 'black'),
+    axis.ticks.x = element_line(colour = 'black'),
+    axis.ticks.y = element_line(colour = 'black'), legend.position = "bottom"
+    ) 
+
+
+ggsave(
+  filename = 'Supplemental_Figure_1b.pdf',
+  plot = fa_plot, 
+  device = 'pdf'
+)
+
+```
+
+
+### Supplemental Fig. 1c
+
+```{r, eval = FALSE}
+library(ggplot2)
+
+
+mean <- cons.table.filtered %>% 
+  dplyr::summarise(
+    mean_raw = mean(rawDepth),
+    mean_cons = mean(consDepth)
+    )
+
+raw_reads_mean <- mean %>% select(mean_raw)
+cons_reads_mean <- mean %>% select(mean_cons)
+
+depths <- cons.table.filtered %>%
+    tidyr::unite('Type', Manufacturer, InsertType, Purification, sep = ' ') %>%
+    group_by(Type, Batch, Replicate) %>%
+    mutate(
+        relativeRaw = rawDepth/raw_reads_mean,
+        relativeCons = consDepth/cons_reads_mean
+    ) %>%
+  dplyr::summarise(
+    rawMean = mean(relativeRaw$mean_raw), 
+    consMean = mean(relativeCons$mean_cons)
+    ) %>% 
+  ungroup() %>% group_by(Type, Batch) %>%
+  dplyr::summarise(
+    raw = mean(rawMean), 
+    sd_raw = sd(rawMean),
+    cons = mean(consMean),
+    sd_cons = sd(consMean)
+  )
+  
+
+depths$Type <- forcats::fct_relevel(depths$Type, 'control Insert_1 MCF7', after = Inf)
+
+raw_plot <- ggplot(depths, aes(x = Type, y = log2(raw), fill = Batch)) +
+  geom_bar(
+    stat = "identity",
+    position = position_dodge(preserve = "single"), 
+    col = "black", 
+    width = 0.6
+    ) +
+  geom_errorbar(
+    mapping = aes(ymin = log2(raw-sd_raw), ymax = log2(raw+sd_raw)), 
+    position = position_dodge(
+      width = 0.6, 
+      preserve = "single"
+    ), 
+    width = 0.25
+    ) +
+  ylim(-3.5,2) + 
+  ylab(label = "Relative raw depth (log2)") +
+  scale_fill_manual(
+    values = c("gray55", "#f6be4c", "#469ed4")
+    ) + 
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(
+      hjust = 1,
+      angle = 45,
+      size = 9, 
+      colour = "black"
+    ),
+    axis.text.y = element_text(
+      size = 12, 
+      colour = "black"
+    ),
+    panel.border = element_blank(), 
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line = element_line(colour = 'black'),
+    axis.title.x = element_blank(),
+    legend.position = "bottom"
+    ) +
+  geom_hline(
+    yintercept = 0,
+    colour="black"
+  ) 
+
+cons_plot <- ggplot(depths, aes(x = Type, y = log2(cons), fill = Batch)) +
+  geom_bar(
+    stat = "identity",
+    position = position_dodge(preserve = "single"), 
+    col = "black", 
+    width = 0.6
+    ) +
+  geom_errorbar(
+    mapping = aes(ymin = log2(cons-sd_cons), ymax = log2(cons+sd_cons)), 
+    position = position_dodge(
+      width = 0.6, 
+      preserve = "single"
+    ), 
+    width = 0.25
+    ) +
+  ylim(-3.5,2) + 
+  ylab(label = "Relative consensus 10 depth (log2)") +
+  scale_fill_manual(
+    values = c("gray55", "#f6be4c", "#469ed4")
+    ) + 
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(
+      hjust = 1,
+      angle = 45,
+      size = 9, 
+      colour = "black"
+    ),
+    axis.text.y = element_text(
+      size = 12, 
+      colour = "black"
+    ),
+    panel.border = element_blank(), 
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line = element_line(colour = 'black'),
+    axis.title.x = element_blank(),
+    legend.position = "bottom"
+    ) +
+  geom_hline(
+    yintercept = 0,
+    colour="black"
+  )
+
+
+supp_figure_1 <- raw_plot + cons_plot
+
+supp_figure_1
+
+ggsave(
+  filename = 'Supplemental_Figure_1.pdf',
+  plot = supp_figure_1, 
+  device = 'pdf', 
+  width = 12, 
+  height = 4
+)
+```
+
+
+
+## Supplemental Figure 2
+
+**Error dependence on base position. (a)** Deletion (top) and substitution (bottom) 
+errors are shown for batch 1 of Insert #1 type oligos. Each bar represents a position 
+in the synthetic molecule (5' - 3'). Mean + SD is shown (n = 3 technical replicates). 
+**(b)** Spearman correlations of consensus 10 errors (total error) with base position. 
+All correlations were considered significant at p < 0.05.
+
+```{r, echo=FALSE}
+insertType = c('Insert_1', 'Insert_2')
+batch = c('b1', 'b2', 'b3')
+
+cons.variants <- cons.table.filtered %>%
+    dplyr::mutate(
+      subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
+      subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
+      indels_raw = 100*(rawD+rawI)/rawDepth,
+      indels_cons = 100*(consD+consI)/consDepth
+    ) %>%
+    dplyr::filter(
+      InsertType %in% insertType,
+      Batch %in% batch,
+      Purification != "MCF7"
+    ) %>%
+    tidyr::unite('Type', Manufacturer, Purification,  sep = ' ') %>%
+    dplyr::group_by(Type, Batch, InsertType) %>%
+    dplyr::summarise(
+      `Substitutions (%)` = mean(subsitutions_cons),
+      subs_std = sd(subsitutions_cons),
+      `Deletions (%)` = mean(indels_cons),
+      indels_std = sd(indels_cons)
+    )
+
+df3 <- cons.variants %>% 
+  dplyr::select(Type, Batch, InsertType, `Substitutions (%)`, `Deletions (%)`)
+ 
+df3$Type <- forcats::fct_relevel(df3$Type, 'control MCF7', after = Inf)
+
+plot <- df3 %>% gather(Error,`Variant Allele Frequency (%)`,-c(Type,Batch,InsertType)) %>% 
+  ggplot(aes(x = Type, y = `Variant Allele Frequency (%)`, fill = Error)) + 
+  geom_bar(position = "dodge", stat = "identity") +
+  geom_text(aes(label= round(`Variant Allele Frequency (%)`,2)), vjust=0) + 
+  facet_grid(Batch ~ InsertType, scales = "free") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(
+      hjust = 1,
+      angle = 45,
+      size = 9
+    ),
+    panel.border = element_blank(), 
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line = element_line(colour = 'black'),
+    legend.position = "bottom"
+    ) +
+  geom_hline(
+    yintercept = 0,
+    colour="gray55",
+    linetype="dashed"
+  ) 
+
+plot
+
+# Coefficients of variation
+cov_subs <- sd(df3$`Substitutions (%)`)/mean(df3$`Substitutions (%)`)
+cov_del <- sd(df3$`Deletions (%)`)/mean(df3$`Deletions (%)`)
+
+100-100*cov_subs/cov_del
+
+ggsave(filename = 'Figure_X_deletion_substitution_freq_batch_1.pdf', plot = plot, device = 'pdf')
+
+write.csv(x = df3, file = 'Table_X_deletion_substitution_freq_batch_1.csv')
+
+```
+
+
+### Supplemental Figure 3
+
+```{r Figure2_supp, echo=FALSE, warning=FALSE}
+figure_2 <- figure_2_plot(
+  data = cons.table.filtered,
+  insertType = c('Insert_1'),
+  batch = c('b2','b3'), 
+  hide.legend = FALSE
+)
+
+figure_2
+
+ggsave(filename = 'Supplemental_Figure_2.pdf', plot = figure_2, device = 'pdf')
+```
+
+### Supplemental Figure 4
+
+```{r Figure3_supp, echo=FALSE, warning=FALSE}
+figure_2 <- figure_2_plot(
+  data = cons.table.filtered,
+  insertType = c('Insert_2'),
+  batch = c('b1','b2','b3')
+)
+
+ggsave(filename = 'Supplemental_Figure_3.pdf', plot = figure_2, device = 'pdf')
+```
+
+## System information
+
+```{r}
+sessionInfo()
+```
+
+
