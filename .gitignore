@@ -1,0 +1,24 @@
+/data/**/*.log
+/data/**/*.bam
+/data/**/*.bai
+/data/**/*.barcode_mask
+/data/**/*.touch
+**/*.consensusStatistics.txt
+**/*.SummaryStatistics.txt
+**/*.UIDdepths.txt.gz
+**/*.barcodeComposition.txt
+
+/data/figures
+/data/sge
+
+.Rhistory
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

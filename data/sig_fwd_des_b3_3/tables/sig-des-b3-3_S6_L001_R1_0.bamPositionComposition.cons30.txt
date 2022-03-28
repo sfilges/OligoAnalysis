@@ -1,0 +1,417 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#AmpliconChromStart	Alias	Position	ProbableRef	rawA	rawC	rawD	rawG	rawI	rawN	rawT	rawDepth	consA	consC	consD	consG	consI	consN	consT	consDepth	
+TP1_synth_forward		5	T	0	0	0	0	0	0	629	629	0	0	0	0	0	0	2	2
+TP1_synth_forward		6	G	0	0	0	2033	0	0	0	2033	0	0	0	8	0	0	0	8
+TP1_synth_forward		7	A	2098	0	0	0	0	0	0	2098	8	0	0	0	0	0	0	8
+TP1_synth_forward		8	G	0	0	0	5111	0	0	0	5111	0	0	0	24	0	0	0	24
+TP1_synth_forward		9	G	0	0	0	5149	0	0	0	5149	0	0	0	24	0	0	0	24
+TP1_synth_forward		10	C	6	5141	0	1	0	1	0	5149	0	24	0	0	0	0	0	24
+TP1_synth_forward		11	T	16	0	0	0	0	26	5107	5149	0	0	0	0	0	0	24	24
+TP1_synth_forward		12	C	7	5144	0	0	0	18	0	5169	0	24	0	0	0	0	0	24
+TP1_synth_forward		13	C	8	5169	0	0	0	4	0	5181	0	24	0	0	0	0	0	24
+TP1_synth_forward		14	C	16	5163	0	1	0	1	0	5181	0	24	0	0	0	0	0	24
+TP1_synth_forward		15	C	7	5160	0	0	4	19	1	5191	0	24	0	0	0	0	0	24
+TP1_synth_forward		16	T	33	0	3	0	0	3	5152	5191	0	0	0	0	0	0	24	24
+TP1_synth_forward		17	T	63	0	0	3	0	24	5111	5201	0	0	0	0	0	0	24	24
+TP1_synth_forward		18	T	43	0	0	1	0	1	5177	5222	0	0	0	0	0	0	24	24
+TP1_synth_forward		19	A	5452	0	0	0	0	18	2	5472	24	0	0	0	0	0	0	24
+TP1_synth_forward		20	T	32	0	0	2	0	2	5436	5472	0	0	0	0	0	0	24	24
+TP1_synth_forward		21	A	5463	1	0	1	0	6	1	5472	24	0	0	0	0	0	0	24
+TP1_synth_forward		22	C	6	5080	1	1	383	0	1	5472	0	23	0	0	1	0	0	24
+TP1_synth_forward		23	A	5469	1	0	0	1	0	1	5472	24	0	0	0	0	0	0	24
+TP1_synth_forward		24	G	4	24	0	5430	0	1	13	5472	0	0	0	24	0	0	0	24
+TP1_synth_forward		25	A	5468	0	0	2	0	1	1	5472	24	0	0	0	0	0	0	24
+TP1_synth_forward		26	A	5466	0	0	3	1	1	1	5472	24	0	0	0	0	0	0	24
+TP1_synth_forward		27	T	58	0	0	0	0	0	5414	5472	0	0	0	0	0	0	24	24
+TP1_synth_forward		28	A	5467	1	0	0	0	1	3	5472	24	0	0	0	0	0	0	24
+TP1_synth_forward		29	T	26	0	0	1	0	1	5444	5472	0	0	0	0	0	0	24	24
+TP1_synth_forward		30	C	12	5438	0	0	0	20	2	5472	0	24	0	0	0	0	0	24
+TP1_synth_forward		31	T	44	2	0	0	7	2	5417	5472	0	0	0	0	0	0	24	24
+TP1_synth_forward		32	G	5	41	0	5411	0	0	15	5472	0	0	0	24	0	0	0	24
+TP1_synth_forward		33	T	82	0	0	0	0	1	5391	5474	0	0	0	0	0	0	24	24
+TP1_synth_forward		34	T	46	1	0	0	1	1	5429	5478	0	0	0	0	0	0	24	24
+TP1_synth_forward		35	C	15	5454	1	0	13	1	2	5486	0	24	0	0	0	0	0	24
+TP1_synth_forward		36	G	1	22	2	5404	0	0	56	5485	0	0	0	24	0	0	0	24
+TP1_synth_forward		37	C	30	5455	0	0	0	0	0	5485	0	24	0	0	0	0	0	24
+TP1_synth_forward		38	A	5476	2	0	3	0	0	4	5485	24	0	0	0	0	0	0	24
+TP1_synth_forward		39	C	31	5449	0	1	2	1	1	5485	0	24	0	0	0	0	0	24
+TP1_synth_forward		40	T	77	1	0	0	1	0	5406	5485	0	0	0	0	0	0	24	24
+TP1_synth_forward		41	C	27	5454	0	0	0	3	1	5485	0	24	0	0	0	0	0	24
+TP1_synth_forward		42	C	25	5088	2	0	367	2	1	5485	0	23	0	0	1	0	0	24
+TP1_synth_forward		43	G	1	55	2	5553	2	5	43	5661	0	0	0	25	0	0	0	25
+TP1_synth_forward		44	A	5654	0	2	0	3	0	1	5660	25	0	0	0	0	0	0	25
+TP1_synth_forward		45	G	1	35	2	5547	1	0	73	5659	0	0	0	25	0	0	0	25
+TP1_synth_forward		46	T	74	1	2	0	4	0	5578	5659	0	0	0	0	0	0	25	25
+TP1_synth_forward		47	G	1	31	2	5519	1	0	105	5659	0	0	0	25	0	0	0	25
+TP1_synth_forward		48	C	39	4772	2	0	844	0	2	5659	0	23	0	0	2	0	0	25
+TP1_synth_forward		49	G	4	10	3	5595	4	0	41	5657	0	0	0	25	0	0	0	25
+TP1_synth_forward		50	G	7	32	1	5575	1	0	49	5665	0	0	0	25	0	0	0	25
+TP1_synth_forward		51	C	28	6124	1	1	1	0	3	6158	0	27	0	0	0	0	0	27
+TP1_synth_forward		52	T	26	0	1	2	0	0	5882	5911	0	0	0	0	0	0	27	27
+TP1_synth_forward		53	T	78	3	0	3	0	1	5826	5911	0	0	0	0	0	0	27	27
+TP1_synth_forward		54	G	9	7	1	5871	0	2	21	5911	0	0	0	27	0	0	0	27
+TP1_synth_forward		55	C	30	5887	2	0	0	4	1	5924	0	27	0	0	0	0	0	27
+TP1_synth_forward		56	G	14	6	2	5896	0	0	33	5951	0	0	0	27	0	0	0	27
+TP1_synth_forward		57	G	25	11	1	5931	0	0	14	5982	0	0	0	27	0	0	0	27
+TP1_synth_forward		58	A	6079	1	1	2	3	1	1	6088	28	0	0	0	0	0	0	28
+TP1_synth_forward		59	G	11	33	0	6037	0	1	8	6090	0	0	0	28	0	0	0	28
+TP1_synth_forward		60	A	6179	8	2	0	0	1	1	6191	29	0	0	0	0	0	0	29
+TP1_synth_forward		61	T	36	0	175	1	0	0	5979	6191	0	0	1	0	0	0	28	29
+TP1_synth_forward		62	T	54	0	0	0	0	1	6158	6213	0	0	0	0	0	0	29	29
+TP1_synth_forward		63	C	20	6199	1	1	0	1	1	6223	0	29	0	0	0	0	0	29
+TP1_synth_forward		64	T	45	0	0	3	0	4	6183	6235	0	0	0	0	0	0	29	29
+TP1_synth_forward		65	C	22	6211	4	4	0	3	3	6247	0	29	0	0	0	0	0	29
+TP1_synth_forward		66	T	52	2	0	2	0	18	6183	6257	0	0	0	0	0	0	29	29
+TP1_synth_forward		67	T	47	1	0	1	0	3	6208	6260	0	0	0	0	0	0	29	29
+TP1_synth_forward		68	C	26	6236	0	1	0	7	1	6271	0	29	0	0	0	0	0	29
+TP1_synth_forward		69	C	27	6225	0	2	0	17	0	6271	0	29	0	0	0	0	0	29
+TP1_synth_forward		70	T	29	0	0	2	0	0	6240	6271	0	0	0	0	0	0	29	29
+TP1_synth_forward		71	C	6	6262	0	0	0	2	1	6271	0	29	0	0	0	0	0	29
+TP1_synth_forward		72	T	36	1	1	2	1	2	6228	6271	0	0	0	0	0	0	29	29
+TP1_synth_forward		73	G	9	9	1	6226	0	23	3	6271	0	0	0	29	0	0	0	29
+TP1_synth_forward		74	T	27	2	0	1	196	0	6045	6271	0	0	0	0	0	0	29	29
+TP1_synth_forward		75	G	4	15	1	6238	0	0	13	6271	0	0	0	29	0	0	0	29
+TP1_synth_forward		76	C	20	6242	0	1	2	1	5	6271	0	29	0	0	0	0	0	29
+TP1_synth_forward		77	G	4	8	0	6214	0	16	29	6271	0	0	0	29	0	0	0	29
+TP1_synth_forward		78	C	14	6248	2	1	0	4	2	6271	0	29	0	0	0	0	0	29
+TP1_synth_forward		79	C	10	6248	0	4	0	5	3	6270	0	29	0	0	0	0	0	29
+TP1_synth_forward		80	G	26	10	0	6218	0	1	14	6269	0	0	0	29	0	0	0	29
+TP1_synth_forward		81	C	11	5883	152	0	0	1	1	6048	0	28	1	0	0	0	0	29
+TP1_synth_forward		82	A	6032	1	3	5	0	5	2	6048	29	0	0	0	0	0	0	29
+TP1_synth_forward		83	A	6038	2	0	7	0	0	0	6047	29	0	0	0	0	0	0	29
+TP1_synth_forward		84	A	6036	4	0	5	0	1	1	6047	29	0	0	0	0	0	0	29
+TP1_synth_forward		85	G	3	5	0	6030	0	3	5	6046	0	0	0	29	0	0	0	29
+TP1_synth_forward		86	C	15	6026	0	1	0	3	0	6045	0	29	0	0	0	0	0	29
+TP1_synth_forward		87	T	25	0	1	4	0	3	6009	6042	0	0	0	0	0	0	29	29
+TP1_synth_forward		88	G	2	5	0	6023	0	3	8	6041	0	0	0	29	0	0	0	29
+TP1_synth_forward		89	T	36	0	0	3	0	7	5993	6039	0	0	0	0	0	0	29	29
+TP1_synth_forward		90	T	33	2	0	1	1	2	5997	6036	0	0	0	0	0	0	29	29
+TP1_synth_forward		91	C	7	6019	0	5	0	0	1	6032	0	29	0	0	0	0	0	29
+TP1_synth_forward		92	C	13	6014	0	1	0	1	0	6029	0	29	0	0	0	0	0	29
+TP1_synth_forward		93	G	82	5	0	5931	0	6	1	6025	0	0	0	29	0	0	0	29
+TP1_synth_forward		94	T	19	0	0	5	0	1	5998	6023	0	0	0	0	0	0	29	29
+TP1_synth_forward		95	C	7	6004	0	4	0	1	0	6016	0	29	0	0	0	0	0	29
+TP1_synth_forward		96	C	0	5990	0	0	0	4	0	5994	0	29	0	0	0	0	0	29
+TP1_synth_forward		97	C	0	5980	0	0	0	2	0	5982	0	29	0	0	0	0	0	29
+TP1_synth_forward		98	A	5966	0	0	0	0	2	0	5968	29	0	0	0	0	0	0	29
+TP1_synth_forward		99	G	0	0	0	5957	0	0	0	5957	0	0	0	29	0	0	0	29
+TP1_synth_forward		100	T	0	0	0	0	0	0	5913	5913	0	0	0	0	0	0	29	29
+TP1_synth_forward	TP1_synth_forward	1	G	0	0	0	518847	0	0	0	518847	0	0	0	2993	0	0	0	2993
+TP1_synth_forward	TP1_synth_forward	2	T	0	0	0	0	0	0	519961	519961	0	0	0	0	0	0	2997	2997
+TP1_synth_forward	TP1_synth_forward	3	G	0	0	0	522195	0	81	0	522276	0	0	0	3007	0	0	0	3007
+TP1_synth_forward	TP1_synth_forward	4	G	0	0	0	522806	0	70	0	522876	0	0	0	3008	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	5	T	0	0	0	0	0	150	522726	522876	0	0	0	0	0	0	3008	3008
+TP1_synth_forward	TP1_synth_forward	6	G	101	58	0	522372	0	26	319	522876	0	0	0	3008	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	7	A	522714	12	0	67	0	8	75	522876	3008	0	0	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	8	G	82	42	0	522613	2	52	85	522876	0	0	0	3008	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	9	G	94	80	0	522580	3	19	100	522876	0	0	0	3008	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	10	C	182	522565	2	23	1	16	87	522876	0	3008	0	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	11	T	196	91	250	25	944	21	521349	522876	0	0	2	0	8	0	2998	3008
+TP1_synth_forward	TP1_synth_forward	12	C	217	521588	885	21	6	39	120	522876	0	3003	5	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	13	C	273	522393	0	21	2	86	101	522876	0	3008	0	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	14	C	174	522457	0	28	2	42	173	522876	0	3007	0	0	0	0	1	3008
+TP1_synth_forward	TP1_synth_forward	15	C	170	520728	580	41	1256	23	78	522876	0	2998	2	0	8	0	0	3008
+TP1_synth_forward	TP1_synth_forward	16	T	344	53	1878	19	1	23	520558	522876	0	0	7	0	0	0	3001	3008
+TP1_synth_forward	TP1_synth_forward	17	T	406	60	270	11	1	103	522025	522876	0	0	0	0	0	0	3008	3008
+TP1_synth_forward	TP1_synth_forward	18	T	308	51	232	10	12	94	522169	522876	0	0	0	0	0	0	3008	3008
+TP1_synth_forward	TP1_synth_forward	19	A	522341	9	58	53	235	59	121	522876	3006	0	1	0	1	0	0	3008
+TP1_synth_forward	TP1_synth_forward	20	T	368	57	25	17	716	48	521645	522876	0	0	0	0	2	0	3006	3008
+TP1_synth_forward	TP1_synth_forward	21	A	522414	10	95	57	3	125	172	522876	3007	0	1	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	22	C	266	521393	48	40	810	107	212	522876	0	3004	0	0	4	0	0	3008
+TP1_synth_forward	TP1_synth_forward	23	A	518236	18	836	346	3248	74	118	522876	2985	0	4	1	18	0	0	3008
+TP1_synth_forward	TP1_synth_forward	24	G	108	106	101	522114	254	47	146	522876	0	0	1	3006	1	0	0	3008
+TP1_synth_forward	TP1_synth_forward	25	A	522483	30	109	164	0	46	44	522876	3007	0	1	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	26	A	522497	11	59	98	24	80	107	522876	3007	0	1	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	27	T	1031	42	140	73	483	76	521031	522876	0	0	2	0	1	0	3005	3008
+TP1_synth_forward	TP1_synth_forward	28	A	522454	10	225	58	1	37	91	522876	3005	0	3	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	29	T	424	53	372	12	199	5	521811	522876	0	0	4	0	2	0	3002	3008
+TP1_synth_forward	TP1_synth_forward	30	C	548	521760	374	12	29	29	124	522876	0	3004	3	0	0	0	1	3008
+TP1_synth_forward	TP1_synth_forward	31	T	1389	254	623	22	3835	10	516632	522765	0	2	6	0	17	0	2983	3008
+TP1_synth_forward	TP1_synth_forward	32	G	600	485	708	520145	263	46	494	522741	3	0	5	2997	2	0	1	3008
+TP1_synth_forward	TP1_synth_forward	33	T	2492	69	1102	120	6	19	518908	522716	0	0	5	1	0	0	3002	3008
+TP1_synth_forward	TP1_synth_forward	34	T	783	174	572	7	1178	12	519976	522702	0	1	3	0	4	0	3000	3008
+TP1_synth_forward	TP1_synth_forward	35	C	730	518064	749	40	2845	40	222	522690	0	2984	4	0	19	0	1	3008
+TP1_synth_forward	TP1_synth_forward	36	G	257	978	680	519711	19	44	984	522673	1	1	5	3001	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	37	C	342	520974	1006	14	183	36	108	522663	0	3000	7	0	1	0	0	3008
+TP1_synth_forward	TP1_synth_forward	38	A	521669	75	590	84	29	69	138	522654	3005	0	3	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	39	C	223	521469	573	42	204	22	112	522645	0	3004	3	0	1	0	0	3008
+TP1_synth_forward	TP1_synth_forward	40	T	760	96	629	50	191	29	520882	522637	0	0	4	0	1	0	3003	3008
+TP1_synth_forward	TP1_synth_forward	41	C	373	521393	742	19	2	23	81	522633	0	3003	5	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	42	C	863	518360	1046	44	1953	81	270	522617	0	2993	5	0	9	0	1	3008
+TP1_synth_forward	TP1_synth_forward	43	G	330	1188	1060	518824	143	55	1000	522600	3	3	5	2995	1	0	1	3008
+TP1_synth_forward	TP1_synth_forward	44	A	519469	30	1000	52	1896	93	51	522591	2993	0	4	0	11	0	0	3008
+TP1_synth_forward	TP1_synth_forward	45	G	121	416	995	519356	41	67	1585	522581	0	0	4	3003	0	0	1	3008
+TP1_synth_forward	TP1_synth_forward	46	T	2449	78	859	9	1195	17	517945	522552	0	0	2	0	4	0	3002	3008
+TP1_synth_forward	TP1_synth_forward	47	G	96	976	960	518352	83	2	2066	522535	0	0	2	3005	1	0	0	3008
+TP1_synth_forward	TP1_synth_forward	48	C	462	518552	999	18	2321	10	168	522530	0	2993	3	0	12	0	0	3008
+TP1_synth_forward	TP1_synth_forward	49	G	500	292	1826	518313	9	39	1547	522526	2	0	5	3001	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	50	G	124	504	727	520175	9	15	968	522522	0	0	3	3003	0	0	2	3008
+TP1_synth_forward	TP1_synth_forward	51	C	466	520668	770	39	126	65	386	522520	0	3001	4	0	1	0	2	3008
+TP1_synth_forward	TP1_synth_forward	52	T	1761	47	1180	148	4	30	519338	522508	0	0	4	0	0	0	3004	3008
+TP1_synth_forward	TP1_synth_forward	53	T	1983	612	581	95	534	28	518667	522500	0	1	2	0	1	0	3004	3008
+TP1_synth_forward	TP1_synth_forward	54	G	123	255	1583	520276	3	16	238	522494	0	0	7	3001	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	55	C	495	519038	1967	45	738	29	177	522489	0	2996	7	0	5	0	0	3008
+TP1_synth_forward	TP1_synth_forward	56	G	526	161	690	520140	2	42	925	522486	2	0	3	3002	0	0	1	3008
+TP1_synth_forward	TP1_synth_forward	57	G	244	138	496	521014	178	37	364	522471	0	0	2	3006	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	58	A	520913	26	490	120	790	41	88	522468	3001	0	2	0	5	0	0	3008
+TP1_synth_forward	TP1_synth_forward	59	G	494	387	59	521195	23	12	290	522460	1	0	0	3007	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	60	A	521269	118	830	134	0	32	73	522456	3007	0	1	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	61	T	684	80	260	80	0	14	521320	522438	0	0	1	0	0	0	3007	3008
+TP1_synth_forward	TP1_synth_forward	62	T	1480	88	227	19	0	83	520499	522396	0	0	1	0	0	0	3007	3008
+TP1_synth_forward	TP1_synth_forward	63	C	928	520961	285	36	0	30	144	522384	0	3007	1	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	64	T	1634	52	230	126	0	55	520282	522379	0	0	1	0	0	0	3007	3008
+TP1_synth_forward	TP1_synth_forward	65	C	479	520343	1289	100	0	66	90	522367	0	3004	4	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	66	T	1742	470	234	91	0	22	519806	522365	0	0	1	0	0	0	3007	3008
+TP1_synth_forward	TP1_synth_forward	67	T	2895	101	226	44	302	104	518687	522359	0	1	1	0	0	0	3006	3008
+TP1_synth_forward	TP1_synth_forward	68	C	836	520956	275	26	0	77	189	522359	0	3006	1	0	0	0	1	3008
+TP1_synth_forward	TP1_synth_forward	69	C	540	521051	237	95	0	42	392	522357	0	3006	1	0	0	0	1	3008
+TP1_synth_forward	TP1_synth_forward	70	T	628	49	72	129	0	26	521452	522356	0	0	1	1	0	0	3006	3008
+TP1_synth_forward	TP1_synth_forward	71	C	174	521813	234	27	2	14	91	522355	0	3008	0	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	72	T	1676	71	472	47	288	42	519757	522353	0	0	5	0	1	0	3002	3008
+TP1_synth_forward	TP1_synth_forward	73	G	528	210	658	520725	4	113	112	522350	2	0	1	3005	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	74	T	1293	241	1	30	739	96	519949	522349	0	0	0	0	2	0	3006	3008
+TP1_synth_forward	TP1_synth_forward	75	G	87	166	697	521202	5	17	168	522342	0	0	2	3006	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	76	C	691	519656	64	40	869	20	1000	522340	0	3001	1	0	1	0	5	3008
+TP1_synth_forward	TP1_synth_forward	77	G	444	505	34	520803	2	15	533	522336	1	1	0	3006	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	78	C	154	521646	351	9	0	45	126	522331	0	3007	1	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	79	C	197	521094	8	39	0	134	857	522329	0	3005	0	0	0	0	3	3008
+TP1_synth_forward	TP1_synth_forward	80	G	688	326	23	520844	85	153	195	522314	2	1	0	3005	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	81	C	261	521303	482	22	49	95	99	522311	1	3004	2	0	1	0	0	3008
+TP1_synth_forward	TP1_synth_forward	82	A	520778	56	1268	112	0	67	30	522311	3003	0	5	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	83	A	521685	53	306	78	0	149	38	522309	3008	0	0	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	84	A	521989	58	0	162	0	53	32	522294	3008	0	0	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	85	G	109	247	1	521692	1	80	124	522254	0	0	0	3008	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	86	C	269	521749	0	24	74	31	81	522228	0	3007	0	0	1	0	0	3008
+TP1_synth_forward	TP1_synth_forward	87	T	1025	66	383	73	1	56	520559	522163	0	0	0	0	0	0	3008	3008
+TP1_synth_forward	TP1_synth_forward	88	G	122	249	271	520981	25	84	112	521844	0	0	0	3008	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	89	T	707	71	187	23	0	175	520634	521797	0	0	0	0	0	0	3008	3008
+TP1_synth_forward	TP1_synth_forward	90	T	957	76	35	28	88	105	520369	521658	0	0	0	0	0	0	3008	3008
+TP1_synth_forward	TP1_synth_forward	91	C	386	520373	130	230	0	24	104	521247	0	3006	1	1	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	92	C	243	520401	0	308	0	49	203	521204	0	3008	0	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	93	G	310	127	0	520268	0	69	156	520930	0	0	0	3008	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	94	T	679	63	0	89	0	129	519864	520824	0	0	0	0	0	0	3008	3008
+TP1_synth_forward	TP1_synth_forward	95	C	241	519152	0	323	0	81	144	519941	0	3008	0	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	96	C	0	519222	0	0	0	62	0	519284	0	3008	0	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	97	C	0	518294	0	0	0	108	0	518402	0	3008	0	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	98	A	516270	0	0	0	0	57	0	516327	3008	0	0	0	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	99	G	0	0	0	515876	0	0	0	515876	0	0	0	3008	0	0	0	3008
+TP1_synth_forward	TP1_synth_forward	100	T	0	0	0	0	0	0	513898	513898	0	0	0	0	0	0	3008	3008
