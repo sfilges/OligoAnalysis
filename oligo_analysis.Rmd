@@ -1,5 +1,5 @@
 ---
-title: "Figures For Oligo Manuscript"
+title: "Oligo analysis script v2 (adapted for umierrorcorrect)"
 author: "Stefan Filges"
 date: '`r format(Sys.Date())`'
 output: 
@@ -53,6 +53,9 @@ source('R/helper_functions_oligo.R')
 # Should individual files with VAF be printed?
 print.individual.files = FALSE
 
+# Select consus threshold to use for analysis
+consensus_cutoff <- 10
+
 # Create table of sample directory paths
 sample_dir = paste(main, "test_data_v2", sep = "")
 
@@ -72,70 +75,51 @@ sampleNames <- list.dirs(
 sampleNames <- as.data.frame(do.call(rbind, strsplit(sampleNames, '_')))
 colnames(sampleNames) <- c('Manufacturer', 'InsertType', 'Purification', 'Batch', 'Replicate')
 sampleNames$File <- samplePaths
-
-# Initialize consensus table object
-cons.table = tibble()
 ```
 
 ### Import files
 
-For each sample the consensus 10 files are loaded and metadata is added to the 
+For each sample the cons files are loaded and metadata is added to the 
 consensus table for filtering later on.
 
 ```{r, warning=FALSE, echo=FALSE, message=FALSE}
+# Initialize consensus table object
+cons.table = tibble()
+
 for(i in 1:nrow(sampleNames)){
 
   samplePath <- sampleNames$File[i]
 
   consFile <- list.files(
-    path = paste(samplePath, '/tables/', sep = ''), 
-    pattern = '.bamPositionComposition.cons10.txt',
+    path = samplePath, 
+    pattern = '_cons.tsv',
     full.names = TRUE
   )
   
   # Read sample data
   cons.table.temp <- readr::read_delim(
     file = consFile,
-    delim = '\t',
-    col_types = cols(
-      Amplicon = col_character(),
-      Alias = col_character(),
-      Position = col_double(),
-      Reference = col_character(),
-      rawA = col_double(),
-      rawC = col_double(),
-      rawD = col_double(),
-      rawG = col_double(),
-      rawI = col_double(),
-      rawN = col_double(),
-      rawT = col_double(),
-      rawDepth = col_double(),
-      consA = col_double(),
-      consC = col_double(),
-      consD = col_double(),
-      consG = col_double(),
-      consI = col_double(),
-      consN = col_double(),
-      consT = col_double(),
-      consDepth = col_double()
-      )
-    )
+    delim = '\t'
+  )
   
-    # Add sample meta data to consensus table
-    cons.table.temp$Manufacturer <- sampleNames$Manufacturer[i]
-    cons.table.temp$InsertType <- sampleNames$InsertType[i]
-    cons.table.temp$Purification <- sampleNames$Purification[i]
-    cons.table.temp$Batch <- sampleNames$Batch[i]
-    cons.table.temp$Replicate <- sampleNames$Replicate[i]
+  # Add sample meta data to consensus table
+  cons.table.temp$Manufacturer <- sampleNames$Manufacturer[i]
+  cons.table.temp$InsertType <- sampleNames$InsertType[i]
+  cons.table.temp$Purification <- sampleNames$Purification[i]
+  cons.table.temp$Batch <- sampleNames$Batch[i]
+  cons.table.temp$Replicate <- sampleNames$Replicate[i]
 
-    #cons.table.temp <- cons.table.temp %>% 
-    #  dplyr::filter(!is.na(Alias))
-
-    cons.table <- cons.table %>% 
-      dplyr::bind_rows(cons.table.temp)
+  cons.table <- cons.table %>% 
+    dplyr::bind_rows(cons.table.temp)
 }
 
+cons.table <- cons.table %>% dplyr::filter(
+  cons.table$`Consensus group size` %in% c(0, consensus_cutoff),
+  !is.na(cons.table$Name)
+)
+
 # Change names of factor variables
+# TODO change as necessary
 cons.table$Manufacturer <- forcats::fct_recode(
   cons.table$Manufacturer, 
   IDT = 'idt', 
@@ -162,92 +146,96 @@ Set all reference allele counts to 0, so that only non-reference counts remain
 for each position.
 
 ```{r}
+# Filter positions based on the reference sequence for this sample 
+# This is meant to exclude primer sequences and samples with a different
+# reference sequence
 cons.table.filtered <- cons.table %>%
   dplyr::filter(
-    InsertType %in% c('Insert_1', 'Insert_2'),
-    Position >= 19, 
-    Position <= 80
+    InsertType %in% c('Insert_1', 'Insert_2'), # Exclude genomic reference
+    Position >= 19,        # consider only sequences after forward primer
+    Position <= 80         # consider only sequenced before reverse primer
   )
 
+cons.table.filtered <- cons.table
+
+# Set reference counts to 0
 for(j in 1:nrow(cons.table.filtered)) {
   row <- cons.table.filtered[j,]
-  if( row$ProbableRef == 'A' ) {
-    cons.table.filtered[j,]$consA <- 0
-    cons.table.filtered[j,]$rawA <- 0
+  if( row$Reference == 'A' ) {
+    cons.table.filtered[j,]$A <- 0
   }
-  else if( row$ProbableRef == 'C' ) {
-    cons.table.filtered[j,]$consC <- 0
-    cons.table.filtered[j,]$rawC <- 0
+  else if( row$Reference == 'C' ) {
+    cons.table.filtered[j,]$C <- 0
   }
-  else if( row$ProbableRef == 'G' ) {
-    cons.table.filtered[j,]$consG <- 0
-    cons.table.filtered[j,]$rawG <- 0
+  else if( row$Reference == 'G' ) {
+    cons.table.filtered[j,]$G <- 0
   }
-  else if( row$ProbableRef == 'T' ) {
-    cons.table.filtered[j,]$consT <- 0
-    cons.table.filtered[j,]$rawT <- 0
+  else if( row$Reference == 'T' ) {
+    cons.table.filtered[j,]$T <- 0
   }
 }
 ```
 
-
-### Count deletions
+### MEan deletions & substitutions error
 
 ```{r}
-cons.table.filtered
+print(
+  head(cons.table.filtered)
+)
 
 del.count <- cons.table.filtered %>% 
-  group_by(Manufacturer, InsertType,Purification, Batch) %>% 
-  summarise(del_error = 100*mean(consD)/mean(consDepth))
+  group_by(Manufacturer, InsertType, Purification, Batch, `Consensus group size`) %>% 
+  summarise(del_error = 100*mean(D)/mean(Coverage))
 
-del.count
-
+print(
+  head(del.count)
+)
 
 subs.count <- cons.table.filtered %>% 
-  group_by(Manufacturer, InsertType,Purification, Batch) %>% 
-  summarise(del_error = median(consA+consC+consG+consT)/mean(consDepth))
+  group_by(Manufacturer, InsertType, Purification, Batch, `Consensus group size`) %>% 
+  summarise(subs_error = 100*mean(A+C+G+T)/mean(Coverage))
 
-subs.count
-
+print(
+  head(subs.count)
+)
 ```
 
-## SiMSen-Seq error correction
+## SiMSen-Seq error correction (raw versus consensus reads)
 
 ```{r, message=FALSE}
 amplicon.plot.data <- cons.table.filtered %>%
     dplyr::mutate(
-      raw_error = 100*(rawA+rawC+rawG+rawT+rawD+rawI)/rawDepth,
-      cons_error = 100*(consA+consC+consG+consT+consD+consI)/consDepth
+      total_error = 100*(A+C+G+T+D+I)/Coverage
     ) %>%
-    dplyr::filter(Manufacturer != "control", InsertType == "Insert_1") %>%
+    dplyr::filter(Manufacturer != "control", InsertType == "inser1") %>%
     tidyr::unite('Type', Manufacturer, Purification, sep = ' ') %>%
-    dplyr::group_by(Position, InsertType, ProbableRef) %>%
+    dplyr::group_by(Position, InsertType, Reference, `Consensus group size`) %>%
     dplyr::summarise(
-      cons_error = mean(cons_error),
-      raw_error = mean(raw_error)
+      total_error = mean(total_error)
     ) %>% 
-  tidyr::gather("error_type", "error", -c("Position", "InsertType", "ProbableRef"))
+  tidyr::gather("error_type", "error", -c("Position", "InsertType", "Reference", `Consensus group size`))
+
 
 labels <- amplicon.plot.data %>%
   dplyr::ungroup() %>%
-  dplyr::distinct(Position, ProbableRef)
+  dplyr::distinct(Position, Reference)
 
 error_plot <- ggplot(
   data = amplicon.plot.data, 
   mapping = aes(
-    x = Position,
+    x = as.factor(as.character(Position)),
     y = error,
-    fill = error_type)
+    fill = as.factor(`Consensus group size`),
+    color = as.factor(`Consensus group size`))
   ) +
   geom_bar(stat = 'identity', position = 'dodge', width = 0.75) +
-  scale_x_continuous(breaks=labels$Position, labels=labels$ProbableRef) +
+  scale_x_discrete(breaks=labels$Position, labels=labels$Reference) +
   theme_classic() +
   facet_wrap(InsertType ~ ., scales = 'free_x', nrow = 1)
 
 error_plot
 
 ggsave(filename = 'Figure_1c_insert_1.pdf', plot = error_plot, device = 'pdf')
-
 
 amplicon.plot.data <- cons.table.filtered %>%
     dplyr::mutate(
@@ -329,7 +317,7 @@ length <- length(alignment$qname)
 
 file = data.frame(position=character(), barcode=character(), counts=numeric(), sequence=character())
 for(i in 1:length){
-  # get chromosome coordiantes
+  # get chromosome coordinates
   pos <- alignment$pos[i]
   chrom <- alignment$rname[i]
   coord <- paste(chrom,':',pos,sep='')
@@ -578,8 +566,6 @@ df3 <- df %>%
 
 
 order <- df3[order(df3$mean, decreasing = TRUE),]$Type
-
-
 
 data$Type <- as.factor(data$Type)
 data$Type <- forcats::fct_relevel(data$Type, c('IDT gblocks Insert_1','IDT gblocks Insert_2', 'control MCF7 Insert_1'), after = Inf)
