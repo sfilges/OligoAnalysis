@@ -553,7 +553,8 @@ boxplot_deletions <- ggplot2::ggplot(
     axis.line = element_line(colour = 'black'),
     legend.position = "bottom"
     )
-  
+
+# add comment  
 boxplot_deletions
 
 ggsave(filename = 'boxplot_deletions.pdf', plot = boxplot_deletions, device = 'pdf')
