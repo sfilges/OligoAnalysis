@@ -18,7 +18,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Setup
 
+We begin by importing the required packages, and if necessary installing them.
+
 ```{r, message=FALSE, warning=FALSE}
+
+#' Check and install packages
+#' 
+#' Checks if packages are available and install them if necessary. Does not
+#' work for BioConductor packages (e.g. Rsamtools).
+#' 
+#' @export
+#' 
+#' @param requiredPackages vector containing the required packages
+#'
 checkPackages <- function(requiredPackages){
   for(package in requiredPackages){
     if(!require(package, character.only = TRUE)){
@@ -28,8 +40,16 @@ checkPackages <- function(requiredPackages){
   }
 }
 
-packages <- c('tidyverse', 'gridExtra', 'RColorBrewer', 'stringr', 'tis', 'Rsamtools')
+packages <- c('tidyverse', 'gridExtra', 'RColorBrewer', 'stringr', 'tis')
 checkPackages(requiredPackages = packages)
+
+if (!require("BiocManager", quietly = TRUE)){
+  install.packages("BiocManager")
+}
+
+if (!require("Rsamtools", quietly = TRUE)){
+  BiocManager::install("Rsamtools")
+}
 
 library(Rsamtools)
 library(EnvStats)
@@ -37,44 +57,70 @@ library(Hmisc)
 library(ggpmisc)
 ```
 
-Set the working directory and import plotting functions. We then load the paths
-to the Debarcer output folders into the samplePaths variable and create a
-datframe "sampleNames", that contains the sample metadata based on the folder name.
+Set the working directory "main" and import plotting functions from the helper functions
+file. We then load the paths to the UMIErrorCorrect output folders into the samplePaths 
+variable and create a data frame "sampleNames", that contains the sample metadata based on 
+the folder name.
+
+\textbf{NOTE!}
+```
+Sample folders generated with UMIErrorCorrect need to have a specific format or else
+the code below needs to be changed for the script to run. Each folder needs to contain
+the following information the the same order, separated by underscores:
+
+Manufacturer_InsertType_Purification_Batch_Replicate
+```
+
+At this stage, also define the "consensus_cutoff" variable which sets the minimum
+UMI family size to keep. Somewhere between 3 and 10 will usually be appropriate.
+
 Lastly, a new tibble is initialized into which all consensus table will be loaded 
 in the next step.
 
 ```{r, warning=FALSE}
-# Define working directory containing Debarcer output files
+# Define working directory containing UMIErrrorCorrect output files
 main = '/Users/stefan/Documents/GitHub/OligoAnalysis/'
 #main = "C:/Users/stefa/OneDrive - Göteborgs Universitet/GitHub/oligo_analysis/"
 
+# Load helper functions
 source('R/helper_functions_oligo.R')
 
 # Should individual files with VAF be printed?
 print.individual.files = FALSE
 
-# Select consus threshold to use for analysis
+# Select consensus threshold to use for analysis
 consensus_cutoff <- 10
 
 # Create table of sample directory paths
-sample_dir = paste(main, "test_data_v2", sep = "")
+# First define the directory containing UMIErrrorCorrect output files, normally this will be the same as main
+#sample_dir = main 
+sample_dir = paste(main, 'test_data_v2', sep = '')
 
+# Get full paths for each sample folder
 samplePaths <- list.dirs(
   path = sample_dir,
   recursive = FALSE
 )
 
-#
-# Create dataframe with sample metadata
+# Create data frame with sample metadata by listing all samples in the previously
+# defined samplePaths
 sampleNames <- list.dirs(
   path = sample_dir,
   recursive = FALSE,
   full.names = FALSE
 )
 
+# Split the sample names into columns by the delimiter '_'
 sampleNames <- as.data.frame(do.call(rbind, strsplit(sampleNames, '_')))
+
+# set column names of meta data
 colnames(sampleNames) <- c('Manufacturer', 'InsertType', 'Purification', 'Batch', 'Replicate')
+
+# add sample paths to the data frame
 sampleNames$File <- samplePaths
+
+# print first few rows and verify that information is correct
+print(head(sampleNames))
 ```
 
 ### Import files
@@ -117,9 +163,14 @@ cons.table <- cons.table %>% dplyr::filter(
   cons.table$`Consensus group size` %in% c(0, consensus_cutoff),
   !is.na(cons.table$Name)
 )
+```
 
+If necessary, re-code factor variables for clarity or better plotting, e.g.
+shortening names.
+
+```{r, warning=FALSE, echo=FALSE, message=FALSE, eval=FALSE}
 # Change names of factor variables
-# TODO change as necessary
+# TODO change or remove as necessary
 cons.table$Manufacturer <- forcats::fct_recode(
   cons.table$Manufacturer, 
   IDT = 'idt', 
@@ -142,13 +193,10 @@ cons.table$InsertType <- forcats::fct_recode(
 
 ### Remove reference allele counts
 
-Set all reference allele counts to 0, so that only non-reference counts remain
-for each position.
+Filter positions based on the reference sequence for this sample. This is meant 
+to exclude primer sequences and samples with a different reference sequence.
 
 ```{r}
-# Filter positions based on the reference sequence for this sample 
-# This is meant to exclude primer sequences and samples with a different
-# reference sequence
 cons.table.filtered <- cons.table %>%
   dplyr::filter(
     InsertType %in% c('Insert_1', 'Insert_2'), # Exclude genomic reference
@@ -158,7 +206,16 @@ cons.table.filtered <- cons.table %>%
 
 cons.table.filtered <- cons.table
 
+print(dim(cons.table))
+print(dim(cons.table.filtered))
+```
+
+Set all reference allele counts to 0, so that only \emph{non-reference} counts 
+remain for each position. 
+
+```{r}
 # Set reference counts to 0
+# If processing many samples at once many samples, for the for loop will be slow
 for(j in 1:nrow(cons.table.filtered)) {
   row <- cons.table.filtered[j,]
   if( row$Reference == 'A' ) {
@@ -176,7 +233,7 @@ for(j in 1:nrow(cons.table.filtered)) {
 }
 ```
 
-### MEan deletions & substitutions error
+### Mean deletions & substitutions error
 
 ```{r}
 print(
