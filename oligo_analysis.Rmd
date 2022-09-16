@@ -194,7 +194,14 @@ cons.table$InsertType <- forcats::fct_recode(
 ### Remove reference allele counts
 
 Filter positions based on the reference sequence for this sample. This is meant 
-to exclude primer sequences and samples with a different reference sequence.
+to exclude primer sequences and samples with a different reference sequence. 
+
+At the moment this will not work for samples containing multiple different
+primers pairs or samples with variable insert length. That is, all samples need
+to:
+
+- have the same insert length
+- have the same length forward primer (e.g. 19 nt)
 
 ```{r}
 cons.table.filtered <- cons.table %>%
