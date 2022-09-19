@@ -21,7 +21,6 @@ knitr::opts_chunk$set(echo = TRUE)
 We begin by importing the required packages, and if necessary installing them.
 
 ```{r, message=FALSE, warning=FALSE}
-
 #' Check and install packages
 #' 
 #' Checks if packages are available and install them if necessary. Does not
@@ -40,17 +39,23 @@ checkPackages <- function(requiredPackages){
   }
 }
 
+# CRAN packages to be installed with checkPackages
 packages <- c('tidyverse', 'gridExtra', 'RColorBrewer', 'stringr', 'tis')
+
+# Check and if needed install CRAN packages
 checkPackages(requiredPackages = packages)
 
+# If needed, install BiocManager for downloading packages from Bioconductor
 if (!require("BiocManager", quietly = TRUE)){
   install.packages("BiocManager")
 }
 
+# If needed, install Rsamtools from Bioconductor
 if (!require("Rsamtools", quietly = TRUE)){
   BiocManager::install("Rsamtools")
 }
 
+# Load packages
 library(Rsamtools)
 library(EnvStats)
 library(Hmisc)
@@ -181,11 +186,14 @@ cons.table <- cons.table %>% dplyr::filter(
 ```
 
 If necessary, re-code factor variables for clarity or better plotting, e.g.
-shortening names.
+shortening names. This part may \emph{not} always be necessary if files are named
+consistently from the start. If no factors need to be re-coded, either delete this 
+code block or set eval=FALSE.
 
 ```{r, warning=FALSE, echo=FALSE, message=FALSE, eval=FALSE}
-# Change names of factor variables
-# TODO change or remove as necessary
+# TODO change or remove this part as necessary. 
+# Change names of factor variables. 
+# Recode manufacturers names from file anmes to short forms
 cons.table$Manufacturer <- forcats::fct_recode(
   cons.table$Manufacturer, 
   IDT = 'idt', 
@@ -194,11 +202,13 @@ cons.table$Manufacturer <- forcats::fct_recode(
   EF = 'eurofins'
 )
 
+# Rename "des" variables to match the main naming
 cons.table$Purification <- forcats::fct_recode(
   cons.table$Purification, 
   desalted = 'des'
 )
 
+# Change from "fwd"/"Rev" inset names to "Insert_1" and "Insert_2"
 cons.table$InsertType <- forcats::fct_recode(
   cons.table$InsertType, 
   Insert_1 = 'fwd', 
@@ -335,22 +345,20 @@ ggsave(filename = 'Figure_1c_insert_1.pdf', plot = error_plot, device = 'pdf')
 # Get data for insert type "Insert_2" and remove control samples (=cell line)
 amplicon.plot.data <- cons.table.filtered %>%
     dplyr::mutate(
-      raw_error = 100*(rawA+rawC+rawG+rawT+rawD+rawI)/rawDepth,
-      cons_error = 100*(consA+consC+consG+consT+consD+consI)/consDepth
+      total_error = 100*(A+C+G+T+D+I)/Coverage
     ) %>%
     dplyr::filter(Manufacturer != "control", InsertType == "Insert_2") %>%
     tidyr::unite('Type', Manufacturer, Purification, sep = ' ') %>%
-    dplyr::group_by(Position, InsertType, ProbableRef) %>%
+    dplyr::group_by(Position, InsertType, Reference, `Consensus group size`) %>%
     dplyr::summarise(
-      cons_error = mean(cons_error),
-      raw_error = mean(raw_error)
+      total_error = mean(total_error)
     ) %>% 
-  tidyr::gather("error_type", "error", -c("Position", "InsertType", "ProbableRef"))
+  tidyr::gather("error_type", "error", -c("Position", "InsertType", "Reference"))
 
 # Get x-axis labels
 labels <- amplicon.plot.data %>%
   dplyr::ungroup() %>%
-  dplyr::distinct(Position, ProbableRef)
+  dplyr::distinct(Position, Reference)
 
 # Generate plot for Insert_2
 error_plot <- ggplot(
@@ -361,7 +369,7 @@ error_plot <- ggplot(
     fill = error_type)
   ) +
   geom_bar(stat = 'identity', position = 'dodge', width = 0.75) +
-  scale_x_continuous(breaks=labels$Position, labels=labels$ProbableRef) +
+  scale_x_continuous(breaks=labels$Position, labels=labels$Reference) +
   theme_classic() +
   facet_wrap(InsertType ~ ., scales = 'free_x', nrow = 1) + 
   scale_fill_brewer(palette = "Pastel1")
@@ -403,19 +411,27 @@ for(i in 1:nrow(sampleNames)){
   row2 <- sampleNames[i,]
   dir <- sampleNames$File[i]
   
+  # Get file(s) ending with '.consensus_reads.bam$', there should only be one!
   bamPath <- list.files(
     path = dir, 
-    pattern ='.consensus_reads.bam$',
+    pattern = '.consensus_reads.bam$',
     full.names = TRUE
   )
   
-  bamFile <- BamFile(bamPath)
+  # Load consensus reads bam file.
+  # TODO This will break if multiple files are found in the step above
+  bamFile <- Rsamtools::BamFile(file = bamPath)
 }
 
-alignment <- scanBam(bamFile)[[1]]
+
+# Import binary ‘BAM’ files into a list structure
+alignment <- Rsamtools::scanBam(bamFile)[[1]]
 length <- length(alignment$qname)
 
+# Initialize empty results data frame 
 file = data.frame(position=character(), barcode=character(), counts=numeric(), sequence=character())
+
+# Iterate through bam file. This can be very slow!
 for(i in 1:length){
   # get chromosome coordinates
   pos <- alignment$pos[i]
