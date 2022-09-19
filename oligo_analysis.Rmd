@@ -97,7 +97,7 @@ main = '/Users/stefan/Documents/GitHub/OligoAnalysis/'
 #main = "C:/Users/stefa/OneDrive - Göteborgs Universitet/GitHub/oligo_analysis/"
 
 # Load helper functions
-source('R/helper_functions_oligo.R')
+source('src/helper_functions_oligo.R')
 
 # Should individual files with VAF be printed?
 print.individual.files = FALSE

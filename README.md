@@ -14,17 +14,35 @@ An updated version is being developed (devel branch), but currently is not  stab
 
 ## Preprocessing
 
+### Installtions
 Raw sequencing data (fastq) must be processed using software that generates
 error corrected consensus reads and pileup files, such as UMIErrorCorrect.
 
 In order to process data with UMIErrorCorrect, install the following
 
-- Burrows-Wheeler-Aligner (BWA), used by the pipeline for genome alignment
+- Burrows-Wheeler-Aligner (BWA), used by the pipeline for genome alignment using any one of the following commands
+
+```
+# If using conda:
+conda install bwa
+
+# if using apt:
+sudo apt-get install bwa
+
+# if using brew:
+brew install bwa
+```
+
 - UMIErrorCorrect, the main analysis pipeline
 
+```
+pip install umierrorcorrect
+```
+
+### Reference fasta
 If the synthetic oligonucleotide contains mixed genomic or alien sequences a suitable
 reference genome is required. If the target sequences match a particular genomic region
-exactly, e.g. a human reference genome (such as hg38) may be used instead. However,
+exactly, e.g. a human reference genome (such as hg38), that may be used instead. However,
 a custom reference will speed up analysis since the only a small region needs to be loaded
 into memory. 
 
@@ -50,6 +68,20 @@ In order for BWA to process the reference it needs to be indexed using bwa index
 bwa index reference.fa
 ```
 
+This will generate a number of additional files.
+
+### BED file
+
+Also create a suitable bed file for UMIErrorCorrect containing the locations
+
+```
+sequence_1       1       100     Insert_1
+sequence_2       20       80     Insert_2
+```
+
+Where Insert_1 and Insert_2 will be the names shown in the UMIErrorCorrect output
+as the assay names. sequence_1 and sequence_2 must \emph{exactly} match the header
+name of the reference fasta, i.e. the text immediately after '>'.
 
 ## Required packages 
 
