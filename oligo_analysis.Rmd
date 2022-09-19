@@ -70,6 +70,15 @@ the following information the the same order, separated by underscores:
 
 Manufacturer_InsertType_Purification_Batch_Replicate
 ```
+One relatively easy  way to get this format is to use it on the sample sheet used for 
+demultiplexing the sequencing run. Demultiplexed fastq files will append additional
+information such as Lane and Read such that the final fastq would look somewhat like
+
+'Manufacturer_InsertType_Purification_Batch_Replicate_L001_R1_001.fastq.gz'
+
+Use a shell script or other to batch process multiple fastqs at once using 
+UMIErrorCorrect and use that same script to trim '_L001_R1_001.fastq.gz' from
+the output folder names, thus resulting in intended format.
 
 At this stage, also define the "consensus_cutoff" variable which sets the minimum
 UMI family size to keep. Somewhere between 3 and 10 will usually be appropriate.
@@ -126,16 +135,20 @@ print(head(sampleNames))
 ### Import files
 
 For each sample the cons files are loaded and metadata is added to the 
-consensus table for filtering later on.
+consensus table for filtering later on. The metadata is dervied from the 
+folder name and used for filterings of samples downstream.
 
 ```{r, warning=FALSE, echo=FALSE, message=FALSE}
 # Initialize consensus table object
 cons.table = tibble()
 
+# Get cons file for each UMIErrorCorrect output folder 'i'
 for(i in 1:nrow(sampleNames)){
 
+  # Get absolute path to sample 'i'
   samplePath <- sampleNames$File[i]
 
+  # List all files in the UMIErrorCorrect data folder ending with '_cons.tsv'
   consFile <- list.files(
     path = samplePath, 
     pattern = '_cons.tsv',
@@ -148,7 +161,7 @@ for(i in 1:nrow(sampleNames)){
     delim = '\t'
   )
   
-  # Add sample meta data to consensus table
+  # Add sample meta data, taken from the folder name, to the consensus table
   cons.table.temp$Manufacturer <- sampleNames$Manufacturer[i]
   cons.table.temp$InsertType <- sampleNames$InsertType[i]
   cons.table.temp$Purification <- sampleNames$Purification[i]
@@ -159,6 +172,8 @@ for(i in 1:nrow(sampleNames)){
     dplyr::bind_rows(cons.table.temp)
 }
 
+# Get cons0 and consX, where X is chosen by the user in the consensus_cutoff variable
+# Discard all other consensus levels and all rows without an assay name.
 cons.table <- cons.table %>% dplyr::filter(
   cons.table$`Consensus group size` %in% c(0, consensus_cutoff),
   !is.na(cons.table$Name)
@@ -266,7 +281,15 @@ print(
 
 ## SiMSen-Seq error correction (raw versus consensus reads)
 
+We will generate an amplicon plot for each type of Insert, as the the reference
+position is used on the x-axis it makes sense to mix multiple different reference 
+sequences in the same plot. 
+
+Alternatively, plot using facet_wrap (code not written).
+
 ```{r, message=FALSE}
+#----------------- // Insert 1 //---------------------
+# Get data for insert type "Insert_1" and remove control samples (=cell line)
 amplicon.plot.data <- cons.table.filtered %>%
     dplyr::mutate(
       total_error = 100*(A+C+G+T+D+I)/Coverage
@@ -279,11 +302,12 @@ amplicon.plot.data <- cons.table.filtered %>%
     ) %>% 
   tidyr::gather("error_type", "error", -c("Position", "InsertType", "Reference", `Consensus group size`))
 
-
+# Get x-axis labels
 labels <- amplicon.plot.data %>%
   dplyr::ungroup() %>%
   dplyr::distinct(Position, Reference)
 
+# Generate plot for Insert_1
 error_plot <- ggplot(
   data = amplicon.plot.data, 
   mapping = aes(
@@ -297,10 +321,15 @@ error_plot <- ggplot(
   theme_classic() +
   facet_wrap(InsertType ~ ., scales = 'free_x', nrow = 1)
 
+# Draw plot
 error_plot
 
+# Save plot to pdf
 ggsave(filename = 'Figure_1c_insert_1.pdf', plot = error_plot, device = 'pdf')
 
+#----------------- // Insert 2 //---------------------
+
+# Get data for insert type "Insert_2" and remove control samples (=cell line)
 amplicon.plot.data <- cons.table.filtered %>%
     dplyr::mutate(
       raw_error = 100*(rawA+rawC+rawG+rawT+rawD+rawI)/rawDepth,
@@ -315,10 +344,12 @@ amplicon.plot.data <- cons.table.filtered %>%
     ) %>% 
   tidyr::gather("error_type", "error", -c("Position", "InsertType", "ProbableRef"))
 
+# Get x-axis labels
 labels <- amplicon.plot.data %>%
   dplyr::ungroup() %>%
   dplyr::distinct(Position, ProbableRef)
 
+# Generate plot for Insert_2
 error_plot <- ggplot(
   data = amplicon.plot.data, 
   mapping = aes(
@@ -332,8 +363,10 @@ error_plot <- ggplot(
   facet_wrap(InsertType ~ ., scales = 'free_x', nrow = 1) + 
   scale_fill_brewer(palette = "Pastel1")
 
+# Draw plot
 error_plot
 
+# Save plot to pdf
 ggsave(filename = 'Figure_1c_insert_2.pdf', plot = error_plot, device = 'pdf')
 ```
 
@@ -395,10 +428,10 @@ for(i in 1:length){
   # split header
   header <- str_split(header, "_")
   
-  # extarct barcode from header
+  # extract barcode from header
   barcode <- header[[1]][4]
   
-  # extract UMI family size from header and covnert to numeric
+  # extract UMI family size from header and convert to numeric
   count <- header[[1]][5]
   if(!count %in% letters[seq( from = 1, to = 20 )]){
     # TODO this checks if a read is split into multiple chunks labeled a,b,c
