@@ -23,7 +23,7 @@ checkPackages <- function(requiredPackages){
 #' 
 #' @param cigar CIGAR string
 #' @export
-processCigar <- function(cigar_list){
+processCigar <- function(cigar_list, pattern = '\\d+D'){
   
   out <- c()
   for(j in 1:length(cigar_list)){
@@ -33,7 +33,7 @@ processCigar <- function(cigar_list){
     # Example: 
     # cigar = "32M1D37M1D29M"
     # cstring = "13" "1"
-    d <- stringr::str_extract_all(string = cigar, pattern = '\\d+D')[[1]] %>%
+    d <- stringr::str_extract_all(string = cigar, pattern = pattern)[[1]] %>%
       stringr::str_remove("D")
     
     n_deleted_bases <- sum(as.numeric(d))

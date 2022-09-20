@@ -18,15 +18,38 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Setup
 
-We begin by importing the required packages, and if necessary installing them.
+### User-defined variables
+
+Set the working directory "main" and import plotting functions from the helper functions
+file. 
 
 **NOTE!** For this to work you need to specify the location of the 'helper_functions_oligo.R'
 scripts. It contains a number of functions that will be used throughout this
 analysis.
 
-```{r, message=FALSE, warning=FALSE}
+```{r}
+# Define working directory containing UMIErrrorCorrect output files
+main = '/Users/stefan/Documents/GitHub/OligoAnalysis/'
+
+# Should individual files with VAF be printed?
+print.individual.files = FALSE
+
+# Select consensus threshold to use for analysis
+consensus_cutoff <- 10
+
+# Create table of sample directory paths
+# First define the directory containing UMIErrrorCorrect output files
+sample_dir = paste(main, 'data/umierrorcorrect', sep = '')
+
 # Load helper functions, change location if needed
 source('src/helper_functions_oligo.R')
+```
+
+### Loading packages
+
+We begin by importing the required packages, and if necessary installing them.
+
+```{r, message=FALSE, warning=FALSE}
 
 # CRAN packages to be installed with checkPackages
 packages <- c('tidyverse', 'gridExtra', 'RColorBrewer', 'stringr', 'tis')
@@ -52,8 +75,11 @@ library(Hmisc)
 library(ggpmisc)
 ```
 
-Set the working directory "main" and import plotting functions from the helper functions
-file. We then load the paths to the UMIErrorCorrect output folders into the samplePaths 
+### Importing data
+
+#### Setting up the file structure
+
+We then load the paths to the UMIErrorCorrect output folders into the samplePaths 
 variable and create a data frame "sampleNames", that contains the sample metadata based on 
 the folder name.
 
@@ -82,21 +108,6 @@ Lastly, a new tibble is initialized into which all consensus table will be loade
 in the next step.
 
 ```{r, warning=FALSE}
-# Define working directory containing UMIErrrorCorrect output files
-main = '/Users/stefan/Documents/GitHub/OligoAnalysis/'
-#main = "C:/Users/stefa/OneDrive - Göteborgs Universitet/GitHub/oligo_analysis/"
-
-# Should individual files with VAF be printed?
-print.individual.files = FALSE
-
-# Select consensus threshold to use for analysis
-consensus_cutoff <- 10
-
-# Create table of sample directory paths
-# First define the directory containing UMIErrrorCorrect output files, normally this will be the same as main
-#sample_dir = main 
-sample_dir = paste(main, 'data/umierrorcorrect', sep = '')
-
 # Get full paths for each sample folder
 samplePaths <- list.dirs(
   path = sample_dir,
@@ -124,11 +135,11 @@ sampleNames$File <- samplePaths
 print(head(sampleNames))
 ```
 
-### Import files
+#### Import files
 
 For each sample the cons files are loaded and metadata is added to the 
-consensus table for filtering later on. The metadata is dervied from the 
-folder name and used for filterings of samples downstream.
+consensus table for filtering later on. The metadata is derived from the 
+folder name and used for filtering of samples downstream.
 
 ```{r, warning=FALSE, echo=FALSE, message=FALSE}
 # Initialize consensus table object
@@ -177,7 +188,7 @@ shortening names. This part may \emph{not} always be necessary if files are name
 consistently from the start. If no factors need to be re-coded, either delete this 
 code block or set eval=FALSE.
 
-```{r, warning=FALSE, echo=FALSE, message=FALSE, eval=FALSE}
+```{r, warning=FALSE, echo=FALSE, message=FALSE, eval=TRUE}
 # TODO change or remove this part as necessary. 
 # Change names of factor variables. 
 # Recode manufacturers names from file anmes to short forms
@@ -380,11 +391,10 @@ UMIErrorCorrect. The following information is then extracted:
 
 - UMI/barcode
 - UMI family size
-- 
 
-NOTE! Processing many alignment files will be very slow!
+**NOTE!** Processing many alignment files will be very slow!
 
-```{r, message=FALSE}
+```{r message=FALSE}
 #---------------------// Reference sequences //---------------------------------
 primer_1 ="GTGGTGAGGCTCCCCTTT"
 primer_2 = "CAAAGCTGTTCCGTCCCAGT"
@@ -392,7 +402,6 @@ primer_2 = "CAAAGCTGTTCCGTCCCAGT"
 forward_insert = "ATACAGAATATCTGTTCGCACTCCGAGTGCGGCTTGCGGAGATTCTCTTCCTCTGTGCGCCG"
 reverse_insert = "CTTGCGGAGATTCTCTTCCTCTGTGCGCCGATACAGAATATCTGTTCGCACTCCGAGTGCGG"
 #-------------------------------------------------------------------------------
-
 
 df = data.frame()
 df2 = data.frame()
@@ -467,7 +476,11 @@ for(i in 1:nrow(sampleNames)){
   # Get length of read
   file$nchar <- nchar(file$sequence)
   
-  # This return the total number of deleted bases for that string
+  # This returns the total number of deleted bases for that string
+  # Examples:
+  # ACTG-DD-AT gives 2
+  # ATG-D gives 1
+  # A-DDD-TCGA-DD-TGC gives 5
   file$n_D <- processCigar(file$cigar)
   
   # For each sample calculate the fraction of reads that contain 0,1,2,...,6 or
@@ -483,21 +496,26 @@ for(i in 1:nrow(sampleNames)){
   row$`6` <- 100*(nrow(file[file$n_D == 6,])/nreads)
   row$`>7` <- 100*(nrow(file[file$n_D >= 7,])/nreads)
   
-  
-  #file$n_D <- stringr::str_count(string = file$sequence, pattern = 'D')
-  file$n_D2 <- stringr::str_count(string = file$sequence, pattern = 'DD')
-  file$n_D3 <- stringr::str_count(string = file$sequence, pattern = 'DDD')
-  file$n_D4 <- stringr::str_count(string = file$sequence, pattern = 'DDDD')
-  file$n_D5 <- stringr::str_count(string = file$sequence, pattern = 'DDDDD')
+  # Here we compute the number of times that 2,3,4 or 5 bases were deleted
+  # consecutively in each read, i.e. ACT-DD-ACT counts, but AC-D-AT-D-CT does
+  # not even though both have 2 deleted bases.
+  file$n_D2 <- stringr::str_count(string = file$cigar, pattern = '2D')
+  file$n_D3 <- stringr::str_count(string = file$cigar, pattern = '3D')
+  file$n_D4 <- stringr::str_count(string = file$cigar, pattern = '4D')
+  file$n_D5 <- stringr::str_count(string = file$cigar, pattern = '5D')
     
+  # Count reads with exactly 2 deleted bases, where _D == 2
   row2$n_two_errors <- nrow(file %>% dplyr::filter(n_D == 2))
+  # Count reads where exactly 2 bases were deleted AND these occurred consecutively
   row2$n_two_errors_together <- nrow(file %>% dplyr::filter(n_D == 2, n_D2 == 1))
     
+  # Repeat for 3 bases
   row2$n_three_errors <- nrow(file %>% dplyr::filter(n_D == 3))
   row2$n_three_errors_together <- nrow(file %>% dplyr::filter(n_D == 3, n_D3 == 1)) + 
     nrow(file %>% dplyr::filter(n_D == 3, n_D2 == 1)) - 
     nrow(file %>% dplyr::filter(n_D == 3, n_D3 == 1)) 
     
+  # Repeat for 4 bases
   row2$n_four_errors <- nrow(file %>% dplyr::filter(n_D == 4))
   row2$n_four_errors_together <- nrow(file %>% dplyr::filter(n_D == 4, n_D3 == 1)) + 
     nrow(file %>% dplyr::filter(n_D == 4, n_D2 == 2)) -
@@ -716,65 +734,68 @@ figure1b
 
 ## Wilcox test
 
+### Insert Type 1
+
 ```{r wilcoxon, echo=FALSE}
+# Filter and transform data
 cons.variants <- cons.table.filtered %>%
       dplyr::mutate(
-        subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
-        subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
-        indels_raw = 100*(rawD+rawI)/rawDepth,
-        indels_cons = 100*(consD+consI)/consDepth,
-        total_cons =  100*(consA+consC+consG+consT+consD+consI)/consDepth
+        subsitution_error = 100*(A+C+G+T)/Coverage,
+        indel_error = 100*(D+I)/Coverage,
+        total_error =  100*(A+C+G+T+D+I)/Coverage
       ) %>%
       dplyr::filter(
+        `Consensus group size` == consensus_cutoff,
         InsertType == 'Insert_1',
-        Batch == c("b1", "b2", "b3"),
+        Batch %in% c("b1", "b2", "b3"),
         Manufacturer != "control"
       ) %>%
       tidyr::unite('Type', Manufacturer, Purification, InsertType, Batch, sep = ' ') %>%
       dplyr::group_by(Type) %>%
-  dplyr::select(Position, Type, indels_cons)
+  dplyr::select(Position, Type, indel_error)
 
 wilcox_results = stats::pairwise.wilcox.test(
-  x = cons.variants$indels_cons, 
+  x = cons.variants$indel_error, 
   g = cons.variants$Type, 
   exact = FALSE, 
   paired = TRUE, 
   p.adjust.method = "bonferroni"
 )
 
-write.table(
-  x = wilcox_results$p.value, file = "wilcoxon_test_results_insert_1.csv",
-  sep = ",", row.names = TRUE
-  )
+#write.table(
+#  x = wilcox_results$p.value, file = "wilcoxon_test_results_insert_1.csv",
+#  sep = ",", row.names = TRUE
+#  )
 
 wilcox_results$p.value 
+```
 
+### Insert Type 2
 
+```{r, echo=FALSE}
 cons.variants <- cons.table.filtered %>%
       dplyr::mutate(
-        subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
-        subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
-        indels_raw = 100*(rawD+rawI)/rawDepth,
-        indels_cons = 100*(consD+consI)/consDepth,
-        total_cons =  100*(consA+consC+consG+consT+consD+consI)/consDepth
+        subsitution_error = 100*(A+C+G+T)/Coverage,
+        indel_error = 100*(D+I)/Coverage,
+        total_error =  100*(A+C+G+T+D+I)/Coverage
       ) %>%
       dplyr::filter(
+        `Consensus group size` == consensus_cutoff,
         InsertType == 'Insert_2',
-        Batch == c("b1", "b2", "b3"),
+        Batch %in% c("b1", "b2", "b3"),
         Manufacturer != "control"
       ) %>%
       tidyr::unite('Type', Manufacturer, Purification, InsertType, Batch, sep = ' ') %>%
       dplyr::group_by(Type) %>%
-  dplyr::select(Position, Type, indels_cons)
+  dplyr::select(Position, Type, indel_error)
 
 wilcox_results = stats::pairwise.wilcox.test(
-  x = cons.variants$indels_cons, 
+  x = cons.variants$indel_error, 
   g = cons.variants$Type, 
   exact = FALSE, 
   paired = TRUE, 
-  p.adjust.method = "bonferroni"
+  p.adjust.method = 'bonferroni'
 )
-
 
 #write.table(
 #  x = wilcox_results$p.value, file = "wilcoxon_test_results_insert_2.csv",
@@ -807,8 +828,6 @@ cons.variants <- cons.table.filtered %>%
   dplyr::select(Position,ProbableRef, Type, indels_cons) %>%
   dplyr::arrange(Position, .by_group = TRUE)
 
-
-
 A = data.frame()
 
 for( i in 1:nrow(cons.variants) ){
@@ -827,8 +846,6 @@ for( i in 1:nrow(cons.variants) ){
   A <- rbind(A,row)
 
 }
-
-
 
 base_plot_data <- A %>% ungroup() %>% group_by(next_base) %>% 
   summarise(
@@ -911,7 +928,6 @@ dinuc_plot <- ggplot2::ggplot(
 
 dinuc_plot
 
-
 #ggsave(filename = 'base_plot_insert_2.pdf', plot = base_plot, device = 'pdf', width = 6, height = 6)
 #ggsave(filename = 'dinuc_plot_insert2_.pdf', plot = dinuc_plot, device = 'pdf', width = 12, height = 8)
 ```
@@ -963,10 +979,8 @@ cons.variants_2 <- cons.table.filtered %>%
 a_1 <- c(25, 33, 41, 49)
 b_1 <- c(26, 34, 42, 50)
 
-
 a_2 <- c(55, 63, 71, 79)
 b_2 <- c(56, 64, 72, 80)
-
 
 c <- cons.variants_1 %>% group_by(Position,ProbableRef) %>% summarise(mean=median(indels_cons)) %>% filter(Position %in% a_1)
 d <- cons.variants_1 %>% group_by(Position,ProbableRef) %>% summarise(mean=median(indels_cons)) %>% filter(Position %in% b_1)
@@ -990,7 +1004,6 @@ df <- df %>% tidyr::gather("group", "value", -c("insert", "base"))
 
 df <- df %>% mutate(group=replace(group, group=="before", "5'")) %>% mutate(group=replace(group, group=="after", "3'"))
 
-
 plot <- ggplot(df, aes(x=group, y=value, group = base, col = base)) +
     geom_point(size=2) +
     geom_line() +
@@ -999,7 +1012,6 @@ plot <- ggplot(df, aes(x=group, y=value, group = base, col = base)) +
     theme_classic(base_size = 13) +
     theme(legend.position="top") + 
     scale_color_brewer(palette = "Set1")
-
 
 plot
 
@@ -1095,7 +1107,7 @@ for(insert in insertType){
             `Consensus group size` == consensus_cutoff,
             InsertType == insert,
             Batch == b,
-            Manufacturer != "control"
+            Manufacturer != 'control'
           ) %>%
           tidyr::unite('Type', Manufacturer, Purification, sep = ' ') %>%
           dplyr::group_by(Type, Position, InsertType, Batch) %>%
@@ -1107,7 +1119,7 @@ for(insert in insertType){
             Error = mean(total_error)
           ) %>% ungroup()
     
-    variants <- c("Substitutions", "Deletions", "Error")
+    variants <- c('Substitutions', 'Deletions', 'Error')
     
     # Relevel variables for plotting purposes
     # cons.variants$Type <- forcats::fct_relevel(cons.variants$Type, c('IDT gblocks', 'control MCF7'), after = Inf)
@@ -1118,16 +1130,16 @@ for(insert in insertType){
         spread(Type, !!as.symbol(var)) %>% select(-Position)
       
       # Compute correlation matrix
-      cor <- round(cor(M, method = "spearman"),1)
+      cor <- round(cor(M, method = 'spearman'),1)
       cor[cor>1] <- NA
       
       # Test for association between paired samples
       res1 <- corrplot::cor.mtest(
         mat = M, 
         conf.level = .95, 
-        method = "spearman", 
+        method = 'spearman', 
         exact = FALSE,
-        alternative = "two.sided"
+        alternative = 'two.sided'
       )
       
       print(paste(var,"_",insert,"_",b,"; ", mean(cor, na.rm = TRUE), sep =""))
@@ -1186,7 +1198,7 @@ for(insert in insertType){
 
 ### Correlations for all batches together
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, eval=FALSE}
 cons.variants <- cons.table.filtered %>%
       dplyr::mutate(
         subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
@@ -1281,28 +1293,28 @@ for(var in variants){
   
   cor_plot
         
-  write.table(
-    x = M,
-    file = paste("correlation_data_",var,"_",insert,"_all-batches",".csv", sep = ""),
-    sep = ";"
-  )
+  #write.table(
+  #  x = M,
+  #  file = paste("correlation_data_",var,"_",insert,"_all-batches",".csv", sep = ""),
+  #  sep = ";"
+  #)
         
-  write.table(
-    x = resAdj,
-    file = paste("correlation_adjusted_p_values",var,"_",insert,"_all-batches",".csv", sep = ""),
-    sep = ";"
-  )
+  #write.table(
+  #  x = resAdj,
+  #  file = paste("correlation_adjusted_p_values",var,"_",insert,"_all-batches",".csv", sep = ""),
+  #  sep = ";"
+  #)
       
-  ggplot2::ggsave(
-    filename = paste("Figure_X_corrrelation_plot_",var,"_",insert,"_all-batches",".pdf", sep = ""),
-    plot = cor_plot,
-    device = 'pdf'
-  )
+  #ggplot2::ggsave(
+  #  filename = paste("Figure_X_corrrelation_plot_",var,"_",insert,"_all-batches",".pdf", sep = ""),
+  #  plot = cor_plot,
+  #  device = 'pdf'
+  #)
 }
 
 ```
 
-```{r Figure2a, echo=FALSE}
+```{r Figure2a, echo=FALSE, eval=FALSE}
 figure_2 <- figure_2_plot(
   data = cons.table.filtered,
   insertType = c('Insert_1', 'gDNA'),
@@ -1319,7 +1331,7 @@ ggsave(filename = 'Figure_2_v2.pdf', plot = figure_2, device = 'pdf')
 **Insert variant 1.** b1, b2, b3 denote different batches. Lines show the mean error 
 with ribbons indicating standard deviation (n = 3 technical replicates).
 
-```{r}
+```{r, eval=FALSE}
 # Select data for plotting
 cons.variants <- cons.table.filtered %>%
   dplyr::mutate(
@@ -1392,7 +1404,7 @@ ggsave(
 )
 ```
 
-```{r}
+```{r, eval=FALSE}
 
 cons.variants <- cons.table.filtered %>%
   dplyr::mutate(
@@ -1461,7 +1473,7 @@ TukeyHSD(res.aov2, which = "Batch")
 
 
 
-```{r}
+```{r, eval=FALSE}
 
 cons.variants <- cons.table.filtered %>%
   dplyr::mutate(
@@ -1565,7 +1577,7 @@ outliers <- test$all.stats[test$all.stats$Outlier == TRUE,]$Obs.Num
 **Insert variant 2.** b1, b2, b3 denote different batches. Lines show the mean error 
 with ribbons indicating standard deviation (n = 3 technical replicates).
 
-```{r}
+```{r, eval=FALSE}
 cons.variants <- cons.table.filtered %>%
   dplyr::mutate(
     subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
@@ -1640,10 +1652,9 @@ ggsave(
 
 ## Supplemental Figures
 
-
 ### Supplemental Fig. 1a
 
-```{r, warning=FALSE}
+```{r, warning=FALSE, eval=FALSE}
 cq_values <- read.table(file = "data/cq_tp1_dilution_series.csv", sep = ",", header = TRUE)
 cq_values <- cq_values %>% 
   tidyr::gather("Replicate", "Cq", -c("Type", "Input")) %>% 
@@ -1682,7 +1693,7 @@ ggsave(
 
 ### Supplemental Fig. 1b
 
-```{r, warning=FALSE}
+```{r, warning=FALSE, eval=FALSE}
 
 electropherogram <- readr::read_csv(file = "tp1_electropherogram.csv") 
 
@@ -1872,7 +1883,7 @@ in the synthetic molecule (5' - 3'). Mean + SD is shown (n = 3 technical replica
 **(b)** Spearman correlations of consensus 10 errors (total error) with base position. 
 All correlations were considered significant at p < 0.05.
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, eval=FALSE}
 insertType = c('Insert_1', 'Insert_2')
 batch = c('b1', 'b2', 'b3')
 
@@ -1941,7 +1952,7 @@ cov_del <- sd(df3$`Deletions (%)`)/mean(df3$`Deletions (%)`)
 
 ### Supplemental Figure 3
 
-```{r Figure2_supp, echo=FALSE, warning=FALSE}
+```{r Figure2_supp, echo=FALSE, warning=FALSE, eval=FALSE}
 figure_2 <- figure_2_plot(
   data = cons.table.filtered,
   insertType = c('Insert_1'),
@@ -1956,7 +1967,7 @@ figure_2
 
 ### Supplemental Figure 4
 
-```{r Figure3_supp, echo=FALSE, warning=FALSE}
+```{r Figure3_supp, echo=FALSE, warning=FALSE, eval=FALSE}
 figure_2 <- figure_2_plot(
   data = cons.table.filtered,
   insertType = c('Insert_2'),
