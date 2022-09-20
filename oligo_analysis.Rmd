@@ -184,7 +184,7 @@ cons.table <- cons.table %>% dplyr::filter(
 ```
 
 If necessary, re-code factor variables for clarity or better plotting, e.g.
-shortening names. This part may \emph{not} always be necessary if files are named
+shortening names. This part may *not* always be necessary if files are named
 consistently from the start. If no factors need to be re-coded, either delete this 
 code block or set eval=FALSE.
 
@@ -196,7 +196,7 @@ cons.table$Manufacturer <- forcats::fct_recode(
   cons.table$Manufacturer, 
   IDT = 'idt', 
   BS = 'bs',
-  SA = 'sig',
+  SA = 'sigma',
   EF = 'eurofins'
 )
 
@@ -263,7 +263,7 @@ for(j in 1:nrow(cons.table.filtered)) {
 }
 ```
 
-### Mean deletions & substitutions error
+## Mean deletions & substitutions error
 
 Calculate the mean deletion and substitution error grouped by Manufacturer,
 InsertType, Purification, Batch and Consensus group size.
@@ -392,7 +392,7 @@ UMIErrorCorrect. The following information is then extracted:
 - UMI/barcode
 - UMI family size
 
-**NOTE!** Processing many alignment files will be very slow!
+**NOTE!** Processing many alignment files will take a considerable amount of time!
 
 ```{r message=FALSE}
 #---------------------// Reference sequences //---------------------------------
@@ -499,27 +499,26 @@ for(i in 1:nrow(sampleNames)){
   # Here we compute the number of times that 2,3,4 or 5 bases were deleted
   # consecutively in each read, i.e. ACT-DD-ACT counts, but AC-D-AT-D-CT does
   # not even though both have 2 deleted bases.
+  # TODO this does not take into account other situations, such as 6 consecutively deleted bases
   file$n_D2 <- stringr::str_count(string = file$cigar, pattern = '2D')
   file$n_D3 <- stringr::str_count(string = file$cigar, pattern = '3D')
   file$n_D4 <- stringr::str_count(string = file$cigar, pattern = '4D')
   file$n_D5 <- stringr::str_count(string = file$cigar, pattern = '5D')
     
-  # Count reads with exactly 2 deleted bases, where _D == 2
+  # Count reads with exactly 2 deleted bases, where _D == 2, irrespective of
+  # whether they occurred together DD or separately ACT-D-ACT-D-ACT, both are n_D = 2.
   row2$n_two_errors <- nrow(file %>% dplyr::filter(n_D == 2))
+  
   # Count reads where exactly 2 bases were deleted AND these occurred consecutively
   row2$n_two_errors_together <- nrow(file %>% dplyr::filter(n_D == 2, n_D2 == 1))
     
   # Repeat for 3 bases
   row2$n_three_errors <- nrow(file %>% dplyr::filter(n_D == 3))
-  row2$n_three_errors_together <- nrow(file %>% dplyr::filter(n_D == 3, n_D3 == 1)) + 
-    nrow(file %>% dplyr::filter(n_D == 3, n_D2 == 1)) - 
-    nrow(file %>% dplyr::filter(n_D == 3, n_D3 == 1)) 
+  row2$n_three_errors_together <- nrow(file %>% dplyr::filter(n_D == 3, n_D3 == 1))
     
   # Repeat for 4 bases
   row2$n_four_errors <- nrow(file %>% dplyr::filter(n_D == 4))
-  row2$n_four_errors_together <- nrow(file %>% dplyr::filter(n_D == 4, n_D3 == 1)) + 
-    nrow(file %>% dplyr::filter(n_D == 4, n_D2 == 2)) -
-    nrow(file %>% dplyr::filter(n_D == 4, n_D4 == 1)) 
+  row2$n_four_errors_together <- nrow(file %>% dplyr::filter(n_D == 4, n_D4 == 1))
   
   df <- rbind(df,row)
   df2 <- rbind(df2,row2)
@@ -577,6 +576,12 @@ df2$InsertType <- forcats::fct_recode(
 
 ### Deletion boxplots
 
+If multiple bases are deleted, calculated the fraction of deletions that occurred together.
+For example data_2 calculates the situation for 2 deleted bases:
+If n_two_errors is non zero there are 2 deleted bases in that read, then calculate the
+fraction n_two_errors_together/n_two_errors, otherwise the value is 0. The same 
+calculation is performed for 3 and 4 deletions, respectively.
+
 ```{r}
 data_2 <- df2 %>% 
   dplyr::mutate(ratio = if_else(n_two_errors != 0, n_two_errors_together/n_two_errors, 0)) %>% 
@@ -604,7 +609,11 @@ data_3["Del"] <- "3"
 data_4["Del"] <- "4"
 
 data <- rbind(data_2,data_3,data_4)
+```
 
+Now we plot this data as boxplots
+
+```{r}
 boxplot_deletions <- ggplot2::ggplot(
   data = data, 
   mapping = aes(
@@ -634,11 +643,15 @@ boxplot_deletions <- ggplot2::ggplot(
 boxplot_deletions
 
 #ggsave(filename = 'boxplot_deletions.pdf', plot = boxplot_deletions, device = 'pdf')
+```
 
+We can also plot deletions as a barplot
+
+```{r}
 df3 <- df %>% 
   tidyr::unite("Type", Manufacturer, Purification, InsertType, sep = " ") %>%
   dplyr::group_by(Type) %>%
-  dplyr::summarise(mean = mean(`0`), )
+  dplyr::summarise(mean = mean(`0`))
 
 
 order <- df3[order(df3$mean, decreasing = TRUE),]$Type
@@ -732,7 +745,7 @@ figure1b
 #ggsave(filename = 'Figure_1b.pdf', plot = figure1b, device = 'pdf')
 ```
 
-## Wilcox test
+## Wilcoxon tests
 
 ### Insert Type 1
 
@@ -810,22 +823,21 @@ wilcox_results$p.value
 ```{r dinucleotides, echo=FALSE}
 cons.variants <- cons.table.filtered %>%
       dplyr::mutate(
-        subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
-        subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
-        indels_raw = 100*(rawD+rawI)/rawDepth,
-        indels_cons = 100*(consD+consI)/consDepth,
-        total_cons =  100*(consA+consC+consG+consT+consD+consI)/consDepth
+        subsitution_error = 100*(A+C+G+T)/Coverage,
+        indel_error = 100*(D+I)/Coverage,
+        total_error =  100*(A+C+G+T+D+I)/Coverage
       ) %>%
       dplyr::filter(
-        InsertType == 'Insert_2',
+        `Consensus group size` == consensus_cutoff,
+        InsertType == 'Insert_1',
         Batch == c("b1", "b2", "b3"),
         Manufacturer != "control",
-        Position >= 49,
-        Position <= 80
+        Position >= 19,
+        Position <= 50
       ) %>%
       tidyr::unite('Type', Manufacturer, Purification, InsertType, Batch, sep = ' ') %>%
       dplyr::group_by(Type) %>%
-  dplyr::select(Position,ProbableRef, Type, indels_cons) %>%
+  dplyr::select(Position, Reference, Type, indel_error) %>%
   dplyr::arrange(Position, .by_group = TRUE)
 
 A = data.frame()
@@ -835,7 +847,7 @@ for( i in 1:nrow(cons.variants) ){
   row <- cons.variants[i,]
   
   position <- cons.variants$Position[i]
-  next_base <- cons.variants$ProbableRef[i+1]
+  next_base <- cons.variants$Reference[i+1]
   
   if(position < 80){
     row$next_base <- next_base
@@ -849,14 +861,14 @@ for( i in 1:nrow(cons.variants) ){
 
 base_plot_data <- A %>% ungroup() %>% group_by(next_base) %>% 
   summarise(
-    mean_error = mean(indels_cons),
-    sd_error = sd(indels_cons)/sqrt(n())
+    mean_error = mean(indel_error),
+    sd_error = sd(indel_error)/sqrt(n())
     )
 
-A_error <- A[A$next_base == 'A',]$indels_cons
-C_error <- A[A$next_base == 'C',]$indels_cons
-T_error <- A[A$next_base == 'T',]$indels_cons
-G_error <- A[A$next_base == 'G',]$indels_cons
+A_error <- A[A$next_base == 'A',]$indel_error
+C_error <- A[A$next_base == 'C',]$indel_error
+T_error <- A[A$next_base == 'T',]$indel_error
+G_error <- A[A$next_base == 'G',]$indel_error
 
 t.test(x = A_error, y = C_error)
 t.test(x = A_error, y = G_error)
@@ -898,16 +910,22 @@ base_plot <- ggplot(
 
 base_plot
 
+#ggsave(filename = 'base_plot_insert_2.pdf', plot = base_plot, device = 'pdf', width = 6, height = 6)
+```
 
-data_to_plot <- cons.variants %>% ungroup() %>% group_by(Position, ProbableRef) %>% summarise(error = indels_cons - mean(indels_cons))
+```{r, echo=FALSE}
+data_to_plot <- cons.variants %>% 
+  ungroup() %>% 
+  group_by(Position, Reference) %>% 
+  summarise(error = indel_error - mean(indel_error))
 
 
 dinuc_plot <- ggplot2::ggplot(
   data = cons.variants, 
   mapping = aes(
     x = as.factor(Position), 
-    y = indels_cons,
-    fill = ProbableRef
+    y = indel_error,
+    fill = Reference
     )
   ) +
   geom_boxplot() +
@@ -928,22 +946,19 @@ dinuc_plot <- ggplot2::ggplot(
 
 dinuc_plot
 
-#ggsave(filename = 'base_plot_insert_2.pdf', plot = base_plot, device = 'pdf', width = 6, height = 6)
 #ggsave(filename = 'dinuc_plot_insert2_.pdf', plot = dinuc_plot, device = 'pdf', width = 12, height = 8)
 ```
 
 
-```{r, echo=FALSE}
-
+```{r, echo=FALSE, eval=FALSE}
 cons.variants_1 <- cons.table.filtered %>%
       dplyr::mutate(
-        subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
-        subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
-        indels_raw = 100*(rawD+rawI)/rawDepth,
-        indels_cons = 100*(consD+consI)/consDepth,
-        total_cons =  100*(consA+consC+consG+consT+consD+consI)/consDepth
+        subsitution_error = 100*(A+C+G+T)/Coverage,
+        indel_error = 100*(D+I)/Coverage,
+        total_error =  100*(A+C+G+T+D+I)/Coverage
       ) %>%
       dplyr::filter(
+        `Consensus group size` == consensus_cutoff,
         InsertType == 'Insert_1',
         Batch == c("b1", "b2", "b3"),
         Manufacturer != "control",
@@ -952,18 +967,17 @@ cons.variants_1 <- cons.table.filtered %>%
       ) %>%
       tidyr::unite('Type', Manufacturer, Purification, InsertType, Batch, sep = ' ') %>%
       dplyr::group_by(Type) %>%
-  dplyr::select(Position,ProbableRef, Type, indels_cons) %>%
+  dplyr::select(Position, Reference, Type, indel_error) %>%
   dplyr::arrange(Position, .by_group = TRUE)
 
 cons.variants_2 <- cons.table.filtered %>%
       dplyr::mutate(
-        subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
-        subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
-        indels_raw = 100*(rawD+rawI)/rawDepth,
-        indels_cons = 100*(consD+consI)/consDepth,
-        total_cons =  100*(consA+consC+consG+consT+consD+consI)/consDepth
+        subsitution_error = 100*(A+C+G+T)/Coverage,
+        indel_error = 100*(D+I)/Coverage,
+        total_error =  100*(A+C+G+T+D+I)/Coverage
       ) %>%
       dplyr::filter(
+        `Consensus group size` == consensus_cutoff,
         InsertType == 'Insert_2',
         Batch == c("b1", "b2", "b3"),
         Manufacturer != "control",
@@ -972,7 +986,7 @@ cons.variants_2 <- cons.table.filtered %>%
       ) %>%
       tidyr::unite('Type', Manufacturer, Purification, InsertType, Batch, sep = ' ') %>%
       dplyr::group_by(Type) %>%
-  dplyr::select(Position,ProbableRef, Type, indels_cons) %>%
+  dplyr::select(Position, Reference, Type, indel_error) %>%
   dplyr::arrange(Position, .by_group = TRUE)
 
 
@@ -982,10 +996,25 @@ b_1 <- c(26, 34, 42, 50)
 a_2 <- c(55, 63, 71, 79)
 b_2 <- c(56, 64, 72, 80)
 
-c <- cons.variants_1 %>% group_by(Position,ProbableRef) %>% summarise(mean=median(indels_cons)) %>% filter(Position %in% a_1)
-d <- cons.variants_1 %>% group_by(Position,ProbableRef) %>% summarise(mean=median(indels_cons)) %>% filter(Position %in% b_1)
-e <- cons.variants_2 %>% group_by(Position,ProbableRef) %>% summarise(mean=median(indels_cons)) %>% filter(Position %in% a_2)
-f <- cons.variants_2 %>% group_by(Position,ProbableRef) %>% summarise(mean=median(indels_cons)) %>% filter(Position %in% b_2)
+c <- cons.variants_1 %>% 
+  group_by(Position, Reference) %>% 
+  summarise(mean=median(indel_error)) %>% 
+  filter(Position %in% a_1)
+
+d <- cons.variants_1 %>% 
+  group_by(Position, Reference) %>% 
+  summarise(mean=median(indel_error)) %>% 
+  filter(Position %in% b_1)
+
+e <- cons.variants_2 %>% 
+  group_by(Position, Reference) %>% 
+  summarise(mean=median(indel_error)) %>% 
+  filter(Position %in% a_2)
+
+f <- cons.variants_2 %>% 
+  group_by(Position, Reference) %>% 
+  summarise(mean=median(indel_error)) %>% 
+  filter(Position %in% b_2)
 
 
 wilcox.test(c$mean, d$mean, paired = TRUE, alternative = "two.sided")
@@ -1022,7 +1051,7 @@ plot
 
 Are deletions and substitutions correlated with each other?
 
-```{r corrplot, echo=FALSE}
+```{r cortest1, echo=FALSE}
 # Filter and transform data
 cons.variants <- cons.table.filtered %>%
       dplyr::mutate(
@@ -1052,7 +1081,7 @@ cor.test(x = M$Deletions, y = M$Substitutions, method = "spearman")
 
 Is the mean level of substitutions significantly different from SiMSen-Seq background?
 
-```{r corrplot, echo=FALSE}
+```{r cortest2, echo=FALSE}
 # Filter and transform data
 cons.variants <- cons.table.filtered %>%
       dplyr::mutate(
@@ -1088,7 +1117,7 @@ t.test(M$mean, mu = 0.0005, alternative = "two.sided")
 
 ### Correlations by batches
 
-```{r corrplot, echo=FALSE}
+```{r, echo=FALSE}
 
 insertType = c('Insert_1', 'Insert_2')
 batches = c('b1','b2','b3')
@@ -1195,35 +1224,33 @@ for(insert in insertType){
 }
 ```
 
-
 ### Correlations for all batches together
 
-```{r, echo=FALSE, eval=FALSE}
+```{r, echo=FALSE}
 cons.variants <- cons.table.filtered %>%
       dplyr::mutate(
-        subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
-        subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
-        indels_raw = 100*(rawD+rawI)/rawDepth,
-        indels_cons = 100*(consD+consI)/consDepth,
-        total_cons =  100*(consA+consC+consG+consT+consD+consI)/consDepth
+            subsitution_error = 100*(A+C+G+T)/Coverage,
+            indel_error = 100*(D+I)/Coverage,
+            total_error =  100*(A+C+G+T+D+I)/Coverage
       ) %>%
       dplyr::filter(
-        InsertType == 'Insert_2',
+        `Consensus group size` == consensus_cutoff, # Use consensus error only
+        InsertType == 'Insert_1',
         Manufacturer != "control",
         Batch %in% c('b1','b2','b3')
       ) %>%
       tidyr::unite('Type', Manufacturer, Purification, Batch, sep = ' ') %>%
       dplyr::group_by(Position, Type, InsertType) %>%
       dplyr::summarise(
-        Substitutions = mean(subsitutions_cons),
-        subs_std = sd(subsitutions_cons),
-        Deletions = mean(indels_cons),
-        indels_std = sd(indels_cons),
-        Error = mean(total_cons)
+        Substitutions = mean(subsitution_error),
+        subs_std = sd(subsitution_error),
+        Deletions = mean(indel_error),
+        indels_std = sd(indel_error),
+        Error = mean(total_error)
       ) %>% ungroup()
 
-
-cons.variants$Type <- forcats::fct_relevel(cons.variants$Type, c('IDT gblocks b1', 'control MCF7'), after = Inf)
+# Re-order factor levels for plotting
+#cons.variants$Type <- forcats::fct_relevel(cons.variants$Type, c('IDT gblocks b1', 'control MCF7'), after = Inf)
     
 mean_errors <- cons.variants %>% 
   group_by(Type) %>% 
@@ -1316,7 +1343,7 @@ for(var in variants){
 
 ## Figure 2
 
-```{r perBaseErrorPlot, echo=FALSE, eval=FALSE}
+```{r perBaseErrorPlot, echo=FALSE}
 figure_2 <- perBaseErrorPlot(
   data = cons.table.filtered,
   insertType = c('Insert_1', 'gDNA'),
@@ -1638,6 +1665,7 @@ fa_plot
 ### Supplemental Fig. 1c
 
 ```{r, eval = FALSE}
+# TODO this needs to be adapter to UMIErrorCorrect output
 mean <- cons.table.filtered %>% 
   dplyr::summarise(
     mean_raw = mean(rawDepth),

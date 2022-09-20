@@ -52,6 +52,7 @@ processCigar <- function(cigar_list, pattern = '\\d+D'){
 #' 
 #' @importFrom dplyr mutate filter group_by summarise
 #' @importFrom tidyr unite
+#' @importFrom ggplot2 ggplot
 #' 
 #' @export
 #' 
