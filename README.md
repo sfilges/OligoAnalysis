@@ -94,12 +94,13 @@ from the fastq name as well as generating sequencing quality control reports,
 a wrapper script "umi_pipeline.sh" is provided in this repository in the
 "src" folder.
 
-In you computing environment with bwa and umierrorcorrect installed, navigate
+In your computing environment with bwa and umierrorcorrect installed, navigate
 to the folder containing the fastq files. The following command assumes the wrapper
 script has been placed in the same folder as the fastq files.
 
-Use the following command, specifying the input directory ".", the compete path to the
-bed file "-b" and reference fasta "-r". Also set the flags "-f" and "-c".
+Use the following command, specifying the input directory ".", the complete path to the
+bed file "-b" and reference fasta "-r". Also set the flags "-f" and "-c". This
+will not generate any QC reports.
 
 ```
 ./umipipeline.sh -i . -b ../assay_regions.bed -r ../reference.fa -f -c
@@ -109,6 +110,28 @@ For details regarding usage see:
 ```
 ./umipipeline.sh -h
 ```
+
+#### QC reports
+
+Optionally install [fastp]{https://github.com/OpenGene/fastp} from conda:
+
+```
+conda install -c bioconda fastp
+```
+
+If not already installed, also download multiqc for collating multiple QC files 
+into one
+
+```
+pip install multiqc
+```
+
+and run the pipeline *without* the "-f" flag: 
+
+```
+./umipipeline.sh -i . -b ../assay_regions.bed -r ../reference.fa -c
+```
+
 
 ## Required packages 
 
