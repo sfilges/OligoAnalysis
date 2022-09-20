@@ -1,6 +1,6 @@
 # Oligo analysis
 
-Documents and scripts for generating Figures for Filges \emph{et al.}, "Digital Quantification of Chemical Oligonucleotide Synthesis Errors".
+Documents and scripts for generating Figures for Filges *et al.*, "Digital Quantification of Chemical Oligonucleotide Synthesis Errors".
 
 Now published in [Clinical Chemistry](https://doi.org/10.1093/clinchem/hvab136).
 
@@ -22,7 +22,7 @@ An updated version is being developed (devel branch), but currently is not  stab
 Raw sequencing data (fastq) must be processed using software that generates
 error corrected consensus reads and pileup files, such as UMIErrorCorrect.
 
-In order to process data with UMIErrorCorrect, install the following
+In order to process data with UMIErrorCorrect, install the following:
 
 - Burrows-Wheeler-Aligner (BWA), used by the pipeline for genome alignment using any one of the following commands
 
@@ -84,7 +84,7 @@ sequence_2       20       80     Insert_2
 ```
 
 Where Insert_1 and Insert_2 will be the names shown in the UMIErrorCorrect output
-as the assay names. sequence_1 and sequence_2 must \emph{exactly} match the header
+as the assay names. sequence_1 and sequence_2 must *exactly* match the header
 name of the reference fasta, i.e. the text immediately after '>'.
 
 ## Required packages 

@@ -1,7 +1,52 @@
+#' Check and install packages
+#' 
+#' Checks if packages are available and install them if necessary. Does not
+#' work for BioConductor packages (e.g. Rsamtools).
+#' 
+#' @export
+#' 
+#' @param requiredPackages vector containing the required packages
+#'
+checkPackages <- function(requiredPackages){
+  for(package in requiredPackages){
+    if(!require(package, character.only = TRUE)){
+      install.packages(package, dependencies = TRUE)
+      require(package, character.only = TRUE)
+    }
+  }
+}
 
 
-
-
+#' Count deletions in cigar string
+#' 
+#' @importFrom stringr str_extract_all str_remove str_count
+#' 
+#' @param cigar CIGAR string
+#' @export
+processCigar <- function(cigar_list){
+  
+  out <- c()
+  for(j in 1:length(cigar_list)){
+    cigar = cigar_list[j]
+    
+    # Get elements with digits before the deletion character "D"
+    # Example: 
+    # cigar = "32M1D37M1D29M"
+    # cstring = "13" "1"
+    d <- stringr::str_extract_all(string = cigar, pattern = '\\d+D')[[1]] %>%
+      stringr::str_remove("D")
+    
+    n_deleted_bases <- sum(as.numeric(d))
+    
+    # Prepare output variables
+    out <- append(out, n_deleted_bases)
+  }
+  
+  out[is.na(out)] <- 0
+  
+  # Return variables
+  return(out)
+}
 
 
 figure_2_plot <- function(
