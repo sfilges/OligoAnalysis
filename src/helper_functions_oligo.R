@@ -164,3 +164,86 @@ perBaseErrorPlot <- function(
 
   return(perBaseErrorPlot)
 }
+
+
+#' Amplicon ribbon plot
+#'
+#' @import dplyr
+#' @import ggplot2
+#'
+#' @param data filtered consensus table object
+#' @param manufacturers vector containing manufacturer to use
+#' @param purifications vector containing purifications to use
+#' @param insertTypes vector containing insertTypes to use
+#' @param start_pos First position to plot
+#' @param end_pos Last position to plot
+#'
+#' @export
+#' 
+ribbonPlot <- function(data, manufacturers, purifications, insertTypes, start_pos, end_pos){
+  
+  cons.variants <- data %>%
+    dplyr::mutate(
+      subsitution_error = 100*(A+C+G+T)/Coverage,
+      indel_error = 100*(D+I)/Coverage,
+      total_error =  100*(A+C+G+T+D+I)/Coverage
+    ) %>%
+    dplyr::filter(
+      `Consensus group size` == consensus_cutoff,
+      Manufacturer %in% manufacturers,
+      Purification %in% purifications,
+      InsertType %in% insertTypes,
+      Batch %in% c('b1','b2', 'b3'),
+      Position >= start_pos, 
+      Position <= end_pos
+    ) %>%
+    dplyr::group_by(Position, Manufacturer,Purification, InsertType, Batch, Reference) %>%
+    dplyr::summarise(
+      `Consensus 10 error (%)` = mean(total_error),
+      sd = sd(total_error)
+    )
+  
+  cons.variants <- drop_na(cons.variants)
+  
+  labels <- cons.variants %>%
+    dplyr::ungroup() %>%
+    dplyr::distinct(Position, Reference)
+  
+  amplicon_plot <- ggplot(
+    data = cons.variants, 
+    mapping = aes(
+      x = Position,
+      y = `Consensus 10 error (%)`,
+      fill = Batch
+    )
+  ) + 
+    geom_line(mapping = aes(col=Batch)) +
+    geom_ribbon(
+      mapping = aes(
+        ymin=`Consensus 10 error (%)`-sd,
+        ymax=`Consensus 10 error (%)`+sd
+      ), alpha=0.5
+    ) +
+    theme_minimal() + 
+    expand_limits(y = 1.5) +
+    facet_wrap(Purification ~ Manufacturer,scales = 'free', ncol = 1,strip.position = 'right') +
+    scale_x_continuous(breaks=labels$Position, labels=labels$Reference) +
+    scale_fill_manual(values=c("gray55", '#f6be4c', '#469ed4')) +
+    scale_color_manual(values=c('gray55', '#f6be4c', '#469ed4')) + 
+    theme(
+      axis.text.x = element_text(size = 6), 
+      panel.border = element_blank(), 
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      axis.line = element_line(colour = 'black'),
+      axis.ticks.x = element_line(colour = 'black'),
+      axis.ticks.y = element_line(colour = 'black')
+    ) +
+    geom_hline(
+      yintercept = 0,
+      colour = 'gray55',
+      linetype = 'dashed'
+    ) 
+  
+  return(amplicon_plot)
+}

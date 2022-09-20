@@ -1328,85 +1328,6 @@ figure_2
 #ggsave(filename = 'Figure_2_v2.pdf', plot = figure_2, device = 'pdf')
 ```
 
-## Ribbon plot
-
-### Insert variant 1
-
-**Insert variant 1.** b1, b2, b3 denote different batches. Lines show the mean error 
-with ribbons indicating standard deviation (n = 3 technical replicates).
-
-```{r ribbonPlot}
-# Select data for plotting
-cons.variants <- cons.table.filtered %>%
-  dplyr::mutate(
-      subsitution_error = 100*(A+C+G+T)/Coverage,
-      indel_error = 100*(D+I)/Coverage,
-      total_error =  100*(A+C+G+T+D+I)/Coverage
-  ) %>%
-  dplyr::filter(
-    `Consensus group size` == consensus_cutoff,
-    Manufacturer %in% c('IDT', 'SA', 'BS'),
-    InsertType %in% c('Insert_1'),
-    Batch %in% c('b1','b2', 'b3'),
-    Position >= 19, 
-    Position <= 80
-    ) %>%
-  dplyr::group_by(Position, Manufacturer,Purification, InsertType, Batch, Reference) %>%
-  dplyr::summarise(
-    `Consensus 10 error (%)` = mean(total_error),
-    sd = sd(total_error)
-  )
-
-labels <- cons.variants %>%
-  dplyr::ungroup() %>%
-  dplyr::distinct(Position, Reference)
-
-# Create plot object
-amplicon_plot <- ggplot(
-  data = cons.variants, 
-  mapping = aes(
-    x = Position,
-    y = `Consensus 10 error (%)`,
-    fill = Batch
-    )
-  ) + 
-  geom_line(mapping = aes(col=Batch)) +
-  geom_ribbon(
-    mapping = aes(
-      ymin=`Consensus 10 error (%)`-sd,
-      ymax=`Consensus 10 error (%)`+sd
-    ), 
-    alpha = 0.5
-  ) +
-  theme_minimal() + 
-  facet_wrap(Purification ~ Manufacturer,scales = 'free_x', ncol = 1,strip.position = 'right') +
-  scale_x_continuous(breaks=labels$Position, labels=labels$Reference) +
-  scale_fill_manual(values=c("gray55", "#f6be4c", "#469ed4")) +
-  scale_color_manual(values=c("gray55", "#f6be4c", "#469ed4")) + 
-  theme(
-    axis.text.x = element_text(size = 6), 
-    panel.border = element_blank(), 
-    panel.grid.major = element_blank(),
-    panel.grid.minor = element_blank(),
-    axis.line = element_line(colour = "black"),
-    axis.ticks.x = element_line(colour = "black"),
-    axis.ticks.y = element_line(colour = "black")
-    ) +
-  geom_hline(
-    yintercept = 0,
-    colour="gray55",
-    linetype="dashed"
-  ) 
-
-amplicon_plot
-
-#ggsave(
-#  plot = amplicon_plot,
-#  filename = 'Figure_3.pdf', 
-#  device = 'pdf'
-#)
-```
-
 ### Insert variant 2
 
 ```{r}
@@ -1575,82 +1496,55 @@ test <- EnvStats::rosnerTest(df$b1,k = 5)
 outliers <- test$all.stats[test$all.stats$Outlier == TRUE,]$Obs.Num
 ```
 
-## Figure 4
+## Ribbon plot
+
+### Insert variant 1
+
+**Insert variant 1.** b1, b2, b3 denote different batches. Lines show the mean error 
+with ribbons indicating standard deviation (n = 3 technical replicates).
+
+```{r ribbonPlot1}
+fig <- ribbonPlot(
+  data = cons.table.filtered,
+  manufacturers = c("IDT", "SA"),
+  purifications = c("desalted", "PAGE"),
+  insertTypes = c("Insert_2"),
+  start_pos = 19,
+  end_pos = 80
+)
+
+fig
+
+#ggsave(
+#  plot = fig,
+#  filename = 'Figure_3.pdf', 
+#  device = 'pdf'
+#)
+```
+
+### Insert variant 2
 
 **Insert variant 2.** b1, b2, b3 denote different batches. Lines show the mean error 
 with ribbons indicating standard deviation (n = 3 technical replicates).
 
-```{r, eval=FALSE}
-cons.variants <- cons.table.filtered %>%
-  dplyr::mutate(
-    subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
-    subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
-    indels_raw = 100*(rawD+rawI)/rawDepth,
-    indels_cons = 100*(consD+consI)/consDepth,
-    cons_error = 100*(consA+consC+consG+consT+consD+consI)/consDepth
-  ) %>%
-  dplyr::filter(
-    Manufacturer %in% c("IDT", "SA"),
-    Purification %in% c("desalted", "PAGE"),
-    InsertType %in% c("Insert_2"),
-    Position >= 19, 
-    Position <= 80
-    ) %>%
-  dplyr::group_by(Position, Manufacturer,Purification, InsertType, Batch, ProbableRef) %>%
-  dplyr::summarise(
-    `Consensus 10 error (%)` = mean(cons_error),
-    sd = sd(cons_error)
-  )
+```{r ribbonPlot2}
 
-cons.variants <- drop_na(cons.variants)
-
-labels <- cons.variants %>%
-  dplyr::ungroup() %>%
-  dplyr::distinct(Position, ProbableRef)
-
-amplicon_plot <- ggplot(
-  data = cons.variants, 
-  mapping = aes(
-    x = Position,
-    y = `Consensus 10 error (%)`,
-    fill = Batch
-    )
-  ) + 
-  geom_line(mapping = aes(col=Batch)) +
-  geom_ribbon(
-    mapping = aes(
-      ymin=`Consensus 10 error (%)`-sd,
-      ymax=`Consensus 10 error (%)`+sd
-    ), alpha=0.5
-  ) +
-  theme_minimal() + 
-  expand_limits(y = 1.5) +
-  facet_wrap(Purification ~ Manufacturer,scales = 'free', ncol = 1,strip.position = 'right') +
-  scale_x_continuous(breaks=labels$Position, labels=labels$ProbableRef) +
-  scale_fill_manual(values=c("gray55", '#f6be4c', '#469ed4')) +
-  scale_color_manual(values=c('gray55', '#f6be4c', '#469ed4')) + 
-  theme(
-    axis.text.x = element_text(size = 6), 
-    panel.border = element_blank(), 
-    panel.grid.major = element_blank(),
-    panel.grid.minor = element_blank(),
-    axis.line = element_line(colour = 'black'),
-    axis.ticks.x = element_line(colour = 'black'),
-    axis.ticks.y = element_line(colour = 'black')
-    ) +
-  geom_hline(
-    yintercept = 0,
-    colour = 'gray55',
-    linetype = 'dashed'
-  ) 
-
-amplicon_plot
-
-ggsave(
-  plot = amplicon_plot,
-  filename = 'Figure_4.pdf',
-  device = 'pdf'
+fig <- ribbonPlot(
+  data = cons.table.filtered,
+  manufacturers = c("IDT", "SA"),
+  purifications = c("desalted", "PAGE"),
+  insertTypes = c("Insert_2"),
+  start_pos = 19,
+  end_pos = 80
 )
+
+fig
+
+#ggsave(
+#  plot = amplicon_plot,
+#  filename = 'Figure_4.pdf',
+#  device = 'pdf'
+#)
 ```
 
 ## Supplemental Figures
