@@ -87,6 +87,29 @@ Where Insert_1 and Insert_2 will be the names shown in the UMIErrorCorrect outpu
 as the assay names. sequence_1 and sequence_2 must *exactly* match the header
 name of the reference fasta, i.e. the text immediately after '>'.
 
+### Wrapper script
+
+In order to process multiple fastq files at once, trim unnecessary parts
+from the fastq name as well as generating sequencing quality control reports, 
+a wrapper script "umi_pipeline.sh" is provided in this repository in the
+"src" folder.
+
+In you computing environment with bwa and umierrorcorrect installed, navigate
+to the folder containing the fastq files. The following command assumes the wrapper
+script has been placed in the same folder as the fastq files.
+
+Use the following command, specifying the input directory ".", the compete path to the
+bed file "-b" and reference fasta "-r". Also set the flags "-f" and "-c".
+
+```
+./umipipeline.sh -i . -b ../assay_regions.bed -r ../reference.fa -f -c
+```
+
+For details regarding usage see:
+```
+./umipipeline.sh -h
+```
+
 ## Required packages 
 
 The following packages are required during the course of the analysis. 
