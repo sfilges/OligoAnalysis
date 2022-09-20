@@ -48,33 +48,47 @@ processCigar <- function(cigar_list, pattern = '\\d+D'){
   return(out)
 }
 
-
-figure_2_plot <- function(
+#' Plot substitution and indel error per base
+#' 
+#' @importFrom dplyr mutate filter group_by summarise
+#' @importFrom tidyr unite
+#' 
+#' @export
+#' 
+#' @param data
+#' @param insertType
+#' @param batch
+#' @param scales
+#' @param hide.legend
+#' @param threshold
+#'
+perBaseErrorPlot <- function(
   data,
   insertType = c('Insert_1', 'gDNA'),
   batch = 'b1',
   scales = 'free_x',
-  hide.legend = FALSE
+  hide.legend = FALSE,
+  threshold = 10
   ){
 
   cons.variants <- data %>%
     dplyr::mutate(
-      subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
-      subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
-      indels_raw = 100*(rawD+rawI)/rawDepth,
-      indels_cons = 100*(consD+consI)/consDepth
+      subsitution_error = 100*(A+C+G+T)/Coverage,
+      indel_error = 100*(D+I)/Coverage,
+      total_error =  100*(A+C+G+T+D+I)/Coverage
     ) %>%
     dplyr::filter(
+      `Consensus group size` == threshold,
       InsertType %in% insertType,
       Batch %in% batch
     ) %>%
     tidyr::unite('Type', Manufacturer, Purification, sep = ' ') %>%
     dplyr::group_by(Position, Type, InsertType, Batch) %>%
     dplyr::summarise(
-      `Substitutions (%)` = mean(subsitutions_cons),
-      subs_std = sd(subsitutions_cons),
-      `Deletions (%)` = mean(indels_cons),
-      indels_std = sd(indels_cons)
+      `Substitutions (%)` = mean(subsitution_error),
+      subs_std = sd(subsitution_error),
+      `Deletions (%)` = mean(indel_error),
+      indels_std = sd(indel_error)
     )
 
   cons.variants$Type <- forcats::fct_relevel(cons.variants$Type, 'control MCF7', after = Inf)
@@ -146,7 +160,7 @@ figure_2_plot <- function(
     subs_plot <- subs_plot + theme(legend.position = "none")
   }
 
-  figure_2 <- grid.arrange(indels_plot,subs_plot,ncol = 1,nrow = 2)
+  perBaseErrorPlot <- grid.arrange(indels_plot,subs_plot,ncol = 1,nrow = 2)
 
-  return(figure_2)
+  return(perBaseErrorPlot)
 }

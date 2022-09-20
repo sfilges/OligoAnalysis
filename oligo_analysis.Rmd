@@ -1314,8 +1314,10 @@ for(var in variants){
 
 ```
 
-```{r Figure2a, echo=FALSE, eval=FALSE}
-figure_2 <- figure_2_plot(
+## Figure 2
+
+```{r perBaseErrorPlot, echo=FALSE, eval=FALSE}
+figure_2 <- perBaseErrorPlot(
   data = cons.table.filtered,
   insertType = c('Insert_1', 'gDNA'),
   batch = c('b1','b2','b3')
@@ -1323,40 +1325,41 @@ figure_2 <- figure_2_plot(
 
 figure_2
 
-ggsave(filename = 'Figure_2_v2.pdf', plot = figure_2, device = 'pdf')
+#ggsave(filename = 'Figure_2_v2.pdf', plot = figure_2, device = 'pdf')
 ```
 
-## Figure 3
+## Ribbon plot
+
+### Insert variant 1
 
 **Insert variant 1.** b1, b2, b3 denote different batches. Lines show the mean error 
 with ribbons indicating standard deviation (n = 3 technical replicates).
 
-```{r, eval=FALSE}
+```{r ribbonPlot}
 # Select data for plotting
 cons.variants <- cons.table.filtered %>%
   dplyr::mutate(
-    subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
-    subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
-    indels_raw = 100*(rawD+rawI)/rawDepth,
-    indels_cons = 100*(consD+consI)/consDepth,
-    cons_error = 100*(consA+consC+consG+consT+consD+consI)/consDepth
+      subsitution_error = 100*(A+C+G+T)/Coverage,
+      indel_error = 100*(D+I)/Coverage,
+      total_error =  100*(A+C+G+T+D+I)/Coverage
   ) %>%
   dplyr::filter(
-    Manufacturer %in% c('IDT', 'SA'),
+    `Consensus group size` == consensus_cutoff,
+    Manufacturer %in% c('IDT', 'SA', 'BS'),
     InsertType %in% c('Insert_1'),
-    Batch %in% c('b2', 'b3'),
+    Batch %in% c('b1','b2', 'b3'),
     Position >= 19, 
     Position <= 80
     ) %>%
-  dplyr::group_by(Position, Manufacturer,Purification, InsertType, Batch, ProbableRef) %>%
+  dplyr::group_by(Position, Manufacturer,Purification, InsertType, Batch, Reference) %>%
   dplyr::summarise(
-    `Consensus 10 error (%)` = mean(cons_error),
-    sd = sd(cons_error)
+    `Consensus 10 error (%)` = mean(total_error),
+    sd = sd(total_error)
   )
 
 labels <- cons.variants %>%
   dplyr::ungroup() %>%
-  dplyr::distinct(Position, ProbableRef)
+  dplyr::distinct(Position, Reference)
 
 # Create plot object
 amplicon_plot <- ggplot(
@@ -1377,7 +1380,7 @@ amplicon_plot <- ggplot(
   ) +
   theme_minimal() + 
   facet_wrap(Purification ~ Manufacturer,scales = 'free_x', ncol = 1,strip.position = 'right') +
-  scale_x_continuous(breaks=labels$Position, labels=labels$ProbableRef) +
+  scale_x_continuous(breaks=labels$Position, labels=labels$Reference) +
   scale_fill_manual(values=c("gray55", "#f6be4c", "#469ed4")) +
   scale_color_manual(values=c("gray55", "#f6be4c", "#469ed4")) + 
   theme(
@@ -1397,46 +1400,47 @@ amplicon_plot <- ggplot(
 
 amplicon_plot
 
-ggsave(
-  plot = amplicon_plot,
-  filename = 'Figure_3.pdf', 
-  device = 'pdf'
-)
+#ggsave(
+#  plot = amplicon_plot,
+#  filename = 'Figure_3.pdf', 
+#  device = 'pdf'
+#)
 ```
 
-```{r, eval=FALSE}
+### Insert variant 2
 
+```{r}
 cons.variants <- cons.table.filtered %>%
   dplyr::mutate(
-    subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
-    subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
-    indels_raw = 100*(rawD+rawI)/rawDepth,
-    indels_cons = 100*(consD+consI)/consDepth,
-    cons_error = 100*(consA+consC+consG+consT+consD+consI)/consDepth
+      subsitution_error = 100*(A+C+G+T)/Coverage,
+      indel_error = 100*(D+I)/Coverage,
+      total_error =  100*(A+C+G+T+D+I)/Coverage
   ) %>%
   dplyr::filter(
+    `Consensus group size` == consensus_cutoff,
     Manufacturer %in% c('IDT', 'SA'),
     Purification %in% c('desalted', 'PAGE'),
-    InsertType %in% c('Insert_2'),
+    InsertType %in% c('Insert_1'),
+    Batch %in% c('b1','b2', 'b3'),
     Position >= 19, 
     Position <= 80
     ) %>%
-  dplyr::group_by(Position, Manufacturer,Purification, InsertType, Batch, ProbableRef) %>%
+  dplyr::group_by(Position, Manufacturer,Purification, InsertType, Batch, Reference) %>%
   dplyr::summarise(
-    cons_error = mean(cons_error),
-    sd = sd(cons_error)
+    `Consensus 10 error (%)` = mean(total_error),
+    sd = sd(total_error)
   )
 
 df <- cons.variants %>% ungroup() %>% 
   group_by(Manufacturer,Purification,InsertType,Batch) %>%
   summarise(
-    mean_error = mean(cons_error),
-    median_error = median(cons_error)
+    mean_error = mean(`Consensus 10 error (%)` ),
+    median_error = median(`Consensus 10 error (%)` )
     )
   
 plot <- ggplot(
   data = cons.variants, 
-  mapping = aes(x=Batch,y=cons_error, fill = Batch)
+  mapping = aes(x=Batch,y=`Consensus 10 error (%)` , fill = Batch)
   ) +
   geom_boxplot() + theme_classic() + 
   scale_fill_manual(values=c("gray55", "#f6be4c", "#469ed4")) +
@@ -1458,42 +1462,38 @@ plot <- ggplot(
 
 plot
 
+#df2 <- cons.variants %>% ungroup() %>% tidyr::unite('Type', Manufacturer, Purification, sep = ' ') %>%
+#  dplyr::select(Position, Type,Batch, cons_error)
 
-df2 <- cons.variants %>% ungroup() %>% tidyr::unite('Type', Manufacturer, Purification, sep = ' ') %>%
-  dplyr::select(Position, Type,Batch, cons_error)
+#res.aov2 <- aov(cons_error ~ Type + Batch, data = df2)
+#summary(res.aov2)
 
-
-res.aov2 <- aov(cons_error ~ Type + Batch, data = df2)
-summary(res.aov2)
-
-TukeyHSD(res.aov2, which = "Type")
-TukeyHSD(res.aov2, which = "Batch")
-
+#TukeyHSD(res.aov2, which = "Type")
+#TukeyHSD(res.aov2, which = "Batch")
 ```
 
+## Figure 3 barplot
 
-
-```{r, eval=FALSE}
+```{r}
 
 cons.variants <- cons.table.filtered %>%
   dplyr::mutate(
-    subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
-    subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
-    indels_raw = 100*(rawD+rawI)/rawDepth,
-    indels_cons = 100*(consD+consI)/consDepth,
-    cons_error = 100*(consA+consC+consG+consT+consD+consI)/consDepth
+      subsitution_error = 100*(A+C+G+T)/Coverage,
+      indel_error = 100*(D+I)/Coverage,
+      total_error =  100*(A+C+G+T+D+I)/Coverage
   ) %>%
   dplyr::filter(
+    `Consensus group size` == consensus_cutoff,
     Manufacturer %in% c('IDT', 'SA'),
     Purification %in% c('desalted', 'PAGE'),
-    InsertType %in% c('Insert_2'),
+    InsertType %in% c('Insert_1'),
     Position >= 19, 
     Position <= 80
     ) %>%
-  dplyr::group_by(Position, Manufacturer,Purification, InsertType, Batch, ProbableRef) %>%
+  dplyr::group_by(Position, Manufacturer,Purification, InsertType, Batch, Reference) %>%
   dplyr::summarise(
-    `Consensus 10 error (%)` = mean(cons_error),
-    sd = sd(cons_error)
+    `Consensus 10 error (%)` = mean(total_error),
+    sd = sd(total_error)
   )
 
 consvar <- cons.variants %>% ungroup() %>%
@@ -1531,12 +1531,17 @@ plot <- ggplot(
 
 plot
 
-ggsave(
-  plot = plot,
-  filename = 'Figure_2_insert_2_alternative_v1.pdf', 
-  device = 'pdf', width = 8, height = 6
-)
+#ggsave(
+#  plot = plot,
+#  filename = 'Figure_2_insert_2_alternative_v1.pdf', 
+#  device = 'pdf', width = 8, height = 6
+#)
+```
 
+#### Outlier testing
+
+```{r, eval=FALSE}
+# TODO This is not used anywhere.
 compute_correlation <- function(data,batch){
   corr <- data %>% ungroup() %>%
   dplyr::mutate(Type = paste(Manufacturer,Purification, sep = '_')) %>%
@@ -1555,7 +1560,6 @@ compute_correlation <- function(data,batch){
   return(r)
 }
 
-
 df <- cons.variants %>% ungroup() %>%
   dplyr::mutate(Type = paste(Manufacturer,Purification, sep = '_')) %>%
   group_by(Type, Batch) %>%
@@ -1563,13 +1567,12 @@ df <- cons.variants %>% ungroup() %>%
   filter(Type == "IDT_desalted") %>%
   tidyr::spread(Batch, `Consensus 10 error (%)`)
 
-# Perform outlier test
-test <- EnvStats::rosnerTest(df$b2,k = 5)
+# Perform outlier test on batch 'b1'
+# TODO loop over all batches
+test <- EnvStats::rosnerTest(df$b1,k = 5)
 
 # Index for outliers in the original data set
 outliers <- test$all.stats[test$all.stats$Outlier == TRUE,]$Obs.Num
-
-
 ```
 
 ## Figure 4
@@ -1652,9 +1655,9 @@ ggsave(
 
 ## Supplemental Figures
 
-### Supplemental Fig. 1a
+### Supplemental Fig. 1a - qPCR data
 
-```{r, warning=FALSE, eval=FALSE}
+```{r, warning=FALSE}
 cq_values <- read.table(file = "data/cq_tp1_dilution_series.csv", sep = ",", header = TRUE)
 cq_values <- cq_values %>% 
   tidyr::gather("Replicate", "Cq", -c("Type", "Input")) %>% 
@@ -1682,20 +1685,19 @@ cq_plot <- ggplot2::ggplot(data = cq_values, mapping = aes(x = log(Input,10), y 
 
 cq_plot
 
-ggsave(
-  filename = 'Supplemental_Figure_1a.pdf',
-  plot = cq_plot, 
-  device = 'pdf'
-)
-
+#ggsave(
+#  filename = 'Supplemental_Figure_1a.pdf',
+#  plot = cq_plot, 
+#  device = 'pdf'
+#)
 ```
 
 
-### Supplemental Fig. 1b
+### Supplemental Fig. 1b - Fragment Analyzer data
 
-```{r, warning=FALSE, eval=FALSE}
+```{r, warning=FALSE}
 
-electropherogram <- readr::read_csv(file = "tp1_electropherogram.csv") 
+electropherogram <- readr::read_csv(file = "data/tp1_electropherogram.csv")
 
 electropherogram <- electropherogram %>% dplyr::mutate(
     `MCF7 DNA` = rowMeans(select(electropherogram, starts_with("ptc")), na.rm = TRUE),
@@ -1707,7 +1709,6 @@ electropherogram <- electropherogram %>% dplyr::mutate(
     `Size (bp)` > 0,
     `Size (bp)` < 200
   )
-
 
 fa_plot <- ggplot(
   data = electropherogram,
@@ -1729,12 +1730,13 @@ fa_plot <- ggplot(
     axis.ticks.y = element_line(colour = 'black'), legend.position = "bottom"
     ) 
 
+fa_plot
 
-ggsave(
-  filename = 'Supplemental_Figure_1b.pdf',
-  plot = fa_plot, 
-  device = 'pdf'
-)
+#ggsave(
+#  filename = 'Supplemental_Figure_1b.pdf',
+#  plot = fa_plot, 
+#  device = 'pdf'
+#)
 
 ```
 
@@ -1883,18 +1885,18 @@ in the synthetic molecule (5' - 3'). Mean + SD is shown (n = 3 technical replica
 **(b)** Spearman correlations of consensus 10 errors (total error) with base position. 
 All correlations were considered significant at p < 0.05.
 
-```{r, echo=FALSE, eval=FALSE}
+```{r, echo=FALSE}
 insertType = c('Insert_1', 'Insert_2')
 batch = c('b1', 'b2', 'b3')
 
 cons.variants <- cons.table.filtered %>%
     dplyr::mutate(
-      subsitutions_raw = 100*(rawA+rawC+rawG+rawT)/rawDepth,
-      subsitutions_cons = 100*(consA+consC+consG+consT)/consDepth,
-      indels_raw = 100*(rawD+rawI)/rawDepth,
-      indels_cons = 100*(consD+consI)/consDepth
+      subsitution_error = 100*(A+C+G+T)/Coverage,
+      indel_error = 100*(D+I)/Coverage,
+      total_error =  100*(A+C+G+T+D+I)/Coverage
     ) %>%
     dplyr::filter(
+      `Consensus group size` == consensus_cutoff,
       InsertType %in% insertType,
       Batch %in% batch,
       Purification != "MCF7"
@@ -1902,10 +1904,10 @@ cons.variants <- cons.table.filtered %>%
     tidyr::unite('Type', Manufacturer, Purification,  sep = ' ') %>%
     dplyr::group_by(Type, Batch, InsertType) %>%
     dplyr::summarise(
-      `Substitutions (%)` = mean(subsitutions_cons),
-      subs_std = sd(subsitutions_cons),
-      `Deletions (%)` = mean(indels_cons),
-      indels_std = sd(indels_cons)
+      `Substitutions (%)` = mean(subsitution_error),
+      subs_std = sd(subsitution_error),
+      `Deletions (%)` = mean(indel_error),
+      indels_std = sd(indel_error)
     )
 
 df3 <- cons.variants %>% 
@@ -1940,44 +1942,52 @@ plot <- df3 %>% gather(Error,`Variant Allele Frequency (%)`,-c(Type,Batch,Insert
 plot
 
 # Coefficients of variation
-cov_subs <- sd(df3$`Substitutions (%)`)/mean(df3$`Substitutions (%)`)
-cov_del <- sd(df3$`Deletions (%)`)/mean(df3$`Deletions (%)`)
+#cov_subs <- sd(df3$`Substitutions (%)`)/mean(df3$`Substitutions (%)`)
+#cov_del <- sd(df3$`Deletions (%)`)/mean(df3$`Deletions (%)`)
 
-100-100*cov_subs/cov_del
+#100-100*cov_subs/cov_del
 
 #ggsave(filename = 'Figure_X_deletion_substitution_freq_batch_1.pdf', plot = plot, device = 'pdf')
 #write.csv(x = df3, file = 'Table_X_deletion_substitution_freq_batch_1.csv')
 ```
 
 
-### Supplemental Figure 3
+### Supplemental Figure 3 - Error plot insert variant 1
 
-```{r Figure2_supp, echo=FALSE, warning=FALSE, eval=FALSE}
-figure_2 <- figure_2_plot(
+Plot substitution and indel errors for remaining batches of insert variant 1.
+
+```{r Figure2_supp, echo=FALSE, warning=FALSE}
+fig <- perBaseErrorPlot(
   data = cons.table.filtered,
   insertType = c('Insert_1'),
-  batch = c('b2','b3'), 
+  batch = c('b1', 'b2','b3'), 
   hide.legend = FALSE
 )
 
-figure_2
+fig
 
-#ggsave(filename = 'Supplemental_Figure_2.pdf', plot = figure_2, device = 'pdf')
+#ggsave(filename = 'Supplemental_Figure_2.pdf', plot = fig, device = 'pdf')
 ```
 
-### Supplemental Figure 4
+### Supplemental Figure 4 - Error plot insert variant 2
 
-```{r Figure3_supp, echo=FALSE, warning=FALSE, eval=FALSE}
-figure_2 <- figure_2_plot(
+Plot substitution and indel errors for all batches of insert variant 2.
+
+```{r Figure3_supp, echo=FALSE, warning=FALSE}
+fig <- perBaseErrorPlot(
   data = cons.table.filtered,
   insertType = c('Insert_2'),
   batch = c('b1','b2','b3')
 )
 
-#ggsave(filename = 'Supplemental_Figure_3.pdf', plot = figure_2, device = 'pdf')
+fig
+
+#ggsave(filename = 'Supplemental_Figure_3.pdf', plot = fig, device = 'pdf')
 ```
 
 ## System information
+
+This analysis was performed with the following system specifications:
 
 ```{r}
 sessionInfo()
