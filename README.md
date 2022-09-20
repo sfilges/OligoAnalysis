@@ -4,6 +4,10 @@ Documents and scripts for generating Figures for Filges \emph{et al.}, "Digital 
 
 Now published in [Clinical Chemistry](https://doi.org/10.1093/clinchem/hvab136).
 
+Processed data for reproducing the figures is part of this repository. The associated
+raw sequencing data (fastq) is available at the NCBI Sequence Read Archive (SRA)
+under accession [PRJNA507366](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA727098/).
+
 ## Backwards compatibility with UMIErrorCorrect
 
 Code used in the Clinical Chemistry paper (master branch) was adapted to raw sequencing data processed with Debarcer. The code is not compatible with data processed with UMIErrorCorrect. 
