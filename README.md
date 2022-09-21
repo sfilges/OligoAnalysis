@@ -140,13 +140,6 @@ and run the pipeline *without* the "-f" flag:
 ./umipipeline.sh -i . -b ../assay_regions.bed -r ../reference.fa -c
 ```
 
-
-## Required packages 
-
-The following packages are required during the course of the analysis. 
-
-The first code block of the R Markdown script should install these  automatically. If this does not work for one or more package, install them using their normal installation repositories.
-
 ## Installation
 
 Clone the repository or go to "Code" -> "Download ZIP". Unpack the archive
@@ -200,6 +193,4 @@ library(EnvStats)
 library(Hmisc)
 library(ggpmisc)
 ```
-
-
 

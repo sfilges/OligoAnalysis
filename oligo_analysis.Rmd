@@ -28,18 +28,18 @@ scripts. It contains a number of functions that will be used throughout this
 analysis.
 
 ```{r}
-# Should individual files with VAF be printed?
-print.individual.files = FALSE
-
-# Select consensus threshold to use for analysis
-consensus_cutoff <- 10
-
 # Create table of sample directory paths
 # First define the directory containing UMIErrrorCorrect output files
 sample_dir = '/Users/stefan/Documents/GitHub/OligoAnalysis/data/umierrorcorrect'
 
 # Load helper functions, change location if needed
 source('/Users/stefan/Documents/GitHub/OligoAnalysis/src/helper_functions_oligo.R')
+
+# Should individual files with VAF be printed?
+print.individual.files = FALSE
+
+# Select consensus threshold to use for analysis
+consensus_cutoff <- 10
 ```
 
 ### Loading packages
@@ -303,7 +303,10 @@ amplicon.plot.data1 <- cons.table.filtered %>%
     dplyr::mutate(
       total_error = 100*(A+C+G+T+D+I)/Coverage
     ) %>%
-    dplyr::filter(Manufacturer != "control", InsertType == "Insert_1") %>%
+    dplyr::filter(
+      Manufacturer != "control", 
+      InsertType == "Insert_1"
+    ) %>%
     tidyr::unite('Type', Manufacturer, Purification, sep = ' ') %>%
     dplyr::group_by(Position, InsertType, Reference, `Consensus group size`) %>%
     dplyr::summarise(
@@ -349,7 +352,10 @@ amplicon.plot.data2 <- cons.table.filtered %>%
     dplyr::mutate(
       total_error = 100*(A+C+G+T+D+I)/Coverage
     ) %>%
-    dplyr::filter(Manufacturer != "control", InsertType == "Insert_2") %>%
+    dplyr::filter(
+      Manufacturer != "control", 
+      InsertType == "Insert_2"
+    ) %>%
     tidyr::unite('Type', Manufacturer, Purification, sep = ' ') %>%
     dplyr::group_by(Position, InsertType, Reference, `Consensus group size`) %>%
     dplyr::summarise(
@@ -607,7 +613,7 @@ df2$InsertType <- forcats::fct_recode(
 )
 ```
 
-### Deletion boxplots
+### Consecutive deletion plots
 
 If multiple bases are deleted, calculated the fraction of deletions that occurred together.
 For example data_2 calculates the situation for 2 deleted bases:
@@ -644,9 +650,10 @@ data_4["Del"] <- "4"
 data <- rbind(data_2,data_3,data_4)
 ```
 
-Now we plot this data as boxplots
+Now we plot this data as box plots.
 
 ```{r}
+# Generate plot object
 boxplot_deletions <- ggplot2::ggplot(
   data = data, 
   mapping = aes(
@@ -659,7 +666,7 @@ boxplot_deletions <- ggplot2::ggplot(
       width = 0.1
     ) +
   xlab(label = "Number of Deletions") +
-  ylab(label = "At least two consecutive deletions (%)") +
+  ylab(label = "Consecutive deletions (%)") +
   theme_minimal() +
   theme(
     axis.title = element_text(size = 12,colour = "black"),
@@ -672,27 +679,31 @@ boxplot_deletions <- ggplot2::ggplot(
     legend.position = "bottom"
     )
 
-# add comment  
+# Return plot 
 boxplot_deletions
 
+# Save plot to pdf
 #ggsave(filename = 'boxplot_deletions.pdf', plot = boxplot_deletions, device = 'pdf')
 ```
 
-We can also plot deletions as a barplot
+We can also plot the fraction of consecutive deletions for 2, 3 and 4 deleted
+bases as a barplot for each condition.
 
 ```{r}
+# Format data for plotting
 df3 <- df %>% 
   tidyr::unite("Type", Manufacturer, Purification, InsertType, sep = " ") %>%
   dplyr::group_by(Type) %>%
   dplyr::summarise(mean = mean(`0`))
 
-
+# Reorder factor levels
 order <- df3[order(df3$mean, decreasing = TRUE),]$Type
 
 data$Type <- as.factor(data$Type)
 data$Type <- forcats::fct_relevel(data$Type, c('IDT gblocks Insert_1','IDT gblocks Insert_2', 'control MCF7 Insert_1'), after = Inf)
 #data$Type <- fct_relevel(data$Type, order)
 
+# Generate plot object
 barplot_deletions <- ggplot2::ggplot(
   data = data, 
   mapping = aes(
@@ -704,6 +715,8 @@ barplot_deletions <- ggplot2::ggplot(
   geom_bar(stat = "identity") +
   geom_hline(yintercept = 0) + 
   theme_minimal() +
+  xlab(label = "Sample") +
+  ylab(label = "Consecutive deletions (%)") +
   theme(
     axis.title = element_text(size = 12,colour = "black"),
     axis.text = element_text(size = 10,colour = "black"),
@@ -716,18 +729,20 @@ barplot_deletions <- ggplot2::ggplot(
     legend.position = "bottom"
     )
 
-
+# Return plot
 barplot_deletions
 
+# Save plot to pdf
 #ggsave(filename = 'barplot_deletions.pdf', plot = barplot_deletions, device = 'pdf')
 ```
 
-### Figure 1b
+### Fraction of reads containing one or more deleted bases
 
-Now we plot the fraction of deletions in consensus 10 reads for the two insert 
+**Figure 1b** Now we plot the fraction of deletions in consensus 10 reads for the two insert 
 variants and all 3 batches side-by-side.
 
 ```{r}
+# Format data for plotting
 plot_data <- df %>% 
   tidyr::gather(
     key = 'Deletions', 
@@ -739,13 +754,14 @@ plot_data <- df %>%
   dplyr::group_by(Type, InsertType, Deletions) %>%
   dplyr::summarise(`Fraction of reads` = mean(`Fraction of reads`))
 
-
+# Reorganize factor levels for better plotting
 plot_data$Deletions <- forcats::fct_relevel(plot_data$Deletions, '>7', after = Inf)
 plot_data$Type <- forcats::fct_relevel(plot_data$Type, c('IDT gblocks', 'control MCF7'), after = Inf)
 
-# Custom colour palette: blue -> green -> red
+# Custom color palette: blue -> green -> red
 plot_colours <- c('#11122F', '#3462AB', '#5EA4D1', '#92D1DA', '#B9DDD5', '#F7C75D', '#E3985B', '#D31D00')
 
+# Generate plot object
 figure1b <- ggplot2::ggplot(
   data = plot_data, 
   mapping = aes(
@@ -773,8 +789,10 @@ figure1b <- ggplot2::ggplot(
   scale_fill_manual(values = plot_colours) +
   coord_cartesian(ylim = c(85,NA))
 
+# Return plot
 figure1b
   
+# Save figure as pdf
 #ggsave(filename = 'Figure_1b.pdf', plot = figure1b, device = 'pdf')
 ```
 
@@ -808,11 +826,13 @@ wilcox_results = stats::pairwise.wilcox.test(
   p.adjust.method = "bonferroni"
 )
 
+# Save p values in file
 #write.table(
 #  x = wilcox_results$p.value, file = "wilcoxon_test_results_insert_1.csv",
 #  sep = ",", row.names = TRUE
 #  )
 
+# Show p-value matrix
 wilcox_results$p.value 
 ```
 
@@ -843,11 +863,13 @@ wilcox_results = stats::pairwise.wilcox.test(
   p.adjust.method = 'bonferroni'
 )
 
+# Save p values in file
 #write.table(
 #  x = wilcox_results$p.value, file = "wilcoxon_test_results_insert_2.csv",
 #  sep = ",", row.names = TRUE
 #  )
 
+# Show p-value matrix
 wilcox_results$p.value 
 ```
 
@@ -877,26 +899,30 @@ cons.variants <- cons.table.filtered %>%
 # Initialize new data frame
 A = data.frame()
 
-
+# Iterate through each position
 for( i in 1:nrow(cons.variants) ){
   
+  # extract the i-th row fromc ons.variants
   row <- cons.variants[i,]
   
+  # Get current posotion
   position <- cons.variants$Position[i]
+  # Get the base at next position
   next_base <- cons.variants$Reference[i+1]
   
   if(position < 50){
-    # 
+    # If within dinucleotide context
     row$next_base <- next_base
   } else {
     # If reaching the end of dinucleotide sequence, the next base is C
     row$next_base <- 'C'
   }
   
+  # Save in new object
   A <- rbind(A,row)
-
 }
 
+# Format data for plotting
 base_plot_data <- A %>% ungroup() %>% group_by(next_base) %>% 
   summarise(
     mean_error = mean(indel_error),
@@ -914,6 +940,7 @@ t.test(x = T_error, y = G_error)
 t.test(x = T_error, y = C_error)
 t.test(x = C_error, y = G_error)
 
+# Generate plot object
 base_plot <- ggplot(
   data = base_plot_data,
   mapping = aes(
@@ -946,8 +973,10 @@ base_plot <- ggplot(
     width = 0.25
     ) 
 
+# Return plot
 base_plot
 
+# Save plot as pdf
 #ggsave(filename = 'base_plot_insert_2.pdf', plot = base_plot, device = 'pdf', width = 6, height = 6)
 ```
 
@@ -1869,16 +1898,15 @@ supp_figure_1
 
 ## Supplemental Figure 2
 
-**Error dependence on base position. (a)** Deletion (top) and substitution (bottom) 
-errors are shown for batch 1 of Insert #1 type oligos. Each bar represents a position 
-in the synthetic molecule (5' - 3'). Mean + SD is shown (n = 3 technical replicates). 
-**(b)** Spearman correlations of consensus 10 errors (total error) with base position. 
-All correlations were considered significant at p < 0.05.
+**Mean variant allele frequencies by sample. ** Mean variant allele frequencies
+are shown for each condition in either Insert varaint 1 or Insert variant 2.
 
 ```{r, echo=FALSE}
+# Define conditions to plot
 insertType = c('Insert_1', 'Insert_2')
 batch = c('b1', 'b2', 'b3')
 
+# Filter data for plotting
 cons.variants <- cons.table.filtered %>%
     dplyr::mutate(
       subsitution_error = 100*(A+C+G+T)/Coverage,
@@ -1900,6 +1928,7 @@ cons.variants <- cons.table.filtered %>%
       indels_std = sd(indel_error)
     )
 
+# Generate plot object
 df3 <- cons.variants %>% 
   dplyr::select(Type, Batch, InsertType, `Substitutions (%)`, `Deletions (%)`)
  
@@ -1929,22 +1958,18 @@ fig <- df3 %>% tidyr::gather(Error,`Variant Allele Frequency (%)`,-c(Type,Batch,
     linetype="dashed"
   ) 
 
+# Return figure
 fig
 
-# Coefficients of variation
-#cov_subs <- sd(df3$`Substitutions (%)`)/mean(df3$`Substitutions (%)`)
-#cov_del <- sd(df3$`Deletions (%)`)/mean(df3$`Deletions (%)`)
-
-#100-100*cov_subs/cov_del
-
+# Save figure as pdf
 #ggsave(filename = 'Figure_X_deletion_substitution_freq_batch_1.pdf', plot = fig, device = 'pdf')
 #write.csv(x = df3, file = 'Table_X_deletion_substitution_freq_batch_1.csv')
 ```
 
 
-### Supplemental Figure 3 - Error plot insert variant 1
+### Error plot insert variant 1
 
-Plot substitution and indel errors for remaining batches of insert variant 1.
+**Supplemental Figure 3.** Plot substitution and indel errors for remaining batches of insert variant 1.
 
 ```{r Figure2_supp, echo=FALSE, warning=FALSE}
 fig <- perBaseErrorPlot(
@@ -1959,9 +1984,9 @@ fig
 #ggsave(filename = 'Supplemental_Figure_2.pdf', plot = fig, device = 'pdf')
 ```
 
-### Supplemental Figure 4 - Error plot insert variant 2
+### Error plot insert variant 2
 
-Plot substitution and indel errors for all batches of insert variant 2.
+**Supplemental Figure 4.** Plot substitution and indel errors for all batches of insert variant 2.
 
 ```{r Figure3_supp, echo=FALSE, warning=FALSE}
 fig <- perBaseErrorPlot(
