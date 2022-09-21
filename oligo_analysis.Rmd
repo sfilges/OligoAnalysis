@@ -154,7 +154,7 @@ for(i in 1:nrow(sampleNames)){
   # List all files in the UMIErrorCorrect data folder ending with '_cons.tsv'
   consFile <- list.files(
     path = samplePath, 
-    pattern = '.cons$',
+    pattern = '_cons.tsv$',
     full.names = TRUE
   )
   
@@ -298,10 +298,12 @@ sequences in the same plot.
 
 Alternatively, plot using facet_wrap (code not written).
 
+### Insert variant 1
+
 ```{r, message=FALSE}
 #----------------- // Insert 1 //---------------------
 # Get data for insert type "Insert_1" and remove control samples (=cell line)
-amplicon.plot.data <- cons.table.filtered %>%
+amplicon.plot.data1 <- cons.table.filtered %>%
     dplyr::mutate(
       total_error = 100*(A+C+G+T+D+I)/Coverage
     ) %>%
@@ -314,13 +316,13 @@ amplicon.plot.data <- cons.table.filtered %>%
   tidyr::gather("error_type", "error", -c("Position", "InsertType", "Reference", `Consensus group size`))
 
 # Get x-axis labels
-labels <- amplicon.plot.data %>%
+labels1 <- amplicon.plot.data1 %>%
   dplyr::ungroup() %>%
   dplyr::distinct(Position, Reference)
 
 # Generate plot for Insert_1
-error_plot <- ggplot(
-  data = amplicon.plot.data, 
+error_plot_1 <- ggplot(
+  data = amplicon.plot.data1, 
   mapping = aes(
     x = as.factor(as.character(Position)),
     y = error,
@@ -328,20 +330,26 @@ error_plot <- ggplot(
     color = as.factor(`Consensus group size`))
   ) +
   geom_bar(stat = 'identity', position = 'dodge', width = 0.75) +
-  scale_x_discrete(breaks=labels$Position, labels=labels$Reference) +
+  scale_x_discrete(breaks=labels1$Position, labels=labels1$Reference) +
   theme_classic() +
+  theme(
+    legend.position = 'bottom'
+  ) +
   facet_wrap(InsertType ~ ., scales = 'free_x', nrow = 1)
 
 # Draw plot
-error_plot
+error_plot_1
 
 # Save plot to pdf
-#ggsave(filename = 'Figure_1c_insert_1.pdf', plot = error_plot, device = 'pdf')
+#ggsave(filename = 'Figure_1c_insert_1.pdf', plot = error_plot_1, device = 'pdf')
+```
 
+### Insert variant 2
+
+```{r, message=FALSE}
 #----------------- // Insert 2 //---------------------
-
 # Get data for insert type "Insert_2" and remove control samples (=cell line)
-amplicon.plot.data <- cons.table.filtered %>%
+amplicon.plot.data2 <- cons.table.filtered %>%
     dplyr::mutate(
       total_error = 100*(A+C+G+T+D+I)/Coverage
     ) %>%
@@ -351,32 +359,36 @@ amplicon.plot.data <- cons.table.filtered %>%
     dplyr::summarise(
       total_error = mean(total_error)
     ) %>% 
-  tidyr::gather("error_type", "error", -c("Position", "InsertType", "Reference"))
+  tidyr::gather("error_type", "error", -c("Position", "InsertType", "Reference", `Consensus group size`))
 
 # Get x-axis labels
-labels <- amplicon.plot.data %>%
+labels2 <- amplicon.plot.data2 %>%
   dplyr::ungroup() %>%
   dplyr::distinct(Position, Reference)
 
 # Generate plot for Insert_2
-error_plot <- ggplot(
-  data = amplicon.plot.data, 
+error_plot_2 <- ggplot(
+  data = amplicon.plot.data2, 
   mapping = aes(
     x = Position,
     y = error,
-    fill = error_type)
+    fill = as.factor(`Consensus group size`),
+    color = as.factor(`Consensus group size`))
   ) +
   geom_bar(stat = 'identity', position = 'dodge', width = 0.75) +
-  scale_x_continuous(breaks=labels$Position, labels=labels$Reference) +
+  scale_x_continuous(breaks=labels2$Position, labels=labels2$Reference) +
   theme_classic() +
+  theme(
+    legend.position = 'bottom'
+  ) +
   facet_wrap(InsertType ~ ., scales = 'free_x', nrow = 1) + 
   scale_fill_brewer(palette = "Pastel1")
 
 # Draw plot
-error_plot
+error_plot_2
 
 # Save plot to pdf
-#ggsave(filename = 'Figure_1c_insert_2.pdf', plot = error_plot, device = 'pdf')
+#ggsave(filename = 'Figure_1c_insert_2.pdf', plot = error_plot_2, device = 'pdf')
 ```
 
 ## Quantifying deletions in consensus reads
@@ -393,8 +405,11 @@ UMIErrorCorrect. The following information is then extracted:
 - UMI family size
 
 **NOTE!** Processing many alignment files will take a considerable amount of time!
+Expect roughly 2 min per sample. 
 
-```{r message=FALSE}
+This code section will be skipped if output files already exist.
+
+```{r processBam, message=FALSE, eval=TRUE}
 #---------------------// Reference sequences //---------------------------------
 primer_1 ="GTGGTGAGGCTCCCCTTT"
 primer_2 = "CAAAGCTGTTCCGTCCCAGT"
@@ -403,125 +418,149 @@ forward_insert = "ATACAGAATATCTGTTCGCACTCCGAGTGCGGCTTGCGGAGATTCTCTTCCTCTGTGCGCCG
 reverse_insert = "CTTGCGGAGATTCTCTTCCTCTGTGCGCCGATACAGAATATCTGTTCGCACTCCGAGTGCGG"
 #-------------------------------------------------------------------------------
 
-df = data.frame()
-df2 = data.frame()
-for(i in 1:nrow(sampleNames)){
-  out.file <- ''
+# Because execution of this code block can take some time, check if the the  output
+# from this block (df and df2) already exist, if so, skip this block.
+df_exists <- file.exists(paste(main,'data/df.csv', sep = ''))
+df2_exists <- file.exists(paste(main,'data/df2.csv', sep = ''))
+
+if(!(df_exists && df2_exists)){
   
-  row <- sampleNames[i,]
-  row2 <- sampleNames[i,]
-  dir <- sampleNames$File[i]
+  # Initialize output tables
+  df = data.frame()
+  df2 = data.frame()
   
-  # Get file(s) ending with '.consensus_reads.bam$', there should only be one!
-  bamPath <- list.files(
-    path = dir, 
-    pattern = '.consensus_reads.bam$',
-    full.names = TRUE
-  )
+  #How many samples were found?
+  print(paste("Found ", nrow(sampleNames), " samples.", sep = ''))
   
-  # Load consensus reads bam file.
-  # TODO This will break if multiple files are found in the step above
-  bamFile <- Rsamtools::BamFile(file = bamPath)
   
-  # Import binary ‘BAM’ files into a list structure
-  alignment <- Rsamtools::scanBam(bamFile)[[1]]
-  length <- length(alignment$qname)
   
-  # Initialize empty results data frame 
-  file = data.frame(
-    position=character(), 
-    barcode=character(), 
-    counts=numeric(), 
-    sequence=character(),
-    cigar=character()
+  for(i in 1:nrow(sampleNames)){
+    
+    print(paste("Processing sample ", i, " out of " , nrow(sampleNames), ".", sep = ''))
+    
+    out.file <- ''
+    
+    row <- sampleNames[i,]
+    row2 <- sampleNames[i,]
+    dir <- sampleNames$File[i]
+    
+    # Get file(s) ending with '.consensus_reads.bam$', there should only be one!
+    bamPath <- list.files(
+      path = dir, 
+      pattern = '.consensus_reads.bam$',
+      full.names = TRUE
     )
-  
-  # Iterate through bam file. This can be very slow!
-  for(i in 1:length){
-    # get chromosome coordinates
-    pos <- alignment$pos[i]
-    chrom <- alignment$rname[i]
-    coord <- paste(chrom,':',pos,sep='')
     
-    # get read sequence
-    sequence <- as.character(alignment$seq[i])
+    # Load consensus reads bam file.
+    # TODO This will break if multiple files are found in the step above
+    bamFile <- Rsamtools::BamFile(file = bamPath)
     
-    # get header containing barcodes and counts
-    header <- alignment$qname[i]
+    # Import binary ‘BAM’ files into a list structure
+    alignment <- Rsamtools::scanBam(bamFile)[[1]]
+    length <- length(alignment$qname)
     
-    # split header
-    header <- str_split(header, "_")
+    # Initialize empty results data frame 
+    file = data.frame(
+      position=character(), 
+      barcode=character(), 
+      counts=numeric(), 
+      sequence=character(),
+      cigar=character()
+      )
     
-    # extract barcode from header
-    barcode <- header[[1]][4]
-    
-    # get CIGAR string
-    cigar <- alignment$cigar[i]
-    
-    # extract UMI family size from header and convert to numeric
-    count <- header[[1]][5]
-    if(!count %in% letters[seq( from = 1, to = 20 )]){
-      # TODO this checks if a read is split into multiple chunks labeled a,b,c
-      # e.g. for paired-end data, these reads are ignored for now!!
-      count <- as.numeric(gsub(".*=","",count))
-    
-      # save only UMI families with >= threshold reads
-      if(count >= consensus_cutoff){
-        nrow <- nrow(file)
-        file[nrow+1,] <- c(coord, barcode, count, sequence, cigar)
+    # Iterate through bam file. This can be very slow!
+    for(i in 1:length){
+      # get chromosome coordinates
+      pos <- alignment$pos[i]
+      chrom <- alignment$rname[i]
+      coord <- paste(chrom,':',pos,sep='')
+      
+      # get read sequence
+      sequence <- as.character(alignment$seq[i])
+      
+      # get header containing barcodes and counts
+      header <- alignment$qname[i]
+      
+      # split header
+      header <- str_split(header, "_")
+      
+      # extract barcode from header
+      barcode <- header[[1]][4]
+      
+      # get CIGAR string
+      cigar <- alignment$cigar[i]
+      
+      # extract UMI family size from header and convert to numeric
+      count <- header[[1]][5]
+      if(!count %in% letters[seq( from = 1, to = 20 )]){
+        # TODO this checks if a read is split into multiple chunks labeled a,b,c
+        # e.g. for paired-end data, these reads are ignored for now!!
+        count <- as.numeric(gsub(".*=","",count))
+      
+        # save only UMI families with >= threshold reads
+        if(count >= consensus_cutoff){
+          nrow <- nrow(file)
+          file[nrow+1,] <- c(coord, barcode, count, sequence, cigar)
+        }
       }
     }
+    
+    # Get length of read
+    file$nchar <- nchar(file$sequence)
+    
+    # This returns the total number of deleted bases for that string
+    # Examples:
+    # ACTG-DD-AT gives 2
+    # ATG-D gives 1
+    # A-DDD-TCGA-DD-TGC gives 5
+    file$n_D <- processCigar(file$cigar)
+    
+    # For each sample calculate the fraction of reads that contain 0,1,2,...,6 or
+    # 7 or more deleted bases
+    nreads <- nrow(file)
+    
+    row$`0` <- 100*(nrow(file[file$n_D == 0,])/nreads)
+    row$`1` <- 100*(nrow(file[file$n_D == 1,])/nreads)
+    row$`2` <- 100*(nrow(file[file$n_D == 2,])/nreads)
+    row$`3` <- 100*(nrow(file[file$n_D == 3,])/nreads)
+    row$`4` <- 100*(nrow(file[file$n_D == 4,])/nreads)
+    row$`5` <- 100*(nrow(file[file$n_D == 5,])/nreads)
+    row$`6` <- 100*(nrow(file[file$n_D == 6,])/nreads)
+    row$`>7` <- 100*(nrow(file[file$n_D >= 7,])/nreads)
+    
+    # Here we compute the number of times that 2,3,4 or 5 bases were deleted
+    # consecutively in each read, i.e. ACT-DD-ACT counts, but AC-D-AT-D-CT does
+    # not even though both have 2 deleted bases.
+    # TODO this does not take into account other situations, such as 6 consecutively deleted bases
+    file$n_D2 <- stringr::str_count(string = file$cigar, pattern = '2D')
+    file$n_D3 <- stringr::str_count(string = file$cigar, pattern = '3D')
+    file$n_D4 <- stringr::str_count(string = file$cigar, pattern = '4D')
+    file$n_D5 <- stringr::str_count(string = file$cigar, pattern = '5D')
+      
+    # Count reads with exactly 2 deleted bases, where _D == 2, irrespective of
+    # whether they occurred together DD or separately ACT-D-ACT-D-ACT, both are n_D = 2.
+    row2$n_two_errors <- nrow(file %>% dplyr::filter(n_D == 2))
+    
+    # Count reads where exactly 2 bases were deleted AND these occurred consecutively
+    row2$n_two_errors_together <- nrow(file %>% dplyr::filter(n_D == 2, n_D2 == 1))
+      
+    # Repeat for 3 bases
+    row2$n_three_errors <- nrow(file %>% dplyr::filter(n_D == 3))
+    row2$n_three_errors_together <- nrow(file %>% dplyr::filter(n_D == 3, n_D3 == 1))
+      
+    # Repeat for 4 bases
+    row2$n_four_errors <- nrow(file %>% dplyr::filter(n_D == 4))
+    row2$n_four_errors_together <- nrow(file %>% dplyr::filter(n_D == 4, n_D4 == 1))
+    
+    df <- rbind(df,row)
+    df2 <- rbind(df2,row2)
   }
-  
-  # Get length of read
-  file$nchar <- nchar(file$sequence)
-  
-  # This returns the total number of deleted bases for that string
-  # Examples:
-  # ACTG-DD-AT gives 2
-  # ATG-D gives 1
-  # A-DDD-TCGA-DD-TGC gives 5
-  file$n_D <- processCigar(file$cigar)
-  
-  # For each sample calculate the fraction of reads that contain 0,1,2,...,6 or
-  # 7 or more deleted bases
-  nreads <- nrow(file)
-  
-  row$`0` <- 100*(nrow(file[file$n_D == 0,])/nreads)
-  row$`1` <- 100*(nrow(file[file$n_D == 1,])/nreads)
-  row$`2` <- 100*(nrow(file[file$n_D == 2,])/nreads)
-  row$`3` <- 100*(nrow(file[file$n_D == 3,])/nreads)
-  row$`4` <- 100*(nrow(file[file$n_D == 4,])/nreads)
-  row$`5` <- 100*(nrow(file[file$n_D == 5,])/nreads)
-  row$`6` <- 100*(nrow(file[file$n_D == 6,])/nreads)
-  row$`>7` <- 100*(nrow(file[file$n_D >= 7,])/nreads)
-  
-  # Here we compute the number of times that 2,3,4 or 5 bases were deleted
-  # consecutively in each read, i.e. ACT-DD-ACT counts, but AC-D-AT-D-CT does
-  # not even though both have 2 deleted bases.
-  # TODO this does not take into account other situations, such as 6 consecutively deleted bases
-  file$n_D2 <- stringr::str_count(string = file$cigar, pattern = '2D')
-  file$n_D3 <- stringr::str_count(string = file$cigar, pattern = '3D')
-  file$n_D4 <- stringr::str_count(string = file$cigar, pattern = '4D')
-  file$n_D5 <- stringr::str_count(string = file$cigar, pattern = '5D')
-    
-  # Count reads with exactly 2 deleted bases, where _D == 2, irrespective of
-  # whether they occurred together DD or separately ACT-D-ACT-D-ACT, both are n_D = 2.
-  row2$n_two_errors <- nrow(file %>% dplyr::filter(n_D == 2))
-  
-  # Count reads where exactly 2 bases were deleted AND these occurred consecutively
-  row2$n_two_errors_together <- nrow(file %>% dplyr::filter(n_D == 2, n_D2 == 1))
-    
-  # Repeat for 3 bases
-  row2$n_three_errors <- nrow(file %>% dplyr::filter(n_D == 3))
-  row2$n_three_errors_together <- nrow(file %>% dplyr::filter(n_D == 3, n_D3 == 1))
-    
-  # Repeat for 4 bases
-  row2$n_four_errors <- nrow(file %>% dplyr::filter(n_D == 4))
-  row2$n_four_errors_together <- nrow(file %>% dplyr::filter(n_D == 4, n_D4 == 1))
-  
-  df <- rbind(df,row)
-  df2 <- rbind(df2,row2)
+  write_csv(x = df, file = 'data/df.csv')
+  write_csv(x = df2, file = 'data/df2.csv')
+} else{
+  # Else, if output exists, import them 
+  df = readr::read_csv(paste(main,'data/df.csv', sep = ''))
+  df2 = readr::read_csv(paste(main,'data/df2.csv', sep = ''))
 }
 ```
 
@@ -771,7 +810,7 @@ wilcox_results = stats::pairwise.wilcox.test(
   x = cons.variants$indel_error, 
   g = cons.variants$Type, 
   exact = FALSE, 
-  paired = TRUE, 
+  paired = FALSE, 
   p.adjust.method = "bonferroni"
 )
 
@@ -806,7 +845,7 @@ wilcox_results = stats::pairwise.wilcox.test(
   x = cons.variants$indel_error, 
   g = cons.variants$Type, 
   exact = FALSE, 
-  paired = TRUE, 
+  paired = FALSE, 
   p.adjust.method = 'bonferroni'
 )
 
@@ -821,6 +860,7 @@ wilcox_results$p.value
 ## Dinucleotide combinations
 
 ```{r dinucleotides, echo=FALSE}
+# Retrieve consensus data for Insert_1 and the diucleotide positions only (19 - 50)
 cons.variants <- cons.table.filtered %>%
       dplyr::mutate(
         subsitution_error = 100*(A+C+G+T)/Coverage,
@@ -840,7 +880,9 @@ cons.variants <- cons.table.filtered %>%
   dplyr::select(Position, Reference, Type, indel_error) %>%
   dplyr::arrange(Position, .by_group = TRUE)
 
+# Initialize new data frame
 A = data.frame()
+
 
 for( i in 1:nrow(cons.variants) ){
   
@@ -849,7 +891,7 @@ for( i in 1:nrow(cons.variants) ){
   position <- cons.variants$Position[i]
   next_base <- cons.variants$Reference[i+1]
   
-  if(position < 80){
+  if(position < 50){
     row$next_base <- next_base
   } else {
     row$next_base <- 'C'
@@ -1347,7 +1389,7 @@ for(var in variants){
 figure_2 <- perBaseErrorPlot(
   data = cons.table.filtered,
   insertType = c('Insert_1', 'gDNA'),
-  batch = c('b1','b2','b3')
+  batch = c('b1')
 )
 
 figure_2
@@ -1578,19 +1620,41 @@ fig
 
 ### Supplemental Fig. 1a - qPCR data
 
+A DNA dilution series was analyzed using qPCR of the target primers of the assay used
+in this study. Here we plot the mean Cq values and confidence intervals.
+
 ```{r, warning=FALSE}
+# Import data
 cq_values <- read.table(file = "data/cq_tp1_dilution_series.csv", sep = ",", header = TRUE)
+
+# Reformat data for plotting 
 cq_values <- cq_values %>% 
   tidyr::gather("Replicate", "Cq", -c("Type", "Input")) %>% 
   dplyr::filter(Input != 0, Type == "MCF-7")
 
-
+# Define experimental design
 my.formula <- y ~ x
 
-cq_plot <- ggplot2::ggplot(data = cq_values, mapping = aes(x = log(Input,10), y = Cq)) + 
-  geom_point(aes(shape = Type, fill = "black"), size = 3) + 
+# Generate plot
+cq_plot <- ggplot2::ggplot(
+  data = cq_values, 
+  mapping = aes(
+    x = log(Input,10), 
+    y = Cq
+  )) + 
+  ggplot2::geom_point(
+    aes(
+      shape = Type, 
+      fill = "black"
+    ), 
+    size = 3
+  ) + 
   theme_bw() +
-  geom_smooth(method = "lm", formula = my.formula, col = "black") +
+  ggplot2::geom_smooth(
+    method = "lm", 
+    formula = my.formula, 
+    col = "black"
+  ) +
   ggpmisc::stat_poly_eq(
     formula = my.formula, col = "black",
     aes(label = paste(..eq.label.., ..rr.label.., sep = "~~~")), 
@@ -1616,10 +1680,15 @@ cq_plot
 
 ### Supplemental Fig. 1b - Fragment Analyzer data
 
-```{r, warning=FALSE}
+Here we plot an electropherogram generated using capillary gel electrophoresis of a
+SiMSen-Seq library generated with the assay used in this study and positive
+control DNA (PTC) as well as negative control (NTC), each in triplicate.
 
+```{r, warning=FALSE}
+# Import electropherogram data
 electropherogram <- readr::read_csv(file = "data/tp1_electropherogram.csv")
 
+# Calculate mean signal and reformat data for plotting
 electropherogram <- electropherogram %>% dplyr::mutate(
     `MCF7 DNA` = rowMeans(select(electropherogram, starts_with("ptc")), na.rm = TRUE),
     NTC = rowMeans(select(electropherogram, starts_with("ntc")), na.rm = TRUE)
@@ -1631,6 +1700,7 @@ electropherogram <- electropherogram %>% dplyr::mutate(
     `Size (bp)` < 200
   )
 
+# Plot electropherogram
 fa_plot <- ggplot(
   data = electropherogram,
   mapping = aes(
@@ -1665,7 +1735,7 @@ fa_plot
 ### Supplemental Fig. 1c
 
 ```{r, eval = FALSE}
-# TODO this needs to be adapter to UMIErrorCorrect output
+# TODO this needs to be adapted to UMIErrorCorrect output
 mean <- cons.table.filtered %>% 
   dplyr::summarise(
     mean_raw = mean(rawDepth),
@@ -1694,9 +1764,10 @@ depths <- cons.table.filtered %>%
     sd_cons = sd(consMean)
   )
   
-
+# Re-level factors to move control DNA sample towards the end of the plot.
 depths$Type <- forcats::fct_relevel(depths$Type, 'control Insert_1 MCF7', after = Inf)
 
+# Plot Raw data (consensus 0)
 raw_plot <- ggplot(depths, aes(x = Type, y = log2(raw), fill = Batch)) +
   geom_bar(
     stat = "identity",
@@ -1741,6 +1812,7 @@ raw_plot <- ggplot(depths, aes(x = Type, y = log2(raw), fill = Batch)) +
     colour="black"
   ) 
 
+# Plot Raw data (consensus 0 and consensus 10)
 cons_plot <- ggplot(depths, aes(x = Type, y = log2(cons), fill = Batch)) +
   geom_bar(
     stat = "identity",
@@ -1837,7 +1909,7 @@ df3 <- cons.variants %>%
  
 df3$Type <- forcats::fct_relevel(df3$Type, 'control MCF7', after = Inf)
 
-plot <- df3 %>% gather(Error,`Variant Allele Frequency (%)`,-c(Type,Batch,InsertType)) %>% 
+fig <- df3 %>% tidyr::gather(Error,`Variant Allele Frequency (%)`,-c(Type,Batch,InsertType)) %>% 
   ggplot(aes(x = Type, y = `Variant Allele Frequency (%)`, fill = Error)) + 
   geom_bar(position = "dodge", stat = "identity") +
   geom_text(aes(label= round(`Variant Allele Frequency (%)`,2)), vjust=0) + 
@@ -1861,7 +1933,7 @@ plot <- df3 %>% gather(Error,`Variant Allele Frequency (%)`,-c(Type,Batch,Insert
     linetype="dashed"
   ) 
 
-plot
+fig
 
 # Coefficients of variation
 #cov_subs <- sd(df3$`Substitutions (%)`)/mean(df3$`Substitutions (%)`)
@@ -1869,7 +1941,7 @@ plot
 
 #100-100*cov_subs/cov_del
 
-#ggsave(filename = 'Figure_X_deletion_substitution_freq_batch_1.pdf', plot = plot, device = 'pdf')
+#ggsave(filename = 'Figure_X_deletion_substitution_freq_batch_1.pdf', plot = fig, device = 'pdf')
 #write.csv(x = df3, file = 'Table_X_deletion_substitution_freq_batch_1.csv')
 ```
 

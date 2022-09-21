@@ -1,0 +1,1001 @@
+Sample Name	Contig	Position	Name	Reference	A	C	G	T	I	D	N	Coverage	Consensus group size	Max Non-ref Allele Count	Max Non-ref Allele Frequency	Max Non-ref Allele
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	1		G	193	7	750813	13	0	0	0	751026	0	193	0.0002569817822552082	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	1		G	10	7	35946	10	0	0	0	35973	1	10	0.0002779862674783866	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	1		G	4	0	17395	2	0	0	0	17401	2	4	0.00022987184644560657	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	1		G	4	0	14329	1	0	0	0	14334	3	4	0.0002790567880563695	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	1		G	4	0	12432	0	0	0	0	12436	4	4	0.000321646831778707	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	1		G	4	0	11196	0	0	0	0	11200	5	4	0.00035714285714285714	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	1		G	4	0	9657	0	0	0	0	9661	7	4	0.0004140358140979195	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	1		G	2	0	8324	0	0	0	0	8326	10	2	0.00024021138601969732	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	1		G	2	0	6331	0	0	0	0	6333	20	2	0.00031580609505763463	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	1		G	2	0	5373	0	0	0	0	5375	30	2	0.00037209302325581393	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	2		T	9	2	473	806060	0	0	0	806544	0	473	0.000586452815965403	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	2		T	9	2	21	38432	0	0	0	38464	1	21	0.0005459650582362728	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	2		T	0	0	7	18625	0	0	0	18632	2	7	0.00037569772434521253	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	2		T	0	0	7	15313	0	0	0	15320	3	7	0.0004569190600522193	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	2		T	0	0	7	13284	0	0	0	13291	4	7	0.0005266721841847867	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	2		T	0	0	7	11977	0	0	0	11984	5	7	0.0005841121495327102	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	2		T	0	0	7	10327	0	0	0	10334	7	7	0.0006773756531836656	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	2		T	0	0	5	8906	0	0	0	8911	10	5	0.000561104253170239	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	2		T	0	0	5	6788	0	0	0	6793	20	5	0.0007360518180479906	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	2		T	0	0	5	5781	0	0	0	5786	30	5	0.0008641548565502938	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	3		G	65	6	814743	10	0	0	1	814825	0	65	7.97717301261007e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	3		G	3	6	39001	10	0	0	1	39021	1	10	0.00025627226365290484	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	3		G	1	0	18881	0	0	0	0	18882	2	1	5.296049147336087e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	3		G	1	0	15497	0	0	0	0	15498	3	1	6.45244547683572e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	3		G	1	0	13447	0	0	0	0	13448	4	1	7.4360499702558e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	3		G	1	0	12127	0	0	0	0	12128	5	1	8.245382585751979e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	3		G	1	0	10461	0	0	0	0	10462	7	1	9.558401835213153e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	3		G	1	0	9018	0	0	0	0	9019	10	1	0.00011087703736556159	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	3		G	1	0	6863	0	0	0	0	6864	20	1	0.0001456876456876457	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	3		G	1	0	5844	0	0	0	0	5845	30	1	0.00017108639863130882	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	4		G	7	6	819772	56	0	0	0	819841	0	56	6.830592761279321e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	4		G	7	6	39240	11	0	0	0	39264	1	11	0.00028015484922575386	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	4		G	0	0	19008	1	0	0	0	19009	2	1	5.26066600031564e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	4		G	0	0	15592	1	0	0	0	15593	3	1	6.413134098634002e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	4		G	0	0	13529	1	0	0	0	13530	4	1	7.390983000739098e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	4		G	0	0	12204	1	0	0	0	12205	5	1	8.19336337566571e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	4		G	0	0	10530	1	0	0	0	10531	7	1	9.495774380400722e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	4		G	0	0	9075	1	0	0	0	9076	10	1	0.00011018069634200089	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	4		G	0	0	6908	1	0	0	0	6909	20	1	0.00014473874656245476	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	4		G	0	0	5885	1	0	0	0	5886	30	1	0.00016989466530750936	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	5		T	2	1	4	823152	234	69	2	823230	0	234	0.000284246200940199	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	5		T	2	1	3	39373	5	2	2	39383	1	5	0.00012695833227534722	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	5		T	0	0	1	19066	3	2	0	19069	2	3	0.00015732340447847292	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	5		T	0	0	0	15636	3	2	0	15638	3	3	0.0001918403887965213	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	5		T	0	0	0	13570	2	1	0	13571	4	2	0.0001473730749392086	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	5		T	0	0	0	12242	2	1	0	12243	5	2	0.00016335865392469166	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	5		T	0	0	0	10566	2	1	0	10567	7	2	0.00018926847733509984	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	5		T	0	0	0	9104	2	1	0	9105	10	2	0.00021965952773201537	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	5		T	0	0	0	6933	2	1	0	6934	20	2	0.00028843380444188056	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	5		T	0	0	0	5907	2	1	0	5908	30	2	0.00033852403520649965	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	6		G	2	5	824525	142	3	29	0	824703	0	142	0.00017218319807251823	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	6		G	2	5	39408	21	3	5	0	39441	1	21	0.0005324408610329353	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	6		G	0	0	19088	3	0	4	0	19095	2	4	0.0002094789211835559	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	6		G	0	0	15657	1	0	4	0	15662	3	4	0.00025539522410930913	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	6		G	0	0	13585	1	0	2	0	13588	4	2	0.00014718869590815426	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	6		G	0	0	12256	1	0	2	0	12259	5	2	0.00016314544416347175	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	6		G	0	0	10579	1	0	1	0	10581	7	1	9.450902561194594e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	6		G	0	0	9115	1	0	1	0	9117	10	1	0.00010968520346605243	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	6		G	0	0	6943	1	0	0	0	6944	20	1	0.00014400921658986175	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	6		G	0	0	5916	1	0	0	0	5917	30	1	0.0001690045631232043	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	7		A	826225	0	3	3	3	102	0	826333	0	102	0.00012343691949855565	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	7		A	39450	0	3	3	3	8	0	39464	1	8	0.00020271639975674033	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	7		A	19101	0	0	0	0	6	0	19107	2	6	0.0003140210394096404	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	7		A	15667	0	0	0	0	6	0	15673	3	6	0.00038282396478019526	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	7		A	13592	0	0	0	0	6	0	13598	4	6	0.00044124135902338577	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	7		A	12264	0	0	0	0	5	0	12269	5	5	0.0004075311761349743	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	7		A	10586	0	0	0	0	4	0	10590	7	4	0.00037771482530689327	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	7		A	9122	0	0	0	0	4	0	9126	10	4	0.00043830813061582295	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	7		A	6951	0	0	0	0	2	0	6953	20	2	0.00028764562059542645	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	7		A	5924	0	0	0	0	1	0	5925	30	1	0.00016877637130801687	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	8		G	5	3	826673	409	19	281	2	827373	0	409	0.0004943356865645845	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	8		G	5	3	39459	17	3	7	2	39493	1	17	0.000430456030182564	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	8		G	0	0	19114	6	1	3	0	19123	2	6	0.00031375830152172775	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	8		G	0	0	15677	4	1	3	0	15684	3	4	0.0002550369803621525	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	8		G	0	0	13602	4	1	3	0	13609	4	4	0.0002939231390991256	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	8		G	0	0	12273	4	1	3	0	12280	5	4	0.0003257328990228013	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	8		G	0	0	10594	4	1	2	0	10600	7	4	0.0003773584905660377	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	8		G	0	0	9130	3	1	2	0	9135	10	3	0.0003284072249589491	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	8		G	0	0	6957	3	0	1	0	6961	20	3	0.00043097256141359	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	8		G	0	0	5928	3	0	1	0	5932	30	3	0.0005057316250842886	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	9		G	48	6	828007	14	0	0	1	828076	0	48	5.796569397011869e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	9		G	5	6	39489	14	0	0	1	39515	1	14	0.000354295837023915	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	9		G	3	0	19126	0	0	0	0	19129	2	3	0.0001568299440639866	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	9		G	2	0	15687	0	0	0	0	15689	3	2	0.0001274778507234368	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	9		G	2	0	13611	0	0	0	0	13613	4	2	0.00014691838683611255	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	9		G	2	0	12282	0	0	0	0	12284	5	2	0.00016281341582546403	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	9		G	1	0	10603	0	0	0	0	10604	7	1	9.43040362127499e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	9		G	1	0	9138	0	0	0	0	9139	10	1	0.000109421162052741	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	9		G	1	0	6964	0	0	0	0	6965	20	1	0.00014357501794687725	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	9		G	1	0	5935	0	0	0	0	5936	30	1	0.00016846361185983828	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	10		C	16	828630	1	9	5	0	0	828656	0	16	1.930837404182194e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	10		C	16	39504	1	4	1	0	0	39525	1	16	0.0004048070841239722	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	10		C	0	19134	0	1	1	0	0	19135	2	1	5.226025607525477e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	10		C	0	15693	0	1	1	0	0	15694	3	1	6.371861858034918e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	10		C	0	13617	0	1	1	0	0	13618	4	1	7.34322220590395e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	10		C	0	12288	0	1	1	0	0	12289	5	1	8.137358613394092e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	10		C	0	10609	0	0	0	0	0	10609	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	10		C	0	9143	0	0	0	0	0	9143	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	10		C	0	6968	0	0	0	0	0	6968	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	10		C	0	5939	0	0	0	0	0	5939	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	11		T	16	3	0	829107	0	1	0	829127	0	16	1.929740558442796e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	11		T	16	3	0	39512	0	1	0	39532	1	16	0.000404735404229485	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	11		T	0	0	0	19139	0	0	0	19139	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	11		T	0	0	0	15698	0	0	0	15698	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	11		T	0	0	0	13622	0	0	0	13622	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	11		T	0	0	0	12293	0	0	0	12293	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	11		T	0	0	0	10613	0	0	0	10613	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	11		T	0	0	0	9147	0	0	0	9147	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	11		T	0	0	0	6972	0	0	0	6972	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	11		T	0	0	0	5943	0	0	0	5943	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	12		C	14	829764	0	3	0	5	3	829789	0	14	1.687175896523092e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	12		C	14	39513	0	3	0	5	3	39538	1	14	0.0003540897364560676	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	12		C	0	19145	0	0	0	0	0	19145	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	12		C	0	15704	0	0	0	0	0	15704	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	12		C	0	13627	0	0	0	0	0	13627	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	12		C	0	12298	0	0	0	0	0	12298	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	12		C	0	10618	0	0	0	0	0	10618	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	12		C	0	9152	0	0	0	0	0	9152	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	12		C	0	6977	0	0	0	0	0	6977	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	12		C	0	5947	0	0	0	0	0	5947	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	13		C	21	829959	0	6	0	0	1	829987	0	21	2.5301601109414967e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	13		C	21	39529	0	2	0	0	1	39553	1	21	0.0005309331782671352	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	13		C	0	19148	0	1	0	0	0	19149	2	1	5.2222048148728395e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	13		C	0	15707	0	1	0	0	0	15708	3	1	6.366182836771072e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	13		C	0	13630	0	1	0	0	0	13631	4	1	7.336218912772357e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	13		C	0	12300	0	1	0	0	0	12301	5	1	8.129420372327454e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	13		C	0	10621	0	0	0	0	0	10621	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	13		C	0	9155	0	0	0	0	0	9155	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	13		C	0	6980	0	0	0	0	0	6980	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	13		C	0	5950	0	0	0	0	0	5950	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	14		C	31	830469	0	3	0	0	0	830503	0	31	3.73267766642625e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	14		C	31	39527	0	3	0	0	0	39561	1	31	0.0007836000101109679	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	14		C	0	19154	0	0	0	0	0	19154	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	14		C	0	15712	0	0	0	0	0	15712	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	14		C	0	13635	0	0	0	0	0	13635	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	14		C	0	12304	0	0	0	0	0	12304	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	14		C	0	10624	0	0	0	0	0	10624	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	14		C	0	9158	0	0	0	0	0	9158	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	14		C	0	6983	0	0	0	0	0	6983	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	14		C	0	5953	0	0	0	0	0	5953	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	15		C	20	830694	1	1	0	0	2	830718	0	20	2.4075558733529308e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	15		C	20	39544	1	1	0	0	2	39568	1	20	0.0005054589567327133	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	15		C	0	19155	0	0	0	0	0	19155	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	15		C	0	15713	0	0	0	0	0	15713	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	15		C	0	13636	0	0	0	0	0	13636	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	15		C	0	12305	0	0	0	0	0	12305	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	15		C	0	10625	0	0	0	0	0	10625	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	15		C	0	9159	0	0	0	0	0	9159	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	15		C	0	6984	0	0	0	0	0	6984	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	15		C	0	5954	0	0	0	0	0	5954	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	16		T	21	1	209	830372	9	226	8	830837	0	226	0.0002720148476777033	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	16		T	21	1	1	39512	7	18	8	39561	1	21	0.0005308258133009783	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	16		T	0	0	1	19148	1	7	0	19156	2	7	0.00036542075589893506	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	16		T	0	0	1	15708	1	5	0	15714	3	5	0.0003181876034109711	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	16		T	0	0	1	13631	0	5	0	13637	4	5	0.0003666495563540368	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	16		T	0	0	1	12301	0	4	0	12306	5	4	0.00032504469364537625	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	16		T	0	0	1	10622	0	3	0	10626	7	3	0.000282326369282891	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	16		T	0	0	1	9156	0	3	0	9160	10	3	0.0003275109170305677	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	16		T	0	0	1	6982	0	2	0	6985	20	2	0.0002863278453829635	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	16		T	0	0	1	5952	0	2	0	5955	30	2	0.00033585222502099076	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	17		T	27	1	1	830813	0	7	0	830849	0	27	3.249687969775495e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	17		T	27	1	1	39541	0	3	0	39573	1	27	0.0006822833750284285	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	17		T	0	0	0	19155	0	1	0	19156	2	1	5.2202965128419294e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	17		T	0	0	0	15713	0	1	0	15714	3	1	6.363752068219422e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	17		T	0	0	0	13636	0	1	0	13637	4	1	7.332991127080736e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	17		T	0	0	0	12305	0	1	0	12306	5	1	8.126117341134406e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	17		T	0	0	0	10626	0	0	0	10626	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	17		T	0	0	0	9160	0	0	0	9160	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	17		T	0	0	0	6985	0	0	0	6985	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	17		T	0	0	0	5955	0	0	0	5955	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	18		T	16	1	0	830818	0	105	2	830942	0	105	0.00012636261014607516	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	18		T	16	1	0	39548	0	4	2	39571	1	16	0.0004043365090596649	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	18		T	0	0	0	19155	0	1	0	19156	2	1	5.2202965128419294e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	18		T	0	0	0	15713	0	1	0	15714	3	1	6.363752068219422e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	18		T	0	0	0	13636	0	1	0	13637	4	1	7.332991127080736e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	18		T	0	0	0	12305	0	1	0	12306	5	1	8.126117341134406e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	18		T	0	0	0	10626	0	1	0	10627	7	1	9.409993413004611e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	18		T	0	0	0	9160	0	1	0	9161	10	1	0.00010915838882218098	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	18		T	0	0	0	6985	0	1	0	6986	20	1	0.000143143429716576	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	18		T	0	0	0	5955	0	1	0	5956	30	1	0.000167897918065816	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	19	Insert_1	A	830882	1	81	2	1	104	1	831071	0	104	0.00012513972933720464	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	19	Insert_1	A	39640	1	8	2	1	11	1	39663	1	11	0.0002773365605224012	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	19	Insert_1	A	19215	0	2	0	0	5	0	19222	2	5	0.00026011861408802413	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	19	Insert_1	A	15772	0	2	0	0	3	0	15777	3	3	0.00019015021867275147	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	19	Insert_1	A	13639	0	2	0	0	2	0	13643	4	2	0.00014659532360917688	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	19	Insert_1	A	12301	0	2	0	0	2	0	12305	5	2	0.00016253555465258024	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	19	Insert_1	A	10622	0	2	0	0	2	0	10626	7	2	0.00018821757952192734	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	19	Insert_1	A	9156	0	2	0	0	2	0	9160	10	2	0.0002183406113537118	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	19	Insert_1	A	6983	0	1	0	0	1	0	6985	20	1	0.00014316392269148176	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	19	Insert_1	A	5953	0	1	0	0	1	0	5955	30	1	0.00016792611251049538	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	20	Insert_1	T	14	2	0	831078	0	11	2	831107	0	14	1.6845003110309504e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	20	Insert_1	T	14	2	0	39655	0	2	2	39675	1	14	0.0003528670447385003	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	19222	0	2	0	19224	2	2	0.00010403662089055348	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	15777	0	2	0	15779	3	2	0.00012675074466062487	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	13644	0	1	0	13645	4	1	7.328691828508612e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	12306	0	1	0	12307	5	1	8.125457056959453e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	10626	0	1	0	10627	7	1	9.409993413004611e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	9161	0	0	0	9161	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	6986	0	0	0	6986	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	5955	0	0	0	5955	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	21	Insert_1	A	831014	0	32	23	0	37	3	831109	0	37	4.4518829660128816e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	21	Insert_1	A	39637	0	7	23	0	6	3	39676	1	23	0.0005796955338239741	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	21	Insert_1	A	19221	0	2	0	0	2	0	19225	2	2	0.00010403120936280885	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	21	Insert_1	A	15775	0	2	0	0	2	0	15779	3	2	0.00012675074466062487	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	21	Insert_1	A	13641	0	2	0	0	2	0	13645	4	2	0.00014657383657017223	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	21	Insert_1	A	12303	0	2	0	0	2	0	12307	5	2	0.00016250914113918907	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	21	Insert_1	A	10624	0	2	0	0	1	0	10627	7	2	0.00018819986826009222	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	21	Insert_1	A	9158	0	2	0	0	1	0	9161	10	2	0.00021831677764436196	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	21	Insert_1	A	6985	0	0	0	0	1	0	6986	20	1	0.000143143429716576	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	21	Insert_1	A	5955	0	0	0	0	0	0	5955	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	22	Insert_1	C	35	831056	15	6	0	0	2	831114	0	35	4.21121530860989e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	22	Insert_1	C	33	39625	15	6	0	0	2	39681	1	33	0.0008316322673319724	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	22	Insert_1	C	1	19224	0	0	0	0	0	19225	2	1	5.2015604681404424e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	22	Insert_1	C	1	15778	0	0	0	0	0	15779	3	1	6.337537233031244e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	22	Insert_1	C	0	13645	0	0	0	0	0	13645	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	22	Insert_1	C	0	12307	0	0	0	0	0	12307	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	22	Insert_1	C	0	10627	0	0	0	0	0	10627	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	22	Insert_1	C	0	9161	0	0	0	0	0	9161	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	22	Insert_1	C	0	6986	0	0	0	0	0	6986	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	22	Insert_1	C	0	5955	0	0	0	0	0	5955	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	23	Insert_1	A	831102	5	3	6	0	0	0	831116	0	6	7.2192088709638604e-06	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	23	Insert_1	A	39671	4	3	5	0	0	0	39683	1	5	0.00012599853841695435	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	23	Insert_1	A	19223	1	0	1	0	0	0	19225	2	1	5.2015604681404424e-05	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	23	Insert_1	A	15779	0	0	0	0	0	0	15779	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	23	Insert_1	A	13645	0	0	0	0	0	0	13645	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	23	Insert_1	A	12307	0	0	0	0	0	0	12307	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	23	Insert_1	A	10627	0	0	0	0	0	0	10627	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	23	Insert_1	A	9161	0	0	0	0	0	0	9161	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	23	Insert_1	A	6986	0	0	0	0	0	0	6986	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	23	Insert_1	A	5955	0	0	0	0	0	0	5955	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	24	Insert_1	G	6	20	830727	29	0	328	2	831112	0	328	0.0003946519843294285	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	24	Insert_1	G	6	20	39615	29	0	7	2	39679	1	29	0.0007308651931752313	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	24	Insert_1	G	0	0	19222	0	0	3	0	19225	2	3	0.00015604681404421327	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	24	Insert_1	G	0	0	15776	0	0	3	0	15779	3	3	0.00019012611699093733	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	24	Insert_1	G	0	0	13642	0	0	3	0	13645	4	3	0.00021986075485525832	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	24	Insert_1	G	0	0	12304	0	0	3	0	12307	5	3	0.00024376371170878363	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	24	Insert_1	G	0	0	10624	0	0	3	0	10627	7	3	0.00028229980239013834	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	24	Insert_1	G	0	0	9158	0	0	3	0	9161	10	3	0.00032747516646654295	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	24	Insert_1	G	0	0	6984	0	0	2	0	6986	20	2	0.000286286859433152	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	24	Insert_1	G	0	0	5953	0	0	2	0	5955	30	2	0.00033585222502099076	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	25	Insert_1	A	830809	2	11	4	0	280	3	831109	0	280	0.0003368992514820559	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	25	Insert_1	A	39639	2	11	4	0	17	3	39676	1	17	0.0004284706119568505	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	25	Insert_1	A	19217	0	0	0	0	8	0	19225	2	8	0.0004161248374512354	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	25	Insert_1	A	15773	0	0	0	0	6	0	15779	3	6	0.00038025223398187465	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	25	Insert_1	A	13640	0	0	0	0	5	0	13645	4	5	0.00036643459142543056	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	25	Insert_1	A	12302	0	0	0	0	5	0	12307	5	5	0.0004062728528479727	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	25	Insert_1	A	10623	0	0	0	0	4	0	10627	7	4	0.00037639973652018444	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	25	Insert_1	A	9157	0	0	0	0	4	0	9161	10	4	0.00043663355528872393	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	25	Insert_1	A	6982	0	0	0	0	4	0	6986	20	4	0.000572573718866304	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	25	Insert_1	A	5953	0	0	0	0	2	0	5955	30	2	0.00033585222502099076	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	26	Insert_1	A	831108	0	3	7	0	0	0	831118	0	7	8.42239008179344e-06	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	26	Insert_1	A	39675	0	3	7	0	0	0	39685	1	7	0.00017638906387803957	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	26	Insert_1	A	19225	0	0	0	0	0	0	19225	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	26	Insert_1	A	15779	0	0	0	0	0	0	15779	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	26	Insert_1	A	13645	0	0	0	0	0	0	13645	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	26	Insert_1	A	12307	0	0	0	0	0	0	12307	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	26	Insert_1	A	10627	0	0	0	0	0	0	10627	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	26	Insert_1	A	9161	0	0	0	0	0	0	9161	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	26	Insert_1	A	6986	0	0	0	0	0	0	6986	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	26	Insert_1	A	5955	0	0	0	0	0	0	5955	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	27	Insert_1	T	74	0	16	830988	0	38	1	831117	0	74	8.903680227934214e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	27	Insert_1	T	74	0	16	39588	0	5	1	39684	1	74	0.001864731377885294	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	19221	0	4	0	19225	2	4	0.0002080624187256177	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	15775	0	4	0	15779	3	4	0.00025350148932124975	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	13641	0	4	0	13645	4	4	0.00029314767314034447	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	12303	0	4	0	12307	5	4	0.00032501828227837813	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	10624	0	3	0	10627	7	3	0.00028229980239013834	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	9159	0	2	0	9161	10	2	0.00021831677764436196	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	6986	0	0	0	6986	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	5955	0	0	0	5955	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	28	Insert_1	A	830564	2	3	7	0	499	0	831075	0	499	0.0006004271575970881	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	28	Insert_1	A	39651	2	3	7	0	12	0	39675	1	12	0.00030245746691871453	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	28	Insert_1	A	19213	0	0	0	0	8	0	19221	2	8	0.00041621143540918786	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	28	Insert_1	A	15768	0	0	0	0	7	0	15775	3	7	0.0004437400950871632	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	28	Insert_1	A	13634	0	0	0	0	7	0	13641	4	7	0.0005131588593211641	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	28	Insert_1	A	12296	0	0	0	0	7	0	12303	5	7	0.0005689669186377306	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	28	Insert_1	A	10617	0	0	0	0	7	0	10624	7	7	0.0006588855421686747	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	28	Insert_1	A	9152	0	0	0	0	7	0	9159	10	7	0.0007642755759362375	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	28	Insert_1	A	6981	0	0	0	0	5	0	6986	20	5	0.0007157171485828801	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	28	Insert_1	A	5950	0	0	0	0	5	0	5955	30	5	0.0008396305625524769	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	29	Insert_1	T	14	102	2	831065	0	0	2	831185	0	102	0.00012271636278325524	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	29	Insert_1	T	14	8	2	39658	0	0	2	39684	1	14	0.0003527870174377583	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	29	Insert_1	T	0	2	0	19220	0	0	0	19222	2	2	0.00010404744563520966	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	29	Insert_1	T	0	2	0	15774	0	0	0	15776	3	2	0.00012677484787018255	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	29	Insert_1	T	0	1	0	13641	0	0	0	13642	4	1	7.330303474563847e-05	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	29	Insert_1	T	0	1	0	12303	0	0	0	12304	5	1	8.127438231469441e-05	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	29	Insert_1	T	0	1	0	10624	0	0	0	10625	7	1	9.411764705882353e-05	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	29	Insert_1	T	0	1	0	9159	0	0	0	9160	10	1	0.0001091703056768559	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	29	Insert_1	T	0	1	0	6986	0	0	0	6987	20	1	0.0001431229426077	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	29	Insert_1	T	0	1	0	5955	0	0	0	5956	30	1	0.000167897918065816	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	30	Insert_1	C	644	830406	0	130	0	0	5	831185	0	644	0.000774797427768788	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	30	Insert_1	C	354	39319	0	6	0	0	5	39684	1	354	0.008920471726640459	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	30	Insert_1	C	2	19219	0	1	0	0	0	19222	2	2	0.00010404744563520966	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	30	Insert_1	C	2	15773	0	1	0	0	0	15776	3	2	0.00012677484787018255	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	30	Insert_1	C	2	13639	0	1	0	0	0	13642	4	2	0.00014660606949127694	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	30	Insert_1	C	2	12301	0	1	0	0	0	12304	5	2	0.00016254876462938882	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	30	Insert_1	C	2	10622	0	1	0	0	0	10625	7	2	0.00018823529411764707	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	30	Insert_1	C	2	9157	0	1	0	0	0	9160	10	2	0.0002183406113537118	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	30	Insert_1	C	2	6984	0	1	0	0	0	6987	20	2	0.0002862458852154	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	30	Insert_1	C	2	5953	0	1	0	0	0	5956	30	2	0.000335795836131632	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	31	Insert_1	T	467	1	3	830621	0	0	0	831092	0	467	0.0005619113166773354	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	31	Insert_1	T	368	1	3	39227	0	0	0	39599	1	368	0.00929316396878709	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	31	Insert_1	T	2	0	0	19212	0	0	0	19214	2	2	0.00010409076714895389	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	31	Insert_1	T	2	0	0	15774	0	0	0	15776	3	2	0.00012677484787018255	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	31	Insert_1	T	2	0	0	13640	0	0	0	13642	4	2	0.00014660606949127694	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	31	Insert_1	T	2	0	0	12302	0	0	0	12304	5	2	0.00016254876462938882	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	31	Insert_1	T	1	0	0	10624	0	0	0	10625	7	1	9.411764705882353e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	31	Insert_1	T	1	0	0	9159	0	0	0	9160	10	1	0.0001091703056768559	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	31	Insert_1	T	1	0	0	6986	0	0	0	6987	20	1	0.0001431229426077	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	31	Insert_1	T	1	0	0	5955	0	0	0	5956	30	1	0.000167897918065816	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	32	Insert_1	G	38	93	830750	185	0	0	12	831078	0	185	0.0002226024512741283	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	32	Insert_1	G	6	93	39291	185	0	0	12	39587	1	185	0.004673251319877738	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	32	Insert_1	G	2	0	19210	0	0	0	0	19212	2	2	0.00010410160316468874	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	32	Insert_1	G	2	0	15774	0	0	0	0	15776	3	2	0.00012677484787018255	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	32	Insert_1	G	2	0	13640	0	0	0	0	13642	4	2	0.00014660606949127694	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	32	Insert_1	G	2	0	12302	0	0	0	0	12304	5	2	0.00016254876462938882	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	32	Insert_1	G	1	0	10624	0	0	0	0	10625	7	1	9.411764705882353e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	32	Insert_1	G	1	0	9159	0	0	0	0	9160	10	1	0.0001091703056768559	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	32	Insert_1	G	1	0	6986	0	0	0	0	6987	20	1	0.0001431229426077	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	5956	0	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	33	Insert_1	T	513	3	2	830509	0	39	2	831068	0	513	0.0006172780085384108	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	33	Insert_1	T	513	3	2	39052	0	5	2	39577	1	513	0.012962073931829092	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	0	19209	0	3	0	19212	2	3	0.0001561524047470331	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	0	15773	0	3	0	15776	3	3	0.00019016227180527383	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	0	13639	0	3	0	13642	4	3	0.00021990910423691542	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	0	12301	0	3	0	12304	5	3	0.00024382314694408323	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	0	10623	0	2	0	10625	7	2	0.00018823529411764707	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	0	9158	0	2	0	9160	10	2	0.0002183406113537118	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	0	6987	0	0	0	6987	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	0	5956	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	34	Insert_1	T	32	3	0	831001	0	0	6	831042	0	32	3.850587575597864e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	34	Insert_1	T	32	3	0	39532	0	0	6	39573	1	32	0.0008086321481818411	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	0	0	19210	0	0	0	19210	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	0	0	15774	0	0	0	15774	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	0	0	13640	0	0	0	13640	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	0	0	12302	0	0	0	12302	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	0	0	10624	0	0	0	10624	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	0	0	9159	0	0	0	9159	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	0	0	6987	0	0	0	6987	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	0	0	5956	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	35	Insert_1	C	566	830213	1	168	0	87	0	831035	0	566	0.0006810784142665472	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	35	Insert_1	C	368	39180	1	7	0	10	0	39566	1	368	0.009300914926957489	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	35	Insert_1	C	8	19196	0	1	0	5	0	19210	2	8	0.00041644976574700676	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	35	Insert_1	C	6	15762	0	1	0	5	0	15774	3	6	0.0003803727653100038	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	35	Insert_1	C	5	13630	0	1	0	4	0	13640	4	5	0.00036656891495601173	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	35	Insert_1	C	5	12293	0	1	0	3	0	12302	5	5	0.00040643797756462365	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	35	Insert_1	C	5	10616	0	1	0	2	0	10624	7	5	0.0004706325301204819	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	35	Insert_1	C	4	9152	0	1	0	2	0	9159	10	4	0.0004367289005349929	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	35	Insert_1	C	4	6981	0	1	0	1	0	6987	20	4	0.0005724917704308	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	35	Insert_1	C	2	5952	0	1	0	1	0	5956	30	2	0.000335795836131632	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	36	Insert_1	G	23	330	830610	55	222	18	1	831037	0	330	0.0003970942328680913	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	36	Insert_1	G	6	330	39174	55	4	2	1	39568	1	330	0.00834007278608977	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	36	Insert_1	G	1	0	19208	0	2	1	0	19210	2	2	0.00010411244143675169	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	36	Insert_1	G	1	0	15772	0	2	1	0	15774	3	2	0.00012679092177000128	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	36	Insert_1	G	1	0	13638	0	2	1	0	13640	4	2	0.0001466275659824047	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	36	Insert_1	G	1	0	12300	0	2	1	0	12302	5	2	0.00016257519102584944	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	36	Insert_1	G	1	0	10622	0	2	1	0	10624	7	2	0.00018825301204819278	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	36	Insert_1	G	1	0	9157	0	2	1	0	9159	10	2	0.00021836445026749646	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	36	Insert_1	G	0	0	6987	0	1	0	0	6987	20	1	0.0001431229426077	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	36	Insert_1	G	0	0	5956	0	1	0	0	5956	30	1	0.000167897918065816	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	37	Insert_1	C	37	830796	1	4	0	172	3	831013	0	172	0.00020697630482314957	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	37	Insert_1	C	37	39512	1	4	0	4	3	39561	1	37	0.0009352645281969616	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	37	Insert_1	C	0	19206	0	0	0	2	0	19208	2	2	0.00010412328196584757	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	37	Insert_1	C	0	15771	0	0	0	2	0	15773	3	2	0.00012679896024852597	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	37	Insert_1	C	0	13638	0	0	0	1	0	13639	4	1	7.331915829606276e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	37	Insert_1	C	0	12300	0	0	0	1	0	12301	5	1	8.129420372327454e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	37	Insert_1	C	0	10622	0	0	0	1	0	10623	7	1	9.413536665725314e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	37	Insert_1	C	0	9157	0	0	0	1	0	9158	10	1	0.00010919414719371041	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	37	Insert_1	C	0	6986	0	0	0	1	0	6987	20	1	0.0001431229426077	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	37	Insert_1	C	0	5955	0	0	0	1	0	5956	30	1	0.000167897918065816	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	38	Insert_1	A	830771	7	5	50	170	11	0	830844	0	170	0.0002046112146203138	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	38	Insert_1	A	39494	7	5	50	4	2	0	39558	1	50	0.0012639668335102886	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	38	Insert_1	A	19205	0	0	0	1	2	0	19207	2	2	0.00010412870307700318	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	38	Insert_1	A	15770	0	0	0	1	2	0	15772	3	2	0.000126806999746386	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	38	Insert_1	A	13637	0	0	0	1	1	0	13638	4	1	7.332453438920662e-05	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	38	Insert_1	A	12299	0	0	0	1	1	0	12300	5	1	8.130081300813008e-05	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	38	Insert_1	A	10621	0	0	0	1	1	0	10622	7	1	9.414422895876483e-05	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	38	Insert_1	A	9157	0	0	0	1	0	0	9157	10	1	0.00010920607185759528	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	38	Insert_1	A	6986	0	0	0	1	0	0	6986	20	1	0.000143143429716576	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	38	Insert_1	A	5955	0	0	0	1	0	0	5955	30	1	0.00016792611251049538	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	39	Insert_1	C	17	830794	2	3	0	21	2	830839	0	21	2.5275655090817835e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	39	Insert_1	C	17	39527	2	3	0	2	2	39553	1	17	0.0004298030490733952	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	39	Insert_1	C	0	19206	0	0	0	1	0	19207	2	1	5.206435153850159e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	39	Insert_1	C	0	15771	0	0	0	1	0	15772	3	1	6.3403499873193e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	39	Insert_1	C	0	13637	0	0	0	1	0	13638	4	1	7.332453438920662e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	39	Insert_1	C	0	12299	0	0	0	1	0	12300	5	1	8.130081300813008e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	39	Insert_1	C	0	10621	0	0	0	1	0	10622	7	1	9.414422895876483e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	39	Insert_1	C	0	9156	0	0	0	1	0	9157	10	1	0.00010920607185759528	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	39	Insert_1	C	0	6985	0	0	0	1	0	6986	20	1	0.000143143429716576	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	39	Insert_1	C	0	5955	0	0	0	0	0	5955	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	40	Insert_1	T	64	50	5	830672	145	69	6	830866	0	145	0.00017451670907222104	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	40	Insert_1	T	64	13	5	39465	6	5	6	39558	1	64	0.0016178775468931696	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	3	0	19203	4	3	0	19209	2	4	0.0002082357228382529	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	2	0	15769	4	3	0	15774	3	4	0.00025358184354000256	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	2	0	13635	4	3	0	13640	4	4	0.0002932551319648094	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	1	0	12299	4	2	0	12302	5	4	0.0003251503820516989	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	1	0	10620	2	2	0	10623	7	2	0.00018827073331450627	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	1	0	9155	2	2	0	9158	10	2	0.00021838829438742082	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	1	0	6983	2	2	0	6986	20	2	0.000286286859433152	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	1	0	5953	1	1	0	5955	30	1	0.00016792611251049538	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	41	Insert_1	C	84	830852	10	21	42	6	1	830974	0	84	0.00010108619523595203	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	41	Insert_1	C	71	39473	10	4	2	2	1	39561	1	71	0.0017946967973509265	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	41	Insert_1	C	7	19198	0	1	2	2	0	19208	2	7	0.00036443148688046647	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	41	Insert_1	C	4	15767	0	1	1	1	0	15773	3	4	0.00025359792049705195	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	41	Insert_1	C	1	13636	0	1	1	1	0	13639	4	1	7.331915829606276e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	41	Insert_1	C	1	12299	0	1	1	0	0	12301	5	1	8.129420372327454e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	10621	0	1	1	0	0	10622	7	1	9.414422895876483e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	9156	0	1	1	0	0	9157	10	1	0.00010920607185759528	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	6985	0	0	1	0	0	6985	20	1	0.00014316392269148176	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	5955	0	0	1	0	0	5955	30	1	0.00016792611251049538	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	42	Insert_1	C	611	830303	0	39	0	0	0	830953	0	611	0.000735300311810656	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	42	Insert_1	C	447	39084	0	9	0	0	0	39540	1	447	0.011305007587253415	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	42	Insert_1	C	2	19202	0	4	0	0	0	19208	2	4	0.00020824656393169514	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	42	Insert_1	C	1	15768	0	4	0	0	0	15773	3	4	0.00025359792049705195	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	42	Insert_1	C	1	13635	0	3	0	0	0	13639	4	3	0.00021995747488818827	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	42	Insert_1	C	1	12298	0	2	0	0	0	12301	5	2	0.00016258840744654907	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	42	Insert_1	C	1	10619	0	2	0	0	0	10622	7	2	0.00018828845791752966	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	42	Insert_1	C	1	9154	0	2	0	0	0	9157	10	2	0.00021841214371519057	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	42	Insert_1	C	1	6984	0	0	0	0	0	6985	20	1	0.00014316392269148176	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	42	Insert_1	C	1	5954	0	0	0	0	0	5955	30	1	0.00016792611251049538	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	43	Insert_1	G	140	240	830087	423	0	50	7	830947	0	423	0.0005090577377377859	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	43	Insert_1	G	22	34	39436	31	0	4	7	39534	1	34	0.0008600192239591238	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	43	Insert_1	G	3	1	19199	3	0	2	0	19208	2	3	0.00015618492294877136	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	43	Insert_1	G	2	1	15765	3	0	2	0	15773	3	3	0.00019019844037278895	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	43	Insert_1	G	2	1	13631	3	0	2	0	13639	4	3	0.00021995747488818827	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	43	Insert_1	G	2	1	12293	3	0	2	0	12301	5	3	0.00024388261116982358	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	43	Insert_1	G	2	1	10615	3	0	1	0	10622	7	3	0.0002824326868762945	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	43	Insert_1	G	2	1	9150	3	0	1	0	9157	10	3	0.00032761821557278587	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	43	Insert_1	G	1	1	6979	3	0	1	0	6985	20	3	0.00042949176807444524	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	43	Insert_1	G	1	1	5949	3	0	1	0	5955	30	3	0.0005037783375314861	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	44	Insert_1	A	829996	14	481	14	0	431	2	830938	0	481	0.0005788638863549387	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	44	Insert_1	A	39491	14	13	1	0	8	2	39529	1	14	0.0003541703559412077	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	44	Insert_1	A	19202	0	2	1	0	2	0	19207	2	2	0.00010412870307700318	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	44	Insert_1	A	15767	0	2	1	0	2	0	15772	3	2	0.000126806999746386	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	44	Insert_1	A	13633	0	2	1	0	2	0	13638	4	2	0.00014664906877841325	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	44	Insert_1	A	12295	0	2	1	0	2	0	12300	5	2	0.00016260162601626016	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	44	Insert_1	A	10617	0	2	1	0	2	0	10622	7	2	0.00018828845791752966	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	44	Insert_1	A	9153	0	2	1	0	1	0	9157	10	2	0.00021841214371519057	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	44	Insert_1	A	6982	0	2	0	0	1	0	6985	20	2	0.0002863278453829635	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	44	Insert_1	A	5952	0	2	0	0	1	0	5955	30	2	0.00033585222502099076	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	45	Insert_1	G	9	52	830810	68	0	1	1	830941	0	68	8.183493172198748e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	45	Insert_1	G	7	52	39420	51	0	1	1	39532	1	52	0.0013153900637458262	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	45	Insert_1	G	1	0	19204	2	0	0	0	19207	2	2	0.00010412870307700318	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	45	Insert_1	G	1	0	15770	1	0	0	0	15772	3	1	6.3403499873193e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	45	Insert_1	G	0	0	13637	1	0	0	0	13638	4	1	7.332453438920662e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	45	Insert_1	G	0	0	12299	1	0	0	0	12300	5	1	8.130081300813008e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	45	Insert_1	G	0	0	10621	1	0	0	0	10622	7	1	9.414422895876483e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	45	Insert_1	G	0	0	9156	1	0	0	0	9157	10	1	0.00010920607185759528	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	45	Insert_1	G	0	0	6985	0	0	0	0	6985	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	45	Insert_1	G	0	0	5955	0	0	0	0	5955	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	46	Insert_1	T	738	2	1	830191	1	0	0	830932	0	738	0.0008881593198962129	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	46	Insert_1	T	738	2	1	38782	1	0	0	39523	1	738	0.01867267160893657	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	46	Insert_1	T	0	0	0	19207	0	0	0	19207	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	46	Insert_1	T	0	0	0	15772	0	0	0	15772	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	46	Insert_1	T	0	0	0	13638	0	0	0	13638	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	46	Insert_1	T	0	0	0	12300	0	0	0	12300	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	46	Insert_1	T	0	0	0	10622	0	0	0	10622	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	46	Insert_1	T	0	0	0	9157	0	0	0	9157	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	46	Insert_1	T	0	0	0	6985	0	0	0	6985	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	46	Insert_1	T	0	0	0	5955	0	0	0	5955	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	47	Insert_1	G	498	577	829802	109	0	9	0	830995	0	577	0.0006943483414460978	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	47	Insert_1	G	17	577	38825	97	0	5	0	39521	1	577	0.014599833000177122	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	47	Insert_1	G	4	0	19201	3	0	2	0	19210	2	4	0.00020822488287350338	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	47	Insert_1	G	4	0	15766	3	0	2	0	15775	3	4	0.00025356576862123613	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	47	Insert_1	G	4	0	13635	2	0	0	0	13641	4	4	0.00029323363389780805	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	47	Insert_1	G	4	0	12297	2	0	0	0	12303	5	4	0.0003251239535072746	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	47	Insert_1	G	4	0	10619	1	0	0	0	10624	7	4	0.00037650602409638556	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	47	Insert_1	G	4	0	9155	0	0	0	0	9159	10	4	0.0004367289005349929	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	47	Insert_1	G	2	0	6985	0	0	0	0	6987	20	2	0.0002862458852154	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	47	Insert_1	G	2	0	5954	0	0	0	0	5956	30	2	0.000335795836131632	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	48	Insert_1	C	139	829547	8	1300	0	1	0	830995	0	1300	0.0015643896774348823	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	48	Insert_1	C	65	39402	8	45	0	1	0	39521	1	65	0.0016446952253232458	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	48	Insert_1	C	5	19187	0	18	0	0	0	19210	2	18	0.0009370119729307652	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	48	Insert_1	C	3	15754	0	18	0	0	0	15775	3	18	0.0011410459587955625	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	48	Insert_1	C	2	13623	0	16	0	0	0	13641	4	16	0.0011729345355912322	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	48	Insert_1	C	2	12287	0	14	0	0	0	12303	5	14	0.0011379338372754612	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	48	Insert_1	C	2	10608	0	14	0	0	0	10624	7	14	0.0013177710843373493	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	48	Insert_1	C	2	9146	0	11	0	0	0	9159	10	11	0.0012010044764712304	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	48	Insert_1	C	2	6979	0	6	0	0	0	6987	20	6	0.0008587376556462001	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	48	Insert_1	C	2	5949	0	5	0	0	0	5956	30	5	0.0008394895903290799	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	49	Insert_1	G	60	79	830282	98	0	457	6	830982	0	457	0.0005499517438404202	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	49	Insert_1	G	55	62	39290	79	0	17	6	39509	1	79	0.001999544407603331	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	49	Insert_1	G	2	2	19197	2	0	7	0	19210	2	7	0.0003643935450286309	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	49	Insert_1	G	2	2	15763	2	0	5	0	15774	3	5	0.0003169773044250032	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	49	Insert_1	G	1	2	13632	1	0	5	0	13641	4	5	0.0003665420423722601	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	49	Insert_1	G	0	2	12296	1	0	4	0	12303	5	4	0.0003251239535072746	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	49	Insert_1	G	0	2	10617	1	0	4	0	10624	7	4	0.00037650602409638556	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	49	Insert_1	G	0	1	9153	1	0	4	0	9159	10	4	0.0004367289005349929	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	49	Insert_1	G	0	0	6983	0	0	4	0	6987	20	4	0.0005724917704308	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	49	Insert_1	G	0	0	5952	0	0	4	0	5956	30	4	0.000671591672263264	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	50	Insert_1	G	413	40	830315	244	2	0	1	831013	0	413	0.0004969838016974464	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	50	Insert_1	G	20	40	39226	237	2	0	1	39524	1	237	0.005996356644064366	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	50	Insert_1	G	9	0	19200	2	0	0	0	19211	2	9	0.0004684815990838582	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	50	Insert_1	G	8	0	15765	2	0	0	0	15775	3	8	0.0005071315372424723	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	50	Insert_1	G	6	0	13635	1	0	0	0	13642	4	6	0.00043981820847383083	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	50	Insert_1	G	4	0	12299	1	0	0	0	12304	5	4	0.00032509752925877764	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	50	Insert_1	G	4	0	10621	0	0	0	0	10625	7	4	0.00037647058823529414	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	50	Insert_1	G	4	0	9156	0	0	0	0	9160	10	4	0.0004366812227074236	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	50	Insert_1	G	4	0	6983	0	0	0	0	6987	20	4	0.0005724917704308	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	50	Insert_1	G	4	0	5952	0	0	0	0	5956	30	4	0.000671591672263264	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	51	Insert_1	C	265	831464	3	46	0	310	2	832090	0	310	0.0003725558533331731	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	51	Insert_1	C	261	39779	3	8	0	12	2	40065	1	261	0.006514414077124673	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	51	Insert_1	C	2	19709	0	3	0	3	0	19717	2	3	0.00015215296444692398	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	51	Insert_1	C	2	15773	0	2	0	3	0	15780	3	3	0.00019011406844106463	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	13641	0	2	0	3	0	13646	4	3	0.00021984464311886268	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	12304	0	2	0	2	0	12308	5	2	0.00016249593760155997	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	10624	0	2	0	2	0	10628	7	2	0.0001881821603312006	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	9158	0	2	0	2	0	9162	10	2	0.00021829294913774285	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	6984	0	1	0	2	0	6987	20	2	0.0002862458852154	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	5954	0	0	0	2	0	5956	30	2	0.000335795836131632	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	52	Insert_1	T	434	2	44	830105	0	460	5	831050	0	460	0.0005535166355814932	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	52	Insert_1	T	434	2	35	39041	0	11	5	39528	1	434	0.010979558793766444	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	3	19208	0	3	0	19214	2	3	0.00015613615072343083	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	2	15775	0	3	0	15780	3	3	0.00019011406844106463	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	2	13641	0	3	0	13646	4	3	0.00021984464311886268	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	2	12303	0	3	0	12308	5	3	0.00024374390640233994	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	10625	0	3	0	10628	7	3	0.0002822732404968009	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	9160	0	2	0	9162	10	2	0.00021829294913774285	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	6985	0	2	0	6987	20	2	0.0002862458852154	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	5954	0	2	0	5956	30	2	0.000335795836131632	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	53	Insert_1	T	532	194	28	830296	0	0	8	831058	0	532	0.000640147859716169	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	53	Insert_1	T	532	8	14	38974	0	0	8	39536	1	532	0.013456090651558074	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	2	2	19210	0	0	0	19214	2	2	0.00010409076714895389	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	2	2	15776	0	0	0	15780	3	2	0.00012674271229404308	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	2	2	13642	0	0	0	13646	4	2	0.0001465630954125751	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	2	2	12304	0	0	0	12308	5	2	0.00016249593760155997	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	2	2	10624	0	0	0	10628	7	2	0.0001881821603312006	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	2	0	9160	0	0	0	9162	10	2	0.00021829294913774285	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	1	0	6986	0	0	0	6987	20	1	0.0001431229426077	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	1	0	5955	0	0	0	5956	30	1	0.000167897918065816	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	54	Insert_1	G	7	146	830192	483	1	223	1	831052	0	483	0.0005811910686695899	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	54	Insert_1	G	7	19	39467	25	1	11	1	39530	1	25	0.0006324310650139134	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	54	Insert_1	G	0	1	19203	6	0	4	0	19214	2	6	0.00031227230144686166	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	54	Insert_1	G	0	1	15769	6	0	4	0	15780	3	6	0.00038022813688212925	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	54	Insert_1	G	0	1	13636	6	0	3	0	13646	4	6	0.00043968928623772536	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	54	Insert_1	G	0	1	12300	5	0	2	0	12308	5	5	0.0004062398440038999	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	54	Insert_1	G	0	1	10620	5	0	2	0	10628	7	5	0.0004704554008280015	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	54	Insert_1	G	0	1	9154	5	0	2	0	9162	10	5	0.0005457323728443571	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	54	Insert_1	G	0	1	6979	5	0	2	0	6987	20	5	0.0007156147130385	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	54	Insert_1	G	0	1	5949	4	0	2	0	5956	30	4	0.000671591672263264	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	55	Insert_1	C	426	829356	3	957	196	192	2	830936	0	957	0.0011517132486737846	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	55	Insert_1	C	353	39111	3	48	3	6	2	39523	1	353	0.008931508235710851	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	55	Insert_1	C	4	19186	0	22	1	1	0	19213	2	22	0.0011450580336230677	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	55	Insert_1	C	3	15757	0	18	1	1	0	15779	3	18	0.001140756701945624	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	55	Insert_1	C	3	13625	0	16	1	1	0	13645	4	16	0.0011725906925613779	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	55	Insert_1	C	3	12289	0	14	1	1	0	12307	5	14	0.0011375639879743235	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	55	Insert_1	C	3	10612	0	11	1	1	0	10627	7	11	0.0010350992754305072	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	55	Insert_1	C	3	9148	0	9	1	1	0	9161	10	9	0.000982425499399629	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	55	Insert_1	C	2	6975	0	8	1	1	0	6986	20	8	0.001145147437732608	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	55	Insert_1	C	1	5945	0	8	1	1	0	5955	30	8	0.001343408900083963	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	56	Insert_1	G	73	31	830177	351	4	304	3	830939	0	351	0.00042241367898245236	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	56	Insert_1	G	73	31	39305	99	2	18	3	39529	1	99	0.0025044903741556833	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	56	Insert_1	G	0	0	19196	6	1	12	0	19214	2	12	0.0006245446028937233	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	56	Insert_1	G	0	0	15764	6	1	8	0	15778	3	8	0.0005070351121815186	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	56	Insert_1	G	0	0	13631	5	0	8	0	13644	4	8	0.0005863383172090296	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	56	Insert_1	G	0	0	12296	4	0	6	0	12306	5	6	0.00048756704046806434	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	56	Insert_1	G	0	0	10619	3	0	5	0	10627	7	5	0.00047049967065023054	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	56	Insert_1	G	0	0	9154	2	0	5	0	9161	10	5	0.0005457919441109049	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	56	Insert_1	G	0	0	6982	2	0	2	0	6986	20	2	0.000286286859433152	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	56	Insert_1	G	0	0	5951	2	0	2	0	5955	30	2	0.00033585222502099076	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	57	Insert_1	G	8	16	830504	410	0	0	8	830946	0	410	0.000493413531083849	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	57	Insert_1	G	8	16	39199	305	0	0	8	39536	1	305	0.0077144880615135575	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	57	Insert_1	G	0	0	19210	4	0	0	0	19214	2	4	0.00020818153429790777	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	57	Insert_1	G	0	0	15774	4	0	0	0	15778	3	4	0.0002535175560907593	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	57	Insert_1	G	0	0	13641	3	0	0	0	13644	4	3	0.00021987686895338611	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	57	Insert_1	G	0	0	12304	2	0	0	0	12306	5	2	0.00016252234682268812	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	57	Insert_1	G	0	0	10625	2	0	0	0	10627	7	2	0.00018819986826009222	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	57	Insert_1	G	0	0	9160	1	0	0	0	9161	10	1	0.00010915838882218098	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	57	Insert_1	G	0	0	6985	1	0	0	0	6986	20	1	0.000143143429716576	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	57	Insert_1	G	0	0	5954	1	0	0	0	5955	30	1	0.00016792611251049538	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	58	Insert_1	A	830892	0	7	5	0	30	14	830948	0	30	3.610334220673255e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	58	Insert_1	A	39513	0	7	4	0	2	14	39540	1	14	0.00035407182599898836	N
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	58	Insert_1	A	19210	0	0	1	0	1	0	19212	2	1	5.205080158234437e-05	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	58	Insert_1	A	15777	0	0	0	0	1	0	15778	3	1	6.337938902268983e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	58	Insert_1	A	13643	0	0	0	0	1	0	13644	4	1	7.32922896511287e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	58	Insert_1	A	12305	0	0	0	0	1	0	12306	5	1	8.126117341134406e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	58	Insert_1	A	10626	0	0	0	0	1	0	10627	7	1	9.409993413004611e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	58	Insert_1	A	9160	0	0	0	0	1	0	9161	10	1	0.00010915838882218098	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	58	Insert_1	A	6985	0	0	0	0	1	0	6986	20	1	0.000143143429716576	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	58	Insert_1	A	5955	0	0	0	0	0	0	5955	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	59	Insert_1	G	16	17	830277	270	0	467	8	831055	0	467	0.0005619363339369837	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	59	Insert_1	G	4	17	39252	244	0	13	8	39538	1	244	0.0061712782639486066	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	59	Insert_1	G	1	0	19204	3	0	5	0	19213	2	5	0.00026024046218706083	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	59	Insert_1	G	1	0	15770	3	0	5	0	15779	3	5	0.00031687686165156223	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	59	Insert_1	G	1	0	13637	3	0	4	0	13645	4	4	0.00029314767314034447	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	59	Insert_1	G	1	0	12299	3	0	4	0	12307	5	4	0.00032501828227837813	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	59	Insert_1	G	1	0	10621	3	0	3	0	10628	7	3	0.0002822732404968009	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	59	Insert_1	G	1	0	9157	1	0	3	0	9162	10	3	0.0003274394237066143	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	59	Insert_1	G	0	0	6985	0	0	2	0	6987	20	2	0.0002862458852154	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	59	Insert_1	G	0	0	5954	0	0	2	0	5956	30	2	0.000335795836131632	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	60	Insert_1	A	830607	47	1	383	0	0	5	831043	0	383	0.00046086664588956285	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	60	Insert_1	A	39481	47	1	8	0	0	5	39542	1	47	0.0011886095796874209	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	60	Insert_1	A	19206	0	0	4	0	0	0	19210	2	4	0.00020822488287350338	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	60	Insert_1	A	15772	0	0	4	0	0	0	15776	3	4	0.0002535496957403651	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	60	Insert_1	A	13639	0	0	4	0	0	0	13643	4	4	0.00029319064721835376	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	60	Insert_1	A	12302	0	0	3	0	0	0	12305	5	3	0.00024380333197887038	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	60	Insert_1	A	10624	0	0	3	0	0	0	10627	7	3	0.00028229980239013834	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	60	Insert_1	A	9159	0	0	2	0	0	0	9161	10	2	0.00021831677764436196	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	60	Insert_1	A	6985	0	0	2	0	0	0	6987	20	2	0.0002862458852154	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	60	Insert_1	A	5954	0	0	2	0	0	0	5956	30	2	0.000335795836131632	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	61	Insert_1	T	47	1	0	830947	0	41	5	831041	0	47	5.655557307040206e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	61	Insert_1	T	47	1	0	39480	0	7	5	39540	1	47	0.0011886697015680325	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	19206	0	4	0	19210	2	4	0.00020822488287350338	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	15773	0	3	0	15776	3	3	0.00019016227180527383	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	13641	0	2	0	13643	4	2	0.00014659532360917688	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	12303	0	2	0	12305	5	2	0.00016253555465258024	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	10625	0	2	0	10627	7	2	0.00018819986826009222	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	9159	0	2	0	9161	10	2	0.00021831677764436196	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	6986	0	1	0	6987	20	1	0.0001431229426077	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	5956	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	62	Insert_1	T	38	2	6	830980	0	0	18	831044	0	38	4.572561741616569e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	62	Insert_1	T	38	2	6	39479	0	0	18	39543	1	38	0.000960979187213919	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	0	0	19210	0	0	0	19210	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	0	0	15776	0	0	0	15776	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	0	0	13643	0	0	0	13643	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	0	0	12305	0	0	0	12305	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	0	0	10627	0	0	0	10627	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	0	0	9161	0	0	0	9161	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	0	0	6987	0	0	0	6987	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	0	0	5956	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	63	Insert_1	C	548	829842	115	0	0	529	3	831037	0	548	0.0006594170897324668	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	63	Insert_1	C	548	38966	7	0	0	12	3	39536	1	548	0.01386078510724403	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	19202	1	0	0	7	0	19210	2	7	0.0003643935450286309	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	15769	1	0	0	6	0	15776	3	6	0.00038032454361054766	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	13637	1	0	0	5	0	13643	4	5	0.00036648830902294216	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	12299	1	0	0	5	0	12305	5	5	0.0004063388866314506	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	10622	1	0	0	4	0	10627	7	4	0.00037639973652018444	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	9156	1	0	0	4	0	9161	10	4	0.00043663355528872393	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	6982	1	0	0	4	0	6987	20	4	0.0005724917704308	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	5951	1	0	0	4	0	5956	30	4	0.000671591672263264	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	64	Insert_1	T	75	176	0	830505	0	0	0	830756	0	176	0.00021185522584248563	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	64	Insert_1	T	75	9	0	39454	0	0	0	39538	1	75	0.0018969093024432191	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	3	0	19203	0	0	0	19206	2	3	0.00015620118712902218	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	2	0	15771	0	0	0	15773	3	2	0.00012679896024852597	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	1	0	13640	0	0	0	13641	4	1	7.330840847445201e-05	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	1	0	12302	0	0	0	12303	5	1	8.128098837681866e-05	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	1	0	10624	0	0	0	10625	7	1	9.411764705882353e-05	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	1	0	9158	0	0	0	9159	10	1	0.00010918222513374823	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	1	0	6984	0	0	0	6985	20	1	0.00014316392269148176	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	1	0	5953	0	0	0	5954	30	1	0.00016795431642593214	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	65	Insert_1	C	154	830370	1	38	0	187	4	830754	0	187	0.00022509671936578096	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	65	Insert_1	C	60	39461	1	3	0	7	4	39536	1	60	0.001517604208822339	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	65	Insert_1	C	2	19198	0	1	0	5	0	19206	2	5	0.0002603353118817036	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	65	Insert_1	C	1	15768	0	1	0	3	0	15773	3	3	0.00019019844037278895	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	65	Insert_1	C	1	13636	0	1	0	3	0	13641	4	3	0.00021992522542335605	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	65	Insert_1	C	1	12298	0	1	0	3	0	12303	5	3	0.000243842965130456	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	65	Insert_1	C	1	10620	0	1	0	3	0	10625	7	3	0.00028235294117647056	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	65	Insert_1	C	1	9154	0	1	0	3	0	9159	10	3	0.00032754667540124465	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	65	Insert_1	C	1	6981	0	1	0	2	0	6985	20	2	0.0002863278453829635	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	65	Insert_1	C	1	5950	0	1	0	2	0	5954	30	2	0.0003359086328518643	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	66	Insert_1	T	126	3	17	830507	0	98	3	830754	0	126	0.0001516694472732	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	66	Insert_1	T	126	3	17	39382	0	5	3	39536	1	126	0.003186968838526912	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	19204	0	2	0	19206	2	2	0.00010413412475268145	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	15772	0	1	0	15773	3	1	6.339948012426299e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	13640	0	1	0	13641	4	1	7.330840847445201e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	12302	0	1	0	12303	5	1	8.128098837681866e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	10624	0	1	0	10625	7	1	9.411764705882353e-05	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	9158	0	1	0	9159	10	1	0.00010918222513374823	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	6984	0	1	0	6985	20	1	0.00014316392269148176	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	5953	0	1	0	5954	30	1	0.00016795431642593214	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	67	Insert_1	T	611	2	13	830123	0	1	4	830754	0	611	0.0007354764466978191	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	67	Insert_1	T	611	2	13	38905	0	1	4	39536	1	611	0.015454269526507487	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	67	Insert_1	T	0	0	0	19206	0	0	0	19206	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	67	Insert_1	T	0	0	0	15773	0	0	0	15773	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	67	Insert_1	T	0	0	0	13641	0	0	0	13641	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	67	Insert_1	T	0	0	0	12303	0	0	0	12303	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	67	Insert_1	T	0	0	0	10625	0	0	0	10625	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	67	Insert_1	T	0	0	0	9159	0	0	0	9159	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	67	Insert_1	T	0	0	0	6985	0	0	0	6985	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	67	Insert_1	T	0	0	0	5954	0	0	0	5954	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	68	Insert_1	C	366	830364	6	2	0	23	1	830762	0	366	0.0004405593900539505	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	68	Insert_1	C	346	39176	4	2	0	5	1	39534	1	346	0.008751960337936966	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	68	Insert_1	C	3	19201	1	0	0	2	0	19207	2	3	0.00015619305461550477	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	68	Insert_1	C	3	15769	1	0	0	1	0	15774	3	3	0.0001901863826550019	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	68	Insert_1	C	2	13639	0	0	0	1	0	13642	4	2	0.00014660606949127694	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	68	Insert_1	C	2	12301	0	0	0	1	0	12304	5	2	0.00016254876462938882	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	68	Insert_1	C	1	10624	0	0	0	1	0	10626	7	1	9.410878976096367e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	68	Insert_1	C	1	9158	0	0	0	1	0	9160	10	1	0.0001091703056768559	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	6985	0	0	0	0	0	6985	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	5954	0	0	0	0	0	5954	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	69	Insert_1	C	458	830079	4	222	0	1	2	830766	0	458	0.000551298440234675	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	69	Insert_1	C	64	39457	4	10	0	1	2	39538	1	64	0.0016186959380848805	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	69	Insert_1	C	2	19202	0	3	0	0	0	19207	2	3	0.00015619305461550477	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	69	Insert_1	C	2	15770	0	2	0	0	0	15774	3	2	0.00012679092177000128	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	69	Insert_1	C	2	13638	0	2	0	0	0	13642	4	2	0.00014660606949127694	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	69	Insert_1	C	2	12300	0	2	0	0	0	12304	5	2	0.00016254876462938882	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	69	Insert_1	C	2	10622	0	2	0	0	0	10626	7	2	0.00018821757952192734	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	69	Insert_1	C	2	9157	0	1	0	0	0	9160	10	2	0.0002183406113537118	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	69	Insert_1	C	2	6982	0	1	0	0	0	6985	20	2	0.0002863278453829635	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	69	Insert_1	C	2	5951	0	1	0	0	0	5954	30	2	0.0003359086328518643	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	70	Insert_1	T	34	7	0	831001	0	10	3	831055	0	34	4.091185300611873e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	70	Insert_1	T	34	2	0	39501	0	4	3	39544	1	34	0.0008598017398341088	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	2	0	19207	0	2	0	19211	2	2	0.00010410702201863516	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	1	0	15775	0	1	0	15777	3	1	6.338340622425049e-05	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	1	0	13642	0	1	0	13644	4	1	7.32922896511287e-05	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	1	0	12304	0	1	0	12306	5	1	8.126117341134406e-05	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	10628	0	0	0	10628	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	9162	0	0	0	9162	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	6987	0	0	0	6987	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	5956	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	71	Insert_1	C	17	831039	3	2	0	2	8	831071	0	17	2.045553268011999e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	71	Insert_1	C	17	39522	3	2	0	2	8	39554	1	17	0.000429792182838651	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	19213	0	0	0	0	0	19213	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	15779	0	0	0	0	0	15779	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	13645	0	0	0	0	0	13645	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	12307	0	0	0	0	0	12307	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	10628	0	0	0	0	0	10628	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	9162	0	0	0	0	0	9162	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	6987	0	0	0	0	0	6987	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	5956	0	0	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	72	Insert_1	T	569	158	3	830328	0	8	5	831071	0	569	0.0006846587114698985	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	72	Insert_1	T	520	8	3	39016	0	2	5	39554	1	520	0.013146584416241088	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	72	Insert_1	T	5	3	0	19204	0	1	0	19213	2	5	0.00026024046218706083	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	72	Insert_1	T	3	3	0	15772	0	1	0	15779	3	3	0.00019012611699093733	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	72	Insert_1	T	2	3	0	13639	0	1	0	13645	4	3	0.00021986075485525832	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	72	Insert_1	T	2	3	0	12301	0	1	0	12307	5	3	0.00024376371170878363	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	72	Insert_1	T	2	3	0	10622	0	1	0	10628	7	3	0.0002822732404968009	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	72	Insert_1	T	2	3	0	9157	0	0	0	9162	10	3	0.0003274394237066143	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	72	Insert_1	T	1	2	0	6984	0	0	0	6987	20	2	0.0002862458852154	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	72	Insert_1	T	1	2	0	5953	0	0	0	5956	30	2	0.000335795836131632	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	73	Insert_1	G	652	49	830164	175	0	1	16	831057	0	652	0.0007845430578167322	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	73	Insert_1	G	17	49	39449	19	0	1	16	39551	1	49	0.0012389067280220475	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	73	Insert_1	G	6	0	19204	2	0	0	0	19212	2	6	0.0003123048094940662	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	73	Insert_1	G	6	0	15770	2	0	0	0	15778	3	6	0.0003802763341361389	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	73	Insert_1	G	6	0	13636	2	0	0	0	13644	4	6	0.00043975373790677223	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	73	Insert_1	G	5	0	12299	2	0	0	0	12306	5	5	0.0004063058670567203	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	73	Insert_1	G	4	0	10621	2	0	0	0	10627	7	4	0.00037639973652018444	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	73	Insert_1	G	4	0	9155	2	0	0	0	9161	10	4	0.00043663355528872393	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	73	Insert_1	G	2	0	6983	2	0	0	0	6987	20	2	0.0002862458852154	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	73	Insert_1	G	2	0	5953	1	0	0	0	5956	30	2	0.000335795836131632	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	74	Insert_1	T	303	1	1	830598	0	147	5	831055	0	303	0.00036459680767217574	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	74	Insert_1	T	301	1	1	39231	0	10	5	39549	1	301	0.007610811904220081	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	74	Insert_1	T	1	0	0	19208	0	3	0	19212	2	3	0.0001561524047470331	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	74	Insert_1	T	1	0	0	15774	0	3	0	15778	3	3	0.00019013816706806946	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	0	0	13642	0	2	0	13644	4	2	0.0001465845793022574	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	0	0	12304	0	2	0	12306	5	2	0.00016252234682268812	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	0	0	10625	0	2	0	10627	7	2	0.00018819986826009222	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	0	0	9160	0	1	0	9161	10	1	0.00010915838882218098	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	0	0	6986	0	1	0	6987	20	1	0.0001431229426077	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	0	0	5955	0	1	0	5956	30	1	0.000167897918065816	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	75	Insert_1	G	133	116	830581	211	0	19	1	831061	0	211	0.0002538923135606171	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	75	Insert_1	G	11	20	39491	28	0	4	1	39555	1	28	0.000707875110605486	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	75	Insert_1	G	3	1	19202	3	0	3	0	19212	2	3	0.0001561524047470331	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	75	Insert_1	G	2	1	15769	3	0	3	0	15778	3	3	0.00019013816706806946	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	75	Insert_1	G	2	1	13636	3	0	2	0	13644	4	3	0.00021987686895338611	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	75	Insert_1	G	2	1	12300	2	0	1	0	12306	5	2	0.00016252234682268812	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	75	Insert_1	G	2	1	10621	2	0	1	0	10627	7	2	0.00018819986826009222	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	75	Insert_1	G	1	1	9156	2	0	1	0	9161	10	2	0.00021831677764436196	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	75	Insert_1	G	1	1	6983	2	0	0	0	6987	20	2	0.0002862458852154	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	75	Insert_1	G	1	1	5953	1	0	0	0	5956	30	1	0.000167897918065816	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	76	Insert_1	C	498	829702	34	803	0	2	1	831040	0	803	0.000966259145167501	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	76	Insert_1	C	498	38973	12	63	0	2	1	39549	1	498	0.012591974512629903	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	19174	4	31	0	0	0	19209	2	31	0.00161382685199646	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	15746	3	26	0	0	0	15775	3	26	0.0016481774960380349	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	13617	2	23	0	0	0	13642	4	23	0.0016859697991496848	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	12280	2	23	0	0	0	12305	5	23	0.001869158878504673	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	10605	1	20	0	0	0	10626	7	20	0.0018821757952192735	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	9144	1	15	0	0	0	9160	10	15	0.0016375545851528383	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	6976	0	11	0	0	0	6987	20	11	0.0015743523686847002	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	5947	0	9	0	0	0	5956	30	9	0.0015110812625923438	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	77	Insert_1	G	154	15	830475	262	0	150	1	831057	0	262	0.0003152611674048832	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	77	Insert_1	G	26	15	39466	38	0	5	1	39551	1	38	0.0009607848094864858	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	77	Insert_1	G	9	0	19195	6	0	2	0	19212	2	9	0.00046845721424109934	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	77	Insert_1	G	8	0	15764	4	0	2	0	15778	3	8	0.0005070351121815186	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	77	Insert_1	G	6	0	13632	4	0	2	0	13644	4	6	0.00043975373790677223	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	77	Insert_1	G	5	0	12296	3	0	2	0	12306	5	5	0.0004063058670567203	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	77	Insert_1	G	3	0	10620	3	0	1	0	10627	7	3	0.00028229980239013834	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	77	Insert_1	G	3	0	9154	3	0	1	0	9161	10	3	0.00032747516646654295	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	77	Insert_1	G	2	0	6982	2	0	1	0	6987	20	2	0.0002862458852154	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	77	Insert_1	G	1	0	5952	2	0	1	0	5956	30	2	0.000335795836131632	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	78	Insert_1	C	16	830292	419	178	0	143	9	831057	0	419	0.0005041772104681147	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	78	Insert_1	C	16	39500	12	8	0	6	9	39551	1	16	0.0004045409724153624	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	19201	4	4	0	3	0	19212	2	4	0.00020820320632937748	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	15769	3	3	0	3	0	15778	3	3	0.00019013816706806946	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	13635	3	3	0	3	0	13644	4	3	0.00021987686895338611	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	12297	3	3	0	3	0	12306	5	3	0.00024378352023403217	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	10619	2	3	0	3	0	10627	7	3	0.00028229980239013834	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	9154	2	2	0	3	0	9161	10	3	0.00032747516646654295	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	6981	2	2	0	2	0	6987	20	2	0.0002862458852154	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	5951	2	2	0	1	0	5956	30	2	0.000335795836131632	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	79	Insert_1	C	805	829101	5	1146	0	0	4	831061	0	1146	0.00137896014853302	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	79	Insert_1	C	39	39460	5	47	0	0	4	39555	1	47	0.0011882189356592087	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	79	Insert_1	C	14	19177	0	21	0	0	0	19212	2	21	0.0010930668332292317	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	79	Insert_1	C	12	15751	0	15	0	0	0	15778	3	15	0.0009506908353403474	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	79	Insert_1	C	10	13619	0	15	0	0	0	13644	4	15	0.0010993843447669306	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	79	Insert_1	C	9	12285	0	12	0	0	0	12306	5	12	0.0009751340809361287	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	79	Insert_1	C	9	10607	0	11	0	0	0	10627	7	11	0.0010350992754305072	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	79	Insert_1	C	7	9145	0	9	0	0	0	9161	10	9	0.000982425499399629	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	79	Insert_1	C	6	6973	0	8	0	0	0	6987	20	8	0.0011449835408616	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	79	Insert_1	C	6	5943	0	7	0	0	0	5956	30	7	0.0011752854264607119	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	80	Insert_1	G	373	26	830601	58	1	0	1	831059	0	373	0.00044882493300716313	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	80	Insert_1	G	25	26	39481	20	1	0	1	39553	1	26	0.0006573458397593103	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	80	Insert_1	G	8	0	19203	1	0	0	0	19212	2	8	0.00041640641265875496	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	80	Insert_1	G	8	0	15769	1	0	0	0	15778	3	8	0.0005070351121815186	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	80	Insert_1	G	6	0	13637	1	0	0	0	13644	4	6	0.00043975373790677223	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	80	Insert_1	G	6	0	12299	1	0	0	0	12306	5	6	0.00048756704046806434	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	80	Insert_1	G	4	0	10622	1	0	0	0	10627	7	4	0.00037639973652018444	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	80	Insert_1	G	3	0	9157	1	0	0	0	9161	10	3	0.00032747516646654295	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	80	Insert_1	G	3	0	6983	1	0	0	0	6987	20	3	0.00042936882782310007	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	80	Insert_1	G	2	0	5953	1	0	0	0	5956	30	2	0.000335795836131632	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	81		C	351	830269	1	196	0	0	1	830818	0	351	0.0004224751991410875	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	81		C	25	39408	1	12	0	0	1	39447	1	25	0.000633761756280579	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	81		C	2	19142	0	3	0	0	0	19147	2	3	0.00015668250900924426	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	81		C	2	15711	0	2	0	0	0	15715	3	2	0.00012726694241170855	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	81		C	2	13634	0	1	0	0	0	13637	4	2	0.00014665982254161473	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	81		C	2	12303	0	1	0	0	0	12306	5	2	0.00016252234682268812	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	81		C	2	10624	0	1	0	0	0	10627	7	2	0.00018819986826009222	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	81		C	2	9158	0	1	0	0	0	9161	10	2	0.00021831677764436196	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	81		C	2	6984	0	1	0	0	0	6987	20	2	0.0002862458852154	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	81		C	2	5953	0	1	0	0	0	5956	30	2	0.000335795836131632	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	82		A	830812	1	1	1	0	1	1	830817	0	1	1.2036344947202573e-06	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	82		A	39441	1	1	1	0	1	1	39446	1	1	2.535111291385692e-05	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	82		A	19147	0	0	0	0	0	0	19147	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	82		A	15715	0	0	0	0	0	0	15715	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	82		A	13637	0	0	0	0	0	0	13637	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	82		A	12306	0	0	0	0	0	0	12306	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	82		A	10627	0	0	0	0	0	0	10627	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	82		A	9161	0	0	0	0	0	0	9161	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	82		A	6987	0	0	0	0	0	0	6987	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	82		A	5956	0	0	0	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	83		A	830813	0	2	1	0	0	2	830818	0	2	2.407266091972008e-06	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	83		A	39442	0	2	1	0	0	2	39447	1	2	5.070094050244632e-05	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	83		A	19147	0	0	0	0	0	0	19147	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	83		A	15715	0	0	0	0	0	0	15715	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	83		A	13637	0	0	0	0	0	0	13637	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	83		A	12306	0	0	0	0	0	0	12306	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	83		A	10627	0	0	0	0	0	0	10627	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	83		A	9161	0	0	0	0	0	0	9161	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	83		A	6987	0	0	0	0	0	0	6987	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	83		A	5956	0	0	0	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	84		A	830807	0	0	1	0	0	10	830818	0	10	1.203633045986004e-05	N
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	84		A	39436	0	0	1	0	0	10	39447	1	10	0.0002535047025122316	N
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	84		A	19147	0	0	0	0	0	0	19147	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	84		A	15715	0	0	0	0	0	0	15715	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	84		A	13637	0	0	0	0	0	0	13637	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	84		A	12306	0	0	0	0	0	0	12306	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	84		A	10627	0	0	0	0	0	0	10627	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	84		A	9161	0	0	0	0	0	0	9161	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	84		A	6987	0	0	0	0	0	0	6987	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	84		A	5956	0	0	0	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	85		G	6	18	830780	9	0	0	0	830813	0	18	2.1665525214458608e-05	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	85		G	6	18	39409	9	0	0	0	39442	1	18	0.0004563663100248466	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	85		G	0	0	19147	0	0	0	0	19147	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	85		G	0	0	15715	0	0	0	0	15715	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	85		G	0	0	13637	0	0	0	0	13637	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	85		G	0	0	12306	0	0	0	0	12306	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	85		G	0	0	10627	0	0	0	0	10627	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	85		G	0	0	9161	0	0	0	0	9161	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	85		G	0	0	6987	0	0	0	0	6987	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	85		G	0	0	5956	0	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	86		C	33	830656	1	119	178	0	2	830811	0	178	0.00021424848732142448	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	86		C	33	39394	1	10	6	0	2	39440	1	33	0.0008367139959432049	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	86		C	0	19144	0	3	3	0	0	19147	2	3	0.00015668250900924426	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	86		C	0	15712	0	3	3	0	0	15715	3	3	0.00019090041361756284	T
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	86		C	0	13635	0	2	3	0	0	13637	4	3	0.0002199897338124221	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	86		C	0	12304	0	2	3	0	0	12306	5	3	0.00024378352023403217	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	86		C	0	10626	0	1	3	0	0	10627	7	3	0.00028229980239013834	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	86		C	0	9160	0	1	3	0	0	9161	10	3	0.00032747516646654295	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	86		C	0	6986	0	1	3	0	0	6987	20	3	0.00042936882782310007	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	86		C	0	5955	0	1	2	0	0	5956	30	2	0.000335795836131632	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	87		T	54	9	1	830686	14	29	8	830787	0	54	6.499860975195809e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	87		T	54	4	1	39334	1	15	8	39416	1	54	0.0013700020296326366	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	87		T	0	1	0	19141	1	5	0	19147	2	5	0.0002611375150154071	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	87		T	0	1	0	15710	1	4	0	15715	3	4	0.0002545338848234171	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	87		T	0	1	0	13633	1	3	0	13637	4	3	0.0002199897338124221	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	87		T	0	1	0	12304	1	1	0	12306	5	1	8.126117341134406e-05	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	87		T	0	0	0	10627	1	0	0	10627	7	1	9.409993413004611e-05	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	87		T	0	0	0	9161	1	0	0	9161	10	1	0.00010915838882218098	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	87		T	0	0	0	6987	0	0	0	6987	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	87		T	0	0	0	5956	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	88		G	14	25	830705	24	3	3	0	830771	0	25	3.0092528506652253e-05	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	88		G	9	25	39351	24	3	1	0	39410	1	25	0.0006343567622430855	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	88		G	2	0	19141	0	0	1	0	19144	2	2	0.00010447137484329294	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	88		G	2	0	15710	0	0	1	0	15713	3	2	0.00012728314134792846	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	88		G	1	0	13635	0	0	0	0	13636	4	1	7.333528894103843e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	88		G	0	0	12305	0	0	0	0	12305	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	88		G	0	0	10626	0	0	0	0	10626	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	88		G	0	0	9161	0	0	0	0	9161	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	88		G	0	0	6987	0	0	0	0	6987	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	88		G	0	0	5956	0	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	89		T	25	5	0	829697	227	1016	2	830745	0	1016	0.0012229986337564476	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	89		T	25	5	0	39313	6	40	2	39385	1	40	0.001015615081883966	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	89		T	0	0	0	19129	3	14	0	19143	2	14	0.0007313378258371206	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	89		T	0	0	0	15700	2	13	0	15713	3	13	0.0008273404187615351	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	89		T	0	0	0	13623	2	13	0	13636	4	13	0.0009533587562334996	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	89		T	0	0	0	12293	2	12	0	12305	5	12	0.0009752133279154815	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	89		T	0	0	0	10616	2	10	0	10626	7	10	0.0009410878976096367	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	89		T	0	0	0	9153	2	8	0	9161	10	8	0.0008732671105774479	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	89		T	0	0	0	6982	2	5	0	6987	20	5	0.0007156147130385	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	89		T	0	0	0	5951	2	5	0	5956	30	5	0.0008394895903290799	D
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	90		T	35	2	0	830729	0	0	1	830767	0	35	4.2129742755790733e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	90		T	35	2	0	39369	0	0	1	39407	1	35	0.0008881670769152689	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	90		T	0	0	0	19143	0	0	0	19143	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	90		T	0	0	0	15713	0	0	0	15713	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	90		T	0	0	0	13636	0	0	0	13636	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	90		T	0	0	0	12305	0	0	0	12305	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	90		T	0	0	0	10626	0	0	0	10626	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	90		T	0	0	0	9161	0	0	0	9161	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	90		T	0	0	0	6987	0	0	0	6987	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	90		T	0	0	0	5956	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	91		C	28	830646	18	18	764	37	5	830752	0	764	0.0009196487038249683	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	91		C	28	39344	6	9	27	4	5	39396	1	28	0.0007107320540156361	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	91		C	0	19136	3	3	12	1	0	19143	2	12	0.0006268609935746748	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	91		C	0	15707	3	2	11	1	0	15713	3	11	0.0007000572774136065	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	91		C	0	13632	1	1	10	1	0	13635	4	10	0.0007334066740007334	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	91		C	0	12301	1	1	10	1	0	12304	5	10	0.000812743823146944	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	91		C	0	10622	1	1	10	1	0	10625	7	10	0.0009411764705882353	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	91		C	0	9160	0	0	10	1	0	9161	10	10	0.0010915838882218098	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	91		C	0	6986	0	0	8	1	0	6987	20	8	0.0011449835408616	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	91		C	0	5955	0	0	6	1	0	5956	30	6	0.0010073875083948958	I
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	92		C	17	830701	15	8	0	0	3	830744	0	17	2.0463584449601803e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	92		C	15	39361	3	8	0	0	3	39390	1	15	0.0003808073115003808	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	92		C	1	19139	2	0	0	0	0	19142	2	2	0.00010448229025180232	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	92		C	1	15709	2	0	0	0	0	15712	3	2	0.00012729124236252545	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	92		C	0	13633	2	0	0	0	0	13635	4	2	0.00014668133480014669	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	92		C	0	12302	2	0	0	0	0	12304	5	2	0.00016254876462938882	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	92		C	0	10624	1	0	0	0	0	10625	7	1	9.411764705882353e-05	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	92		C	0	9161	0	0	0	0	0	9161	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	92		C	0	6987	0	0	0	0	0	6987	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	92		C	0	5956	0	0	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	93		G	84	19	830584	14	0	0	3	830704	0	84	0.00010111905082917621	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	93		G	15	19	39321	14	0	0	3	39372	1	19	0.0004825764502692269	C
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	93		G	3	0	19137	0	0	0	0	19140	2	3	0.00015673981191222572	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	93		G	2	0	15708	0	0	0	0	15710	3	2	0.0001273074474856779	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	93		G	2	0	13632	0	0	0	0	13634	4	2	0.00014669209329617132	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	93		G	2	0	12301	0	0	0	0	12303	5	2	0.0001625619767536373	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	93		G	2	0	10622	0	0	0	0	10624	7	2	0.00018825301204819278	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	93		G	2	0	9158	0	0	0	0	9160	10	2	0.0002183406113537118	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	93		G	1	0	6985	0	0	0	0	6986	20	1	0.000143143429716576	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	93		G	1	0	5955	0	0	0	0	5956	30	1	0.000167897918065816	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	94		T	114	6	54	830472	0	0	1	830647	0	114	0.00013724241464785884	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	94		T	23	6	4	39318	0	0	1	39352	1	23	0.0005844683878837162	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	94		T	1	0	2	19132	0	0	0	19135	2	2	0.00010452051215050954	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	94		T	1	0	2	15702	0	0	0	15705	3	2	0.00012734797835084368	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	94		T	1	0	2	13627	0	0	0	13630	4	2	0.0001467351430667645	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	94		T	1	0	2	12296	0	0	0	12299	5	2	0.00016261484673550696	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	94		T	1	0	2	10617	0	0	0	10620	7	2	0.00018832391713747646	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	94		T	1	0	2	9156	0	0	0	9159	10	2	0.00021836445026749646	G
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	94		T	1	0	1	6984	0	0	0	6986	20	1	0.000143143429716576	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	94		T	1	0	1	5954	0	0	0	5956	30	1	0.000167897918065816	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	95		C	31	830568	16	5	0	0	4	830624	0	31	3.732133913780483e-05	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	95		C	12	39322	1	4	0	0	4	39343	1	12	0.00030500978573062555	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	95		C	2	19129	1	1	0	0	0	19133	2	2	0.00010453143782992735	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	95		C	2	15700	1	0	0	0	0	15703	3	2	0.00012736419792396358	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	95		C	2	13626	1	0	0	0	0	13629	4	2	0.00014674590945777387	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	95		C	2	12295	1	0	0	0	0	12298	5	2	0.0001626280696048138	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	95		C	2	10616	1	0	0	0	0	10619	7	2	0.0001883416517562859	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	95		C	1	9156	1	0	0	0	0	9158	10	1	0.00010919414719371041	A
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	95		C	0	6986	0	0	0	0	0	6986	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	95		C	0	5956	0	0	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	96		C	0	830551	0	0	0	0	5	830556	0	5	6.020063668193355e-06	N
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	96		C	0	39301	0	0	0	0	5	39306	1	5	0.00012720704218185518	N
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	96		C	0	19122	0	0	0	0	0	19122	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	96		C	0	15698	0	0	0	0	0	15698	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	96		C	0	13626	0	0	0	0	0	13626	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	96		C	0	12295	0	0	0	0	0	12295	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	96		C	0	10617	0	0	0	0	0	10617	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	96		C	0	9157	0	0	0	0	0	9157	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	96		C	0	6986	0	0	0	0	0	6986	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	96		C	0	5956	0	0	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	97		C	0	830463	0	0	0	0	4	830467	0	4	4.816567064073587e-06	N
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	97		C	0	39242	0	0	0	0	4	39246	1	4	0.00010192121490088162	N
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	97		C	0	19116	0	0	0	0	0	19116	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	97		C	0	15697	0	0	0	0	0	15697	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	97		C	0	13625	0	0	0	0	0	13625	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	97		C	0	12294	0	0	0	0	0	12294	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	97		C	0	10616	0	0	0	0	0	10616	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	97		C	0	9156	0	0	0	0	0	9156	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	97		C	0	6985	0	0	0	0	0	6985	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	97		C	0	5956	0	0	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	98		A	830213	0	0	0	0	0	4	830217	0	4	4.818017458086259e-06	N
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	98		A	39123	0	0	0	0	0	4	39127	1	4	0.00010223119584941345	N
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	98		A	19080	0	0	0	0	0	0	19080	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	98		A	15677	0	0	0	0	0	0	15677	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	98		A	13612	0	0	0	0	0	0	13612	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	98		A	12282	0	0	0	0	0	0	12282	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	98		A	10609	0	0	0	0	0	0	10609	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	98		A	9152	0	0	0	0	0	0	9152	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	98		A	6985	0	0	0	0	0	0	6985	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	98		A	5956	0	0	0	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	99		G	0	0	830121	0	0	0	0	830121	0	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	99		G	0	0	39063	0	0	0	0	39063	1	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	99		G	0	0	19071	0	0	0	0	19071	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	99		G	0	0	15671	0	0	0	0	15671	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	99		G	0	0	13607	0	0	0	0	13607	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	99		G	0	0	12279	0	0	0	0	12279	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	99		G	0	0	10607	0	0	0	0	10607	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	99		G	0	0	9152	0	0	0	0	9152	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	99		G	0	0	6985	0	0	0	0	6985	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	99		G	0	0	5956	0	0	0	0	5956	30	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	100		T	0	0	0	829997	0	0	0	829997	0	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	100		T	0	0	0	38987	0	0	0	38987	1	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	100		T	0	0	0	19054	0	0	0	19054	2	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	100		T	0	0	0	15665	0	0	0	15665	3	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	100		T	0	0	0	13604	0	0	0	13604	4	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	100		T	0	0	0	12276	0	0	0	12276	5	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	100		T	0	0	0	10604	0	0	0	10604	7	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	100		T	0	0	0	9149	0	0	0	9149	10	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	100		T	0	0	0	6985	0	0	0	6985	20	0	0	
+idt_fwd_gblocks_b1_2_S23_L001_R1_001	TP1_synth_forward	100		T	0	0	0	5956	0	0	0	5956	30	0	0	

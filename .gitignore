@@ -1,6 +1,14 @@
+#UMIErrorCorrect output to ignore
+/data/**/*.sorted.bam
+/data/**/*_target_coverage.txt
+/data/**/*fastq.gz
+/data/**/*.vcf
+/data/**/*.sorted.bam.bai
+/data/**/*.hist
+/data/**/*_summary_statistics.txt
+
+# Debarcer output to ignore
 /data/**/*.log
-/data/**/*.bam
-/data/**/*.bai
 /data/**/*.barcode_mask
 /data/**/*.touch
 **/*.consensusStatistics.txt
@@ -11,6 +19,7 @@
 /data/figures
 /data/sge
 
+# R
 .Rhistory
 
 # OS generated files #

@@ -113,7 +113,7 @@ For details regarding usage see:
 
 #### QC reports
 
-Optionally install [fastp]{https://github.com/OpenGene/fastp} from conda:
+Optionally install [fastp](https://github.com/OpenGene/fastp) from conda:
 
 ```
 conda install -c bioconda fastp

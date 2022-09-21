@@ -1,0 +1,1001 @@
+Sample Name	Contig	Position	Name	Reference	A	C	G	T	I	D	N	Coverage	Consensus group size	Max Non-ref Allele Count	Max Non-ref Allele Frequency	Max Non-ref Allele
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	1		G	3	921	435413	18	0	0	1	436356	0	921	0.00211066193658389	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	1		G	3	9	22540	7	0	0	1	22560	1	9	0.00039893617021276594	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	1		G	0	1	8990	2	0	0	0	8993	2	2	0.0002223951962637607	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	1		G	0	1	7186	2	0	0	0	7189	3	2	0.00027820280984837946	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	1		G	0	1	6142	2	0	0	0	6145	4	2	0.00032546786004882016	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	1		G	0	1	5482	1	0	0	0	5484	5	1	0.00018234865061998541	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	1		G	0	1	4651	1	0	0	0	4653	7	1	0.0002149151085321298	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	1		G	0	1	3881	0	0	0	0	3882	10	1	0.00025759917568263783	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	1		G	0	1	2754	0	0	0	0	2755	20	1	0.0003629764065335753	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	1		G	0	1	2279	0	0	0	0	2280	30	1	0.0004385964912280702	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	2		T	14	1	100	463129	0	0	1	463245	0	100	0.00021586849291411672	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	2		T	14	1	4	23958	0	0	1	23978	1	14	0.00058386854616732	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	2		T	0	0	3	9582	0	0	0	9585	2	3	0.00031298904538341156	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	2		T	0	0	3	7646	0	0	0	7649	3	3	0.0003922081317819323	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	2		T	0	0	3	6534	0	0	0	6537	4	3	0.0004589261128958238	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	2		T	0	0	2	5838	0	0	0	5840	5	2	0.00034246575342465754	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	2		T	0	0	2	4955	0	0	0	4957	7	2	0.00040346984062941297	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	2		T	0	0	2	4123	0	0	0	4125	10	2	0.00048484848484848484	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	2		T	0	0	2	2928	0	0	0	2930	20	2	0.0006825938566552901	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	2		T	0	0	1	2423	0	0	0	2424	30	1	0.00041254125412541255	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	3		G	4	10	466600	24	0	0	6	466644	0	24	5.143106950909044e-05	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	3		G	4	10	24255	5	0	0	6	24280	1	10	0.00041186161449752884	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	3		G	0	0	9706	1	0	0	0	9707	2	1	0.00010301844030081384	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	3		G	0	0	7735	1	0	0	0	7736	3	1	0.00012926577042399174	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	3		G	0	0	6614	1	0	0	0	6615	4	1	0.0001511715797430083	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	3		G	0	0	5908	1	0	0	0	5909	5	1	0.00016923337282112033	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	3		G	0	0	5011	1	0	0	0	5012	7	1	0.00019952114924181964	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	3		G	0	0	4169	1	0	0	0	4170	10	1	0.00023980815347721823	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	3		G	0	0	2960	1	0	0	0	2961	20	1	0.00033772374197906115	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	3		G	0	0	2452	0	0	0	0	2452	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	4		G	61	10	468819	56	0	0	2	468948	0	61	0.0001300783882221483	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	4		G	4	10	24374	17	0	0	2	24407	1	17	0.000696521489736551	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	4		G	1	0	9764	4	0	0	0	9769	2	4	0.00040945849114546015	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	4		G	1	0	7776	4	0	0	0	7781	3	4	0.0005140727412928929	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	4		G	1	0	6652	3	0	0	0	6656	4	3	0.00045072115384615387	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	4		G	1	0	5942	3	0	0	0	5946	5	3	0.0005045408678102926	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	4		G	1	0	5039	2	0	0	0	5042	7	2	0.0003966679888932963	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	4		G	1	0	4191	1	0	0	0	4193	10	1	0.00023849272597185786	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	4		G	1	0	2977	1	0	0	0	2979	20	1	0.0003356831151393085	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	4		G	1	0	2465	0	0	0	0	2466	30	1	0.00040551500405515005	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	5		T	16	1	2	469692	0	11	6	469728	0	16	3.406226582192247e-05	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	5		T	16	1	2	24430	0	6	6	24461	1	16	0.0006541024487960427	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	5		T	0	0	0	9788	0	1	0	9789	2	1	0.00010215548064153642	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	5		T	0	0	0	7798	0	1	0	7799	3	1	0.00012822156686754713	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	5		T	0	0	0	6670	0	1	0	6671	4	1	0.00014990256333383302	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	5		T	0	0	0	5957	0	1	0	5958	5	1	0.00016784155756965425	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	5		T	0	0	0	5053	0	0	0	5053	7	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	5		T	0	0	0	4203	0	0	0	4203	10	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	5		T	0	0	0	2986	0	0	0	2986	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	5		T	0	0	0	2473	0	0	0	2473	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	6		G	4	8	469758	139	15	4	2	469915	0	139	0.00029579817626592043	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	6		G	4	8	24476	18	4	4	2	24512	1	18	0.0007343342036553525	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	6		G	0	0	9798	4	2	0	0	9802	2	4	0.00040807998367680065	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	6		G	0	0	7804	4	1	0	0	7808	3	4	0.0005122950819672131	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	6		G	0	0	6674	4	1	0	0	6678	4	4	0.0005989817310572028	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	6		G	0	0	5960	4	1	0	0	5964	5	4	0.0006706908115358819	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	6		G	0	0	5054	4	1	0	0	5058	7	4	0.0007908264136022143	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	6		G	0	0	4204	3	1	0	0	4207	10	3	0.0007130972189208462	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	6		G	0	0	2987	2	0	0	0	2989	20	2	0.0006691201070592171	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	6		G	0	0	2473	2	0	0	0	2475	30	2	0.0008080808080808081	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	7		A	471823	0	3	2	0	3	0	471831	0	3	6.358208765426604e-06	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	7		A	24535	0	3	2	0	2	0	24542	1	3	0.00012223942628962595	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	7		A	9817	0	0	0	0	1	0	9818	2	1	0.00010185373803218578	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	7		A	7823	0	0	0	0	0	0	7823	3	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	7		A	6691	0	0	0	0	0	0	6691	4	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	7		A	5974	0	0	0	0	0	0	5974	5	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	7		A	5067	0	0	0	0	0	0	5067	7	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	7		A	4214	0	0	0	0	0	0	4214	10	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	7		A	2995	0	0	0	0	0	0	2995	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	7		A	2480	0	0	0	0	0	0	2480	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	8		G	2	7	472235	11	206	3	1	472259	0	206	0.0004362013217323545	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	8		G	2	7	24527	11	4	3	1	24551	1	11	0.00044804692273227157	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	8		G	0	0	9823	0	1	0	0	9823	2	1	0.00010180189351521938	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	8		G	0	0	7828	0	1	0	0	7828	3	1	0.00012774655084312725	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	8		G	0	0	6695	0	1	0	0	6695	4	1	0.00014936519790888724	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	8		G	0	0	5978	0	1	0	0	5978	5	1	0.00016728002676480428	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	8		G	0	0	5070	0	1	0	0	5070	7	1	0.0001972386587771203	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	8		G	0	0	4217	0	1	0	0	4217	10	1	0.00023713540431586437	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	8		G	0	0	2997	0	1	0	0	2997	20	1	0.000333667000333667	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	8		G	0	0	2482	0	1	0	0	2482	30	1	0.00040290088638195	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	9		G	5	8	472777	145	0	0	1	472936	0	145	0.0003065953955714938	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	9		G	5	8	24534	19	0	0	1	24567	1	19	0.0007733952049497294	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	9		G	0	0	9826	3	0	0	0	9829	2	3	0.00030521924916064705	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	9		G	0	0	7831	2	0	0	0	7833	3	2	0.00025533001404315077	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	9		G	0	0	6698	2	0	0	0	6700	4	2	0.00029850746268656717	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	9		G	0	0	5981	2	0	0	0	5983	5	2	0.00033428046130703663	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	9		G	0	0	5073	2	0	0	0	5075	7	2	0.00039408866995073894	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	9		G	0	0	4220	2	0	0	0	4222	10	2	0.0004737091425864519	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	9		G	0	0	2999	2	0	0	0	3001	20	2	0.0006664445184938354	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	9		G	0	0	2485	1	0	0	0	2486	30	1	0.00040225261464199515	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	10		C	28	473388	0	2	8	14	0	473432	0	28	5.91426012605823e-05	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	10		C	28	24540	0	2	1	2	0	24572	1	28	0.0011395083835259645	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	10		C	0	9830	0	0	1	1	0	9831	2	1	0.00010171905197843556	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	10		C	0	7833	0	0	1	1	0	7834	3	1	0.00012764871074802145	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	10		C	0	6700	0	0	1	1	0	6701	4	1	0.00014923145799134458	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	10		C	0	5983	0	0	1	1	0	5984	5	1	0.00016711229946524063	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	10		C	0	5075	0	0	1	1	0	5076	7	1	0.00019700551615445234	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	10		C	0	4222	0	0	0	1	0	4223	10	1	0.00023679848448969926	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	10		C	0	3002	0	0	0	0	0	3002	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	10		C	0	2487	0	0	0	0	0	2487	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	11		T	43	1	1	473649	0	6	0	473700	0	43	9.077475195271268e-05	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	11		T	43	1	1	24536	0	1	0	24582	1	43	0.0017492474168090473	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	11		T	0	0	0	9832	0	1	0	9833	2	1	0.00010169836265636123	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	11		T	0	0	0	7835	0	1	0	7836	3	1	0.00012761613067891782	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	11		T	0	0	0	6702	0	1	0	6703	4	1	0.0001491869312248247	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	11		T	0	0	0	5985	0	1	0	5986	5	1	0.0001670564650851988	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	11		T	0	0	0	5078	0	0	0	5078	7	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	11		T	0	0	0	4225	0	0	0	4225	10	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	11		T	0	0	0	3003	0	0	0	3003	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	11		T	0	0	0	2488	0	0	0	2488	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	12		C	30	472716	1	2	2	943	1	473693	0	943	0.001990740838475553	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	12		C	30	24519	1	2	2	22	1	24575	1	30	0.0012207527975584944	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	12		C	0	9822	0	0	0	11	0	9833	2	11	0.0011186819892199736	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	12		C	0	7826	0	0	0	10	0	7836	3	10	0.001276161306789178	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	12		C	0	6694	0	0	0	9	0	6703	4	9	0.0013426823810234224	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	12		C	0	5978	0	0	0	8	0	5986	5	8	0.0013364517206815904	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	12		C	0	5070	0	0	0	8	0	5078	7	8	0.0015754233950374162	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	12		C	0	4219	0	0	0	6	0	4225	10	6	0.0014201183431952662	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	12		C	0	2998	0	0	0	5	0	3003	20	5	0.001665001665001665	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	12		C	0	2483	0	0	0	5	0	2488	30	5	0.0020096463022508037	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	13		C	33	473668	0	4	0	0	2	473707	0	33	6.966331508717414e-05	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	13		C	33	24550	0	4	0	0	2	24589	1	33	0.0013420635243401521	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	13		C	0	9833	0	0	0	0	0	9833	2	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	13		C	0	7836	0	0	0	0	0	7836	3	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	13		C	0	6703	0	0	0	0	0	6703	4	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	13		C	0	5986	0	0	0	0	0	5986	5	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	13		C	0	5078	0	0	0	0	0	5078	7	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	13		C	0	4225	0	0	0	0	0	4225	10	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	13		C	0	3003	0	0	0	0	0	3003	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	13		C	0	2488	0	0	0	0	0	2488	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	14		C	16	473685	0	10	0	0	1	473712	0	16	3.3775796264396935e-05	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	14		C	16	24572	0	2	0	0	1	24591	1	16	0.0006506445447521451	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	14		C	0	9833	0	1	0	0	0	9834	2	1	0.0001016880211511084	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	14		C	0	7836	0	1	0	0	0	7837	3	1	0.00012759984688018373	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	14		C	0	6703	0	1	0	0	0	6704	4	1	0.00014916467780429595	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	14		C	0	5985	0	1	0	0	0	5986	5	1	0.0001670564650851988	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	14		C	0	5077	0	1	0	0	0	5078	7	1	0.00019692792437967703	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	14		C	0	4225	0	0	0	0	0	4225	10	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	14		C	0	3003	0	0	0	0	0	3003	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	14		C	0	2488	0	0	0	0	0	2488	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	15		C	28	473696	1	1	0	1	0	473727	0	28	5.910577188971707e-05	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	15		C	28	24563	1	1	0	1	0	24594	1	28	0.0011384890623729366	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	15		C	0	9836	0	0	0	0	0	9836	2	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	15		C	0	7838	0	0	0	0	0	7838	3	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	15		C	0	6705	0	0	0	0	0	6705	4	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	15		C	0	5987	0	0	0	0	0	5987	5	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	15		C	0	5079	0	0	0	0	0	5079	7	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	15		C	0	4226	0	0	0	0	0	4226	10	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	15		C	0	3003	0	0	0	0	0	3003	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	15		C	0	2488	0	0	0	0	0	2488	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	16		T	55	0	1	473950	1068	287	0	474293	0	1068	0.0022517726384323616	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	16		T	55	0	1	24499	7	27	0	24582	1	55	0.002237409486616223	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	16		T	0	0	0	9825	3	13	0	9838	2	13	0.001321406789997967	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	16		T	0	0	0	7829	3	11	0	7840	3	11	0.0014030612244897958	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	16		T	0	0	0	6695	3	11	0	6706	4	11	0.0016403220996122874	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	16		T	0	0	0	5980	3	8	0	5988	5	8	0.0013360053440213762	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	16		T	0	0	0	5074	3	6	0	5080	7	6	0.0011811023622047244	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	16		T	0	0	0	4222	3	5	0	4227	10	5	0.0011828720132481666	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	16		T	0	0	0	3000	3	4	0	3004	20	4	0.0013315579227696406	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	16		T	0	0	0	2485	3	4	0	2489	30	4	0.0016070711128967456	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	17		T	54	338	1	474195	0	0	2	474590	0	338	0.000712193682968457	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	17		T	54	13	1	24528	0	0	2	24598	1	54	0.0021953004309293437	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	17		T	0	5	0	9833	0	0	0	9838	2	5	0.0005082333807684489	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	17		T	0	4	0	7837	0	0	0	7841	3	4	0.0005101390128810101	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	17		T	0	3	0	6704	0	0	0	6707	4	3	0.0004472938720739526	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	17		T	0	3	0	5986	0	0	0	5989	5	3	0.0005009183503088997	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	17		T	0	3	0	5078	0	0	0	5081	7	3	0.000590434953749262	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	17		T	0	3	0	4225	0	0	0	4228	10	3	0.0007095553453169347	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	17		T	0	1	0	3004	0	0	0	3005	20	1	0.00033277870216306157	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	17		T	0	1	0	2489	0	0	0	2490	30	1	0.00040160642570281126	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	18		T	42	1	0	473712	0	824	5	474584	0	824	0.0017362574380931511	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	18		T	42	1	0	24522	0	21	5	24591	1	42	0.0017079419299743809	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	18		T	0	0	0	9833	0	6	0	9839	2	6	0.000609818070942169	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	18		T	0	0	0	7837	0	4	0	7841	3	4	0.0005101390128810101	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	18		T	0	0	0	6703	0	4	0	6707	4	4	0.0005963918294319368	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	18		T	0	0	0	5985	0	4	0	5989	5	4	0.0006678911337451996	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	18		T	0	0	0	5078	0	3	0	5081	7	3	0.000590434953749262	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	18		T	0	0	0	4225	0	3	0	4228	10	3	0.0007095553453169347	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	18		T	0	0	0	3003	0	2	0	3005	20	2	0.0006655574043261231	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	18		T	0	0	0	2489	0	1	0	2490	30	1	0.00040160642570281126	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	19	Insert_1	A	473609	0	2	9	2	239	0	473859	0	239	0.0005043694432310033	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	19	Insert_1	A	24602	0	2	9	1	4	0	24617	1	9	0.0003656010074338872	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	19	Insert_1	A	9856	0	0	0	1	1	0	9857	2	1	0.00010145074566298062	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	19	Insert_1	A	7857	0	0	0	0	1	0	7858	3	1	0.00012725884448969204	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	19	Insert_1	A	6707	0	0	0	0	1	0	6708	4	1	0.0001490757304710793	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	19	Insert_1	A	5985	0	0	0	0	1	0	5986	5	1	0.0001670564650851988	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	19	Insert_1	A	5077	0	0	0	0	1	0	5078	7	1	0.00019692792437967703	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	19	Insert_1	A	4224	0	0	0	0	1	0	4225	10	1	0.00023668639053254438	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	19	Insert_1	A	3002	0	0	0	0	1	0	3003	20	1	0.000333000333000333	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	19	Insert_1	A	2488	0	0	0	0	1	0	2489	30	1	0.0004017677782241864	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	20	Insert_1	T	42	0	2	473817	1	0	1	473862	0	42	8.863339959735113e-05	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	20	Insert_1	T	42	0	2	24575	1	0	1	24620	1	42	0.0017059301380991064	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	9857	0	0	0	9857	2	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	7858	0	0	0	7858	3	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	6708	0	0	0	6708	4	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	5986	0	0	0	5986	5	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	5078	0	0	0	5078	7	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	4225	0	0	0	4225	10	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	3003	0	0	0	3003	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	2489	0	0	0	2489	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	21	Insert_1	A	473537	2	29	14	0	269	2	473853	0	269	0.0005676866032292715	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	21	Insert_1	A	24560	2	12	14	0	21	2	24611	1	21	0.0008532769899638373	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	21	Insert_1	A	9840	0	5	0	0	12	0	9857	2	12	0.0012174089479557674	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	21	Insert_1	A	7846	0	3	0	0	9	0	7858	3	9	0.0011453296004072283	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	21	Insert_1	A	6697	0	3	0	0	8	0	6708	4	8	0.0011926058437686344	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	21	Insert_1	A	5978	0	2	0	0	6	0	5986	5	6	0.0010023387905111927	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	21	Insert_1	A	5071	0	1	0	0	6	0	5078	7	6	0.0011815675462780622	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	21	Insert_1	A	4221	0	0	0	0	4	0	4225	10	4	0.0009467455621301775	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	21	Insert_1	A	3000	0	0	0	0	3	0	3003	20	3	0.000999000999000999	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	21	Insert_1	A	2486	0	0	0	0	3	0	2489	30	3	0.0012053033346725592	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	22	Insert_1	C	34	473691	5	565	21	364	5	474664	0	565	0.0011903156759307636	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	22	Insert_1	C	34	24553	5	16	2	24	5	24637	1	34	0.0013800381539960222	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	22	Insert_1	C	0	9844	0	4	2	11	0	9859	2	11	0.0011157318186428644	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	22	Insert_1	C	0	7846	0	3	2	10	0	7859	3	10	0.001272426517368622	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	22	Insert_1	C	0	6698	0	2	2	9	0	6709	4	9	0.001341481591891489	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	22	Insert_1	C	0	5978	0	2	2	8	0	5988	5	8	0.0013360053440213762	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	22	Insert_1	C	0	5071	0	2	1	6	0	5079	7	6	0.0011813349084465446	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	22	Insert_1	C	0	4222	0	2	1	4	0	4228	10	4	0.000946073793755913	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	22	Insert_1	C	0	3001	0	2	0	2	0	3005	20	2	0.0006655574043261231	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	22	Insert_1	C	0	2486	0	2	0	2	0	2490	30	2	0.0008032128514056225	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	23	Insert_1	A	473376	5	2	5	0	1257	0	474645	0	1257	0.0026482950415573745	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	23	Insert_1	A	24553	5	2	5	0	48	0	24613	1	48	0.001950188924552066	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	23	Insert_1	A	9850	0	0	0	0	11	0	9861	2	11	0.0011155055268228374	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	23	Insert_1	A	7850	0	0	0	0	11	0	7861	3	11	0.0013993130644956112	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	23	Insert_1	A	6700	0	0	0	0	11	0	6711	4	11	0.001639099985099091	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	23	Insert_1	A	5979	0	0	0	0	10	0	5989	5	10	0.0016697278343629988	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	23	Insert_1	A	5071	0	0	0	0	9	0	5080	7	9	0.0017716535433070866	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	23	Insert_1	A	4218	0	0	0	0	9	0	4227	10	9	0.0021291696238466998	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	23	Insert_1	A	2998	0	0	0	0	7	0	3005	20	7	0.002329450915141431	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	23	Insert_1	A	2483	0	0	0	0	7	0	2490	30	7	0.002811244979919679	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	24	Insert_1	G	3	22	474268	243	1	143	1	474680	0	243	0.0005119238223645404	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	24	Insert_1	G	3	22	24589	20	1	12	1	24647	1	22	0.0008926035622996714	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	24	Insert_1	G	0	0	9855	1	0	6	0	9862	2	6	0.0006083958629081322	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	24	Insert_1	G	0	0	7854	1	0	6	0	7861	3	6	0.0007632616715430606	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	24	Insert_1	G	0	0	6704	1	0	6	0	6711	4	6	0.000894054537326777	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	24	Insert_1	G	0	0	5982	1	0	6	0	5989	5	6	0.0010018367006177993	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	24	Insert_1	G	0	0	5076	1	0	3	0	5080	7	3	0.0005905511811023622	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	24	Insert_1	G	0	0	4223	1	0	3	0	4227	10	3	0.0007097232079489	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	24	Insert_1	G	0	0	3002	1	0	2	0	3005	20	2	0.0006655574043261231	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	24	Insert_1	G	0	0	2487	1	0	2	0	2490	30	2	0.0008032128514056225	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	25	Insert_1	A	474325	2	17	6	18	321	1	474672	0	321	0.0006762564465567802	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	25	Insert_1	A	24590	2	17	6	3	23	1	24639	1	23	0.0009334794431592191	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	25	Insert_1	A	9853	0	0	0	2	9	0	9862	2	9	0.0009125937943621984	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	25	Insert_1	A	7855	0	0	0	2	6	0	7861	3	6	0.0007632616715430606	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	25	Insert_1	A	6705	0	0	0	1	6	0	6711	4	6	0.000894054537326777	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	25	Insert_1	A	5985	0	0	0	1	4	0	5989	5	4	0.0006678911337451996	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	25	Insert_1	A	5076	0	0	0	1	4	0	5080	7	4	0.0007874015748031496	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	25	Insert_1	A	4223	0	0	0	1	4	0	4227	10	4	0.0009462976105985332	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	25	Insert_1	A	3002	0	0	0	0	3	0	3005	20	3	0.0009983361064891847	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	25	Insert_1	A	2489	0	0	0	0	1	0	2490	30	1	0.00040160642570281126	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	26	Insert_1	A	474414	0	1	5	0	240	3	474663	0	240	0.0005056218833151099	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	26	Insert_1	A	24628	0	1	5	0	7	3	24644	1	7	0.0002840447979224152	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	26	Insert_1	A	9856	0	0	0	0	5	0	9861	2	5	0.0005070479667376534	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	26	Insert_1	A	7857	0	0	0	0	3	0	7860	3	3	0.0003816793893129771	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	26	Insert_1	A	6707	0	0	0	0	3	0	6710	4	3	0.00044709388971684054	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	26	Insert_1	A	5986	0	0	0	0	2	0	5988	5	2	0.00033400133600534405	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	26	Insert_1	A	5077	0	0	0	0	2	0	5079	7	2	0.00039377830281551486	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	26	Insert_1	A	4224	0	0	0	0	2	0	4226	10	2	0.000473260766682442	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	26	Insert_1	A	3003	0	0	0	0	2	0	3005	20	2	0.0006655574043261231	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	26	Insert_1	A	2489	0	0	0	0	1	0	2490	30	1	0.00040160642570281126	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	27	Insert_1	T	93	0	8	474123	0	185	4	474413	0	185	0.0003899555872204177	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	27	Insert_1	T	93	0	8	24499	0	23	4	24627	1	93	0.003776343038128883	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	9843	0	13	0	9856	2	13	0.0013189935064935065	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	7846	0	11	0	7857	3	11	0.0014000254550082729	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	6697	0	10	0	6707	4	10	0.001490979573579842	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	5976	0	10	0	5986	5	10	0.001670564650851988	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	5070	0	7	0	5077	7	7	0.001378766988378964	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	4218	0	6	0	4224	10	6	0.0014204545454545455	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	2999	0	4	0	3003	20	4	0.001332001332001332	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	2487	0	2	0	2489	30	2	0.0008035355564483728	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	28	Insert_1	A	474009	2	1	5	28	397	1	474415	0	397	0.0008368200836820083	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	28	Insert_1	A	24607	2	1	5	5	13	1	24629	1	13	0.000527833042348451	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	28	Insert_1	A	9851	0	0	0	2	5	0	9856	2	5	0.0005073051948051948	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	28	Insert_1	A	7852	0	0	0	2	5	0	7857	3	5	0.0006363752068219422	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	28	Insert_1	A	6703	0	0	0	2	4	0	6707	4	4	0.0005963918294319368	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	28	Insert_1	A	5982	0	0	0	2	4	0	5986	5	4	0.0006682258603407952	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	28	Insert_1	A	5073	0	0	0	1	4	0	5077	7	4	0.0007878668505022651	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	28	Insert_1	A	4221	0	0	0	1	3	0	4224	10	3	0.0007102272727272727	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	28	Insert_1	A	3001	0	0	0	0	2	0	3003	20	2	0.000666000666000666	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	28	Insert_1	A	2487	0	0	0	0	2	0	2489	30	2	0.0008035355564483728	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	29	Insert_1	T	39	2	2	474309	265	66	0	474418	0	265	0.0005585791432871435	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	29	Insert_1	T	39	2	2	24582	5	7	0	24632	1	39	0.0015833062682689184	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	29	Insert_1	T	0	0	0	9855	1	1	0	9856	2	1	0.00010146103896103897	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	29	Insert_1	T	0	0	0	7856	1	1	0	7857	3	1	0.00012727504136438844	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	29	Insert_1	T	0	0	0	6706	1	1	0	6707	4	1	0.0001490979573579842	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	29	Insert_1	T	0	0	0	5985	1	1	0	5986	5	1	0.0001670564650851988	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	29	Insert_1	T	0	0	0	5076	1	1	0	5077	7	1	0.00019696671262556627	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	29	Insert_1	T	0	0	0	4223	1	1	0	4224	10	1	0.00023674242424242425	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	29	Insert_1	T	0	0	0	3002	1	1	0	3003	20	1	0.000333000333000333	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	29	Insert_1	T	0	0	0	2488	1	1	0	2489	30	1	0.0004017677782241864	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	30	Insert_1	C	141	473741	0	94	2	416	2	474394	0	416	0.0008769082239657331	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	30	Insert_1	C	141	24429	0	3	2	33	2	24608	1	141	0.005729843953185956	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	30	Insert_1	C	0	9840	0	1	0	15	0	9856	2	15	0.0015219155844155845	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	30	Insert_1	C	0	7845	0	1	0	11	0	7857	3	11	0.0014000254550082729	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	30	Insert_1	C	0	6696	0	1	0	10	0	6707	4	10	0.001490979573579842	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	30	Insert_1	C	0	5975	0	1	0	10	0	5986	5	10	0.001670564650851988	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	30	Insert_1	C	0	5069	0	1	0	7	0	5077	7	7	0.001378766988378964	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	30	Insert_1	C	0	4218	0	1	0	5	0	4224	10	5	0.0011837121212121212	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	30	Insert_1	C	0	2997	0	1	0	5	0	3003	20	5	0.001665001665001665	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	30	Insert_1	C	0	2484	0	1	0	4	0	2489	30	4	0.0016070711128967456	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	31	Insert_1	T	287	0	0	473706	0	369	0	474362	0	369	0.0007778869302347153	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	31	Insert_1	T	287	0	0	24262	0	30	0	24579	1	287	0.011676634525407868	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	31	Insert_1	T	0	0	0	9835	0	18	0	9853	2	18	0.001826854765046179	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	31	Insert_1	T	0	0	0	7841	0	16	0	7857	3	16	0.002036400661830215	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	31	Insert_1	T	0	0	0	6694	0	13	0	6707	4	13	0.0019382734456537946	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	31	Insert_1	T	0	0	0	5975	0	11	0	5986	5	11	0.0018376211159371867	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	31	Insert_1	T	0	0	0	5068	0	9	0	5077	7	9	0.0017727004136300964	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	31	Insert_1	T	0	0	0	4217	0	7	0	4224	10	7	0.0016571969696969697	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	31	Insert_1	T	0	0	0	2998	0	5	0	3003	20	5	0.001665001665001665	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	31	Insert_1	T	0	0	0	2485	0	4	0	2489	30	4	0.0016070711128967456	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	32	Insert_1	G	3	76	473145	882	570	225	2	474333	0	882	0.0018594531689762257	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	32	Insert_1	G	3	76	24339	94	14	37	2	24551	1	94	0.003828764612439412	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	9838	6	4	8	0	9852	2	8	0.0008120178643930166	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	7845	6	3	6	0	7857	3	6	0.0007636502481863307	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	6695	6	3	6	0	6707	4	6	0.0008945877441479052	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	5976	5	3	5	0	5986	5	5	0.000835282325425994	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	5069	4	2	4	0	5077	7	4	0.0007878668505022651	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	4216	4	2	4	0	4224	10	4	0.000946969696969697	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	2997	4	1	2	0	3003	20	4	0.001332001332001332	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	2484	4	1	1	0	2489	30	4	0.0016070711128967456	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	33	Insert_1	T	442	1	0	472980	0	939	0	474362	0	939	0.0019795008875078527	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	33	Insert_1	T	442	1	0	24117	0	17	0	24577	1	442	0.01798429425885991	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	0	9844	0	9	0	9853	2	9	0.0009134273825230895	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	0	7849	0	9	0	7858	3	9	0.0011453296004072283	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	0	6700	0	8	0	6708	4	8	0.0011926058437686344	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	0	5979	0	7	0	5986	5	7	0.0011693952555963916	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	0	5071	0	6	0	5077	7	6	0.0011818002757533978	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	0	4219	0	5	0	4224	10	5	0.0011837121212121212	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	0	2998	0	5	0	3003	20	5	0.001665001665001665	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	0	2484	0	5	0	2489	30	5	0.002008838891120932	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	34	Insert_1	T	83	4	2	473864	0	416	3	474372	0	416	0.0008769488924304132	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	34	Insert_1	T	83	4	2	24464	0	20	3	24576	1	83	0.0033772786458333335	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	0	0	9843	0	9	0	9852	2	9	0.0009135200974421437	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	0	0	7850	0	7	0	7857	3	7	0.0008909252895507191	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	0	0	6702	0	5	0	6707	4	5	0.000745489786789921	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	0	0	5981	0	5	0	5986	5	5	0.000835282325425994	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	0	0	5074	0	4	0	5078	7	4	0.0007877116975187081	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	0	0	4224	0	2	0	4226	10	2	0.000473260766682442	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	0	0	3001	0	2	0	3003	20	2	0.000666000666000666	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	0	0	2488	0	1	0	2489	30	1	0.0004017677782241864	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	35	Insert_1	C	159	473272	1	239	120	269	3	473943	0	269	0.000567578801670243	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	35	Insert_1	C	159	24357	1	11	13	14	3	24545	1	159	0.0064778977388470155	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	35	Insert_1	C	0	9839	0	1	5	2	0	9842	2	5	0.0005080268238162975	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	35	Insert_1	C	0	7846	0	1	5	2	0	7849	3	5	0.0006370238246910434	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	35	Insert_1	C	0	6700	0	1	5	1	0	6702	4	5	0.0007460459564309161	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	35	Insert_1	C	0	5979	0	1	4	1	0	5981	5	4	0.0006687844841999665	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	35	Insert_1	C	0	5072	0	1	4	1	0	5074	7	4	0.0007883326763894363	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	35	Insert_1	C	0	4222	0	1	2	1	0	4224	10	2	0.0004734848484848485	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	35	Insert_1	C	0	2999	0	1	2	1	0	3001	20	2	0.0006664445184938354	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	35	Insert_1	C	0	2486	0	1	2	1	0	2488	30	2	0.0008038585209003215	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	36	Insert_1	G	6	173	473988	70	0	86	2	474325	0	173	0.0003647288251726137	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	36	Insert_1	G	6	173	24314	70	0	4	2	24569	1	173	0.007041393626114209	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	36	Insert_1	G	0	0	9846	0	0	1	0	9847	2	1	0.00010155377272265665	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	36	Insert_1	G	0	0	7851	0	0	1	0	7852	3	1	0.00012735608762098828	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	36	Insert_1	G	0	0	6704	0	0	1	0	6705	4	1	0.00014914243102162565	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	36	Insert_1	G	0	0	5983	0	0	1	0	5984	5	1	0.00016711229946524063	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	36	Insert_1	G	0	0	5075	0	0	1	0	5076	7	1	0.00019700551615445234	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	36	Insert_1	G	0	0	4224	0	0	1	0	4225	10	1	0.00023668639053254438	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	36	Insert_1	G	0	0	3001	0	0	1	0	3002	20	1	0.00033311125916055963	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	36	Insert_1	G	0	0	2488	0	0	1	0	2489	30	1	0.0004017677782241864	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	37	Insert_1	C	45	474080	0	0	0	201	1	474327	0	201	0.0004237582933292855	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	37	Insert_1	C	45	24523	0	0	0	2	1	24571	1	45	0.0018314272923364943	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	37	Insert_1	C	0	9845	0	0	0	2	0	9847	2	2	0.0002031075454453133	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	37	Insert_1	C	0	7851	0	0	0	1	0	7852	3	1	0.00012735608762098828	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	37	Insert_1	C	0	6704	0	0	0	1	0	6705	4	1	0.00014914243102162565	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	37	Insert_1	C	0	5983	0	0	0	1	0	5984	5	1	0.00016711229946524063	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	37	Insert_1	C	0	5075	0	0	0	1	0	5076	7	1	0.00019700551615445234	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	37	Insert_1	C	0	4224	0	0	0	1	0	4225	10	1	0.00023668639053254438	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	37	Insert_1	C	0	3001	0	0	0	1	0	3002	20	1	0.00033311125916055963	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	37	Insert_1	C	0	2488	0	0	0	1	0	2489	30	1	0.0004017677782241864	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	38	Insert_1	A	474321	4	1	21	272	0	0	474347	0	272	0.0005734198803829264	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	38	Insert_1	A	24547	4	1	21	12	0	0	24573	1	21	0.0008545965083628373	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	38	Insert_1	A	9848	0	0	0	4	0	0	9848	2	4	0.00040617384240454913	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	38	Insert_1	A	7853	0	0	0	4	0	0	7853	3	4	0.0005093594804533299	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	38	Insert_1	A	6706	0	0	0	4	0	0	6706	4	4	0.0005964807634953773	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	38	Insert_1	A	5985	0	0	0	4	0	0	5985	5	4	0.0006683375104427736	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	38	Insert_1	A	5077	0	0	0	2	0	0	5077	7	2	0.00039393342525113255	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	38	Insert_1	A	4226	0	0	0	2	0	0	4226	10	2	0.000473260766682442	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	38	Insert_1	A	3002	0	0	0	1	0	0	3002	20	1	0.00033311125916055963	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	38	Insert_1	A	2489	0	0	0	1	0	0	2489	30	1	0.0004017677782241864	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	39	Insert_1	C	41	473893	3	167	0	79	0	474183	0	167	0.0003521847050611262	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	39	Insert_1	C	41	24489	3	4	0	14	0	24551	1	41	0.0016699930756384669	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	39	Insert_1	C	0	9834	0	1	0	5	0	9840	2	5	0.0005081300813008131	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	39	Insert_1	C	0	7842	0	1	0	3	0	7846	3	3	0.00038236043843996943	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	39	Insert_1	C	0	6696	0	1	0	2	0	6699	4	2	0.0002985520226899537	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	39	Insert_1	C	0	5976	0	1	0	2	0	5979	5	2	0.0003345040976751965	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	39	Insert_1	C	0	5068	0	1	0	2	0	5071	7	2	0.00039439952672056796	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	39	Insert_1	C	0	4220	0	1	0	1	0	4222	10	1	0.00023685457129322596	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	39	Insert_1	C	0	2998	0	1	0	1	0	3000	20	1	0.0003333333333333333	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	39	Insert_1	C	0	2486	0	1	0	1	0	2488	30	1	0.00040192926045016077	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	40	Insert_1	T	103	4	3	473994	8	92	1	474197	0	103	0.00021720930330643173	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	40	Insert_1	T	103	4	3	24446	4	8	1	24565	1	103	0.004192957459800529	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	0	0	9836	2	4	0	9840	2	4	0.0004065040650406504	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	0	0	7843	2	3	0	7846	3	3	0.00038236043843996943	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	0	0	6696	0	3	0	6699	4	3	0.0004478280340349306	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	0	0	5976	0	3	0	5979	5	3	0.0005017561465127947	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	0	0	5068	0	3	0	5071	7	3	0.0005915992900808519	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	0	0	4220	0	2	0	4222	10	2	0.0004737091425864519	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	0	0	2999	0	1	0	3000	20	1	0.0003333333333333333	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	0	0	2487	0	1	0	2488	30	1	0.00040192926045016077	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	41	Insert_1	C	58	473564	1	0	773	568	0	474191	0	773	0.001630144815063972	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	41	Insert_1	C	58	24468	1	0	17	32	0	24559	1	58	0.002361659676696934	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	9819	0	0	1	21	0	9840	2	21	0.002134146341463415	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	7828	0	0	1	18	0	7846	3	18	0.0022941626306398166	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	6682	0	0	1	17	0	6699	4	17	0.0025376921928646065	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	5962	0	0	1	17	0	5979	5	17	0.0028432848302391706	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	5055	0	0	1	16	0	5071	7	16	0.0031551962137645437	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	4209	0	0	1	13	0	4222	10	13	0.0030791094268119374	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	2993	0	0	1	7	0	3000	20	7	0.0023333333333333335	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	2483	0	0	1	5	0	2488	30	5	0.0020096463022508037	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	42	Insert_1	C	173	473973	0	4	1	0	6	474156	0	173	0.0003648588228346789	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	42	Insert_1	C	173	24376	0	4	1	0	6	24559	1	173	0.007044260759802924	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	42	Insert_1	C	0	9837	0	0	0	0	0	9837	2	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	42	Insert_1	C	0	7844	0	0	0	0	0	7844	3	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	42	Insert_1	C	0	6697	0	0	0	0	0	6697	4	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	42	Insert_1	C	0	5977	0	0	0	0	0	5977	5	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	42	Insert_1	C	0	5069	0	0	0	0	0	5069	7	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	42	Insert_1	C	0	4220	0	0	0	0	0	4220	10	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	42	Insert_1	C	0	2999	0	0	0	0	0	2999	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	42	Insert_1	C	0	2488	0	0	0	0	0	2488	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	43	Insert_1	G	846	101	472862	66	106	302	3	474180	0	846	0.001784132607870429	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	43	Insert_1	G	15	101	24335	66	12	25	3	24545	1	101	0.004114891016500305	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	43	Insert_1	G	5	0	9828	0	4	8	0	9841	2	8	0.000812925515699624	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	43	Insert_1	G	5	0	7838	0	3	7	0	7850	3	7	0.0008917197452229299	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	43	Insert_1	G	4	0	6691	0	2	7	0	6702	4	7	0.0010444643390032826	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	43	Insert_1	G	4	0	5971	0	2	6	0	5981	5	6	0.0010031767262999498	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	43	Insert_1	G	4	0	5062	0	2	6	0	5072	7	6	0.0011829652996845426	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	43	Insert_1	G	3	0	4214	0	2	5	0	4222	10	5	0.0011842728564661299	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	43	Insert_1	G	3	0	2994	0	1	2	0	2999	20	3	0.0010003334444814939	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	43	Insert_1	G	3	0	2483	0	1	2	0	2488	30	3	0.0012057877813504824	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	44	Insert_1	A	473444	4	1	0	2	858	3	474310	0	858	0.001808943517952394	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	44	Insert_1	A	24490	4	1	0	2	26	3	24524	1	26	0.0010601859403033763	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	44	Insert_1	A	9830	0	0	0	0	10	0	9840	2	10	0.0010162601626016261	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	44	Insert_1	A	7838	0	0	0	0	10	0	7848	3	10	0.0012742099898063201	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	44	Insert_1	A	6691	0	0	0	0	9	0	6700	4	9	0.0013432835820895521	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	44	Insert_1	A	5971	0	0	0	0	9	0	5980	5	9	0.0015050167224080267	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	44	Insert_1	A	5065	0	0	0	0	7	0	5072	7	7	0.0013801261829652998	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	44	Insert_1	A	4217	0	0	0	0	5	0	4222	10	5	0.0011842728564661299	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	44	Insert_1	A	2994	0	0	0	0	5	0	2999	20	5	0.0016672224074691564	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	44	Insert_1	A	2483	0	0	0	0	4	0	2487	30	4	0.0016083634901487736	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	45	Insert_1	G	265	69	472893	1122	3	16	0	474365	0	1122	0.0023652672520105824	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	45	Insert_1	G	19	69	24279	168	2	6	0	24541	1	168	0.00684568680982845	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	45	Insert_1	G	5	0	9833	5	1	1	0	9844	2	5	0.0005079236082893133	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	45	Insert_1	G	4	0	7843	4	0	1	0	7852	3	4	0.0005094243504839531	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	45	Insert_1	G	4	0	6693	4	0	1	0	6702	4	4	0.000596836765144733	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	45	Insert_1	G	4	0	5973	4	0	1	0	5982	5	4	0.0006686726847208291	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	45	Insert_1	G	4	0	5066	3	0	1	0	5074	7	4	0.0007883326763894363	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	45	Insert_1	G	4	0	4215	3	0	1	0	4223	10	4	0.000947193937958797	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	45	Insert_1	G	4	0	2995	1	0	0	0	3000	20	4	0.0013333333333333333	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	45	Insert_1	G	3	0	2483	1	0	0	0	2487	30	3	0.0012062726176115801	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	46	Insert_1	T	346	1	0	473704	33	295	0	474346	0	346	0.0007294253561746068	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	46	Insert_1	T	346	1	0	24163	6	12	0	24522	1	346	0.014109778973982546	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	46	Insert_1	T	0	0	0	9840	4	4	0	9844	2	4	0.0004063388866314506	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	46	Insert_1	T	0	0	0	7848	3	4	0	7852	3	4	0.0005094243504839531	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	46	Insert_1	T	0	0	0	6699	3	3	0	6702	4	3	0.0004476275738585497	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	46	Insert_1	T	0	0	0	5979	2	3	0	5982	5	3	0.0005015045135406219	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	46	Insert_1	T	0	0	0	5071	1	3	0	5074	7	3	0.0005912495072920772	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	46	Insert_1	T	0	0	0	4220	1	3	0	4223	10	3	0.0007103954534690978	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	46	Insert_1	T	0	0	0	2998	1	2	0	3000	20	2	0.0006666666666666666	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	46	Insert_1	T	0	0	0	2485	0	2	0	2487	30	2	0.0008041817450743868	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	47	Insert_1	G	5	235	473887	169	65	44	0	474340	0	235	0.000495425222414302	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	47	Insert_1	G	5	235	24096	169	5	12	0	24517	1	235	0.009585185789452217	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	47	Insert_1	G	0	0	9839	0	3	4	0	9843	2	4	0.00040638016864777	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	47	Insert_1	G	0	0	7848	0	2	4	0	7852	3	4	0.0005094243504839531	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	47	Insert_1	G	0	0	6698	0	2	4	0	6702	4	4	0.000596836765144733	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	47	Insert_1	G	0	0	5978	0	2	4	0	5982	5	4	0.0006686726847208291	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	47	Insert_1	G	0	0	5070	0	2	4	0	5074	7	4	0.0007883326763894363	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	47	Insert_1	G	0	0	4222	0	2	1	0	4223	10	2	0.0004735969689793985	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	47	Insert_1	G	0	0	3000	0	1	0	0	3000	20	1	0.0003333333333333333	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	47	Insert_1	G	0	0	2487	0	1	0	0	2487	30	1	0.0004020908725371934	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	48	Insert_1	C	42	473399	10	166	1	679	0	474296	0	679	0.0014315954593755798	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	48	Insert_1	C	42	24424	4	3	1	21	0	24494	1	42	0.0017147056421980894	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	48	Insert_1	C	0	9828	3	1	0	6	0	9838	2	6	0.0006098800569221387	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	48	Insert_1	C	0	7840	2	1	0	5	0	7848	3	5	0.0006371049949031601	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	48	Insert_1	C	0	6693	1	1	0	4	0	6699	4	4	0.0005971040453799074	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	48	Insert_1	C	0	5976	0	1	0	3	0	5980	5	3	0.0005016722408026755	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	48	Insert_1	C	0	5068	0	1	0	3	0	5072	7	3	0.0005914826498422713	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	48	Insert_1	C	0	4221	0	1	0	1	0	4223	10	1	0.00023679848448969926	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	48	Insert_1	C	0	2998	0	1	0	1	0	3000	20	1	0.0003333333333333333	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	48	Insert_1	C	0	2485	0	1	0	1	0	2487	30	1	0.0004020908725371934	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	49	Insert_1	G	40	70	472092	269	107	1807	1	474279	0	1807	0.0038099936956938847	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	49	Insert_1	G	40	70	24098	222	17	47	1	24478	1	222	0.009069368412451997	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	49	Insert_1	G	0	0	9817	5	8	15	0	9837	2	15	0.0015248551387618177	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	49	Insert_1	G	0	0	7831	4	7	13	0	7848	3	13	0.001656472986748216	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	49	Insert_1	G	0	0	6685	3	6	11	0	6699	4	11	0.0016420361247947454	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	49	Insert_1	G	0	0	5967	3	5	10	0	5980	5	10	0.0016722408026755853	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	49	Insert_1	G	0	0	5063	2	5	7	0	5072	7	7	0.0013801261829652998	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	49	Insert_1	G	0	0	4214	2	4	7	0	4223	10	7	0.0016575893914278948	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	49	Insert_1	G	0	0	2993	1	1	6	0	3000	20	6	0.002	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	49	Insert_1	G	0	0	2480	1	1	6	0	2487	30	6	0.0024125452352231603	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	50	Insert_1	G	23	67	472691	433	5	365	1	473580	0	433	0.0009143122598082689	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	50	Insert_1	G	23	67	24189	171	5	20	1	24471	1	171	0.006987863184994484	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	50	Insert_1	G	0	0	9826	1	0	4	0	9831	2	4	0.00040687620791374224	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	50	Insert_1	G	0	0	7838	1	0	3	0	7842	3	3	0.00038255547054322876	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	50	Insert_1	G	0	0	6689	1	0	3	0	6693	4	3	0.00044822949350067237	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	50	Insert_1	G	0	0	5970	1	0	3	0	5974	5	3	0.0005021760964178105	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	50	Insert_1	G	0	0	5065	1	0	2	0	5068	7	2	0.0003946329913180742	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	50	Insert_1	G	0	0	4216	1	0	2	0	4219	10	2	0.00047404598246029864	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	50	Insert_1	G	0	0	2994	1	0	2	0	2997	20	2	0.000667334000667334	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	50	Insert_1	G	0	0	2481	1	0	2	0	2484	30	2	0.0008051529790660225	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	51	Insert_1	C	112	473245	1	210	0	712	1	474281	0	712	0.0015012197410395947	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	51	Insert_1	C	112	24499	1	10	0	40	1	24663	1	112	0.004541215586100636	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	10010	0	3	0	16	0	10029	2	16	0.0015953734170904377	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	7829	0	2	0	14	0	7845	3	14	0.0017845761631612492	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	6680	0	2	0	13	0	6695	4	13	0.001941747572815534	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	5963	0	2	0	11	0	5976	5	11	0.0018406961178045514	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	5056	0	2	0	11	0	5069	7	11	0.002170053264943776	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	4212	0	2	0	6	0	4220	10	6	0.0014218009478672985	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	2991	0	2	0	4	0	2997	20	4	0.001334668001334668	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	2479	0	2	0	3	0	2484	30	3	0.0012077294685990338	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	52	Insert_1	T	353	2	16	472195	0	922	0	473488	0	922	0.0019472510390970837	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	52	Insert_1	T	351	2	16	23995	0	45	0	24409	1	351	0.014379941824736777	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	52	Insert_1	T	1	0	0	9807	0	18	0	9826	2	18	0.0018318746183594546	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	52	Insert_1	T	1	0	0	7825	0	15	0	7841	3	15	0.0019130212983037877	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	6680	0	12	0	6692	4	12	0.0017931858936043037	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	5964	0	10	0	5974	5	10	0.0016739203213927017	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	5057	0	10	0	5067	7	10	0.0019735543714229325	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	4211	0	9	0	4220	10	9	0.0021327014218009478	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	2991	0	6	0	2997	20	6	0.002002002002002002	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	2479	0	5	0	2484	30	5	0.002012882447665056	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	53	Insert_1	T	301	1	8	473613	1	1	0	473924	0	301	0.0006351229311028772	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	53	Insert_1	T	301	1	8	24160	1	1	0	24471	1	301	0.012300273793469822	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	0	0	9831	0	0	0	9831	2	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	0	0	7845	0	0	0	7845	3	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	0	0	6696	0	0	0	6696	4	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	0	0	5977	0	0	0	5977	5	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	0	0	5070	0	0	0	5070	7	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	0	0	4221	0	0	0	4221	10	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	0	0	2998	0	0	0	2998	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	0	0	2485	0	0	0	2485	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	54	Insert_1	G	14	31	473722	41	8	153	0	473961	0	153	0.0003228113705558052	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	54	Insert_1	G	14	31	24366	41	4	18	0	24470	1	41	0.0016755210461789948	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	54	Insert_1	G	0	0	9829	0	1	4	0	9833	2	4	0.0004067934506254449	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	54	Insert_1	G	0	0	7843	0	1	4	0	7847	3	4	0.0005097489486427934	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	54	Insert_1	G	0	0	6693	0	1	4	0	6697	4	4	0.0005972823652381663	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	54	Insert_1	G	0	0	5974	0	1	4	0	5978	5	4	0.0006691201070592171	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	54	Insert_1	G	0	0	5067	0	0	4	0	5071	7	4	0.0007887990534411359	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	54	Insert_1	G	0	0	4219	0	0	3	0	4222	10	3	0.0007105637138796779	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	54	Insert_1	G	0	0	2997	0	0	2	0	2999	20	2	0.0006668889629876625	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	54	Insert_1	G	0	0	2484	0	0	2	0	2486	30	2	0.0008045052292839903	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	55	Insert_1	C	115	472419	2	613	114	791	2	473942	0	791	0.0016689805925619592	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	55	Insert_1	C	115	24287	2	14	19	31	2	24451	1	115	0.004703284119258926	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	55	Insert_1	C	0	9819	0	3	9	11	0	9833	2	11	0.0011186819892199736	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	55	Insert_1	C	0	7836	0	3	7	8	0	7847	3	8	0.0010194978972855868	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	55	Insert_1	C	0	6687	0	3	5	7	0	6697	4	7	0.001045244139166791	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	55	Insert_1	C	0	5968	0	3	4	7	0	5978	5	7	0.00117096018735363	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	55	Insert_1	C	0	5062	0	3	3	6	0	5071	7	6	0.0011831985801617037	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	55	Insert_1	C	0	4215	0	3	2	4	0	4222	10	4	0.0009474182851729038	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	55	Insert_1	C	0	2994	0	2	1	3	0	2999	20	3	0.0010003334444814939	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	55	Insert_1	C	0	2482	0	1	1	3	0	2486	30	3	0.0012067578439259854	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	56	Insert_1	G	72	18	471923	532	2	598	2	473145	0	598	0.0012638831647803527	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	56	Insert_1	G	72	18	24121	180	2	21	2	24414	1	180	0.007372818874416319	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	56	Insert_1	G	0	0	9810	2	0	10	0	9822	2	10	0.0010181225819588678	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	56	Insert_1	G	0	0	7828	1	0	10	0	7839	3	10	0.0012756729174639623	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	56	Insert_1	G	0	0	6681	1	0	8	0	6690	4	8	0.001195814648729447	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	56	Insert_1	G	0	0	5962	1	0	8	0	5971	5	8	0.001339809077206498	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	56	Insert_1	G	0	0	5056	1	0	8	0	5065	7	8	0.0015794669299111549	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	56	Insert_1	G	0	0	4210	1	0	7	0	4218	10	7	0.0016595542911332385	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	56	Insert_1	G	0	0	2990	1	0	5	0	2996	20	5	0.0016688918558077437	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	56	Insert_1	G	0	0	2479	1	0	3	0	2483	30	3	0.0012082158679017317	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	57	Insert_1	G	45	14	472988	104	0	20	2	473173	0	104	0.00021979276078728076	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	57	Insert_1	G	40	14	24278	104	0	3	2	24441	1	104	0.004255145043165173	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	57	Insert_1	G	1	0	9819	0	0	3	0	9823	2	3	0.00030540568054565815	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	57	Insert_1	G	1	0	7835	0	0	3	0	7839	3	3	0.0003827018752391887	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	57	Insert_1	G	1	0	6687	0	0	2	0	6690	4	2	0.00029895366218236175	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	57	Insert_1	G	1	0	5968	0	0	2	0	5971	5	2	0.0003349522693016245	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	57	Insert_1	G	0	0	5063	0	0	2	0	5065	7	2	0.0003948667324777887	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	57	Insert_1	G	0	0	4218	0	0	0	0	4218	10	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	57	Insert_1	G	0	0	2996	0	0	0	0	2996	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	57	Insert_1	G	0	0	2483	0	0	0	0	2483	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	58	Insert_1	A	472623	415	143	44	0	5	2	473232	0	415	0.0008769483044257363	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	58	Insert_1	A	24457	13	6	16	0	3	2	24497	1	16	0.0006531412009633833	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	58	Insert_1	A	9814	2	3	6	0	1	0	9826	2	6	0.0006106248727864848	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	58	Insert_1	A	7830	1	3	4	0	1	0	7839	3	4	0.0005102691669855849	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	58	Insert_1	A	6684	1	3	2	0	0	0	6690	4	3	0.0004484304932735426	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	58	Insert_1	A	5966	1	3	1	0	0	0	5971	5	3	0.0005024284039524368	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	58	Insert_1	A	5060	1	3	1	0	0	0	5065	7	3	0.0005923000987166831	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	58	Insert_1	A	4215	1	1	1	0	0	0	4218	10	1	0.0002370791844476055	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	58	Insert_1	A	2993	1	1	1	0	0	0	2996	20	1	0.0003337783711615487	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	58	Insert_1	A	2481	1	1	0	0	0	0	2483	30	1	0.0004027386226339106	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	59	Insert_1	G	32	52	472746	97	121	335	0	473262	0	335	0.0007078531553346772	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	59	Insert_1	G	32	52	24307	95	14	6	0	24492	1	95	0.003878817573085089	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	59	Insert_1	G	0	0	9826	1	7	2	0	9829	2	7	0.0007121782480415098	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	59	Insert_1	G	0	0	7838	1	5	2	0	7841	3	5	0.0006376737661012626	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	59	Insert_1	G	0	0	6690	0	5	2	0	6692	4	5	0.0007471607890017932	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	59	Insert_1	G	0	0	5971	0	4	2	0	5973	5	4	0.0006696802276912774	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	59	Insert_1	G	0	0	5065	0	2	2	0	5067	7	2	0.00039471087428458656	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	59	Insert_1	G	0	0	4218	0	2	2	0	4220	10	2	0.00047393364928909954	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	59	Insert_1	G	0	0	2995	0	2	2	0	2997	20	2	0.000667334000667334	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	59	Insert_1	G	0	0	2482	0	1	1	0	2483	30	1	0.0004027386226339106	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	60	Insert_1	A	472312	7	4	2	0	1006	2	473333	0	1006	0.0021253536094039504	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	60	Insert_1	A	24500	7	4	2	0	27	2	24542	1	27	0.0011001548366066335	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	60	Insert_1	A	9830	0	0	0	0	8	0	9838	2	8	0.0008131734092295182	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	60	Insert_1	A	7836	0	0	0	0	8	0	7844	3	8	0.0010198878123406426	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	60	Insert_1	A	6688	0	0	0	0	7	0	6695	4	7	0.0010455563853622107	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	60	Insert_1	A	5968	0	0	0	0	7	0	5975	5	7	0.0011715481171548118	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	60	Insert_1	A	5063	0	0	0	0	5	0	5068	7	5	0.0009865824782951855	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	60	Insert_1	A	4215	0	0	0	0	5	0	4220	10	5	0.001184834123222749	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	60	Insert_1	A	2993	0	0	0	0	4	0	2997	20	4	0.001334668001334668	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	60	Insert_1	A	2479	0	0	0	0	4	0	2483	30	4	0.0016109544905356424	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	61	Insert_1	T	87	1	5	473653	19	4	0	473750	0	87	0.00018364116094986808	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	61	Insert_1	T	87	1	5	24488	4	3	0	24584	1	87	0.003538887081028311	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	9841	2	1	0	9842	2	2	0.000203210729526519	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	7848	2	0	0	7848	3	2	0.00025484199796126404	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	6698	1	0	0	6698	4	1	0.00014929829799940282	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	5978	1	0	0	5978	5	1	0.00016728002676480428	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	5071	1	0	0	5071	7	1	0.00019719976336028398	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	4221	1	0	0	4221	10	1	0.00023691068467187872	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	2998	0	0	0	2998	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	2484	0	0	0	2484	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	62	Insert_1	T	129	195	1	473424	0	0	7	473756	0	195	0.0004116042857504707	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	62	Insert_1	T	129	3	1	24451	0	0	7	24591	1	129	0.0052458216420641695	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	1	0	9840	0	0	0	9841	2	1	0.000101615689462453	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	1	0	7847	0	0	0	7848	3	1	0.00012742099898063202	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	1	0	6697	0	0	0	6698	4	1	0.00014929829799940282	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	1	0	5977	0	0	0	5978	5	1	0.00016728002676480428	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	1	0	5070	0	0	0	5071	7	1	0.00019719976336028398	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	1	0	4220	0	0	0	4221	10	1	0.00023691068467187872	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	1	0	2997	0	0	0	2998	20	1	0.000333555703802535	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	1	0	2483	0	0	0	2484	30	1	0.00040257648953301127	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	63	Insert_1	C	187	472851	5	684	0	16	3	473746	0	684	0.001443811662789765	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	63	Insert_1	C	187	24353	5	16	0	16	3	24580	1	187	0.007607811228641172	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	9832	0	10	0	0	0	9842	2	10	0.001016053647632595	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	7841	0	7	0	0	0	7848	3	7	0.000891946992864424	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	6692	0	6	0	0	0	6698	4	6	0.0008957897879964168	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	5973	0	5	0	0	0	5978	5	5	0.0008364001338240214	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	5068	0	3	0	0	0	5071	7	3	0.0005915992900808519	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	4220	0	1	0	0	0	4221	10	1	0.00023691068467187872	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	2997	0	1	0	0	0	2998	20	1	0.000333555703802535	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	2483	0	1	0	0	0	2484	30	1	0.00040257648953301127	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	64	Insert_1	T	134	3	7	472901	0	725	1	473771	0	725	0.0015302751751373554	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	64	Insert_1	T	134	3	7	24439	0	19	1	24603	1	134	0.0054464902654147865	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	0	0	9832	0	12	0	9844	2	12	0.001219016659894352	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	0	0	7839	0	9	0	7848	3	9	0.0011467889908256881	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	0	0	6691	0	7	0	6698	4	7	0.0010450880859958196	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	0	0	5972	0	6	0	5978	5	6	0.0010036801605888257	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	0	0	5066	0	5	0	5071	7	5	0.0009859988168014198	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	0	0	4218	0	3	0	4221	10	3	0.0007107320540156361	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	0	0	2996	0	2	0	2998	20	2	0.00066711140760507	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	0	0	2482	0	2	0	2484	30	2	0.0008051529790660225	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	65	Insert_1	C	64	473596	8	36	0	73	4	473781	0	73	0.0001540796275072238	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	65	Insert_1	C	64	24521	8	4	0	11	4	24612	1	64	0.00260035754916301	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	65	Insert_1	C	0	9836	0	2	0	7	0	9845	2	7	0.0007110208227526664	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	65	Insert_1	C	0	7839	0	2	0	7	0	7848	3	7	0.000891946992864424	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	65	Insert_1	C	0	6689	0	2	0	7	0	6698	4	7	0.0010450880859958196	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	65	Insert_1	C	0	5971	0	2	0	5	0	5978	5	5	0.0008364001338240214	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	65	Insert_1	C	0	5065	0	2	0	4	0	5071	7	4	0.0007887990534411359	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	65	Insert_1	C	0	4217	0	1	0	3	0	4221	10	3	0.0007107320540156361	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	65	Insert_1	C	0	2996	0	1	0	1	0	2998	20	1	0.000333555703802535	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	65	Insert_1	C	0	2484	0	0	0	0	0	2484	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	66	Insert_1	T	185	3	5	474411	0	32	0	474636	0	185	0.00038977237293420645	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	66	Insert_1	T	185	3	5	24484	0	9	0	24686	1	185	0.00749412622539091	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	9859	0	4	0	9863	2	4	0.0004055561188279428	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	7859	0	2	0	7861	3	2	0.00025442055718102023	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	6706	0	2	0	6708	4	2	0.0002981514609421586	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	5986	0	2	0	5988	5	2	0.00033400133600534405	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	5079	0	2	0	5081	7	2	0.000393623302499508	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	4227	0	1	0	4228	10	1	0.00023651844843897824	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	3003	0	0	0	3003	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	2488	0	0	0	2488	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	67	Insert_1	T	440	0	3	474349	0	0	4	474796	0	440	0.0009267137886587081	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	67	Insert_1	T	440	0	3	24252	0	0	4	24699	1	440	0.017814486416454108	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	67	Insert_1	T	0	0	0	9872	0	0	0	9872	2	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	67	Insert_1	T	0	0	0	7869	0	0	0	7869	3	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	67	Insert_1	T	0	0	0	6716	0	0	0	6716	4	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	67	Insert_1	T	0	0	0	5995	0	0	0	5995	5	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	67	Insert_1	T	0	0	0	5087	0	0	0	5087	7	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	67	Insert_1	T	0	0	0	4232	0	0	0	4232	10	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	67	Insert_1	T	0	0	0	3005	0	0	0	3005	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	67	Insert_1	T	0	0	0	2489	0	0	0	2489	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	68	Insert_1	C	115	474660	2	7	0	7	2	474793	0	115	0.00024221081608195573	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	68	Insert_1	C	115	24566	2	6	0	5	2	24696	1	115	0.004656624554583738	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	9869	0	1	0	2	0	9872	2	2	0.0002025931928687196	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	7869	0	0	0	0	0	7869	3	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	6716	0	0	0	0	0	6716	4	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	5995	0	0	0	0	0	5995	5	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	5087	0	0	0	0	0	5087	7	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	4232	0	0	0	0	0	4232	10	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	3005	0	0	0	0	0	3005	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	2489	0	0	0	0	0	2489	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	69	Insert_1	C	47	474138	5	609	0	0	4	474803	0	609	0.0012826372200681125	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	69	Insert_1	C	47	24628	5	21	0	0	4	24705	1	47	0.0019024488969844162	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	69	Insert_1	C	0	9869	0	4	0	0	0	9873	2	4	0.00040514534589283904	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	69	Insert_1	C	0	7868	0	1	0	0	0	7869	3	1	0.00012708095056551024	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	69	Insert_1	C	0	6715	0	1	0	0	0	6716	4	1	0.0001488981536628946	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	69	Insert_1	C	0	5994	0	1	0	0	0	5995	5	1	0.00016680567139282736	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	69	Insert_1	C	0	5086	0	1	0	0	0	5087	7	1	0.00019657951641438963	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	69	Insert_1	C	0	4231	0	1	0	0	0	4232	10	1	0.00023629489603024575	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	69	Insert_1	C	0	3004	0	1	0	0	0	3005	20	1	0.00033277870216306157	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	69	Insert_1	C	0	2488	0	1	0	0	0	2489	30	1	0.0004017677782241864	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	70	Insert_1	T	78	2	2	474667	0	51	1	474801	0	78	0.00016427935071745847	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	70	Insert_1	T	78	2	2	24616	0	4	1	24703	1	78	0.0031575112334534267	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	9871	0	2	0	9873	2	2	0.00020257267294641952	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	7867	0	2	0	7869	3	2	0.0002541619011310205	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	6715	0	1	0	6716	4	1	0.0001488981536628946	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	5994	0	1	0	5995	5	1	0.00016680567139282736	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	5086	0	1	0	5087	7	1	0.00019657951641438963	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	4231	0	1	0	4232	10	1	0.00023629489603024575	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	3004	0	1	0	3005	20	1	0.00033277870216306157	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	2488	0	1	0	2489	30	1	0.0004017677782241864	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	71	Insert_1	C	22	474757	2	1	487	19	1	474802	0	487	0.0010256907089692124	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	71	Insert_1	C	22	24677	2	1	5	1	1	24704	1	22	0.0008905440414507772	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	9872	0	0	1	1	0	9873	2	1	0.00010128633647320976	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	7868	0	0	1	1	0	7869	3	1	0.00012708095056551024	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	6715	0	0	1	1	0	6716	4	1	0.0001488981536628946	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	5994	0	0	1	1	0	5995	5	1	0.00016680567139282736	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	5086	0	0	1	1	0	5087	7	1	0.00019657951641438963	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	4231	0	0	1	1	0	4232	10	1	0.00023629489603024575	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	3005	0	0	1	0	0	3005	20	1	0.00033277870216306157	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	2489	0	0	1	0	0	2489	30	1	0.0004017677782241864	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	72	Insert_1	T	316	1	3	474184	35	284	0	474788	0	316	0.0006655602079243789	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	72	Insert_1	T	314	1	3	24354	3	19	0	24691	1	314	0.012717184399173787	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	72	Insert_1	T	1	0	0	9864	1	7	0	9872	2	7	0.0007090761750405186	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	72	Insert_1	T	1	0	0	7864	1	4	0	7869	3	4	0.000508323802262041	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	72	Insert_1	T	0	0	0	6712	1	4	0	6716	4	4	0.0005955926146515784	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	72	Insert_1	T	0	0	0	5991	1	4	0	5995	5	4	0.0006672226855713094	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	72	Insert_1	T	0	0	0	5083	1	4	0	5087	7	4	0.0007863180656575585	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	72	Insert_1	T	0	0	0	4228	1	4	0	4232	10	4	0.000945179584120983	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	72	Insert_1	T	0	0	0	3002	1	3	0	3005	20	3	0.0009983361064891847	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	72	Insert_1	T	0	0	0	2486	1	3	0	2489	30	3	0.0012053033346725592	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	73	Insert_1	G	22	35	473771	387	1160	551	4	474770	0	1160	0.0024432883290856624	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	73	Insert_1	G	22	35	24569	14	30	31	4	24675	1	35	0.0014184397163120568	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	73	Insert_1	G	0	0	9857	4	10	10	0	9871	2	10	0.001013068584743187	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	73	Insert_1	G	0	0	7856	4	9	8	0	7868	3	9	0.0011438739196746315	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	73	Insert_1	G	0	0	6705	4	8	7	0	6716	4	8	0.0011911852293031567	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	73	Insert_1	G	0	0	5985	3	8	7	0	5995	5	8	0.0013344453711426189	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	73	Insert_1	G	0	0	5077	3	5	7	0	5087	7	7	0.0013760566149007274	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	73	Insert_1	G	0	0	4225	1	3	6	0	4232	10	6	0.0014177693761814746	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	73	Insert_1	G	0	0	2999	1	3	5	0	3005	20	5	0.0016638935108153079	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	73	Insert_1	G	0	0	2485	1	2	3	0	2489	30	3	0.0012053033346725592	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	74	Insert_1	T	182	3	0	473830	0	383	4	474402	0	383	0.0008073321781948643	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	74	Insert_1	T	182	3	0	24502	0	6	4	24697	1	182	0.007369316111268575	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	0	0	9861	0	6	0	9867	2	6	0.0006080875646093037	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	0	0	7859	0	5	0	7864	3	5	0.0006358087487283825	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	0	0	6708	0	5	0	6713	4	5	0.0007448234768359899	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	0	0	5989	0	3	0	5992	5	3	0.0005006675567423231	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	0	0	5081	0	3	0	5084	7	3	0.0005900865460267506	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	0	0	4228	0	1	0	4229	10	1	0.00023646252069047056	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	0	0	3001	0	1	0	3002	20	1	0.00033311125916055963	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	0	0	2486	0	1	0	2487	30	1	0.0004020908725371934	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	75	Insert_1	G	3	21	474564	23	310	182	0	474793	0	310	0.0006529161129165763	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	75	Insert_1	G	3	21	24631	23	5	17	0	24695	1	23	0.0009313626240129581	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	75	Insert_1	G	0	0	9864	0	1	6	0	9870	2	6	0.0006079027355623101	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	75	Insert_1	G	0	0	7864	0	1	5	0	7869	3	5	0.0006354047528275512	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	75	Insert_1	G	0	0	6712	0	1	5	0	6717	4	5	0.0007443799315170463	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	75	Insert_1	G	0	0	5991	0	1	5	0	5996	5	5	0.0008338892595063375	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	75	Insert_1	G	0	0	5082	0	1	5	0	5087	7	5	0.000982897582071948	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	75	Insert_1	G	0	0	4229	0	1	3	0	4232	10	3	0.0007088846880907373	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	75	Insert_1	G	0	0	3002	0	1	3	0	3005	20	3	0.0009983361064891847	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	75	Insert_1	G	0	0	2486	0	1	3	0	2489	30	3	0.0012053033346725592	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	76	Insert_1	C	144	472198	617	1543	0	288	0	474790	0	1543	0.0032498578318835695	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	76	Insert_1	C	144	24432	17	81	0	18	0	24692	1	144	0.005831848371942329	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	9841	8	17	0	4	0	9870	2	17	0.0017223910840932118	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	7848	8	10	0	3	0	7869	3	10	0.0012708095056551023	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	6698	7	9	0	3	0	6717	4	9	0.0013398838767306833	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	5978	6	9	0	3	0	5996	5	9	0.0015010006671114075	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	5072	6	8	0	1	0	5087	7	8	0.001572636131315117	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	4218	6	7	0	1	0	4232	10	7	0.0016540642722117202	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	2993	5	6	0	1	0	3005	20	6	0.0019966722129783694	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	2479	3	6	0	1	0	2489	30	6	0.0024106066693451184	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	77	Insert_1	G	43	36	474451	56	852	215	0	474801	0	852	0.001794435984759931	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	77	Insert_1	G	11	36	24595	56	21	5	0	24703	1	56	0.002266931141966563	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	77	Insert_1	G	2	0	9864	0	4	4	0	9870	2	4	0.0004052684903748733	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	77	Insert_1	G	2	0	7863	0	4	4	0	7869	3	4	0.000508323802262041	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	77	Insert_1	G	2	0	6711	0	4	4	0	6717	4	4	0.000595503945213637	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	77	Insert_1	G	2	0	5991	0	4	3	0	5996	5	4	0.00066711140760507	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	77	Insert_1	G	2	0	5082	0	4	3	0	5087	7	4	0.0007863180656575585	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	77	Insert_1	G	2	0	4227	0	3	3	0	4232	10	3	0.0007088846880907373	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	77	Insert_1	G	0	0	3003	0	3	2	0	3005	20	3	0.0009983361064891847	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	77	Insert_1	G	0	0	2488	0	2	1	0	2489	30	2	0.0008035355564483728	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	78	Insert_1	C	19	474107	3	352	1	302	1	474784	0	352	0.0007413897688211903	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	78	Insert_1	C	19	24622	2	13	1	29	1	24686	1	29	0.0011747549218180345	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	9854	1	3	0	12	0	9870	2	12	0.0012158054711246201	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	7856	0	2	0	11	0	7869	3	11	0.0013978904562206124	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	6705	0	2	0	10	0	6717	4	10	0.0014887598630340926	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	5984	0	2	0	10	0	5996	5	10	0.001667778519012675	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	5078	0	2	0	7	0	5087	7	7	0.0013760566149007274	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	4224	0	2	0	6	0	4232	10	6	0.0014177693761814746	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	3001	0	2	0	2	0	3005	20	2	0.0006655574043261231	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	2485	0	2	0	2	0	2489	30	2	0.0008035355564483728	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	79	Insert_1	C	40	474398	5	277	0	22	4	474746	0	277	0.0005834698975873415	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	79	Insert_1	C	31	24625	5	17	0	4	4	24686	1	31	0.0012557725026330713	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	79	Insert_1	C	1	9856	0	4	0	3	0	9864	2	4	0.00040551500405515005	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	79	Insert_1	C	1	7857	0	3	0	3	0	7864	3	3	0.0003814852492370295	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	79	Insert_1	C	1	6705	0	3	0	3	0	6712	4	3	0.0004469606674612634	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	79	Insert_1	C	1	5986	0	2	0	2	0	5991	5	2	0.00033383408446002337	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	79	Insert_1	C	1	5080	0	2	0	2	0	5085	7	2	0.00039331366764995085	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	79	Insert_1	C	1	4227	0	2	0	1	0	4231	10	2	0.0004727014890096904	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	79	Insert_1	C	0	3003	0	2	0	0	0	3005	20	2	0.0006655574043261231	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	79	Insert_1	C	0	2487	0	2	0	0	0	2489	30	2	0.0008035355564483728	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	80	Insert_1	G	352	39	474047	247	202	97	5	474787	0	352	0.000741385084258836	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	80	Insert_1	G	33	39	24572	30	9	10	5	24689	1	39	0.0015796508566568107	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	80	Insert_1	G	3	0	9861	3	5	3	0	9870	2	5	0.0005065856129685917	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	80	Insert_1	G	2	0	7861	3	3	3	0	7869	3	3	0.0003812428516965307	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	80	Insert_1	G	2	0	6711	2	3	2	0	6717	4	3	0.00044662795891022776	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	80	Insert_1	G	2	0	5990	2	3	2	0	5996	5	3	0.0005003335557038026	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	80	Insert_1	G	2	0	5082	2	2	1	0	5087	7	2	0.00039315903282877927	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	80	Insert_1	G	2	0	4227	2	2	1	0	4232	10	2	0.0004725897920604915	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	80	Insert_1	G	2	0	3000	2	2	1	0	3005	20	2	0.0006655574043261231	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	80	Insert_1	G	2	0	2484	2	2	1	0	2489	30	2	0.0008035355564483728	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	81		C	177	474164	0	4	24	350	3	474698	0	350	0.0007373108797593417	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	81		C	26	24610	0	4	5	9	3	24652	1	26	0.0010546811617718644	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	81		C	4	9841	0	0	1	2	0	9847	2	4	0.0004062150908906266	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	81		C	2	7843	0	0	1	2	0	7847	3	2	0.0002548744743213967	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	81		C	2	6708	0	0	1	2	0	6712	4	2	0.0002979737783075089	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	81		C	2	5991	0	0	1	2	0	5995	5	2	0.0003336113427856547	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	81		C	2	5084	0	0	1	1	0	5087	7	2	0.00039315903282877927	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	81		C	2	4229	0	0	1	1	0	4232	10	2	0.0004725897920604915	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	81		C	2	3002	0	0	1	1	0	3005	20	2	0.0006655574043261231	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	81		C	2	2486	0	0	0	1	0	2489	30	2	0.0008035355564483728	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	82		A	473313	8	2	2	3	1342	0	474667	0	1342	0.002827245205586232	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	82		A	24552	8	2	2	1	57	0	24621	1	57	0.002315096868526867	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	82		A	9827	0	0	0	1	20	0	9847	2	20	0.002031075454453133	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	82		A	7831	0	0	0	1	16	0	7847	3	16	0.0020389957945711737	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	82		A	6698	0	0	0	0	14	0	6712	4	14	0.0020858164481525627	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	82		A	5983	0	0	0	0	12	0	5995	5	12	0.002001668056713928	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	82		A	5077	0	0	0	0	10	0	5087	7	10	0.001965795164143896	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	82		A	4222	0	0	0	0	10	0	4232	10	10	0.0023629489603024575	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	82		A	2998	0	0	0	0	7	0	3005	20	7	0.002329450915141431	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	82		A	2483	0	0	0	0	6	0	2489	30	6	0.0024106066693451184	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	83		A	474236	1	7	2	0	456	2	474704	0	456	0.0009605986046041323	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	83		A	24641	1	7	2	0	5	2	24658	1	7	0.0002838835266444967	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	83		A	9842	0	0	0	0	5	0	9847	2	5	0.0005077688636132832	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	83		A	7843	0	0	0	0	4	0	7847	3	4	0.0005097489486427934	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	83		A	6710	0	0	0	0	2	0	6712	4	2	0.0002979737783075089	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	83		A	5993	0	0	0	0	2	0	5995	5	2	0.0003336113427856547	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	83		A	5086	0	0	0	0	1	0	5087	7	1	0.00019657951641438963	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	83		A	4231	0	0	0	0	1	0	4232	10	1	0.00023629489603024575	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	83		A	3004	0	0	0	0	1	0	3005	20	1	0.00033277870216306157	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	83		A	2488	0	0	0	0	1	0	2489	30	1	0.0004017677782241864	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	84		A	474491	202	6	1	0	0	1	474701	0	202	0.0004255310184726807	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	84		A	24634	13	6	1	0	0	1	24655	1	13	0.0005272764145203813	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	84		A	9842	5	0	0	0	0	0	9847	2	5	0.0005077688636132832	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	84		A	7842	5	0	0	0	0	0	7847	3	5	0.0006371861858034918	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	84		A	6710	2	0	0	0	0	0	6712	4	2	0.0002979737783075089	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	84		A	5993	2	0	0	0	0	0	5995	5	2	0.0003336113427856547	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	84		A	5085	2	0	0	0	0	0	5087	7	2	0.00039315903282877927	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	84		A	4230	2	0	0	0	0	0	4232	10	2	0.0004725897920604915	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	84		A	3003	2	0	0	0	0	0	3005	20	2	0.0006655574043261231	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	84		A	2487	2	0	0	0	0	0	2489	30	2	0.0008035355564483728	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	85		G	10	27	474648	5	0	0	0	474690	0	27	5.687922644252038e-05	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	85		G	10	27	24602	5	0	0	0	24644	1	27	0.00109560136341503	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	85		G	0	0	9847	0	0	0	0	9847	2	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	85		G	0	0	7847	0	0	0	0	7847	3	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	85		G	0	0	6712	0	0	0	0	6712	4	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	85		G	0	0	5995	0	0	0	0	5995	5	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	85		G	0	0	5087	0	0	0	0	5087	7	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	85		G	0	0	4232	0	0	0	0	4232	10	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	85		G	0	0	3005	0	0	0	0	3005	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	85		G	0	0	2489	0	0	0	0	2489	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	86		C	28	474655	1	1	1	0	1	474686	0	28	5.898636151055645e-05	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	86		C	28	24609	1	1	1	0	1	24640	1	28	0.0011363636363636363	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	86		C	0	9847	0	0	0	0	0	9847	2	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	86		C	0	7847	0	0	0	0	0	7847	3	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	86		C	0	6712	0	0	0	0	0	6712	4	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	86		C	0	5995	0	0	0	0	0	5995	5	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	86		C	0	5087	0	0	0	0	0	5087	7	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	86		C	0	4232	0	0	0	0	0	4232	10	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	86		C	0	3005	0	0	0	0	0	3005	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	86		C	0	2489	0	0	0	0	0	2489	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	87		T	109	1	7	474501	15	53	1	474672	0	109	0.00022963225132301883	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	87		T	109	1	7	24501	6	7	1	24626	1	109	0.004426216194266223	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	87		T	0	0	0	9843	2	4	0	9847	2	4	0.0004062150908906266	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	87		T	0	0	0	7843	1	4	0	7847	3	4	0.0005097489486427934	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	87		T	0	0	0	6708	1	4	0	6712	4	4	0.0005959475566150178	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	87		T	0	0	0	5992	1	3	0	5995	5	3	0.000500417014178482	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	87		T	0	0	0	5084	1	3	0	5087	7	3	0.0005897385492431689	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	87		T	0	0	0	4230	0	2	0	4232	10	2	0.0004725897920604915	D
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	87		T	0	0	0	3005	0	0	0	3005	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	87		T	0	0	0	2489	0	0	0	2489	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	88		G	26	13	474566	15	0	0	3	474623	0	26	5.478032038059681e-05	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	88		G	7	13	24569	15	0	0	3	24607	1	15	0.0006095826390864388	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	88		G	2	0	9841	0	0	0	0	9843	2	2	0.000203190084323885	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	88		G	1	0	7843	0	0	0	0	7844	3	1	0.00012748597654258032	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	88		G	1	0	6708	0	0	0	0	6709	4	1	0.00014905351021016544	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	88		G	1	0	5992	0	0	0	0	5993	5	1	0.0001668613382279326	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	88		G	1	0	5084	0	0	0	0	5085	7	1	0.00019665683382497542	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	88		G	1	0	4230	0	0	0	0	4231	10	1	0.0002363507445048452	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	88		G	0	0	3005	0	0	0	0	3005	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	88		G	0	0	2489	0	0	0	0	2489	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	89		T	42	1	19	474585	25	0	5	474652	0	42	8.8485880181691e-05	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	89		T	42	1	3	24556	1	0	5	24607	1	42	0.0017068313894420288	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	89		T	0	0	1	9845	1	0	0	9846	2	1	0.00010156408693885842	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	89		T	0	0	1	7846	1	0	0	7847	3	1	0.00012743723716069835	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	89		T	0	0	1	6711	1	0	0	6712	4	1	0.00014898688915375446	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	89		T	0	0	1	5994	1	0	0	5995	5	1	0.00016680567139282736	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	89		T	0	0	1	5086	1	0	0	5087	7	1	0.00019657951641438963	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	89		T	0	0	1	4231	1	0	0	4232	10	1	0.00023629489603024575	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	89		T	0	0	0	3005	1	0	0	3005	20	1	0.00033277870216306157	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	89		T	0	0	0	2489	0	0	0	2489	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	90		T	71	300	21	474177	0	70	3	474642	0	300	0.000632055317481386	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	90		T	71	1	6	24513	0	3	3	24597	1	71	0.002886530877749319	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	90		T	0	1	2	9842	0	1	0	9846	2	2	0.00020312817387771684	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	90		T	0	1	2	7843	0	1	0	7847	3	2	0.0002548744743213967	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	90		T	0	1	1	6709	0	1	0	6712	4	1	0.00014898688915375446	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	90		T	0	1	1	5992	0	1	0	5995	5	1	0.00016680567139282736	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	90		T	0	1	1	5084	0	1	0	5087	7	1	0.00019657951641438963	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	90		T	0	1	1	4229	0	1	0	4232	10	1	0.00023629489603024575	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	90		T	0	1	0	3003	0	1	0	3005	20	1	0.00033277870216306157	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	90		T	0	1	0	2487	0	1	0	2489	30	1	0.0004017677782241864	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	91		C	31	474515	15	1	193	0	0	474562	0	193	0.0004066908012019504	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	91		C	31	24544	8	1	12	0	0	24584	1	31	0.0012609827530100878	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	91		C	0	9844	1	0	6	0	0	9845	2	6	0.0006094464195022854	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	91		C	0	7845	1	0	5	0	0	7846	3	5	0.0006372673973999491	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	91		C	0	6710	1	0	4	0	0	6711	4	4	0.0005960363582178513	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	91		C	0	5993	1	0	4	0	0	5994	5	4	0.000667334000667334	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	91		C	0	5085	1	0	2	0	0	5086	7	2	0.00039323633503735744	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	91		C	0	4231	0	0	2	0	0	4231	10	2	0.0004727014890096904	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	91		C	0	3004	0	0	2	0	0	3004	20	2	0.0006657789613848203	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	91		C	0	2488	0	0	1	0	0	2488	30	1	0.00040192926045016077	I
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	92		C	10	474279	308	26	0	0	0	474623	0	308	0.0006489361029701469	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	92		C	10	24551	9	9	0	0	0	24579	1	10	0.0004068513771919118	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	92		C	0	9840	1	4	0	0	0	9845	2	4	0.00040629761300152364	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	92		C	0	7844	1	2	0	0	0	7847	3	2	0.0002548744743213967	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	92		C	0	6710	1	1	0	0	0	6712	4	1	0.00014898688915375446	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	92		C	0	5993	1	1	0	0	0	5995	5	1	0.00016680567139282736	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	92		C	0	5085	1	1	0	0	0	5087	7	1	0.00019657951641438963	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	92		C	0	4230	1	1	0	0	0	4232	10	1	0.00023629489603024575	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	92		C	0	3004	1	0	0	0	0	3005	20	1	0.00033277870216306157	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	92		C	0	2488	1	0	0	0	0	2489	30	1	0.0004017677782241864	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	93		G	169	19	474067	316	0	0	3	474574	0	316	0.000665860329474434	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	93		G	26	19	24483	17	0	0	3	24548	1	26	0.0010591494215414698	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	93		G	6	0	9832	1	0	0	0	9839	2	6	0.000609818070942169	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	93		G	6	0	7835	1	0	0	0	7842	3	6	0.0007651109410864575	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	93		G	5	0	6702	1	0	0	0	6708	4	5	0.0007453786523553966	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	93		G	5	0	5988	1	0	0	0	5994	5	5	0.0008341675008341675	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	93		G	4	0	5081	1	0	0	0	5086	7	4	0.0007864726700747149	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	93		G	3	0	4228	1	0	0	0	4232	10	3	0.0007088846880907373	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	93		G	2	0	3002	1	0	0	0	3005	20	2	0.0006655574043261231	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	93		G	1	0	2487	1	0	0	0	2489	30	1	0.0004017677782241864	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	94		T	37	302	6	474200	0	0	4	474549	0	302	0.0006363937127672801	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	94		T	37	3	6	24486	0	0	4	24536	1	37	0.001507988262145419	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	94		T	0	1	0	9837	0	0	0	9838	2	1	0.00010164667615368977	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	94		T	0	1	0	7840	0	0	0	7841	3	1	0.00012753475322025253	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	94		T	0	1	0	6706	0	0	0	6707	4	1	0.0001490979573579842	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	94		T	0	1	0	5992	0	0	0	5993	5	1	0.0001668613382279326	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	94		T	0	1	0	5084	0	0	0	5085	7	1	0.00019665683382497542	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	94		T	0	1	0	4230	0	0	0	4231	10	1	0.0002363507445048452	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	94		T	0	1	0	3004	0	0	0	3005	20	1	0.00033277870216306157	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	94		T	0	1	0	2488	0	0	0	2489	30	1	0.0004017677782241864	C
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	95		C	35	473730	781	2	0	0	0	474548	0	781	0.001645776612692499	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	95		C	17	24492	24	2	0	0	0	24535	1	24	0.000978194416140208	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	95		C	2	9833	3	0	0	0	0	9838	2	3	0.00030494002846106935	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	95		C	2	7836	3	0	0	0	0	7841	3	3	0.00038260425966075756	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	95		C	2	6703	2	0	0	0	0	6707	4	2	0.0002981959147159684	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	95		C	2	5989	2	0	0	0	0	5993	5	2	0.0003337226764558652	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	95		C	2	5081	2	0	0	0	0	5085	7	2	0.00039331366764995085	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	95		C	1	4228	2	0	0	0	0	4231	10	2	0.0004727014890096904	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	95		C	0	3003	2	0	0	0	0	3005	20	2	0.0006655574043261231	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	95		C	0	2487	2	0	0	0	0	2489	30	2	0.0008035355564483728	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	96		C	0	474519	0	0	0	0	0	474519	0	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	96		C	0	24508	0	0	0	0	0	24508	1	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	96		C	0	9836	0	0	0	0	0	9836	2	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	96		C	0	7841	0	0	0	0	0	7841	3	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	96		C	0	6707	0	0	0	0	0	6707	4	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	96		C	0	5993	0	0	0	0	0	5993	5	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	96		C	0	5085	0	0	0	0	0	5085	7	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	96		C	0	4231	0	0	0	0	0	4231	10	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	96		C	0	3005	0	0	0	0	0	3005	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	96		C	0	2489	0	0	0	0	0	2489	30	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	97		C	300	474168	0	0	0	0	1	474469	0	300	0.0006322857763099381	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	97		C	1	24464	0	0	0	0	1	24466	1	1	4.08730483119431e-05	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	97		C	1	9827	0	0	0	0	0	9828	2	1	0.00010175010175010175	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	97		C	1	7840	0	0	0	0	0	7841	3	1	0.00012753475322025253	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	97		C	1	6706	0	0	0	0	0	6707	4	1	0.0001490979573579842	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	97		C	1	5992	0	0	0	0	0	5993	5	1	0.0001668613382279326	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	97		C	1	5084	0	0	0	0	0	5085	7	1	0.00019665683382497542	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	97		C	1	4230	0	0	0	0	0	4231	10	1	0.0002363507445048452	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	97		C	1	3004	0	0	0	0	0	3005	20	1	0.00033277870216306157	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	97		C	1	2488	0	0	0	0	0	2489	30	1	0.0004017677782241864	A
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	98		A	474037	0	300	0	0	0	2	474339	0	300	0.0006324590640870769	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	98		A	24391	0	1	0	0	0	2	24394	1	2	8.198737394441256e-05	N
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	98		A	9809	0	1	0	0	0	0	9810	2	1	0.00010193679918450561	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	98		A	7831	0	1	0	0	0	0	7832	3	1	0.00012768130745658836	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	98		A	6697	0	1	0	0	0	0	6698	4	1	0.00014929829799940282	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	98		A	5985	0	1	0	0	0	0	5986	5	1	0.0001670564650851988	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	98		A	5081	0	1	0	0	0	0	5082	7	1	0.0001967729240456513	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	98		A	4229	0	1	0	0	0	0	4230	10	1	0.00023640661938534278	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	98		A	3004	0	1	0	0	0	0	3005	20	1	0.00033277870216306157	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	98		A	2488	0	1	0	0	0	0	2489	30	1	0.0004017677782241864	G
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	99		G	0	0	473946	300	0	0	0	474246	0	300	0.0006325830897888437	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	99		G	0	0	24334	1	0	0	0	24335	1	1	4.109307581672488e-05	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	99		G	0	0	9803	1	0	0	0	9804	2	1	0.00010199918400652795	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	99		G	0	0	7827	1	0	0	0	7828	3	1	0.00012774655084312725	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	99		G	0	0	6693	1	0	0	0	6694	4	1	0.00014938751120406333	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	99		G	0	0	5983	1	0	0	0	5984	5	1	0.00016711229946524063	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	99		G	0	0	5079	1	0	0	0	5080	7	1	0.0001968503937007874	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	99		G	0	0	4227	1	0	0	0	4228	10	1	0.00023651844843897824	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	99		G	0	0	3004	1	0	0	0	3005	20	1	0.00033277870216306157	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	99		G	0	0	2488	1	0	0	0	2489	30	1	0.0004017677782241864	T
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	100		T	0	0	0	473827	0	0	0	473827	0	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	100		T	0	0	0	24235	0	0	0	24235	1	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	100		T	0	0	0	9795	0	0	0	9795	2	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	100		T	0	0	0	7826	0	0	0	7826	3	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	100		T	0	0	0	6692	0	0	0	6692	4	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	100		T	0	0	0	5982	0	0	0	5982	5	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	100		T	0	0	0	5078	0	0	0	5078	7	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	100		T	0	0	0	4226	0	0	0	4226	10	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	100		T	0	0	0	3004	0	0	0	3004	20	0	0	
+idt_fwd_desalted_b3_3_S15_L001_R1_001	TP1_synth_forward	100		T	0	0	0	2488	0	0	0	2488	30	0	0	

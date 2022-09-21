@@ -210,7 +210,7 @@ ribbonPlot <- function(data, manufacturers, purifications, insertTypes, start_po
     dplyr::ungroup() %>%
     dplyr::distinct(Position, Reference)
   
-  amplicon_plot <- ggplot(
+  ribbonPlot <- ggplot(
     data = cons.variants, 
     mapping = aes(
       x = Position,
@@ -246,5 +246,5 @@ ribbonPlot <- function(data, manufacturers, purifications, insertTypes, start_po
       linetype = 'dashed'
     ) 
   
-  return(amplicon_plot)
+  return(ribbonPlot)
 }
