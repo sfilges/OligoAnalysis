@@ -12,7 +12,7 @@ under accession [PRJNA507366](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA72709
 
 Code used in the Clinical Chemistry paper (master branch) was adapted to raw sequencing data processed with Debarcer. The code is not compatible with data processed with UMIErrorCorrect. 
 
-An updated version is being developed (devel branch), but currently is not  stable.
+An updated version is being developed (devel branch), but currently is not  stable. 
 
 # Requirements
 
@@ -37,11 +37,19 @@ sudo apt-get install bwa
 brew install bwa
 ```
 
-- UMIErrorCorrect, the main analysis pipeline
+- UMIErrorCorrect, the main analysis pipeline. 
 
 ```
 pip install umierrorcorrect
 ```
+
+This will install the latest version (currently 0.24). If issues exist it may
+be necessary to revert to an older version using
+
+```
+pip install umierrorcorrect=0.20
+```
+
 
 ### Reference fasta
 If the synthetic oligonucleotide contains mixed genomic or alien sequences a suitable
@@ -119,7 +127,7 @@ Optionally install [fastp](https://github.com/OpenGene/fastp) from conda:
 conda install -c bioconda fastp
 ```
 
-If not already installed, also download multiqc for collating multiple QC files 
+If not already installed, also download [multiqc](https://multiqc.info/) for collating multiple QC files 
 into one
 
 ```

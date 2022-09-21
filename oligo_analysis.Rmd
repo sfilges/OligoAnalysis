@@ -416,8 +416,8 @@ reverse_insert = "CTTGCGGAGATTCTCTTCCTCTGTGCGCCGATACAGAATATCTGTTCGCACTCCGAGTGCGG
 
 # Because execution of this code block can take some time, check if the the  output
 # from this block (df and df2) already exist, if so, skip this block.
-df_exists <- file.exists(paste(main,'data/df.csv', sep = ''))
-df2_exists <- file.exists(paste(main,'data/df2.csv', sep = ''))
+df_exists <- file.exists(paste(sample_dir,'/df.csv', sep = ''))
+df2_exists <- file.exists(paste(sample_dir,'/df2.csv', sep = ''))
 
 if(!(df_exists && df2_exists)){
   
@@ -427,8 +427,6 @@ if(!(df_exists && df2_exists)){
   
   #How many samples were found?
   print(paste("Found ", nrow(sampleNames), " samples.", sep = ''))
-  
-  
   
   for(i in 1:nrow(sampleNames)){
     
@@ -551,12 +549,12 @@ if(!(df_exists && df2_exists)){
     df <- rbind(df,row)
     df2 <- rbind(df2,row2)
   }
-  write_csv(x = df, file = 'data/df.csv')
-  write_csv(x = df2, file = 'data/df2.csv')
+  write_csv(x = df, file = paste(sample_dir,'/df.csv', sep = ''))
+  write_csv(x = df2, file = paste(sample_dir,'/df2.csv', sep = ''))
 } else{
   # Else, if output exists, import them 
-  df = readr::read_csv(paste(main,'data/df.csv', sep = ''))
-  df2 = readr::read_csv(paste(main,'data/df2.csv', sep = ''))
+  df = readr::read_csv(paste(sample_dir,'/df.csv', sep = ''))
+  df2 = readr::read_csv(paste(sample_dir,'/df2.csv', sep = ''))
 }
 ```
 
@@ -1157,7 +1155,7 @@ t.test(M$mean, mu = 0.0005, alternative = "two.sided")
 
 ### Correlations by batches
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, message=FALSE}
 
 insertType = c('Insert_1', 'Insert_2')
 batches = c('b1','b2','b3')
@@ -1266,7 +1264,7 @@ for(insert in insertType){
 
 ### Correlations for all batches together
 
-```{r, echo=FALSE}
+```{r, echo=TRUE, message=FALSE}
 cons.variants <- cons.table.filtered %>%
       dplyr::mutate(
             subsitution_error = 100*(A+C+G+T)/Coverage,
@@ -1383,7 +1381,7 @@ for(var in variants){
 
 ## Figure 2
 
-```{r perBaseErrorPlot, echo=FALSE}
+```{r perBaseErrorPlot, echo=TRUE, message=FALSE}
 figure_2 <- perBaseErrorPlot(
   data = cons.table.filtered,
   insertType = c('Insert_1', 'gDNA'),
@@ -1575,7 +1573,7 @@ fig <- ribbonPlot(
   data = cons.table.filtered,
   manufacturers = c("IDT", "SA"),
   purifications = c("desalted", "PAGE"),
-  insertTypes = c("Insert_2"),
+  insertTypes = c("Insert_1"),
   start_pos = 19,
   end_pos = 80
 )
