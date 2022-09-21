@@ -139,3 +139,59 @@ The following packages are required during the course of the analysis.
 
 The first code block of the R Markdown script should install these  automatically. If this does not work for one or more package, install them using their normal installation repositories.
 
+## Installation
+
+Clone the repository or go to "Code" -> "Download ZIP". Unpack the archive
+and place the folder anywhere on your system.
+
+The main script is "oligo_analysis.Rmd". In the first code blocks of the
+main script the user must define the paths to all other relevant directories so
+that the script can access auxilliary functions and input data. At this stage
+the user also set some global analysis parameters, such as the consensus
+threshold.
+
+```{R}
+# Should individual files with VAF be printed?
+print.individual.files = FALSE
+
+# Select consensus threshold to use for analysis
+consensus_cutoff <- 10
+
+# Create table of sample directory paths
+# First define the directory containing UMIErrrorCorrect output files
+sample_dir = '/Users/stefan/Documents/GitHub/OligoAnalysis/data/umierrorcorrect'
+
+# Load helper functions, change location if needed
+source('/Users/stefan/Documents/GitHub/OligoAnalysis/src/helper_functions_oligo.R')
+```
+
+Next, the script checks if all required R packages are present and installs them
+if needed before loading all packages used in later steps.
+
+```{R}
+# CRAN packages to be installed with checkPackages
+packages <- c('tidyverse', 'gridExtra', 'RColorBrewer', 'stringr', 'tis')
+
+# Check and if needed install CRAN packages, this function is imported via helper_functions_oligo.R
+checkPackages(requiredPackages = packages)
+
+# If needed, install BiocManager for downloading packages from Bioconductor
+if (!require("BiocManager", quietly = TRUE)){
+  install.packages("BiocManager")
+}
+
+# If needed, install Rsamtools from Bioconductor
+if (!require("Rsamtools", quietly = TRUE)){
+  BiocManager::install("Rsamtools")
+}
+
+# Load packages
+library(tidyverse)
+library(Rsamtools)
+library(EnvStats)
+library(Hmisc)
+library(ggpmisc)
+```
+
+
+

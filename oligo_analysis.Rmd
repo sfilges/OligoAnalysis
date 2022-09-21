@@ -28,9 +28,6 @@ scripts. It contains a number of functions that will be used throughout this
 analysis.
 
 ```{r}
-# Define working directory containing UMIErrrorCorrect output files
-main = '/Users/stefan/Documents/GitHub/OligoAnalysis/'
-
 # Should individual files with VAF be printed?
 print.individual.files = FALSE
 
@@ -39,10 +36,10 @@ consensus_cutoff <- 10
 
 # Create table of sample directory paths
 # First define the directory containing UMIErrrorCorrect output files
-sample_dir = paste(main, 'data/umierrorcorrect', sep = '')
+sample_dir = '/Users/stefan/Documents/GitHub/OligoAnalysis/data/umierrorcorrect'
 
 # Load helper functions, change location if needed
-source('src/helper_functions_oligo.R')
+source('/Users/stefan/Documents/GitHub/OligoAnalysis/src/helper_functions_oligo.R')
 ```
 
 ### Loading packages
@@ -50,7 +47,6 @@ source('src/helper_functions_oligo.R')
 We begin by importing the required packages, and if necessary installing them.
 
 ```{r, message=FALSE, warning=FALSE}
-
 # CRAN packages to be installed with checkPackages
 packages <- c('tidyverse', 'gridExtra', 'RColorBrewer', 'stringr', 'tis')
 
@@ -892,8 +888,10 @@ for( i in 1:nrow(cons.variants) ){
   next_base <- cons.variants$Reference[i+1]
   
   if(position < 50){
+    # 
     row$next_base <- next_base
   } else {
+    # If reaching the end of dinucleotide sequence, the next base is C
     row$next_base <- 'C'
   }
   
