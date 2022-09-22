@@ -32,14 +32,30 @@ analysis.
 # First define the directory containing UMIErrrorCorrect output files
 sample_dir = '/Users/stefan/Documents/GitHub/OligoAnalysis/data/umierrorcorrect'
 
-# Load helper functions, change location if needed
-source('/Users/stefan/Documents/GitHub/OligoAnalysis/src/helper_functions_oligo.R')
+# Load auxiliary functions, change location if needed
+functions_dir <- '/Users/stefan/Documents/GitHub/OligoAnalysis/src/helper_functions_oligo.R'
+
+# Import auxiliary functions
+source(functions_dir)
 
 # Should individual files with VAF be printed?
 print.individual.files = FALSE
 
 # Select consensus threshold to use for analysis
 consensus_cutoff <- 10
+
+# Save data to files?
+save_files = FALSE
+
+# Set output directory for figures
+figures_dir <- paste(sample_dir,'/figures/',sep='')
+
+# Check if figures dir exists, otherwise create one
+if(!dir.exists(figures_dir)){
+  dir.create(figures_dir)
+} else {
+  print("Figures directory already exists!")
+}
 ```
 
 ### Loading packages
@@ -340,7 +356,9 @@ error_plot_1 <- ggplot(
 error_plot_1
 
 # Save plot to pdf
-#ggsave(filename = 'Figure_1c_insert_1.pdf', plot = error_plot_1, device = 'pdf')
+if(save_files){
+ ggplot2::ggsave(filename = paste(figures_dir, 'Figure_1c_insert_1.pdf', sep=''), plot = error_plot_1, device = 'pdf') 
+}
 ```
 
 ### Insert variant 2
@@ -390,7 +408,9 @@ error_plot_2 <- ggplot(
 error_plot_2
 
 # Save plot to pdf
-#ggsave(filename = 'Figure_1c_insert_2.pdf', plot = error_plot_2, device = 'pdf')
+if(save_files){
+  ggplot2::ggsave(filename = paste(figures_dir, 'Figure_1c_insert_2.pdf', sep=''), plot = error_plot_2, device = 'pdf')
+}
 ```
 
 ## Quantifying deletions in consensus reads
@@ -683,7 +703,9 @@ boxplot_deletions <- ggplot2::ggplot(
 boxplot_deletions
 
 # Save plot to pdf
-#ggsave(filename = 'boxplot_deletions.pdf', plot = boxplot_deletions, device = 'pdf')
+if(save_files){
+  ggplot2::ggsave(filename = paste(figures_dir, 'boxplot_deletions.pdf', sep=''), plot = boxplot_deletions, device = 'pdf')
+}
 ```
 
 We can also plot the fraction of consecutive deletions for 2, 3 and 4 deleted
@@ -733,7 +755,9 @@ barplot_deletions <- ggplot2::ggplot(
 barplot_deletions
 
 # Save plot to pdf
-#ggsave(filename = 'barplot_deletions.pdf', plot = barplot_deletions, device = 'pdf')
+if(save_files){
+  ggplot2::ggsave(filename = paste(figures_dir, 'barplot_deletions.pdf', sep=''), plot = barplot_deletions, device = 'pdf')
+}
 ```
 
 ### Fraction of reads containing one or more deleted bases
@@ -793,7 +817,9 @@ figure1b <- ggplot2::ggplot(
 figure1b
   
 # Save figure as pdf
-#ggsave(filename = 'Figure_1b.pdf', plot = figure1b, device = 'pdf')
+if(save_files){
+  ggplot2::ggsave(filename = paste(figures_dir,'Figure_1b.pdf',sep=''), plot = figure1b, device = 'pdf')
+}
 ```
 
 ## Wilcoxon tests
@@ -977,7 +1003,9 @@ base_plot <- ggplot(
 base_plot
 
 # Save plot as pdf
-#ggsave(filename = 'base_plot_insert_2.pdf', plot = base_plot, device = 'pdf', width = 6, height = 6)
+if(save_files){
+  ggplot2::ggsave(filename = paste(figures_dir,'base_plot_insert_2.pdf',sep=''), plot = base_plot, device = 'pdf', width = 6, height = 6)
+}
 ```
 
 ```{r, echo=FALSE}
@@ -1013,7 +1041,9 @@ dinuc_plot <- ggplot2::ggplot(
 
 dinuc_plot
 
-#ggsave(filename = 'dinuc_plot_insert2_.pdf', plot = dinuc_plot, device = 'pdf', width = 12, height = 8)
+if(save_files){
+  ggplot2::ggsave(filename = paste(figures_dir,'dinuc_plot_insert2_.pdf',sep=''), plot = dinuc_plot, device = 'pdf', width = 12, height = 8)
+}
 ```
 
 
@@ -1111,7 +1141,9 @@ plot <- ggplot(df, aes(x=group, y=value, group = base, col = base)) +
 
 plot
 
-#ggsave(filename = 'sequential_error_plot.pdf', plot = plot, device = 'pdf', width = 8, height = 4)
+if(save_files){
+  ggplot2::ggsave(filename = paste(figures_dir,'sequential_error_plot.pdf',sep=''), plot = plot, device = 'pdf', width = 8, height = 4)  
+}
 ```
 
 ## Correlations
@@ -1184,7 +1216,7 @@ t.test(M$mean, mu = 0.0005, alternative = "two.sided")
 
 ### Correlations by batches
 
-```{r, echo=FALSE, message=FALSE}
+```{r corplots_by_batch, echo=FALSE, message=FALSE}
 
 insertType = c('Insert_1', 'Insert_2')
 batches = c('b1','b2','b3')
@@ -1269,23 +1301,25 @@ for(insert in insertType){
       # Show correlation plot
       cor_plot
       
-      #write.table(
-      #  x = M, 
-      #  file = paste("correlation_data_",var,"_",insert,"_",b,".csv", sep = ""), 
-      #  sep = ";"
-      #  )
-      
-      #write.table(
-      #  x = resAdj, 
-      #  file = paste("correlation_adjusted_p_values",var,"_",insert,"_",b,".csv", sep = ""), 
-      #  sep = ";"
-      #  )
+      if(save_files){
+        write.table(
+          x = M, 
+          file = paste(sample_dir,"/correlation_data_",var,"_",insert,"_",b,".csv", sep = ""), 
+          sep = ";"
+        )
+        
+        write.table(
+          x = resAdj, 
+          file = paste(sample_dir,"/correlation_adjusted_p_values",var,"_",insert,"_",b,".csv", sep = ""), 
+          sep = ";"
+        )
     
-      #ggsave(
-      #  filename = paste("Figure_X_corrrelation_plot_",var,"_",insert,"_",b,".pdf", sep = ""),
-      #  plot = cor_plot, 
-      #  device = 'pdf'
-      #  )
+        ggplot2::ggsave(
+          filename = paste(figures_dir,"Figure_X_corrrelation_plot_",var,"_",insert,"_",b,".pdf", sep = ""),
+          plot = cor_plot, 
+          device = 'pdf'
+        )
+      }
     }
   }
 }
@@ -1293,7 +1327,7 @@ for(insert in insertType){
 
 ### Correlations for all batches together
 
-```{r, echo=TRUE, message=FALSE}
+```{r corplots_all_batches, echo=TRUE, message=FALSE}
 cons.variants <- cons.table.filtered %>%
       dplyr::mutate(
             subsitution_error = 100*(A+C+G+T)/Coverage,
@@ -1327,13 +1361,11 @@ mean_errors <- cons.variants %>%
     mean_total = mean(Substitutions+Deletions)
   )
 
-
 print("Mean deletion error: ")
 mean(mean_errors$mean_dels)
 
 print("Mean substitution error: ")
 mean(mean_errors$mean_subs)
-
 
 variants <- c("Substitutions", "Deletions", "Error")
 
@@ -1419,7 +1451,9 @@ figure_2 <- perBaseErrorPlot(
 
 figure_2
 
-#ggsave(filename = 'Figure_2_v2.pdf', plot = figure_2, device = 'pdf')
+if(save_files){
+  ggplot2::ggsave(filename = paste(figures_dir,'Figure_2_v2.pdf',sep=''), plot = figure_2, device = 'pdf') 
+}
 ```
 
 ### Insert variant 2
@@ -1546,11 +1580,16 @@ plot <- ggplot(
 
 plot
 
-#ggsave(
-#  plot = plot,
-#  filename = 'Figure_2_insert_2_alternative_v1.pdf', 
-#  device = 'pdf', width = 8, height = 6
-#)
+if(save_files){
+  ggplot2::ggsave(
+    plot = plot,
+    filename = paste(figures_dir, 'Figure_2_insert_2_alternative_v1.pdf', sep = ''),
+    device = 'pdf', 
+    width = 8, 
+    height = 6
+  )
+}
+
 ```
 
 #### Outlier testing
@@ -1609,11 +1648,13 @@ fig <- ribbonPlot(
 
 fig
 
-#ggsave(
-#  plot = fig,
-#  filename = 'Figure_3.pdf', 
-#  device = 'pdf'
-#)
+if(save_files){
+  ggplot2::ggsave(
+    plot = fig,
+    filename = paste(figures_dir, 'ribbon_plot_insert1.pdf', sep=''),
+    device = 'pdf'
+  )
+}
 ```
 
 ### Insert variant 2
