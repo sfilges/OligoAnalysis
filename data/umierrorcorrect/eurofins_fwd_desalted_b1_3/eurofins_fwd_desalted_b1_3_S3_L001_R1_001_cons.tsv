@@ -1,0 +1,1001 @@
+Sample Name	Contig	Position	Name	Reference	A	C	G	T	I	D	N	Coverage	Consensus group size	Max Non-ref Allele Count	Max Non-ref Allele Frequency	Max Non-ref Allele
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	1	Insert_1	G	78	2	620980	142	0	0	1	621203	0	142	0.00022858872220514066	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	1	Insert_1	G	4	2	19815	6	0	0	1	19828	1	6	0.0003026023804720597	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	1	Insert_1	G	1	0	6082	2	0	0	0	6085	2	2	0.0003286770747740345	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	1	Insert_1	G	1	0	4753	2	0	0	0	4756	3	2	0.00042052144659377626	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	1	Insert_1	G	1	0	4010	2	0	0	0	4013	4	2	0.00049838026414154	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	1	Insert_1	G	1	0	3582	2	0	0	0	3585	5	2	0.0005578800557880056	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	1	Insert_1	G	1	0	2998	1	0	0	0	3000	7	1	0.0003333333333333333	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	1	Insert_1	G	1	0	2524	1	0	0	0	2526	10	1	0.000395882818685669	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	1	Insert_1	G	1	0	1830	1	0	0	0	1832	20	1	0.0005458515283842794	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	1	Insert_1	G	1	0	1546	1	0	0	0	1548	30	1	0.0006459948320413437	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	2	Insert_1	T	27	1	285	656203	0	0	3	656519	0	285	0.0004341077714430199	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	2	Insert_1	T	27	1	5	21050	0	0	3	21086	1	27	0.0012804704543298872	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	2	Insert_1	T	0	0	1	6498	0	0	0	6499	2	1	0.00015386982612709647	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	2	Insert_1	T	0	0	1	5069	0	0	0	5070	3	1	0.0001972386587771203	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	2	Insert_1	T	0	0	1	4277	0	0	0	4278	4	1	0.0002337540906965872	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	2	Insert_1	T	0	0	1	3810	0	0	0	3811	5	1	0.0002623983206507478	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	2	Insert_1	T	0	0	1	3194	0	0	0	3195	7	1	0.00031298904538341156	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	2	Insert_1	T	0	0	1	2674	0	0	0	2675	10	1	0.00037383177570093456	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	2	Insert_1	T	0	0	1	1942	0	0	0	1943	20	1	0.000514668039114771	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	2	Insert_1	T	0	0	1	1644	0	0	0	1645	30	1	0.0006079027355623101	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	3	Insert_1	G	0	12	665899	18	0	0	0	665929	0	18	2.7029908593859104e-05	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	3	Insert_1	G	0	12	21351	18	0	0	0	21381	1	18	0.0008418689490669286	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	3	Insert_1	G	0	0	6587	0	0	0	0	6587	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	3	Insert_1	G	0	0	5141	0	0	0	0	5141	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	3	Insert_1	G	0	0	4340	0	0	0	0	4340	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	3	Insert_1	G	0	0	3865	0	0	0	0	3865	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	3	Insert_1	G	0	0	3245	0	0	0	0	3245	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	3	Insert_1	G	0	0	2720	0	0	0	0	2720	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	3	Insert_1	G	0	0	1972	0	0	0	0	1972	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	3	Insert_1	G	0	0	1670	0	0	0	0	1670	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	4	Insert_1	G	5	12	669429	17	0	0	0	669463	0	17	2.5393487018700063e-05	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	4	Insert_1	G	5	12	21464	10	0	0	0	21491	1	12	0.0005583732725326881	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	4	Insert_1	G	0	0	6617	1	0	0	0	6618	2	1	0.0001511030522816561	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	4	Insert_1	G	0	0	5166	1	0	0	0	5167	3	1	0.00019353590090961874	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	4	Insert_1	G	0	0	4359	1	0	0	0	4360	4	1	0.00022935779816513763	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	4	Insert_1	G	0	0	3883	1	0	0	0	3884	5	1	0.00025746652935118434	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	4	Insert_1	G	0	0	3262	1	0	0	0	3263	7	1	0.00030646644192460924	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	4	Insert_1	G	0	0	2737	0	0	0	0	2737	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	4	Insert_1	G	0	0	1984	0	0	0	0	1984	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	4	Insert_1	G	0	0	1682	0	0	0	0	1682	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	5	Insert_1	T	9	4	1	670030	1	1	0	670045	0	9	1.3431933676096382e-05	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	5	Insert_1	T	9	4	1	21519	1	1	0	21534	1	9	0.00041794371691278906	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	5	Insert_1	T	0	0	0	6634	0	0	0	6634	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	5	Insert_1	T	0	0	0	5177	0	0	0	5177	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	5	Insert_1	T	0	0	0	4369	0	0	0	4369	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	5	Insert_1	T	0	0	0	3893	0	0	0	3893	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	5	Insert_1	T	0	0	0	3271	0	0	0	3271	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	5	Insert_1	T	0	0	0	2744	0	0	0	2744	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	5	Insert_1	T	0	0	0	1989	0	0	0	1989	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	5	Insert_1	T	0	0	0	1687	0	0	0	1687	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	6	Insert_1	G	4	6	669972	7	0	1108	6	671103	0	1108	0.0016510133317836457	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	6	Insert_1	G	4	6	21531	7	0	5	6	21559	1	7	0.00032469038452618393	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	6	Insert_1	G	0	0	6642	0	0	1	0	6643	2	1	0.0001505343971097396	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	6	Insert_1	G	0	0	5184	0	0	1	0	5185	3	1	0.00019286403085824494	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	6	Insert_1	G	0	0	4375	0	0	1	0	4376	4	1	0.00022851919561243144	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	6	Insert_1	G	0	0	3898	0	0	1	0	3899	5	1	0.00025647601949217746	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	6	Insert_1	G	0	0	3275	0	0	1	0	3276	7	1	0.00030525030525030525	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	6	Insert_1	G	0	0	2748	0	0	1	0	2749	10	1	0.0003637686431429611	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	6	Insert_1	G	0	0	1992	0	0	1	0	1993	20	1	0.0005017561465127947	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	6	Insert_1	G	0	0	1688	0	0	1	0	1689	30	1	0.0005920663114268798	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	7	Insert_1	A	671187	0	2	2	1	4	4	671199	0	4	5.959484445000663e-06	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	7	Insert_1	A	21572	0	2	2	1	2	4	21582	1	4	0.0001853396348809193	N
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	7	Insert_1	A	6646	0	0	0	0	1	0	6647	2	1	0.00015044380923724988	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	7	Insert_1	A	5188	0	0	0	0	1	0	5189	3	1	0.0001927153594141453	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	7	Insert_1	A	4379	0	0	0	0	0	0	4379	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	7	Insert_1	A	3902	0	0	0	0	0	0	3902	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	7	Insert_1	A	3278	0	0	0	0	0	0	3278	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	7	Insert_1	A	2751	0	0	0	0	0	0	2751	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	7	Insert_1	A	1994	0	0	0	0	0	0	1994	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	7	Insert_1	A	1690	0	0	0	0	0	0	1690	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	8	Insert_1	G	1	2	670689	11	1236	548	0	671251	0	1236	0.0018413380389749885	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	8	Insert_1	G	1	2	21571	11	10	7	0	21592	1	11	0.0005094479436828455	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	8	Insert_1	G	0	0	6650	0	2	1	0	6651	2	2	0.00030070666065253347	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	8	Insert_1	G	0	0	5191	0	2	1	0	5192	3	2	0.0003852080123266564	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	8	Insert_1	G	0	0	4381	0	2	1	0	4382	4	2	0.00045641259698767686	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	8	Insert_1	G	0	0	3903	0	2	1	0	3904	5	2	0.0005122950819672131	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	8	Insert_1	G	0	0	3279	0	2	1	0	3280	7	2	0.0006097560975609756	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	8	Insert_1	G	0	0	2751	0	2	1	0	2752	10	2	0.0007267441860465116	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	8	Insert_1	G	0	0	1994	0	1	1	0	1995	20	1	0.0005012531328320802	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	8	Insert_1	G	0	0	1690	0	1	1	0	1691	30	1	0.0005913660555884093	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	9	Insert_1	G	4	12	672011	4	0	0	7	672038	0	12	1.785613313532866e-05	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	9	Insert_1	G	4	12	21580	4	0	0	7	21607	1	12	0.0005553755727310594	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	9	Insert_1	G	0	0	6653	0	0	0	0	6653	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	9	Insert_1	G	0	0	5194	0	0	0	0	5194	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	9	Insert_1	G	0	0	4384	0	0	0	0	4384	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	9	Insert_1	G	0	0	3906	0	0	0	0	3906	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	9	Insert_1	G	0	0	3282	0	0	0	0	3282	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	9	Insert_1	G	0	0	2754	0	0	0	0	2754	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	9	Insert_1	G	0	0	1997	0	0	0	0	1997	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	9	Insert_1	G	0	0	1693	0	0	0	0	1693	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	10	Insert_1	C	10	672808	0	2	1	3	5	672828	0	10	1.4862639485871576e-05	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	10	Insert_1	C	10	21589	0	2	1	3	5	21609	1	10	0.00046277014207043364	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	10	Insert_1	C	0	6655	0	0	0	0	0	6655	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	10	Insert_1	C	0	5196	0	0	0	0	0	5196	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	10	Insert_1	C	0	4386	0	0	0	0	0	4386	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	10	Insert_1	C	0	3907	0	0	0	0	0	3907	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	10	Insert_1	C	0	3283	0	0	0	0	0	3283	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	10	Insert_1	C	0	2755	0	0	0	0	0	2755	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	10	Insert_1	C	0	1998	0	0	0	0	0	1998	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	10	Insert_1	C	0	1694	0	0	0	0	0	1694	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	11	Insert_1	T	44	4	1	671059	0	1763	3	672874	0	1763	0.002620104209703451	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	11	Insert_1	T	44	4	1	21553	0	6	3	21611	1	44	0.0020360001850909257	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	11	Insert_1	T	0	0	0	6653	0	3	0	6656	2	3	0.00045072115384615387	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	11	Insert_1	T	0	0	0	5194	0	3	0	5197	3	3	0.0005772561092938234	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	11	Insert_1	T	0	0	0	4384	0	3	0	4387	4	3	0.0006838386140870754	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	11	Insert_1	T	0	0	0	3905	0	3	0	3908	5	3	0.0007676560900716479	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	11	Insert_1	T	0	0	0	3281	0	3	0	3284	7	3	0.0009135200974421437	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	11	Insert_1	T	0	0	0	2753	0	3	0	2756	10	3	0.0010885341074020319	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	11	Insert_1	T	0	0	0	1997	0	2	0	1999	20	2	0.0010005002501250625	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	11	Insert_1	T	0	0	0	1693	0	2	0	1695	30	2	0.0011799410029498525	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	12	Insert_1	C	13	658622	0	0	492	15207	0	673842	0	15207	0.022567604868797136	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	12	Insert_1	C	13	21358	0	0	14	157	0	21528	1	157	0.007292827945001858	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	12	Insert_1	C	0	6593	0	0	2	65	0	6658	2	65	0.009762691498948633	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	12	Insert_1	C	0	5141	0	0	2	57	0	5198	3	57	0.010965756060023086	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	12	Insert_1	C	0	4340	0	0	2	48	0	4388	4	48	0.010938924339106655	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	12	Insert_1	C	0	3864	0	0	2	45	0	3909	5	45	0.011511895625479662	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	12	Insert_1	C	0	3244	0	0	2	41	0	3285	7	41	0.012480974124809741	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	12	Insert_1	C	0	2720	0	0	2	37	0	2757	10	37	0.01342038447587958	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	12	Insert_1	C	0	1974	0	0	2	26	0	2000	20	26	0.013	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	12	Insert_1	C	0	1671	0	0	2	25	0	1696	30	25	0.01474056603773585	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	13	Insert_1	C	18	673367	0	1	0	0	1	673387	0	18	2.6730542763670817e-05	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	13	Insert_1	C	18	21598	0	1	0	0	1	21618	1	18	0.0008326394671107411	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	13	Insert_1	C	0	6655	0	0	0	0	0	6655	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	13	Insert_1	C	0	5195	0	0	0	0	0	5195	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	13	Insert_1	C	0	4384	0	0	0	0	0	4384	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	13	Insert_1	C	0	3905	0	0	0	0	0	3905	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	13	Insert_1	C	0	3280	0	0	0	0	0	3280	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	13	Insert_1	C	0	2753	0	0	0	0	0	2753	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	13	Insert_1	C	0	1998	0	0	0	0	0	1998	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	13	Insert_1	C	0	1695	0	0	0	0	0	1695	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	14	Insert_1	C	16	674600	0	4	0	6	2	674628	0	16	2.371677428152997e-05	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	14	Insert_1	C	16	21604	0	4	0	4	2	21630	1	16	0.0007397133610725844	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	14	Insert_1	C	0	6661	0	0	0	2	0	6663	2	2	0.00030016509079993996	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	14	Insert_1	C	0	5203	0	0	0	0	0	5203	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	14	Insert_1	C	0	4392	0	0	0	0	0	4392	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	14	Insert_1	C	0	3913	0	0	0	0	0	3913	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	14	Insert_1	C	0	3288	0	0	0	0	0	3288	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	14	Insert_1	C	0	2760	0	0	0	0	0	2760	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	14	Insert_1	C	0	2002	0	0	0	0	0	2002	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	14	Insert_1	C	0	1697	0	0	0	0	0	1697	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	15	Insert_1	C	13	673418	0	43	0	1129	3	674606	0	1129	0.0016735694612855503	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	15	Insert_1	C	13	21556	0	6	0	32	3	21610	1	32	0.0014807959278111986	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	15	Insert_1	C	0	6644	0	2	0	15	0	6661	2	15	0.002251914127007957	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	15	Insert_1	C	0	5188	0	2	0	13	0	5203	3	13	0.0024985585239285027	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	15	Insert_1	C	0	4379	0	2	0	11	0	4392	4	11	0.0025045537340619307	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	15	Insert_1	C	0	3901	0	2	0	10	0	3913	5	10	0.002555583950932788	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	15	Insert_1	C	0	3278	0	2	0	8	0	3288	7	8	0.0024330900243309003	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	15	Insert_1	C	0	2751	0	1	0	8	0	2760	10	8	0.002898550724637681	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	15	Insert_1	C	0	1994	0	1	0	7	0	2002	20	7	0.0034965034965034965	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	15	Insert_1	C	0	1690	0	1	0	6	0	1697	30	6	0.0035356511490866236	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	16	Insert_1	T	2113	345	1413	652733	1	16631	1	673236	0	16631	0.024703075890178183	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	16	Insert_1	T	64	23	26	20817	1	399	1	21330	1	399	0.01870604781997187	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	16	Insert_1	T	4	11	3	6480	0	149	0	6647	2	149	0.022416127576350232	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	16	Insert_1	T	3	9	3	5049	0	127	0	5191	3	127	0.024465420920824505	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	16	Insert_1	T	2	7	3	4258	0	112	0	4382	4	112	0.025559105431309903	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	16	Insert_1	T	2	6	3	3791	0	102	0	3904	5	102	0.02612704918032787	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	16	Insert_1	T	2	4	3	3189	0	83	0	3281	7	83	0.02529716549832368	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	16	Insert_1	T	2	4	3	2675	0	68	0	2752	10	68	0.024709302325581394	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	16	Insert_1	T	2	4	3	1934	0	52	0	1995	20	52	0.02606516290726817	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	16	Insert_1	T	2	3	3	1639	0	44	0	1691	30	44	0.026020106445890007	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	17	Insert_1	T	35	2	2	669718	0	3246	1	673004	0	3246	0.00482315112540193	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	17	Insert_1	T	35	2	2	21463	0	54	1	21557	1	54	0.002504986779236443	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	17	Insert_1	T	0	0	0	6623	0	24	0	6647	2	24	0.0036106514216939973	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	17	Insert_1	T	0	0	0	5169	0	21	0	5190	3	21	0.004046242774566474	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	17	Insert_1	T	0	0	0	4362	0	18	0	4380	4	18	0.00410958904109589	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	17	Insert_1	T	0	0	0	3884	0	17	0	3901	5	17	0.004357856959753909	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	17	Insert_1	T	0	0	0	3266	0	12	0	3278	7	12	0.0036607687614399025	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	17	Insert_1	T	0	0	0	2740	0	11	0	2751	10	11	0.003998545983278807	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	17	Insert_1	T	0	0	0	1989	0	7	0	1996	20	7	0.0035070140280561123	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	17	Insert_1	T	0	0	0	1688	0	5	0	1693	30	5	0.0029533372711163615	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	18	Insert_1	T	30	1	1	669777	0	1557	4	671370	0	1557	0.0023191384780374457	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	18	Insert_1	T	30	1	1	21333	0	112	4	21481	1	112	0.005213909966947535	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	18	Insert_1	T	0	0	0	6595	0	44	0	6639	2	44	0.006627504142190089	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	18	Insert_1	T	0	0	0	5147	0	35	0	5182	3	35	0.006754148977228869	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	18	Insert_1	T	0	0	0	4343	0	31	0	4374	4	31	0.007087334247828075	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	18	Insert_1	T	0	0	0	3869	0	27	0	3896	5	27	0.006930184804928132	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	18	Insert_1	T	0	0	0	3257	0	19	0	3276	7	19	0.0057997557997558	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	18	Insert_1	T	0	0	0	2730	0	18	0	2748	10	18	0.006550218340611353	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	18	Insert_1	T	0	0	0	1981	0	14	0	1995	20	14	0.007017543859649123	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	18	Insert_1	T	0	0	0	1682	0	10	0	1692	30	10	0.00591016548463357	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	19	Insert_1	A	663321	45	1	743	27	5641	0	669751	0	5641	0.008422533150379769	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	19	Insert_1	A	21152	3	1	40	6	111	0	21307	1	111	0.005209555545126015	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	19	Insert_1	A	6540	3	0	8	3	44	0	6595	2	44	0.00667172100075815	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	19	Insert_1	A	5109	3	0	4	2	31	0	5147	3	31	0.006022925976296872	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	19	Insert_1	A	4306	3	0	4	2	30	0	4343	4	30	0.00690766751093714	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	19	Insert_1	A	3834	3	0	3	2	29	0	3869	5	29	0.007495476867407599	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	19	Insert_1	A	3225	3	0	2	2	27	0	3257	7	27	0.00828983727356463	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	19	Insert_1	A	2705	3	0	2	1	20	0	2730	10	20	0.007326007326007326	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	19	Insert_1	A	1964	1	0	1	0	15	0	1981	20	15	0.00757193336698637	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	19	Insert_1	A	1666	0	0	1	0	15	0	1682	30	15	0.0089179548156956	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	20	Insert_1	T	39	1	1	672785	502	742	2	673570	0	742	0.0011015930044390339	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	20	Insert_1	T	39	1	1	21499	6	29	2	21571	1	39	0.0018079829400584118	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	6630	3	12	0	6642	2	12	0.0018066847335140017	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	5178	1	9	0	5187	3	9	0.001735106998264893	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	4368	1	9	0	4377	4	9	0.00205620287868403	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	3890	1	9	0	3899	5	9	0.0023082841754295974	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	3270	1	8	0	3278	7	8	0.0024405125076266015	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	2745	1	7	0	2752	10	7	0.002543604651162791	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	1994	1	4	0	1998	20	4	0.002002002002002002	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	20	Insert_1	T	0	0	0	1690	1	3	0	1693	30	3	0.0017720023626698169	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	21	Insert_1	A	670304	1	1008	6	1	2723	1	674043	0	2723	0.004039801615030495	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	21	Insert_1	A	21441	1	20	6	1	76	1	21545	1	76	0.0035275005801810163	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	21	Insert_1	A	6602	0	5	0	0	33	0	6640	2	33	0.004969879518072289	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	21	Insert_1	A	5152	0	5	0	0	28	0	5185	3	28	0.005400192864030858	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	21	Insert_1	A	4343	0	5	0	0	27	0	4375	4	27	0.006171428571428572	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	21	Insert_1	A	3867	0	5	0	0	25	0	3897	5	25	0.006415191172696947	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	21	Insert_1	A	3250	0	5	0	0	21	0	3276	7	21	0.00641025641025641	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	21	Insert_1	A	2729	0	4	0	0	17	0	2750	10	17	0.0061818181818181816	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	21	Insert_1	A	1983	0	3	0	0	12	0	1998	20	12	0.006006006006006006	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	21	Insert_1	A	1681	0	2	0	0	11	0	1694	30	11	0.006493506493506494	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	22	Insert_1	C	401	672196	0	58	1	288	1	672944	0	401	0.0005958891081575882	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	22	Insert_1	C	14	21515	0	9	1	16	1	21555	1	16	0.0007422871723498028	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	22	Insert_1	C	1	6625	0	5	0	5	0	6636	2	5	0.0007534659433393611	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	22	Insert_1	C	1	5173	0	5	0	4	0	5183	3	5	0.0009646922631680494	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	22	Insert_1	C	1	4364	0	4	0	4	0	4373	4	4	0.000914703864623828	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	22	Insert_1	C	1	3887	0	4	0	3	0	3895	5	4	0.0010269576379974327	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	22	Insert_1	C	1	3267	0	3	0	3	0	3274	7	3	0.0009163103237629811	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	22	Insert_1	C	1	2741	0	3	0	3	0	2748	10	3	0.001091703056768559	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	22	Insert_1	C	1	1991	0	1	0	3	0	1996	20	3	0.001503006012024048	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	22	Insert_1	C	1	1688	0	0	0	3	0	1692	30	3	0.0017730496453900709	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	23	Insert_1	A	669907	0	4	2	0	2971	2	672886	0	2971	0.004415309576956572	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	23	Insert_1	A	21475	0	4	2	0	56	2	21539	1	56	0.0025999350016249595	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	23	Insert_1	A	6631	0	0	0	0	13	0	6644	2	13	0.0019566526189042747	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	23	Insert_1	A	5179	0	0	0	0	9	0	5188	3	9	0.0017347725520431765	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	23	Insert_1	A	4371	0	0	0	0	7	0	4378	4	7	0.0015989036089538603	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	23	Insert_1	A	3897	0	0	0	0	4	0	3901	5	4	0.0010253781081773904	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	23	Insert_1	A	3275	0	0	0	0	4	0	3279	7	4	0.001219884111009454	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	23	Insert_1	A	2748	0	0	0	0	3	0	2751	10	3	0.0010905125408942203	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	23	Insert_1	A	1992	0	0	0	0	3	0	1995	20	3	0.0015037593984962407	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	23	Insert_1	A	1687	0	0	0	0	3	0	1690	30	3	0.0017751479289940828	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	24	Insert_1	G	127	11	668870	28	1101	1295	2	670333	0	1295	0.0019318756498635753	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	24	Insert_1	G	12	11	21368	28	45	45	2	21466	1	45	0.002096338395602348	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	24	Insert_1	G	8	0	6623	0	16	8	0	6639	2	16	0.0024100015062509415	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	24	Insert_1	G	5	0	5173	0	12	7	0	5185	3	12	0.0023143683702989393	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	24	Insert_1	G	5	0	4368	0	9	4	0	4377	4	9	0.00205620287868403	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	24	Insert_1	G	5	0	3891	0	9	4	0	3900	5	9	0.002307692307692308	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	24	Insert_1	G	4	0	3270	0	7	4	0	3278	7	7	0.0021354484441732766	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	24	Insert_1	G	3	0	2744	0	7	3	0	2750	10	7	0.0025454545454545456	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	24	Insert_1	G	2	0	1990	0	6	2	0	1994	20	6	0.003009027081243731	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	24	Insert_1	G	2	0	1685	0	5	2	0	1689	30	5	0.002960331557134399	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	25	Insert_1	A	663778	1	7	573	1	6050	3	670412	0	6050	0.009024301474317285	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	25	Insert_1	A	21038	1	7	23	1	231	3	21303	1	231	0.010843543162934798	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	25	Insert_1	A	6563	0	0	20	0	55	0	6638	2	55	0.008285628201265442	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	25	Insert_1	A	5123	0	0	18	0	43	0	5184	3	43	0.008294753086419753	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	25	Insert_1	A	4325	0	0	18	0	36	0	4379	4	36	0.00822105503539621	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	25	Insert_1	A	3856	0	0	16	0	30	0	3902	5	30	0.007688364941055869	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	25	Insert_1	A	3242	0	0	14	0	23	0	3279	7	23	0.007014333638304361	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	25	Insert_1	A	2722	0	0	10	0	20	0	2752	10	20	0.007267441860465116	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	25	Insert_1	A	1976	0	0	6	0	13	0	1995	20	13	0.006516290726817042	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	25	Insert_1	A	1673	0	0	5	0	12	0	1690	30	12	0.007100591715976331	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	26	Insert_1	A	662141	1	6	391	0	4602	1	667142	0	4602	0.00689808166777088	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	26	Insert_1	A	21224	1	6	4	0	80	1	21316	1	80	0.0037530493525989865	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	26	Insert_1	A	6561	0	0	1	0	59	0	6621	2	59	0.008911040628303881	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	26	Insert_1	A	5117	0	0	1	0	50	0	5168	3	50	0.009674922600619196	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	26	Insert_1	A	4318	0	0	1	0	46	0	4365	4	46	0.010538373424971364	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	26	Insert_1	A	3847	0	0	1	0	43	0	3891	5	43	0.011051143664867643	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	26	Insert_1	A	3231	0	0	1	0	37	0	3269	7	37	0.011318446007953502	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	26	Insert_1	A	2711	0	0	1	0	30	0	2742	10	30	0.010940919037199124	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	26	Insert_1	A	1965	0	0	1	0	22	0	1988	20	22	0.011066398390342052	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	26	Insert_1	A	1665	0	0	1	0	18	0	1684	30	18	0.010688836104513063	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	27	Insert_1	T	112	0	26	663507	1	3458	2	667105	0	3458	0.005183591788399128	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	27	Insert_1	T	112	0	1	21116	1	65	2	21296	1	112	0.005259203606311044	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	1	6582	0	25	0	6608	2	25	0.0037832929782082325	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	1	5135	0	20	0	5156	3	20	0.003878975950349108	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	1	4330	0	19	0	4350	4	19	0.004367816091954023	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	1	3860	0	16	0	3877	5	16	0.0041269022440030955	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	1	3242	0	12	0	3255	7	12	0.003686635944700461	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	1	2721	0	10	0	2732	10	10	0.0036603221083455345	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	1	1972	0	10	0	1983	20	10	0.005042864346949067	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	27	Insert_1	T	0	0	0	1670	0	9	0	1679	30	9	0.005360333531864205	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	28	Insert_1	A	661327	2	0	1382	1	4001	2	666714	0	4001	0.006001073923751414	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	28	Insert_1	A	21251	2	0	17	1	72	2	21344	1	72	0.003373313343328336	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	28	Insert_1	A	6591	0	0	11	0	18	0	6620	2	18	0.002719033232628399	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	28	Insert_1	A	5143	0	0	7	0	16	0	5166	3	16	0.003097173828881146	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	28	Insert_1	A	4338	0	0	7	0	14	0	4359	4	14	0.003211745813259922	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	28	Insert_1	A	3865	0	0	7	0	13	0	3885	5	13	0.0033462033462033462	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	28	Insert_1	A	3249	0	0	5	0	12	0	3266	7	12	0.003674219228413962	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	28	Insert_1	A	2727	0	0	4	0	10	0	2741	10	10	0.0036483035388544327	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	28	Insert_1	A	1975	0	0	2	0	7	0	1984	20	7	0.003528225806451613	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	28	Insert_1	A	1672	0	0	2	0	6	0	1680	30	6	0.0035714285714285713	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	29	Insert_1	T	1825	2377	165	662948	0	3351	1	670667	0	3351	0.00499651839139245	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	29	Insert_1	T	78	28	53	21131	0	99	1	21390	1	99	0.004628330995792427	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	29	Insert_1	T	6	28	4	6575	0	23	0	6636	2	28	0.004219409282700422	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	29	Insert_1	T	4	22	3	5131	0	19	0	5179	3	22	0.004247924309712299	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	29	Insert_1	T	3	20	3	4329	0	14	0	4369	4	20	0.004577706569008927	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	29	Insert_1	T	3	18	3	3859	0	11	0	3894	5	18	0.004622496147919877	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	29	Insert_1	T	3	15	3	3243	0	9	0	3273	7	15	0.00458295142071494	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	29	Insert_1	T	3	12	3	2722	0	7	0	2747	10	12	0.004368401892974154	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	29	Insert_1	T	3	8	2	1970	0	7	0	1990	20	8	0.004020100502512563	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	29	Insert_1	T	2	7	1	1669	0	7	0	1686	30	7	0.004151838671411625	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	30	Insert_1	C	41	658542	0	5578	2	4667	0	668828	0	5578	0.008339961843702715	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	30	Insert_1	C	35	21090	0	50	2	124	0	21299	1	124	0.005821869571341377	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	30	Insert_1	C	3	6551	0	28	0	45	0	6627	2	45	0.006790402897238569	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	30	Insert_1	C	3	5110	0	25	0	36	0	5174	3	36	0.006957866254348666	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	30	Insert_1	C	0	4315	0	24	0	30	0	4369	4	30	0.00686655985351339	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	30	Insert_1	C	0	3846	0	22	0	27	0	3895	5	27	0.00693196405648267	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	30	Insert_1	C	0	3230	0	19	0	23	0	3272	7	23	0.007029339853300734	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	30	Insert_1	C	0	2709	0	17	0	19	0	2745	10	19	0.0069216757741347905	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	30	Insert_1	C	0	1957	0	16	0	14	0	1987	20	16	0.00805234021137393	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	30	Insert_1	C	0	1658	0	14	0	11	0	1683	30	14	0.008318478906714201	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	31	Insert_1	T	159	3	31	661545	0	5062	0	666800	0	5062	0.007591481703659268	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	31	Insert_1	T	159	3	1	21054	0	56	0	21273	1	159	0.00747426315047243	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	31	Insert_1	T	0	0	1	6583	0	26	0	6610	2	26	0.003933434190620273	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	31	Insert_1	T	0	0	1	5138	0	23	0	5162	3	23	0.004455637349864394	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	31	Insert_1	T	0	0	1	4341	0	18	0	4360	4	18	0.004128440366972477	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	31	Insert_1	T	0	0	1	3870	0	16	0	3887	5	16	0.004116285052739903	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	31	Insert_1	T	0	0	1	3249	0	15	0	3265	7	15	0.004594180704441042	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	31	Insert_1	T	0	0	1	2725	0	13	0	2739	10	13	0.004746257758305951	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	31	Insert_1	T	0	0	1	1969	0	12	0	1982	20	12	0.006054490413723511	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	31	Insert_1	T	0	0	1	1668	0	11	0	1680	30	11	0.006547619047619048	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	32	Insert_1	G	19	33	662411	2805	87	1945	3	667216	0	2805	0.004204035874439462	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	32	Insert_1	G	19	33	21020	100	17	53	3	21228	1	100	0.004710759374411155	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	6570	21	6	25	0	6616	2	25	0.0037787182587666265	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	5131	17	3	19	0	5167	3	19	0.0036771821172827557	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	4335	14	3	17	0	4366	4	17	0.0038937242327072834	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	3864	13	3	16	0	3893	5	16	0.004109940919599281	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	3245	10	2	15	0	3270	7	15	0.0045871559633027525	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	2723	9	1	13	0	2745	10	13	0.004735883424408015	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	1971	7	1	9	0	1987	20	9	0.004529441368897836	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	32	Insert_1	G	0	0	1670	6	1	8	0	1684	30	8	0.004750593824228029	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	33	Insert_1	T	109	0	2405	665540	3	1784	1	669839	0	2405	0.0035904150101740864	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	33	Insert_1	T	109	0	59	21112	3	90	1	21371	1	109	0.005100369659819381	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	5	6575	0	42	0	6622	2	42	0.006342494714587738	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	5	5135	0	33	0	5173	3	33	0.006379277015271603	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	4	4340	0	28	0	4372	4	28	0.006404391582799634	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	4	3867	0	26	0	3897	5	26	0.006671798819604825	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	4	3247	0	21	0	3272	7	21	0.006418092909535452	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	4	2726	0	17	0	2747	10	17	0.006188569348380051	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	4	1979	0	8	0	1991	20	8	0.004018081366147665	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	33	Insert_1	T	0	0	4	1675	0	8	0	1687	30	8	0.004742145820983995	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	34	Insert_1	T	280	1148	2	670490	1	557	2	672479	0	1148	0.0017071165047533082	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	34	Insert_1	T	214	22	2	21199	1	52	2	21491	1	214	0.009957656693499604	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	34	Insert_1	T	12	21	0	6622	0	10	0	6665	2	21	0.003150787696924231	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	34	Insert_1	T	9	16	0	5170	0	9	0	5204	3	16	0.0030745580322828594	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	34	Insert_1	T	6	15	0	4365	0	7	0	4393	4	15	0.0034145231049396768	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	34	Insert_1	T	4	14	0	3890	0	6	0	3914	5	14	0.0035769034236075624	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	34	Insert_1	T	2	13	0	3271	0	3	0	3289	7	13	0.003952569169960474	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	34	Insert_1	T	2	11	0	2744	0	2	0	2759	10	11	0.003986951794128307	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	34	Insert_1	T	1	7	0	1990	0	2	0	2000	20	7	0.0035	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	34	Insert_1	T	0	5	0	1687	0	2	0	1694	30	5	0.0029515938606847697	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	35	Insert_1	C	38	668946	636	6	3	2278	0	671904	0	2278	0.0033903652902795636	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	35	Insert_1	C	38	21259	7	6	3	93	0	21403	1	93	0.004345185254403588	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	35	Insert_1	C	0	6590	7	0	0	60	0	6657	2	60	0.009013068949977467	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	35	Insert_1	C	0	5149	5	0	0	45	0	5199	3	45	0.008655510675129832	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	35	Insert_1	C	0	4347	5	0	0	37	0	4389	4	37	0.008430166324903166	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	35	Insert_1	C	0	3875	4	0	0	32	0	3911	5	32	0.008182050626438252	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	35	Insert_1	C	0	3256	3	0	0	28	0	3287	7	28	0.008518405841192577	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	35	Insert_1	C	0	2732	3	0	0	22	0	2757	10	22	0.00797968806673921	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	35	Insert_1	C	0	1982	3	0	0	13	0	1998	20	13	0.0065065065065065065	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	35	Insert_1	C	0	1683	2	0	0	7	0	1692	30	7	0.004137115839243499	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	36	Insert_1	G	63	2077	668032	131	8	661	1	670965	0	2077	0.00309554149620323	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	36	Insert_1	G	15	48	21107	129	6	32	1	21332	1	129	0.006047252953309582	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	36	Insert_1	G	5	15	6595	1	1	7	0	6623	2	15	0.0022648346670693037	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	36	Insert_1	G	5	10	5156	1	1	5	0	5177	3	10	0.0019316206297083252	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	36	Insert_1	G	5	10	4352	0	0	5	0	4372	4	10	0.0022872827081427266	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	36	Insert_1	G	4	9	3880	0	0	4	0	3897	5	9	0.0023094688221709007	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	36	Insert_1	G	4	8	3261	0	0	3	0	3276	7	8	0.002442002442002442	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	36	Insert_1	G	2	7	2736	0	0	3	0	2748	10	7	0.002547307132459971	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	36	Insert_1	G	0	5	1986	0	0	3	0	1994	20	5	0.0025075225677031092	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	36	Insert_1	G	0	5	1685	0	0	2	0	1692	30	5	0.002955082742316785	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	37	Insert_1	C	650	666932	1	1502	0	2773	4	671862	0	2773	0.0041273356730995355	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	37	Insert_1	C	33	21297	1	41	0	38	4	21414	1	41	0.001914635285327356	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	37	Insert_1	C	1	6608	0	10	0	18	0	6637	2	18	0.0027120687057405456	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	37	Insert_1	C	1	5169	0	6	0	13	0	5189	3	13	0.002505299672383889	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	37	Insert_1	C	1	4361	0	6	0	13	0	4381	4	13	0.002967359050445104	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	37	Insert_1	C	1	3886	0	6	0	12	0	3905	5	12	0.0030729833546734955	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	37	Insert_1	C	1	3268	0	5	0	10	0	3284	7	10	0.0030450669914738123	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	37	Insert_1	C	1	2742	0	4	0	8	0	2755	10	8	0.0029038112522686023	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	37	Insert_1	C	1	1989	0	3	0	5	0	1998	20	5	0.0025025025025025025	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	37	Insert_1	C	1	1684	0	3	0	5	0	1693	30	5	0.0029533372711163615	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	38	Insert_1	A	669881	244	22	58	1	1151	3	671359	0	1151	0.0017144329635858013	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	38	Insert_1	A	21422	15	22	1	1	10	3	21473	1	22	0.0010245424486564523	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	38	Insert_1	A	6628	10	0	1	0	2	0	6641	2	10	0.001505797319680771	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	38	Insert_1	A	5179	10	0	1	0	2	0	5192	3	10	0.001926040061633282	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	38	Insert_1	A	4371	10	0	1	0	2	0	4384	4	10	0.002281021897810219	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	38	Insert_1	A	3897	8	0	1	0	2	0	3908	5	8	0.0020470829068577278	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	38	Insert_1	A	3278	6	0	1	0	2	0	3287	7	6	0.0018253726802555522	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	38	Insert_1	A	2750	4	0	1	0	2	0	2757	10	4	0.0014508523757707653	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	38	Insert_1	A	1992	3	0	1	0	2	0	1998	20	3	0.0015015015015015015	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	38	Insert_1	A	1687	3	0	1	0	2	0	1693	30	3	0.0017720023626698169	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	39	Insert_1	C	674	669754	1	241	0	1947	2	672619	0	1947	0.00289465507218797	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	39	Insert_1	C	45	21407	1	12	0	25	2	21492	1	45	0.0020938023450586263	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	39	Insert_1	C	7	6639	0	10	0	4	0	6660	2	10	0.0015015015015015015	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	39	Insert_1	C	5	5187	0	10	0	4	0	5206	3	10	0.001920860545524395	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	39	Insert_1	C	5	4376	0	10	0	4	0	4395	4	10	0.0022753128555176336	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	39	Insert_1	C	4	3900	0	8	0	4	0	3916	5	8	0.0020429009193054137	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	39	Insert_1	C	3	3279	0	6	0	4	0	3292	7	6	0.0018226002430133657	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	39	Insert_1	C	3	2751	0	4	0	4	0	2762	10	4	0.001448225923244026	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	39	Insert_1	C	3	1992	0	3	0	4	0	2002	20	4	0.001998001998001998	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	39	Insert_1	C	2	1686	0	3	0	4	0	1695	30	4	0.002359882005899705	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	40	Insert_1	T	202	7	0	669153	1	1866	0	671228	0	1866	0.002779979381074687	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	40	Insert_1	T	202	7	0	21247	1	57	0	21513	1	202	0.009389671361502348	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	0	0	6662	0	28	0	6690	2	28	0.004185351270553065	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	0	0	5201	0	26	0	5227	3	26	0.004974172565525158	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	0	0	4387	0	23	0	4410	4	23	0.005215419501133787	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	0	0	3910	0	20	0	3930	5	20	0.005089058524173028	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	0	0	3284	0	16	0	3300	7	16	0.0048484848484848485	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	0	0	2755	0	13	0	2768	10	13	0.004696531791907515	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	0	0	1998	0	7	0	2005	20	7	0.003491271820448878	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	40	Insert_1	T	0	0	0	1689	0	6	0	1695	30	6	0.0035398230088495575	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	41	Insert_1	C	33	668810	0	59	1	2591	3	671496	0	2591	0.003858548673409819	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	41	Insert_1	C	33	21278	0	20	1	107	3	21441	1	107	0.0049904388787836386	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	6633	0	10	0	31	0	6674	2	31	0.00464489062031765	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	5185	0	7	0	23	0	5215	3	23	0.004410354745925216	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	4378	0	4	0	19	0	4401	4	19	0.004317200636219041	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	3902	0	3	0	17	0	3922	5	17	0.004334523202447731	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	3275	0	3	0	16	0	3294	7	16	0.004857316332726169	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	2750	0	1	0	12	0	2763	10	12	0.004343105320304018	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	1995	0	0	0	10	0	2005	20	10	0.004987531172069825	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	41	Insert_1	C	0	1690	0	0	0	6	0	1696	30	6	0.003537735849056604	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	42	Insert_1	C	34	668181	751	6	0	2416	0	671388	0	2416	0.003598515314542411	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	42	Insert_1	C	34	21412	16	6	0	9	0	21477	1	34	0.001583088885784793	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	42	Insert_1	C	0	6641	14	0	0	6	0	6661	2	14	0.00210178651854076	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	42	Insert_1	C	0	5187	12	0	0	6	0	5205	3	12	0.0023054755043227667	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	42	Insert_1	C	0	4375	12	0	0	5	0	4392	4	12	0.00273224043715847	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	42	Insert_1	C	0	3900	10	0	0	5	0	3915	5	10	0.002554278416347382	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	42	Insert_1	C	0	3275	8	0	0	5	0	3288	7	8	0.0024330900243309003	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	42	Insert_1	C	0	2749	6	0	0	5	0	2760	10	6	0.002173913043478261	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	42	Insert_1	C	0	1994	4	0	0	5	0	2003	20	5	0.0024962556165751375	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	42	Insert_1	C	0	1686	4	0	0	5	0	1695	30	5	0.0029498525073746312	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	43	Insert_1	G	929	47	670434	960	1	800	0	673170	0	960	0.0014260885066179419	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	43	Insert_1	G	30	47	21293	125	1	28	0	21523	1	125	0.005807740556613855	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	43	Insert_1	G	16	0	6638	7	0	12	0	6673	2	16	0.002397722163944253	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	43	Insert_1	G	15	0	5183	6	0	10	0	5214	3	15	0.0028768699654775605	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	43	Insert_1	G	15	0	4372	6	0	8	0	4401	4	15	0.0034083162917518746	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	43	Insert_1	G	13	0	3896	5	0	8	0	3922	5	13	0.0033146353901070884	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	43	Insert_1	G	9	0	3275	3	0	8	0	3295	7	9	0.002731411229135053	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	43	Insert_1	G	6	0	2747	3	0	8	0	2764	10	8	0.002894356005788712	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	43	Insert_1	G	5	0	1993	3	0	6	0	2007	20	6	0.0029895366218236174	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	43	Insert_1	G	5	0	1687	2	0	4	0	1698	30	5	0.002944640753828033	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	44	Insert_1	A	672438	2	3	2	0	436	1	672882	0	436	0.0006479590775202784	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	44	Insert_1	A	21472	2	3	2	0	21	1	21501	1	21	0.0009766987581972932	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	44	Insert_1	A	6646	0	0	0	0	19	0	6665	2	19	0.0028507126781695423	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	44	Insert_1	A	5189	0	0	0	0	17	0	5206	3	17	0.0032654629273914716	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	44	Insert_1	A	4379	0	0	0	0	16	0	4395	4	16	0.0036405005688282138	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	44	Insert_1	A	3902	0	0	0	0	14	0	3916	5	14	0.003575076608784474	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	44	Insert_1	A	3277	0	0	0	0	12	0	3289	7	12	0.0036485253876558225	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	44	Insert_1	A	2748	0	0	0	0	10	0	2758	10	10	0.0036258158085569255	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	44	Insert_1	A	1995	0	0	0	0	7	0	2002	20	7	0.0034965034965034965	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	44	Insert_1	A	1689	0	0	0	0	6	0	1695	30	6	0.0035398230088495575	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	45	Insert_1	G	11	49	670030	111	1015	4030	4	674235	0	4030	0.005977144467433462	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	45	Insert_1	G	10	49	21251	67	13	83	4	21464	1	83	0.003866939992545658	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	45	Insert_1	G	1	0	6640	5	2	15	0	6661	2	15	0.002251914127007957	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	45	Insert_1	G	0	0	5189	4	2	12	0	5205	3	12	0.0023054755043227667	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	45	Insert_1	G	0	0	4381	3	2	10	0	4394	4	10	0.002275830678197542	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	45	Insert_1	G	0	0	3902	3	2	10	0	3915	5	10	0.002554278416347382	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	45	Insert_1	G	0	0	3276	2	2	10	0	3288	7	10	0.0030413625304136255	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	45	Insert_1	G	0	0	2746	2	2	9	0	2757	10	9	0.003264417845484222	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	45	Insert_1	G	0	0	1996	1	1	6	0	2003	20	6	0.0029955067398901645	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	45	Insert_1	G	0	0	1690	0	1	5	0	1695	30	5	0.0029498525073746312	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	46	Insert_1	T	1215	81	50	669318	0	773	2	671439	0	1215	0.0018095463623650102	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	46	Insert_1	T	172	15	6	21186	0	45	2	21426	1	172	0.008027629982264538	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	46	Insert_1	T	6	12	5	6638	0	10	0	6671	2	12	0.001798830760005996	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	46	Insert_1	T	5	9	4	5192	0	7	0	5217	3	9	0.0017251293847038527	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	46	Insert_1	T	5	6	3	4384	0	6	0	4404	4	6	0.0013623978201634877	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	46	Insert_1	T	4	4	3	3908	0	5	0	3924	5	5	0.0012742099898063201	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	46	Insert_1	T	4	2	2	3281	0	5	0	3294	7	5	0.0015179113539769277	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	46	Insert_1	T	3	2	2	2750	0	5	0	2762	10	5	0.0018102824040550326	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	46	Insert_1	T	3	1	1	1996	0	4	0	2005	20	4	0.00199501246882793	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	46	Insert_1	T	3	0	0	1689	0	4	0	1696	30	4	0.0023584905660377358	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	47	Insert_1	G	48	51	672662	36	1	2012	2	674811	0	2012	0.002981575581903674	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	47	Insert_1	G	36	51	21398	36	1	32	2	21555	1	51	0.0023660403618649965	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	47	Insert_1	G	5	0	6656	0	0	25	0	6686	2	25	0.0037391564463057133	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	47	Insert_1	G	5	0	5206	0	0	20	0	5231	3	20	0.003823360734085261	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	47	Insert_1	G	2	0	4397	0	0	16	0	4415	4	16	0.00362400906002265	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	47	Insert_1	G	0	0	3923	0	0	12	0	3935	5	12	0.0030495552731893264	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	47	Insert_1	G	0	0	3296	0	0	9	0	3305	7	9	0.0027231467473524964	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	47	Insert_1	G	0	0	2764	0	0	8	0	2772	10	8	0.002886002886002886	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	47	Insert_1	G	0	0	2005	0	0	6	0	2011	20	6	0.0029835902536051715	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	47	Insert_1	G	0	0	1697	0	0	4	0	1701	30	4	0.0023515579071134627	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	48	Insert_1	C	38	671529	3	1263	0	19	1	672853	0	1263	0.0018770816210970302	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	48	Insert_1	C	38	21457	1	27	0	8	1	21532	1	38	0.0017648151588333643	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	48	Insert_1	C	0	6658	1	6	0	2	0	6667	2	6	0.0008999550022498875	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	48	Insert_1	C	0	5208	1	4	0	2	0	5215	3	4	0.0007670182166826462	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	48	Insert_1	C	0	4396	0	4	0	2	0	4402	4	4	0.0009086778736937755	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	48	Insert_1	C	0	3921	0	3	0	2	0	3926	5	3	0.0007641365257259297	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	48	Insert_1	C	0	3294	0	3	0	1	0	3298	7	3	0.0009096422073984233	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	48	Insert_1	C	0	2763	0	3	0	0	0	2766	10	3	0.0010845986984815619	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	48	Insert_1	C	0	2004	0	2	0	0	0	2006	20	2	0.0009970089730807576	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	48	Insert_1	C	0	1695	0	2	0	0	0	1697	30	2	0.0011785503830288745	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	49	Insert_1	G	35	32	672768	63	25	8	4	672910	0	63	9.362321855820243e-05	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	49	Insert_1	G	16	32	21414	63	8	5	4	21534	1	63	0.0029256060183895237	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	49	Insert_1	G	1	0	6674	0	1	2	0	6677	2	2	0.0002995357196345664	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	49	Insert_1	G	1	0	5220	0	1	1	0	5222	3	1	0.00019149751053236308	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	49	Insert_1	G	1	0	4405	0	1	0	0	4406	4	1	0.00022696323195642307	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	49	Insert_1	G	1	0	3927	0	1	0	0	3928	5	1	0.0002545824847250509	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	49	Insert_1	G	1	0	3298	0	1	0	0	3299	7	1	0.0003031221582297666	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	49	Insert_1	G	1	0	2767	0	1	0	0	2768	10	1	0.000361271676300578	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	49	Insert_1	G	1	0	2006	0	0	0	0	2007	20	1	0.0004982561036372695	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	49	Insert_1	G	0	0	1697	0	0	0	0	1697	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	50	Insert_1	G	1240	33	671511	122	0	0	5	672911	0	1240	0.0018427399760146588	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	50	Insert_1	G	33	33	21406	58	0	0	5	21535	1	58	0.002693289993034595	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	50	Insert_1	G	4	0	6669	4	0	0	0	6677	2	4	0.0005990714392691329	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	50	Insert_1	G	4	0	5215	3	0	0	0	5222	3	4	0.0007659900421294523	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	50	Insert_1	G	4	0	4400	2	0	0	0	4406	4	4	0.0009078529278256923	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	50	Insert_1	G	4	0	3922	2	0	0	0	3928	5	4	0.0010183299389002036	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	50	Insert_1	G	4	0	3294	1	0	0	0	3299	7	4	0.0012124886329190664	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	50	Insert_1	G	4	0	2763	1	0	0	0	2768	10	4	0.001445086705202312	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	50	Insert_1	G	3	0	2003	1	0	0	0	2007	20	3	0.0014947683109118087	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	50	Insert_1	G	3	0	1693	1	0	0	0	1697	30	3	0.0017678255745433118	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	51	Insert_1	C	24	670565	409	1	64	1879	3	672881	0	1879	0.0027924699909790884	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	51	Insert_1	C	24	21409	22	1	2	46	3	21505	1	46	0.0021390374331550803	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	6658	1	0	1	18	0	6677	2	18	0.002695821476711098	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	5207	1	0	1	14	0	5222	3	14	0.002680965147453083	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	4394	1	0	1	11	0	4406	4	11	0.0024965955515206537	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	3917	1	0	1	10	0	3928	5	10	0.0025458248472505093	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	3290	1	0	1	8	0	3299	7	8	0.002424977265838133	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	2762	1	0	1	5	0	2768	10	5	0.0018063583815028901	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	2001	1	0	1	5	0	2007	20	5	0.002491280518186348	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	51	Insert_1	C	0	1691	1	0	1	5	0	1697	30	5	0.0029463759575721863	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	52	Insert_1	T	168	6	4	670036	447	2594	5	672813	0	2594	0.0038554546359835496	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	52	Insert_1	T	168	6	4	21158	9	104	5	21445	1	168	0.007833993937980881	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	6643	4	31	0	6674	2	31	0.00464489062031765	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	5191	4	29	0	5220	3	29	0.005555555555555556	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	4380	4	24	0	4404	4	24	0.005449591280653951	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	3907	4	20	0	3927	5	20	0.005092946269416858	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	3282	4	17	0	3299	7	17	0.005153076689906032	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	2755	3	13	0	2768	10	13	0.004696531791907515	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	1996	2	11	0	2007	20	11	0.005480817140009965	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	52	Insert_1	T	0	0	0	1689	2	8	0	1697	30	8	0.004714201532115498	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	53	Insert_1	T	146	0	4	670171	0	2400	1	672722	0	2400	0.0035675955298028013	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	53	Insert_1	T	146	0	4	21226	0	47	1	21424	1	146	0.00681478715459298	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	0	0	6652	0	13	0	6665	2	13	0.0019504876219054764	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	0	0	5201	0	12	0	5213	3	12	0.002301937464032227	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	0	0	4388	0	12	0	4400	4	12	0.0027272727272727275	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	0	0	3914	0	11	0	3925	5	11	0.002802547770700637	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	0	0	3287	0	11	0	3298	7	11	0.0033353547604608852	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	0	0	2760	0	7	0	2767	10	7	0.002529815684857246	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	0	0	2001	0	5	0	2006	20	5	0.0024925224327018943	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	53	Insert_1	T	0	0	0	1691	0	5	0	1696	30	5	0.00294811320754717	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	54	Insert_1	G	987	28	668488	41	22	1495	4	671043	0	1495	0.002227875113815359	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	54	Insert_1	G	50	28	21155	41	2	60	4	21338	1	60	0.002811884900178086	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	54	Insert_1	G	10	0	6636	0	1	10	0	6656	2	10	0.0015024038461538462	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	54	Insert_1	G	5	0	5190	0	1	9	0	5204	3	9	0.0017294388931591083	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	54	Insert_1	G	2	0	4383	0	1	6	0	4391	4	6	0.0013664313368253246	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	54	Insert_1	G	2	0	3910	0	1	4	0	3916	5	4	0.0010214504596527069	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	54	Insert_1	G	2	0	3282	0	1	4	0	3288	7	4	0.0012165450121654502	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	54	Insert_1	G	2	0	2756	0	1	3	0	2761	10	3	0.0010865628395508873	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	54	Insert_1	G	2	0	1998	0	1	2	0	2002	20	2	0.000999000999000999	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	54	Insert_1	G	2	0	1688	0	0	2	0	1692	30	2	0.001182033096926714	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	55	Insert_1	C	432	667499	2436	5	0	85	3	670460	0	2436	0.0036333263729379827	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	55	Insert_1	C	40	21168	14	5	0	50	3	21280	1	50	0.002349624060150376	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	55	Insert_1	C	10	6630	8	0	0	5	0	6653	2	10	0.0015030813166992333	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	55	Insert_1	C	7	5183	7	0	0	4	0	5201	3	7	0.0013458950201884253	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	55	Insert_1	C	7	4374	6	0	0	3	0	4390	4	7	0.0015945330296127562	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	55	Insert_1	C	6	3903	4	0	0	3	0	3916	5	6	0.0015321756894790602	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	55	Insert_1	C	5	3277	4	0	0	2	0	3288	7	5	0.0015206812652068127	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	55	Insert_1	C	4	2751	4	0	0	2	0	2761	10	4	0.0014487504527345165	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	55	Insert_1	C	2	1996	3	0	0	0	0	2001	20	3	0.0014992503748125937	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	55	Insert_1	C	2	1686	3	0	0	0	0	1691	30	3	0.0017740981667652277	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	56	Insert_1	G	2479	25	664674	1017	1760	2844	3	671042	0	2844	0.004238184793202214	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	56	Insert_1	G	66	25	21140	73	14	28	3	21335	1	73	0.003421607686899461	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	56	Insert_1	G	4	0	6624	8	3	19	0	6655	2	19	0.0028549962434259953	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	56	Insert_1	G	4	0	5176	7	3	15	0	5202	3	15	0.0028835063437139563	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	56	Insert_1	G	3	0	4371	4	3	13	0	4391	4	13	0.002960601229788203	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	56	Insert_1	G	3	0	3901	3	3	10	0	3917	5	10	0.0025529742149604288	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	56	Insert_1	G	3	0	3274	3	3	9	0	3289	7	9	0.002736394040741867	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	56	Insert_1	G	3	0	2748	3	3	8	0	2762	10	8	0.002896451846488052	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	56	Insert_1	G	2	0	1993	2	3	5	0	2002	20	5	0.0024975024975024975	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	56	Insert_1	G	2	0	1683	2	2	5	0	1692	30	5	0.002955082742316785	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	57	Insert_1	G	131	27	673022	25	0	0	1	673206	0	131	0.00019459125438573037	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	57	Insert_1	G	29	27	21381	25	0	0	1	21463	1	29	0.0013511624656385407	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	57	Insert_1	G	6	0	6658	0	0	0	0	6664	2	6	0.000900360144057623	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	57	Insert_1	G	6	0	5206	0	0	0	0	5212	3	6	0.0011511895625479663	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	57	Insert_1	G	6	0	4392	0	0	0	0	4398	4	6	0.001364256480218281	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	57	Insert_1	G	6	0	3917	0	0	0	0	3923	5	6	0.0015294417537598777	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	57	Insert_1	G	4	0	3291	0	0	0	0	3295	7	4	0.0012139605462822458	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	57	Insert_1	G	4	0	2762	0	0	0	0	2766	10	4	0.0014461315979754157	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	57	Insert_1	G	2	0	2004	0	0	0	0	2006	20	2	0.0009970089730807576	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	57	Insert_1	G	1	0	1695	0	0	0	0	1696	30	1	0.0005896226415094339	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	58	Insert_1	A	673245	0	1	1	1	1	1	673249	0	1	1.4853345493272178e-06	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	58	Insert_1	A	21493	0	1	1	1	1	1	21497	1	1	4.651811880727544e-05	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	58	Insert_1	A	6668	0	0	0	0	0	0	6668	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	58	Insert_1	A	5213	0	0	0	0	0	0	5213	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	58	Insert_1	A	4399	0	0	0	0	0	0	4399	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	58	Insert_1	A	3924	0	0	0	0	0	0	3924	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	58	Insert_1	A	3296	0	0	0	0	0	0	3296	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	58	Insert_1	A	2766	0	0	0	0	0	0	2766	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	58	Insert_1	A	2006	0	0	0	0	0	0	2006	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	58	Insert_1	A	1696	0	0	0	0	0	0	1696	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	59	Insert_1	G	166	1083	673033	27	0	1	2	674312	0	1083	0.001606081457841474	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	59	Insert_1	G	15	34	21438	27	0	1	2	21517	1	34	0.0015801459311242274	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	59	Insert_1	G	3	1	6670	0	0	0	0	6674	2	3	0.0004495055439017081	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	59	Insert_1	G	2	1	5215	0	0	0	0	5218	3	2	0.0003832886163280951	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	59	Insert_1	G	2	1	4401	0	0	0	0	4404	4	2	0.00045413260672116256	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	59	Insert_1	G	1	1	3926	0	0	0	0	3928	5	1	0.0002545824847250509	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	59	Insert_1	G	1	1	3298	0	0	0	0	3300	7	1	0.00030303030303030303	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	59	Insert_1	G	1	1	2767	0	0	0	0	2769	10	1	0.00036114120621162876	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	59	Insert_1	G	1	1	2007	0	0	0	0	2009	20	1	0.0004977600796416127	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	59	Insert_1	G	1	1	1697	0	0	0	0	1699	30	1	0.0005885815185403178	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	60	Insert_1	A	674289	4	1	3	0	46	1	674344	0	46	6.821444248039576e-05	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	60	Insert_1	A	21535	4	1	3	0	2	1	21546	1	4	0.000185649308456326	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	60	Insert_1	A	6675	0	0	0	0	2	0	6677	2	2	0.0002995357196345664	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	60	Insert_1	A	5217	0	0	0	0	1	0	5218	3	1	0.00019164430816404754	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	60	Insert_1	A	4403	0	0	0	0	1	0	4404	4	1	0.00022706630336058128	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	60	Insert_1	A	3927	0	0	0	0	1	0	3928	5	1	0.0002545824847250509	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	60	Insert_1	A	3299	0	0	0	0	1	0	3300	7	1	0.00030303030303030303	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	60	Insert_1	A	2768	0	0	0	0	1	0	2769	10	1	0.00036114120621162876	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	60	Insert_1	A	2008	0	0	0	0	1	0	2009	20	1	0.0004977600796416127	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	60	Insert_1	A	1698	0	0	0	0	1	0	1699	30	1	0.0005885815185403178	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	61	Insert_1	T	52	0	22	675377	0	227	0	675678	0	227	0.0003359588443015756	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	61	Insert_1	T	52	0	22	21494	0	25	0	21593	1	52	0.002408187838651415	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	6689	0	8	0	6697	2	8	0.0011945647304763326	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	5227	0	6	0	5233	3	6	0.0011465698452130708	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	4411	0	6	0	4417	4	6	0.0013583880461851936	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	3931	0	6	0	3937	5	6	0.001524003048006096	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	3302	0	5	0	3307	7	5	0.0015119443604475356	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	2771	0	4	0	2775	10	4	0.0014414414414414415	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	2009	0	4	0	2013	20	4	0.001987083954297069	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	61	Insert_1	T	0	0	0	1699	0	4	0	1703	30	4	0.002348796241926013	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	62	Insert_1	T	126	0	17	675462	0	1	2	675608	0	126	0.00018649867970775953	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	62	Insert_1	T	126	0	17	21442	0	1	2	21588	1	126	0.005836575875486381	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	0	0	6694	0	0	0	6694	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	0	0	5232	0	0	0	5232	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	0	0	4416	0	0	0	4416	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	0	0	3936	0	0	0	3936	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	0	0	3306	0	0	0	3306	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	0	0	2773	0	0	0	2773	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	0	0	2011	0	0	0	2011	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	62	Insert_1	T	0	0	0	1701	0	0	0	1701	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	63	Insert_1	C	48	675298	1	66	86	222	2	675637	0	222	0.00032857880785096136	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	63	Insert_1	C	48	21511	1	5	7	12	2	21579	1	48	0.0022243848185736132	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	6687	0	1	6	7	0	6695	2	7	0.0010455563853622107	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	5226	0	1	6	6	0	5233	3	6	0.0011465698452130708	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	4410	0	1	4	6	0	4417	4	6	0.0013583880461851936	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	3931	0	1	3	5	0	3937	5	5	0.00127000254000508	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	3301	0	1	3	5	0	3307	7	5	0.0015119443604475356	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	2769	0	1	2	4	0	2774	10	4	0.0014419610670511895	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	2008	0	1	1	3	0	2012	20	3	0.0014910536779324055	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	63	Insert_1	C	0	1699	0	1	1	2	0	1702	30	2	0.0011750881316098707	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	64	Insert_1	T	144	3	3	674732	0	632	0	675514	0	632	0.000935583866507578	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	64	Insert_1	T	144	3	3	21419	0	5	0	21574	1	144	0.006674701029016409	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	0	0	6687	0	2	0	6689	2	2	0.0002989983555090447	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	0	0	5226	0	2	0	5228	3	2	0.00038255547054322876	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	0	0	4410	0	2	0	4412	4	2	0.00045330915684496827	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	0	0	3931	0	2	0	3933	5	2	0.0005085176709890668	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	0	0	3301	0	2	0	3303	7	2	0.0006055101422948834	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	0	0	2769	0	2	0	2771	10	2	0.0007217610970768675	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	0	0	2008	0	2	0	2010	20	2	0.0009950248756218905	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	64	Insert_1	T	0	0	0	1699	0	2	0	1701	30	2	0.0011757789535567313	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	65	Insert_1	C	31	673726	1	1822	0	0	0	675580	0	1822	0.0026969418869711953	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	65	Insert_1	C	30	21545	1	25	0	0	0	21601	1	30	0.0013888245914540993	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	65	Insert_1	C	1	6690	0	3	0	0	0	6694	2	3	0.00044816253361219	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	65	Insert_1	C	0	5227	0	3	0	0	0	5230	3	3	0.0005736137667304016	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	65	Insert_1	C	0	4411	0	3	0	0	0	4414	4	3	0.0006796556411418215	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	65	Insert_1	C	0	3932	0	3	0	0	0	3935	5	3	0.0007623888182973316	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	65	Insert_1	C	0	3301	0	3	0	0	0	3304	7	3	0.0009079903147699758	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	65	Insert_1	C	0	2769	0	3	0	0	0	2772	10	3	0.0010822510822510823	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	65	Insert_1	C	0	2009	0	2	0	0	0	2011	20	2	0.000994530084535057	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	65	Insert_1	C	0	1700	0	2	0	0	0	1702	30	2	0.0011750881316098707	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	66	Insert_1	T	177	2	6	675481	117	6	2	675674	0	177	0.00026196064966241115	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	66	Insert_1	T	177	2	6	21406	18	6	2	21599	1	177	0.008194823834436779	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	6696	7	0	0	6696	2	7	0.001045400238948626	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	5232	7	0	0	5232	3	7	0.001337920489296636	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	4416	6	0	0	4416	4	6	0.001358695652173913	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	3937	5	0	0	3937	5	5	0.00127000254000508	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	3306	4	0	0	3306	7	4	0.0012099213551119178	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	2774	4	0	0	2774	10	4	0.0014419610670511895	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	2013	2	0	0	2013	20	2	0.0009935419771485345	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	66	Insert_1	T	0	0	0	1703	1	0	0	1703	30	1	0.0005871990604815032	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	67	Insert_1	T	400	4	3	674047	0	1447	2	675903	0	1447	0.0021408397358792606	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	67	Insert_1	T	178	4	3	21424	0	5	2	21616	1	178	0.008234641006661733	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	67	Insert_1	T	7	0	0	6687	0	5	0	6699	2	7	0.0010449320794148381	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	67	Insert_1	T	6	0	0	5225	0	3	0	5234	3	6	0.0011463507833397019	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	67	Insert_1	T	5	0	0	4410	0	3	0	4418	4	5	0.0011317338162064282	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	67	Insert_1	T	5	0	0	3932	0	2	0	3939	5	5	0.0012693577050012694	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	67	Insert_1	T	3	0	0	3303	0	2	0	3308	7	3	0.0009068923821039903	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	67	Insert_1	T	3	0	0	2771	0	2	0	2776	10	3	0.001080691642651297	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	67	Insert_1	T	2	0	0	2010	0	2	0	2014	20	2	0.0009930486593843098	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	67	Insert_1	T	2	0	0	1700	0	2	0	1704	30	2	0.0011737089201877935	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	68	Insert_1	C	31	674415	0	647	45	784	1	675878	0	784	0.0011599726577873521	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	68	Insert_1	C	31	21491	0	41	4	29	1	21593	1	41	0.0018987634881674617	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	6685	0	4	1	8	0	6697	2	8	0.0011945647304763326	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	5223	0	3	1	8	0	5234	3	8	0.0015284677111196026	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	4408	0	3	1	7	0	4418	4	7	0.0015844273426889996	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	3932	0	2	1	5	0	3939	5	5	0.0012693577050012694	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	3301	0	2	1	5	0	3308	7	5	0.0015114873035066505	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	2770	0	1	1	5	0	2776	10	5	0.0018011527377521613	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	2009	0	1	1	4	0	2014	20	4	0.0019860973187686196	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	68	Insert_1	C	0	1699	0	1	1	4	0	1704	30	4	0.002347417840375587	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	69	Insert_1	C	35	675665	5	186	0	0	5	675896	0	186	0.0002751902659580764	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	69	Insert_1	C	35	21554	5	12	0	0	5	21611	1	35	0.001619545601776873	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	69	Insert_1	C	0	6693	0	4	0	0	0	6697	2	4	0.0005972823652381663	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	69	Insert_1	C	0	5230	0	4	0	0	0	5234	3	4	0.0007642338555598013	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	69	Insert_1	C	0	4415	0	3	0	0	0	4418	4	3	0.000679040289723857	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	69	Insert_1	C	0	3937	0	2	0	0	0	3939	5	2	0.0005077430820005078	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	69	Insert_1	C	0	3306	0	2	0	0	0	3308	7	2	0.0006045949214026602	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	69	Insert_1	C	0	2774	0	2	0	0	0	2776	10	2	0.0007204610951008645	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	69	Insert_1	C	0	2013	0	1	0	0	0	2014	20	1	0.0004965243296921549	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	69	Insert_1	C	0	1703	0	1	0	0	0	1704	30	1	0.0005868544600938967	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	70	Insert_1	T	143	0	2	675744	1	1	5	675895	0	143	0.0002115713239482464	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	70	Insert_1	T	141	0	2	21461	1	1	5	21610	1	141	0.0065247570569180935	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	70	Insert_1	T	1	0	0	6696	0	0	0	6697	2	1	0.00014932059130954157	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	70	Insert_1	T	1	0	0	5233	0	0	0	5234	3	1	0.00019105846388995032	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	4418	0	0	0	4418	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	3939	0	0	0	3939	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	3308	0	0	0	3308	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	2776	0	0	0	2776	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	2014	0	0	0	2014	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	70	Insert_1	T	0	0	0	1704	0	0	0	1704	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	71	Insert_1	C	55	672020	1	1019	0	2777	0	675872	0	2777	0.004108766156905449	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	71	Insert_1	C	55	21446	1	15	0	49	0	21566	1	55	0.0025503106742094037	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	6693	0	2	0	5	0	6700	2	5	0.0007462686567164179	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	5231	0	2	0	4	0	5237	3	4	0.0007637960664502578	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	4416	0	1	0	4	0	4421	4	4	0.0009047726758651889	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	3936	0	1	0	4	0	3941	5	4	0.0010149708195889369	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	3306	0	1	0	3	0	3310	7	3	0.0009063444108761329	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	2773	0	1	0	3	0	2777	10	3	0.0010803024846957148	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	2010	0	1	0	3	0	2014	20	3	0.0014895729890764648	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	71	Insert_1	C	0	1700	0	1	0	3	0	1704	30	3	0.0017605633802816902	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	72	Insert_1	T	166	4	2	674922	0	803	3	675900	0	803	0.0011880455688711349	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	72	Insert_1	T	164	4	1	21407	0	15	3	21594	1	164	0.00759470223210151	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	72	Insert_1	T	1	0	1	6695	0	3	0	6700	2	3	0.00044776119402985075	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	72	Insert_1	T	1	0	0	5233	0	3	0	5237	3	3	0.0005728470498376934	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	72	Insert_1	T	0	0	0	4419	0	2	0	4421	4	2	0.00045238633793259444	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	72	Insert_1	T	0	0	0	3939	0	2	0	3941	5	2	0.0005074854097944684	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	72	Insert_1	T	0	0	0	3308	0	2	0	3310	7	2	0.0006042296072507553	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	72	Insert_1	T	0	0	0	2775	0	2	0	2777	10	2	0.0007202016564638099	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	72	Insert_1	T	0	0	0	2012	0	2	0	2014	20	2	0.0009930486593843098	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	72	Insert_1	T	0	0	0	1702	0	2	0	1704	30	2	0.0011737089201877935	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	73	Insert_1	G	95	54	674042	20	0	1329	4	675544	0	1329	0.0019673033880842697	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	73	Insert_1	G	37	54	21419	20	0	32	4	21566	1	54	0.002503941389223778	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	73	Insert_1	G	6	0	6683	0	0	9	0	6698	2	9	0.0013436846819946252	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	73	Insert_1	G	5	0	5224	0	0	6	0	5235	3	6	0.001146131805157593	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	73	Insert_1	G	5	0	4408	0	0	6	0	4419	4	6	0.0013577732518669382	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	73	Insert_1	G	5	0	3928	0	0	6	0	3939	5	6	0.0015232292460015233	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	73	Insert_1	G	2	0	3302	0	0	4	0	3308	7	4	0.0012091898428053204	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	73	Insert_1	G	2	0	2771	0	0	3	0	2776	10	3	0.001080691642651297	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	73	Insert_1	G	1	0	2009	0	0	3	0	2013	20	3	0.0014903129657228018	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	73	Insert_1	G	1	0	1699	0	0	3	0	1703	30	3	0.0017615971814445098	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	74	Insert_1	T	101	60	98	672671	0	1255	1	674186	0	1255	0.0018615040953090098	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	74	Insert_1	T	101	3	2	21352	0	45	1	21504	1	101	0.004696800595238095	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	1	2	6674	0	13	0	6690	2	13	0.0019431988041853513	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	1	2	5216	0	10	0	5229	3	10	0.0019124115509657677	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	1	2	4401	0	9	0	4413	4	9	0.0020394289598912306	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	1	2	3922	0	8	0	3933	5	8	0.0020340706839562673	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	1	2	3294	0	7	0	3304	7	7	0.00211864406779661	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	1	2	2764	0	6	0	2773	10	6	0.002163721601153985	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	1	2	2004	0	3	0	2010	20	3	0.0014925373134328358	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	74	Insert_1	T	0	1	1	1696	0	2	0	1700	30	2	0.001176470588235294	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	75	Insert_1	G	91	136	673426	27	0	818	3	674501	0	818	0.0012127483873263347	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	75	Insert_1	G	17	33	21376	27	0	41	3	21497	1	41	0.0019072428710982929	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	75	Insert_1	G	5	7	6669	0	0	10	0	6691	2	10	0.0014945449110745778	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	75	Insert_1	G	4	4	5213	0	0	9	0	5230	3	9	0.0017208413001912047	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	75	Insert_1	G	3	2	4401	0	0	8	0	4414	4	8	0.0018124150430448573	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	75	Insert_1	G	3	2	3921	0	0	8	0	3934	5	8	0.0020335536349771225	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	75	Insert_1	G	3	2	3292	0	0	8	0	3305	7	8	0.002420574886535552	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	75	Insert_1	G	3	2	2762	0	0	7	0	2774	10	7	0.0025234318673395817	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	75	Insert_1	G	3	2	2000	0	0	6	0	2011	20	6	0.0029835902536051715	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	75	Insert_1	G	1	2	1694	0	0	4	0	1701	30	4	0.0023515579071134627	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	76	Insert_1	C	51	672547	2	1871	0	671	4	675146	0	1871	0.0027712524402129317	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	76	Insert_1	C	51	21361	2	69	0	40	4	21527	1	69	0.0032052770938821016	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	6669	0	2	0	20	0	6691	2	20	0.0029890898221491555	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	5213	0	2	0	14	0	5229	3	14	0.002677376171352075	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	4400	0	2	0	12	0	4414	4	12	0.002718622564567286	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	3920	0	2	0	12	0	3934	5	12	0.003050330452465684	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	3289	0	2	0	12	0	3303	7	12	0.0036330608537693005	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	2758	0	2	0	12	0	2772	10	12	0.004329004329004329	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	1999	0	2	0	9	0	2010	20	9	0.004477611940298508	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	76	Insert_1	C	0	1691	0	2	0	8	0	1701	30	8	0.004703115814226925	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	77	Insert_1	G	5	34	675273	35	23	2	1	675350	0	35	5.182497964018657e-05	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	77	Insert_1	G	5	34	21446	35	23	2	1	21523	1	35	0.0016261673558518794	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	77	Insert_1	G	0	0	6686	0	0	0	0	6686	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	77	Insert_1	G	0	0	5226	0	0	0	0	5226	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	77	Insert_1	G	0	0	4411	0	0	0	0	4411	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	77	Insert_1	G	0	0	3931	0	0	0	0	3931	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	77	Insert_1	G	0	0	3300	0	0	0	0	3300	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	77	Insert_1	G	0	0	2768	0	0	0	0	2768	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	77	Insert_1	G	0	0	2008	0	0	0	0	2008	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	77	Insert_1	G	0	0	1699	0	0	0	0	1699	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	78	Insert_1	C	15	673516	0	3	138	1752	2	675288	0	1752	0.002594448590823471	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	78	Insert_1	C	15	21359	0	3	4	82	2	21461	1	82	0.0038208843949489773	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	6668	0	0	4	18	0	6686	2	18	0.0026921926413401138	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	5214	0	0	3	12	0	5226	3	12	0.002296211251435132	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	4402	0	0	2	9	0	4411	4	9	0.0020403536613012923	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	3924	0	0	1	7	0	3931	5	7	0.0017807173747138134	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	3295	0	0	1	5	0	3300	7	5	0.0015151515151515152	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	2764	0	0	1	4	0	2768	10	4	0.001445086705202312	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	2005	0	0	1	3	0	2008	20	3	0.00149402390438247	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	78	Insert_1	C	0	1696	0	0	1	3	0	1699	30	3	0.0017657445556209534	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	79	Insert_1	C	3413	670528	109	8	0	1530	5	675593	0	3413	0.0050518581453626666	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	79	Insert_1	C	31	21457	8	8	0	24	5	21533	1	31	0.001439650768587749	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	79	Insert_1	C	1	6663	6	0	0	20	0	6690	2	20	0.0029895366218236174	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	79	Insert_1	C	1	5210	3	0	0	15	0	5229	3	15	0.002868617326448652	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	79	Insert_1	C	1	4400	2	0	0	12	0	4415	4	12	0.0027180067950169874	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	79	Insert_1	C	1	3921	2	0	0	11	0	3935	5	11	0.0027954256670902162	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	79	Insert_1	C	1	3293	2	0	0	8	0	3304	7	8	0.002421307506053269	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	79	Insert_1	C	1	2763	2	0	0	6	0	2772	10	6	0.0021645021645021645	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	79	Insert_1	C	1	2005	2	0	0	3	0	2011	20	3	0.0014917951268025858	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	79	Insert_1	C	1	1696	2	0	0	3	0	1702	30	3	0.0017626321974148062	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	80	Insert_1	G	3581	66	671792	187	1741	209	0	675835	0	3581	0.00529863058290855	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	80	Insert_1	G	31	66	21362	69	33	12	0	21540	1	69	0.003203342618384401	T
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	80	Insert_1	G	4	0	6677	4	7	10	0	6695	2	10	0.0014936519790888724	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	80	Insert_1	G	3	0	5223	3	6	6	0	5235	3	6	0.001146131805157593	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	80	Insert_1	G	3	0	4411	2	5	4	0	4420	4	5	0.0011312217194570137	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	80	Insert_1	G	2	0	3932	2	5	4	0	3940	5	5	0.0012690355329949238	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	80	Insert_1	G	2	0	3302	1	5	4	0	3309	7	5	0.0015110305228165609	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	80	Insert_1	G	2	0	2770	1	5	4	0	2777	10	5	0.0018005041411595247	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	80	Insert_1	G	2	0	2007	1	3	4	0	2014	20	4	0.0019860973187686196	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	80	Insert_1	G	2	0	1698	1	3	3	0	1704	30	3	0.0017605633802816902	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	81	Insert_1	C	17	675715	4	1	0	2	2	675741	0	17	2.515756776634835e-05	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	81	Insert_1	C	17	21515	4	1	0	2	2	21541	1	17	0.0007891927022886588	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	81	Insert_1	C	0	6691	0	0	0	0	0	6691	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	81	Insert_1	C	0	5233	0	0	0	0	0	5233	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	81	Insert_1	C	0	4418	0	0	0	0	0	4418	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	81	Insert_1	C	0	3938	0	0	0	0	0	3938	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	81	Insert_1	C	0	3307	0	0	0	0	0	3307	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	81	Insert_1	C	0	2775	0	0	0	0	0	2775	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	81	Insert_1	C	0	2012	0	0	0	0	0	2012	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	81	Insert_1	C	0	1703	0	0	0	0	0	1703	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	82	Insert_1	A	674449	4	12	8	0	1355	4	675832	0	1355	0.002004936137975118	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	82	Insert_1	A	21499	4	12	8	0	10	4	21537	1	12	0.0005571806658308956	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	82	Insert_1	A	6691	0	0	0	0	3	0	6694	2	3	0.00044816253361219	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	82	Insert_1	A	5233	0	0	0	0	3	0	5236	3	3	0.0005729564553093965	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	82	Insert_1	A	4417	0	0	0	0	3	0	4420	4	3	0.0006787330316742081	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	82	Insert_1	A	3937	0	0	0	0	3	0	3940	5	3	0.0007614213197969543	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	82	Insert_1	A	3306	0	0	0	0	3	0	3309	7	3	0.0009066183136899365	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	82	Insert_1	A	2774	0	0	0	0	3	0	2777	10	3	0.0010803024846957148	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	82	Insert_1	A	2011	0	0	0	0	3	0	2014	20	3	0.0014895729890764648	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	82	Insert_1	A	1701	0	0	0	0	3	0	1704	30	3	0.0017605633802816902	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	83	Insert_1	A	675233	4	6	1	0	0	0	675244	0	6	8.88567688124589e-06	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	83	Insert_1	A	21522	4	6	1	0	0	0	21533	1	6	0.00027864208424279016	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	83	Insert_1	A	6693	0	0	0	0	0	0	6693	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	83	Insert_1	A	5235	0	0	0	0	0	0	5235	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	83	Insert_1	A	4419	0	0	0	0	0	0	4419	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	83	Insert_1	A	3939	0	0	0	0	0	0	3939	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	83	Insert_1	A	3308	0	0	0	0	0	0	3308	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	83	Insert_1	A	2776	0	0	0	0	0	0	2776	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	83	Insert_1	A	2013	0	0	0	0	0	0	2013	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	83	Insert_1	A	1703	0	0	0	0	0	0	1703	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	84	Insert_1	A	675224	4	10	1	0	0	2	675241	0	10	1.4809527265080172e-05	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	84	Insert_1	A	21514	4	10	1	0	0	2	21531	1	10	0.00046444661186196645	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	84	Insert_1	A	6692	0	0	0	0	0	0	6692	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	84	Insert_1	A	5235	0	0	0	0	0	0	5235	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	84	Insert_1	A	4419	0	0	0	0	0	0	4419	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	84	Insert_1	A	3939	0	0	0	0	0	0	3939	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	84	Insert_1	A	3308	0	0	0	0	0	0	3308	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	84	Insert_1	A	2776	0	0	0	0	0	0	2776	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	84	Insert_1	A	2013	0	0	0	0	0	0	2013	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	84	Insert_1	A	1703	0	0	0	0	0	0	1703	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	85	Insert_1	G	17	21	675725	14	0	27	4	675808	0	27	3.9952175765898004e-05	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	85	Insert_1	G	17	21	21458	14	0	1	4	21515	1	21	0.0009760632117127585	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	85	Insert_1	G	0	0	6691	0	0	1	0	6692	2	1	0.00014943215780035862	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	85	Insert_1	G	0	0	5235	0	0	1	0	5236	3	1	0.00019098548510313216	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	85	Insert_1	G	0	0	4419	0	0	1	0	4420	4	1	0.00022624434389140272	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	85	Insert_1	G	0	0	3939	0	0	1	0	3940	5	1	0.0002538071065989848	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	85	Insert_1	G	0	0	3308	0	0	1	0	3309	7	1	0.0003022061045633122	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	85	Insert_1	G	0	0	2776	0	0	1	0	2777	10	1	0.00036010082823190496	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	85	Insert_1	G	0	0	2013	0	0	1	0	2014	20	1	0.0004965243296921549	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	85	Insert_1	G	0	0	1704	0	0	0	0	1704	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	86	Insert_1	C	27	675756	7	2	898	0	3	675795	0	898	0.001328805332978196	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	86	Insert_1	C	27	21463	7	2	8	0	3	21502	1	27	0.001255697144451679	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	86	Insert_1	C	0	6692	0	0	1	0	0	6692	2	1	0.00014943215780035862	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	86	Insert_1	C	0	5236	0	0	1	0	0	5236	3	1	0.00019098548510313216	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	86	Insert_1	C	0	4420	0	0	1	0	0	4420	4	1	0.00022624434389140272	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	86	Insert_1	C	0	3940	0	0	1	0	0	3940	5	1	0.0002538071065989848	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	86	Insert_1	C	0	3309	0	0	1	0	0	3309	7	1	0.0003022061045633122	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	86	Insert_1	C	0	2777	0	0	1	0	0	2777	10	1	0.00036010082823190496	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	86	Insert_1	C	0	2014	0	0	1	0	0	2014	20	1	0.0004965243296921549	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	86	Insert_1	C	0	1704	0	0	1	0	0	1704	30	1	0.0005868544600938967	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	87	Insert_1	T	206	0	7	675550	0	0	3	675766	0	206	0.00030483924908918173	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	87	Insert_1	T	201	0	7	21264	0	0	3	21475	1	201	0.009359720605355065	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	87	Insert_1	T	1	0	0	6689	0	0	0	6690	2	1	0.00014947683109118088	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	87	Insert_1	T	1	0	0	5235	0	0	0	5236	3	1	0.00019098548510313216	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	87	Insert_1	T	1	0	0	4419	0	0	0	4420	4	1	0.00022624434389140272	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	87	Insert_1	T	1	0	0	3939	0	0	0	3940	5	1	0.0002538071065989848	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	87	Insert_1	T	0	0	0	3309	0	0	0	3309	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	87	Insert_1	T	0	0	0	2777	0	0	0	2777	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	87	Insert_1	T	0	0	0	2014	0	0	0	2014	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	87	Insert_1	T	0	0	0	1704	0	0	0	1704	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	88	Insert_1	G	20	27	675675	17	0	7	2	675748	0	27	3.995572313939516e-05	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	88	Insert_1	G	19	27	21385	17	0	7	2	21457	1	27	0.0012583306147178077	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	88	Insert_1	G	1	0	6689	0	0	0	0	6690	2	1	0.00014947683109118088	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	88	Insert_1	G	0	0	5236	0	0	0	0	5236	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	88	Insert_1	G	0	0	4420	0	0	0	0	4420	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	88	Insert_1	G	0	0	3940	0	0	0	0	3940	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	88	Insert_1	G	0	0	3309	0	0	0	0	3309	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	88	Insert_1	G	0	0	2777	0	0	0	0	2777	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	88	Insert_1	G	0	0	2014	0	0	0	0	2014	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	88	Insert_1	G	0	0	1704	0	0	0	0	1704	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	89	Insert_1	T	58	0	2	675666	0	16	0	675742	0	58	8.583157477262033e-05	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	89	Insert_1	T	58	0	2	21388	0	4	0	21452	1	58	0.002703710609733358	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	89	Insert_1	T	0	0	0	6688	0	1	0	6689	2	1	0.00014949917775452235	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	89	Insert_1	T	0	0	0	5235	0	1	0	5236	3	1	0.00019098548510313216	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	89	Insert_1	T	0	0	0	4419	0	1	0	4420	4	1	0.00022624434389140272	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	89	Insert_1	T	0	0	0	3939	0	1	0	3940	5	1	0.0002538071065989848	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	89	Insert_1	T	0	0	0	3308	0	1	0	3309	7	1	0.0003022061045633122	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	89	Insert_1	T	0	0	0	2776	0	1	0	2777	10	1	0.00036010082823190496	D
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	89	Insert_1	T	0	0	0	2014	0	0	0	2014	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	89	Insert_1	T	0	0	0	1704	0	0	0	1704	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	90	Insert_1	T	84	4	82	675544	0	0	1	675715	0	84	0.00012431276499707717	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	90	Insert_1	T	84	4	2	21346	0	0	1	21437	1	84	0.003918458739562439	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	90	Insert_1	T	0	0	1	6687	0	0	0	6688	2	1	0.00014952153110047846	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	90	Insert_1	T	0	0	1	5234	0	0	0	5235	3	1	0.00019102196752626553	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	90	Insert_1	T	0	0	1	4418	0	0	0	4419	4	1	0.00022629554197782303	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	90	Insert_1	T	0	0	1	3938	0	0	0	3939	5	1	0.0002538715410002539	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	90	Insert_1	T	0	0	1	3307	0	0	0	3308	7	1	0.0003022974607013301	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	90	Insert_1	T	0	0	1	2775	0	0	0	2776	10	1	0.00036023054755043225	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	90	Insert_1	T	0	0	1	2013	0	0	0	2014	20	1	0.0004965243296921549	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	90	Insert_1	T	0	0	1	1703	0	0	0	1704	30	1	0.0005868544600938967	G
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	91	Insert_1	C	39	674789	5	9	2299	871	1	675714	0	2299	0.003402327020011425	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	91	Insert_1	C	39	21362	5	7	34	8	1	21422	1	39	0.0018205583045467276	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	91	Insert_1	C	0	6687	0	1	6	2	0	6690	2	6	0.0008968609865470852	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	91	Insert_1	C	0	5234	0	1	6	2	0	5237	3	6	0.0011456940996753867	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	91	Insert_1	C	0	4418	0	0	6	2	0	4420	4	6	0.0013574660633484162	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	91	Insert_1	C	0	3938	0	0	5	2	0	3940	5	5	0.0012690355329949238	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	91	Insert_1	C	0	3307	0	0	3	2	0	3309	7	3	0.0009066183136899365	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	91	Insert_1	C	0	2775	0	0	3	2	0	2777	10	3	0.0010803024846957148	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	91	Insert_1	C	0	2012	0	0	3	2	0	2014	20	3	0.0014895729890764648	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	91	Insert_1	C	0	1702	0	0	3	2	0	1704	30	3	0.0017605633802816902	I
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	92	Insert_1	C	22	675673	1	8	0	0	1	675705	0	22	3.2558586957326055e-05	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	92	Insert_1	C	22	21383	1	8	0	0	1	21415	1	22	0.001027317300957273	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	92	Insert_1	C	0	6689	0	0	0	0	0	6689	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	92	Insert_1	C	0	5236	0	0	0	0	0	5236	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	92	Insert_1	C	0	4420	0	0	0	0	0	4420	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	92	Insert_1	C	0	3940	0	0	0	0	0	3940	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	92	Insert_1	C	0	3309	0	0	0	0	0	3309	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	92	Insert_1	C	0	2777	0	0	0	0	0	2777	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	92	Insert_1	C	0	2014	0	0	0	0	0	2014	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	92	Insert_1	C	0	1704	0	0	0	0	0	1704	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	93	Insert_1	G	20	46	675569	6	0	0	2	675643	0	46	6.808329250802569e-05	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	93	Insert_1	G	20	46	21299	6	0	0	2	21373	1	46	0.0021522481635708603	C
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	93	Insert_1	G	0	0	6683	0	0	0	0	6683	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	93	Insert_1	G	0	0	5232	0	0	0	0	5232	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	93	Insert_1	G	0	0	4417	0	0	0	0	4417	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	93	Insert_1	G	0	0	3938	0	0	0	0	3938	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	93	Insert_1	G	0	0	3308	0	0	0	0	3308	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	93	Insert_1	G	0	0	2777	0	0	0	0	2777	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	93	Insert_1	G	0	0	2014	0	0	0	0	2014	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	93	Insert_1	G	0	0	1704	0	0	0	0	1704	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	94	Insert_1	T	94	1	5	675511	0	0	0	675611	0	94	0.00013913331784118376	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	94	Insert_1	T	94	1	5	21251	0	0	0	21351	1	94	0.004402604093485083	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	94	Insert_1	T	0	0	0	6679	0	0	0	6679	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	94	Insert_1	T	0	0	0	5231	0	0	0	5231	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	94	Insert_1	T	0	0	0	4416	0	0	0	4416	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	94	Insert_1	T	0	0	0	3937	0	0	0	3937	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	94	Insert_1	T	0	0	0	3307	0	0	0	3307	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	94	Insert_1	T	0	0	0	2777	0	0	0	2777	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	94	Insert_1	T	0	0	0	2014	0	0	0	2014	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	94	Insert_1	T	0	0	0	1704	0	0	0	1704	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	95	Insert_1	C	9	675509	3	1	0	0	2	675524	0	9	1.332299074496243e-05	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	95	Insert_1	C	9	21310	3	1	0	0	2	21325	1	9	0.0004220398593200469	A
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	95	Insert_1	C	0	6667	0	0	0	0	0	6667	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	95	Insert_1	C	0	5223	0	0	0	0	0	5223	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	95	Insert_1	C	0	4408	0	0	0	0	0	4408	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	95	Insert_1	C	0	3931	0	0	0	0	0	3931	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	95	Insert_1	C	0	3302	0	0	0	0	0	3302	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	95	Insert_1	C	0	2776	0	0	0	0	0	2776	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	95	Insert_1	C	0	2013	0	0	0	0	0	2013	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	95	Insert_1	C	0	1704	0	0	0	0	0	1704	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	96	Insert_1	C	0	675479	0	0	0	0	0	675479	0	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	96	Insert_1	C	0	21286	0	0	0	0	0	21286	1	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	96	Insert_1	C	0	6663	0	0	0	0	0	6663	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	96	Insert_1	C	0	5221	0	0	0	0	0	5221	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	96	Insert_1	C	0	4408	0	0	0	0	0	4408	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	96	Insert_1	C	0	3931	0	0	0	0	0	3931	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	96	Insert_1	C	0	3302	0	0	0	0	0	3302	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	96	Insert_1	C	0	2776	0	0	0	0	0	2776	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	96	Insert_1	C	0	2013	0	0	0	0	0	2013	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	96	Insert_1	C	0	1704	0	0	0	0	0	1704	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	97	Insert_1	C	0	675444	0	0	0	0	1	675445	0	1	1.4805054445587723e-06	N
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	97	Insert_1	C	0	21256	0	0	0	0	1	21257	1	1	4.704332690407866e-05	N
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	97	Insert_1	C	0	6659	0	0	0	0	0	6659	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	97	Insert_1	C	0	5220	0	0	0	0	0	5220	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	97	Insert_1	C	0	4408	0	0	0	0	0	4408	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	97	Insert_1	C	0	3931	0	0	0	0	0	3931	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	97	Insert_1	C	0	3302	0	0	0	0	0	3302	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	97	Insert_1	C	0	2776	0	0	0	0	0	2776	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	97	Insert_1	C	0	2013	0	0	0	0	0	2013	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	97	Insert_1	C	0	1704	0	0	0	0	0	1704	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	98	Insert_1	A	675304	0	0	0	0	0	0	675304	0	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	98	Insert_1	A	21199	0	0	0	0	0	0	21199	1	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	98	Insert_1	A	6643	0	0	0	0	0	0	6643	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	98	Insert_1	A	5210	0	0	0	0	0	0	5210	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	98	Insert_1	A	4402	0	0	0	0	0	0	4402	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	98	Insert_1	A	3926	0	0	0	0	0	0	3926	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	98	Insert_1	A	3299	0	0	0	0	0	0	3299	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	98	Insert_1	A	2773	0	0	0	0	0	0	2773	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	98	Insert_1	A	2012	0	0	0	0	0	0	2012	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	98	Insert_1	A	1704	0	0	0	0	0	0	1704	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	99	Insert_1	G	0	0	675224	0	0	0	0	675224	0	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	99	Insert_1	G	0	0	21123	0	0	0	0	21123	1	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	99	Insert_1	G	0	0	6640	0	0	0	0	6640	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	99	Insert_1	G	0	0	5209	0	0	0	0	5209	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	99	Insert_1	G	0	0	4402	0	0	0	0	4402	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	99	Insert_1	G	0	0	3926	0	0	0	0	3926	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	99	Insert_1	G	0	0	3299	0	0	0	0	3299	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	99	Insert_1	G	0	0	2773	0	0	0	0	2773	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	99	Insert_1	G	0	0	2012	0	0	0	0	2012	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	99	Insert_1	G	0	0	1704	0	0	0	0	1704	30	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	100	Insert_1	T	0	0	0	675072	0	0	0	675072	0	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	100	Insert_1	T	0	0	0	20988	0	0	0	20988	1	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	100	Insert_1	T	0	0	0	6627	0	0	0	6627	2	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	100	Insert_1	T	0	0	0	5207	0	0	0	5207	3	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	100	Insert_1	T	0	0	0	4401	0	0	0	4401	4	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	100	Insert_1	T	0	0	0	3925	0	0	0	3925	5	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	100	Insert_1	T	0	0	0	3299	0	0	0	3299	7	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	100	Insert_1	T	0	0	0	2773	0	0	0	2773	10	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	100	Insert_1	T	0	0	0	2012	0	0	0	2012	20	0	0	
+eurofins_fwd_desalted_b1_3_S3_L001_R1_001	TP1_synth_forward	100	Insert_1	T	0	0	0	1704	0	0	0	1704	30	0	0	

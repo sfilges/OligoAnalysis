@@ -1,0 +1,1001 @@
+Sample Name	Contig	Position	Name	Reference	A	C	G	T	I	D	N	Coverage	Consensus group size	Max Non-ref Allele Count	Max Non-ref Allele Frequency	Max Non-ref Allele
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	1	Insert_2	G	4	8	584731	18	0	0	0	584761	0	18	3.0781806584228426e-05	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	1	Insert_2	G	4	8	29338	12	0	0	0	29362	1	12	0.00040869150602819974	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	1	Insert_2	G	0	0	11472	2	0	0	0	11474	2	2	0.0001743071291615827	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	1	Insert_2	G	0	0	8995	2	0	0	0	8997	3	2	0.0002222963209958875	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	1	Insert_2	G	0	0	7573	1	0	0	0	7574	4	1	0.0001320306311064167	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	1	Insert_2	G	0	0	6712	1	0	0	0	6713	5	1	0.00014896469536719798	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	1	Insert_2	G	0	0	5663	0	0	0	0	5663	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	1	Insert_2	G	0	0	4736	0	0	0	0	4736	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	1	Insert_2	G	0	0	3378	0	0	0	0	3378	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	1	Insert_2	G	0	0	2759	0	0	0	0	2759	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	2	Insert_2	T	21	2	16	617360	0	0	0	617399	0	21	3.401366053394968e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	2	Insert_2	T	21	2	9	31195	0	0	0	31227	1	21	0.0006724949562878278	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	2	Insert_2	T	0	0	2	12204	0	0	0	12206	2	2	0.00016385384237260363	G
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	2	Insert_2	T	0	0	2	9567	0	0	0	9569	3	2	0.00020900825582610512	G
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	2	Insert_2	T	0	0	1	8070	0	0	0	8071	4	1	0.00012390038409119069	G
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	2	Insert_2	T	0	0	1	7147	0	0	0	7148	5	1	0.0001398992725237829	G
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	2	Insert_2	T	0	0	0	6023	0	0	0	6023	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	2	Insert_2	T	0	0	0	5042	0	0	0	5042	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	2	Insert_2	T	0	0	0	3581	0	0	0	3581	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	2	Insert_2	T	0	0	0	2923	0	0	0	2923	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	3	Insert_2	G	27	44	626772	14	0	0	6	626863	0	44	7.019077533687584e-05	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	3	Insert_2	G	4	10	31610	12	0	0	6	31642	1	12	0.00037924277858542444	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	3	Insert_2	G	1	1	12378	1	0	0	0	12381	2	1	8.0768920119538e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	3	Insert_2	G	1	1	9700	1	0	0	0	9703	3	1	0.00010306090899721736	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	3	Insert_2	G	1	1	8179	0	0	0	0	8181	4	1	0.0001222344456667889	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	3	Insert_2	G	1	1	7240	0	0	0	0	7242	5	1	0.00013808340237503452	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	3	Insert_2	G	1	1	6100	0	0	0	0	6102	7	1	0.00016388069485414618	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	3	Insert_2	G	1	1	5107	0	0	0	0	5109	10	1	0.00019573302016050108	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	3	Insert_2	G	1	1	3632	0	0	0	0	3634	20	1	0.000275178866263071	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	3	Insert_2	G	0	1	2965	0	0	0	0	2966	30	1	0.00033715441672285906	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	4	Insert_2	G	9	21	630579	14	0	0	2	630625	0	21	3.330029732408325e-05	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	4	Insert_2	G	9	21	31772	9	0	0	2	31813	1	21	0.0006601075032219533	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	4	Insert_2	G	0	0	12449	1	0	0	0	12450	2	1	8.032128514056225e-05	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	4	Insert_2	G	0	0	9753	1	0	0	0	9754	3	1	0.0001025220422390814	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	4	Insert_2	G	0	0	8220	1	0	0	0	8221	4	1	0.0001216397031991242	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	4	Insert_2	G	0	0	7276	1	0	0	0	7277	5	1	0.0001374192661811186	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	4	Insert_2	G	0	0	6129	0	0	0	0	6129	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	4	Insert_2	G	0	0	5132	0	0	0	0	5132	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	4	Insert_2	G	0	0	3651	0	0	0	0	3651	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	4	Insert_2	G	0	0	2982	0	0	0	0	2982	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	5	Insert_2	T	30	4	0	633164	16	79	8	633285	0	79	0.00012474636222238012	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	5	Insert_2	T	30	4	0	31866	3	3	8	31911	1	30	0.0009401146939926671	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	5	Insert_2	T	0	0	0	12483	1	2	0	12485	2	2	0.00016019223067681218	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	5	Insert_2	T	0	0	0	9781	1	2	0	9783	3	2	0.0002044362669937647	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	5	Insert_2	T	0	0	0	8245	1	2	0	8247	4	2	0.00024251242876197404	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	5	Insert_2	T	0	0	0	7300	1	2	0	7302	5	2	0.0002738975623116954	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	5	Insert_2	T	0	0	0	6147	1	2	0	6149	7	2	0.0003252561392096276	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	5	Insert_2	T	0	0	0	5147	1	1	0	5148	10	1	0.00019425019425019425	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	5	Insert_2	T	0	0	0	3661	0	1	0	3662	20	1	0.00027307482250136535	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	5	Insert_2	T	0	0	0	2992	0	1	0	2993	30	1	0.0003341129301703976	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	6	Insert_2	G	4	14	633485	127	14	145	2	633777	0	145	0.00022878709703886383	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	6	Insert_2	G	3	14	31928	20	7	6	2	31973	1	20	0.0006255277890720296	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	6	Insert_2	G	1	0	12494	3	1	1	0	12499	2	3	0.0002400192015361229	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	6	Insert_2	G	0	0	9786	3	1	1	0	9790	3	3	0.00030643513789581204	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	6	Insert_2	G	0	0	8250	3	1	1	0	8254	4	3	0.000363460140537921	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	6	Insert_2	G	0	0	7303	3	1	1	0	7307	5	3	0.0004105652114410839	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	6	Insert_2	G	0	0	6151	2	1	1	0	6154	7	2	0.00032499187520311994	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	6	Insert_2	G	0	0	5150	2	0	1	0	5153	10	2	0.00038812342324859306	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	6	Insert_2	G	0	0	3663	2	0	1	0	3666	20	2	0.0005455537370430987	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	6	Insert_2	G	0	0	2995	1	0	1	0	2997	30	1	0.000333667000333667	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	7	Insert_2	A	634299	4	1	4	1	91	0	634399	0	91	0.00014344284905871542	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	7	Insert_2	A	31983	4	1	4	1	8	0	32000	1	8	0.00025	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	7	Insert_2	A	12506	0	0	0	0	4	0	12510	2	4	0.000319744204636291	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	7	Insert_2	A	9796	0	0	0	0	3	0	9799	3	3	0.0003061536891519543	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	7	Insert_2	A	8259	0	0	0	0	3	0	8262	4	3	0.00036310820624546115	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	7	Insert_2	A	7312	0	0	0	0	2	0	7314	5	2	0.00027344818156959256	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	7	Insert_2	A	6158	0	0	0	0	2	0	6160	7	2	0.0003246753246753247	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	7	Insert_2	A	5157	0	0	0	0	2	0	5159	10	2	0.0003876720294630742	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	7	Insert_2	A	3669	0	0	0	0	1	0	3670	20	1	0.00027247956403269756	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	7	Insert_2	A	3000	0	0	0	0	1	0	3001	30	1	0.0003332222592469177	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	8	Insert_2	G	10	7	634847	22	9	6	4	634896	0	22	3.465134447216552e-05	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	8	Insert_2	G	10	7	31980	14	7	5	4	32020	1	14	0.0004372267332916927	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	8	Insert_2	G	0	0	12513	2	1	1	0	12516	2	2	0.00015979546180888463	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	8	Insert_2	G	0	0	9801	2	1	0	0	9803	3	2	0.00020401917780271344	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	8	Insert_2	G	0	0	8264	2	0	0	0	8266	4	2	0.00024195499637067505	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	8	Insert_2	G	0	0	7317	1	0	0	0	7318	5	1	0.00013664935774801857	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	8	Insert_2	G	0	0	6164	0	0	0	0	6164	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	8	Insert_2	G	0	0	5162	0	0	0	0	5162	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	8	Insert_2	G	0	0	3672	0	0	0	0	3672	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	8	Insert_2	G	0	0	3003	0	0	0	0	3003	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	9	Insert_2	G	7	16	634460	461	0	0	3	634947	0	461	0.0007260448509875628	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	9	Insert_2	G	7	16	31996	18	0	0	3	32040	1	18	0.0005617977528089888	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	9	Insert_2	G	0	0	12520	3	0	0	0	12523	2	3	0.00023955921105166494	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	9	Insert_2	G	0	0	9804	3	0	0	0	9807	3	3	0.0003059039461609055	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	9	Insert_2	G	0	0	8266	3	0	0	0	8269	4	3	0.00036280082234853067	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	9	Insert_2	G	0	0	7318	3	0	0	0	7321	5	3	0.00040978008468788414	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	9	Insert_2	G	0	0	6163	3	0	0	0	6166	7	3	0.00048653908530651963	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	9	Insert_2	G	0	0	5160	3	0	0	0	5163	10	3	0.0005810575246949448	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	9	Insert_2	G	0	0	3669	3	0	0	0	3672	20	3	0.0008169934640522876	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	9	Insert_2	G	0	0	3001	2	0	0	0	3003	30	2	0.000666000666000666	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	10	Insert_2	C	23	635349	0	5	2	268	2	635647	0	268	0.0004216176588578252	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	10	Insert_2	C	23	32013	0	5	2	4	2	32047	1	23	0.0007176958841701251	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	10	Insert_2	C	0	12525	0	0	0	1	0	12526	2	1	7.983394539358135e-05	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	10	Insert_2	C	0	9809	0	0	0	1	0	9810	3	1	0.00010193679918450561	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	10	Insert_2	C	0	8271	0	0	0	1	0	8272	4	1	0.00012088974854932302	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	10	Insert_2	C	0	7323	0	0	0	1	0	7324	5	1	0.00013653741125068268	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	10	Insert_2	C	0	6168	0	0	0	1	0	6169	7	1	0.00016210082671421625	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	10	Insert_2	C	0	5164	0	0	0	1	0	5165	10	1	0.0001936108422071636	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	10	Insert_2	C	0	3673	0	0	0	1	0	3674	20	1	0.00027218290691344586	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	10	Insert_2	C	0	3004	0	0	0	1	0	3005	30	1	0.00033277870216306157	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	11	Insert_2	T	44	4	0	635810	0	24	2	635884	0	44	6.919501041070384e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	11	Insert_2	T	44	4	0	32003	0	3	2	32056	1	44	0.0013725979535812328	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	11	Insert_2	T	0	0	0	12527	0	1	0	12528	2	1	7.982120051085569e-05	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	11	Insert_2	T	0	0	0	9810	0	1	0	9811	3	1	0.00010192640913260625	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	11	Insert_2	T	0	0	0	8272	0	1	0	8273	4	1	0.00012087513598452798	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	11	Insert_2	T	0	0	0	7324	0	1	0	7325	5	1	0.00013651877133105802	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	11	Insert_2	T	0	0	0	6169	0	1	0	6170	7	1	0.00016207455429497568	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	11	Insert_2	T	0	0	0	5165	0	1	0	5166	10	1	0.00019357336430507162	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	11	Insert_2	T	0	0	0	3674	0	1	0	3675	20	1	0.00027210884353741496	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	11	Insert_2	T	0	0	0	3006	0	0	0	3006	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	12	Insert_2	C	36	635820	2	9	0	17	1	635885	0	36	5.661401039496135e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	12	Insert_2	C	36	32003	2	9	0	6	1	32057	1	36	0.001122999656861216	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	12	Insert_2	C	0	12525	0	0	0	3	0	12528	2	3	0.00023946360153256704	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	12	Insert_2	C	0	9808	0	0	0	3	0	9811	3	3	0.0003057792273978188	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	12	Insert_2	C	0	8272	0	0	0	1	0	8273	4	1	0.00012087513598452798	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	12	Insert_2	C	0	7324	0	0	0	1	0	7325	5	1	0.00013651877133105802	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	12	Insert_2	C	0	6169	0	0	0	1	0	6170	7	1	0.00016207455429497568	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	12	Insert_2	C	0	5166	0	0	0	0	0	5166	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	12	Insert_2	C	0	3675	0	0	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	12	Insert_2	C	0	3006	0	0	0	0	0	3006	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	13	Insert_2	C	31	635863	0	3	0	0	2	635899	0	31	4.874988009102074e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	13	Insert_2	C	31	32029	0	3	0	0	2	32065	1	31	0.0009667862154997661	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	13	Insert_2	C	0	12529	0	0	0	0	0	12529	2	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	13	Insert_2	C	0	9812	0	0	0	0	0	9812	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	13	Insert_2	C	0	8274	0	0	0	0	0	8274	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	13	Insert_2	C	0	7326	0	0	0	0	0	7326	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	13	Insert_2	C	0	6171	0	0	0	0	0	6171	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	13	Insert_2	C	0	5166	0	0	0	0	0	5166	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	13	Insert_2	C	0	3675	0	0	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	13	Insert_2	C	0	3006	0	0	0	0	0	3006	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	14	Insert_2	C	23	635880	1	2	0	0	0	635906	0	23	3.616886772573305e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	14	Insert_2	C	23	32046	1	2	0	0	0	32072	1	23	0.0007171364430032427	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	14	Insert_2	C	0	12529	0	0	0	0	0	12529	2	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	14	Insert_2	C	0	9812	0	0	0	0	0	9812	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	14	Insert_2	C	0	8274	0	0	0	0	0	8274	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	14	Insert_2	C	0	7326	0	0	0	0	0	7326	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	14	Insert_2	C	0	6171	0	0	0	0	0	6171	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	14	Insert_2	C	0	5166	0	0	0	0	0	5166	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	14	Insert_2	C	0	3675	0	0	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	14	Insert_2	C	0	3006	0	0	0	0	0	3006	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	15	Insert_2	C	24	635839	2	3	0	38	1	635907	0	38	5.975716574907966e-05	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	15	Insert_2	C	24	32041	2	3	0	2	1	32073	1	24	0.0007482929566925452	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	15	Insert_2	C	0	12528	0	0	0	1	0	12529	2	1	7.981482959533881e-05	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	15	Insert_2	C	0	9811	0	0	0	1	0	9812	3	1	0.00010191602119853241	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	15	Insert_2	C	0	8273	0	0	0	1	0	8274	4	1	0.00012086052695189751	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	15	Insert_2	C	0	7325	0	0	0	1	0	7326	5	1	0.0001365001365001365	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	15	Insert_2	C	0	6170	0	0	0	1	0	6171	7	1	0.00016204829039053638	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	15	Insert_2	C	0	5165	0	0	0	1	0	5166	10	1	0.00019357336430507162	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	15	Insert_2	C	0	3674	0	0	0	1	0	3675	20	1	0.00027210884353741496	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	15	Insert_2	C	0	3005	0	0	0	1	0	3006	30	1	0.00033266799733865603	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	16	Insert_2	T	65	178	2	635433	0	189	0	635867	0	189	0.0002972319683204192	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	16	Insert_2	T	65	11	2	31973	0	16	0	32067	1	65	0.002027005956279041	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	16	Insert_2	T	0	1	0	12518	0	10	0	12529	2	10	0.0007981482959533881	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	16	Insert_2	T	0	1	0	9803	0	8	0	9812	3	8	0.0008153281695882593	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	16	Insert_2	T	0	1	0	8266	0	6	0	8273	4	6	0.0007252508159071679	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	16	Insert_2	T	0	1	0	7318	0	6	0	7325	5	6	0.0008191126279863481	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	16	Insert_2	T	0	1	0	6165	0	4	0	6170	7	4	0.0006482982171799027	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	16	Insert_2	T	0	1	0	5161	0	3	0	5165	10	3	0.0005808325266214908	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	16	Insert_2	T	0	1	0	3670	0	3	0	3674	20	3	0.0008165487207403375	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	16	Insert_2	T	0	1	0	3002	0	2	0	3005	30	2	0.0006655574043261231	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	17	Insert_2	T	81	100	0	635688	0	0	6	635875	0	100	0.0001572636131315117	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	17	Insert_2	T	81	7	0	31981	0	0	6	32075	1	81	0.0025253312548713953	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	17	Insert_2	T	0	1	0	12528	0	0	0	12529	2	1	7.981482959533881e-05	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	17	Insert_2	T	0	1	0	9811	0	0	0	9812	3	1	0.00010191602119853241	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	17	Insert_2	T	0	1	0	8272	0	0	0	8273	4	1	0.00012087513598452798	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	17	Insert_2	T	0	1	0	7324	0	0	0	7325	5	1	0.00013651877133105802	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	17	Insert_2	T	0	1	0	6169	0	0	0	6170	7	1	0.00016207455429497568	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	17	Insert_2	T	0	1	0	5164	0	0	0	5165	10	1	0.0001936108422071636	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	17	Insert_2	T	0	1	0	3673	0	0	0	3674	20	1	0.00027218290691344586	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	17	Insert_2	T	0	1	0	3004	0	0	0	3005	30	1	0.00033277870216306157	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	18	Insert_2	T	52	1	0	635821	0	0	3	635877	0	52	8.177682161801733e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	18	Insert_2	T	52	1	0	32021	0	0	3	32077	1	52	0.0016210992299778657	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	18	Insert_2	T	0	0	0	12529	0	0	0	12529	2	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	18	Insert_2	T	0	0	0	9812	0	0	0	9812	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	18	Insert_2	T	0	0	0	8273	0	0	0	8273	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	18	Insert_2	T	0	0	0	7325	0	0	0	7325	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	18	Insert_2	T	0	0	0	6170	0	0	0	6170	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	18	Insert_2	T	0	0	0	5165	0	0	0	5165	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	18	Insert_2	T	0	0	0	3674	0	0	0	3674	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	18	Insert_2	T	0	0	0	3005	0	0	0	3005	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	19	Insert_2	C	131	635687	4	470	188	0	3	636295	0	470	0.000738651097368359	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	19	Insert_2	C	129	32082	4	12	9	0	3	32230	1	129	0.004002482159478746	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	19	Insert_2	C	1	12618	0	1	1	0	0	12620	2	1	7.92393026941363e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	19	Insert_2	C	1	9898	0	1	1	0	0	9900	3	1	0.00010101010101010101	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	19	Insert_2	C	0	8315	0	1	1	0	0	8316	4	1	0.00012025012025012025	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	19	Insert_2	C	0	7332	0	1	1	0	0	7333	5	1	0.00013636983499249966	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	19	Insert_2	C	0	6171	0	1	1	0	0	6172	7	1	0.00016202203499675956	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	19	Insert_2	C	0	5165	0	1	1	0	0	5166	10	1	0.00019357336430507162	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	19	Insert_2	C	0	3674	0	1	1	0	0	3675	20	1	0.00027210884353741496	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	19	Insert_2	C	0	3005	0	1	1	0	0	3006	30	1	0.00033266799733865603	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	20	Insert_2	T	58	2	4	636158	0	67	3	636292	0	67	0.00010529756778334476	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	20	Insert_2	T	58	2	4	32149	0	11	3	32227	1	58	0.0017997331430167252	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	20	Insert_2	T	0	0	0	12613	0	7	0	12620	2	7	0.0005546751188589541	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	20	Insert_2	T	0	0	0	9895	0	5	0	9900	3	5	0.000505050505050505	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	20	Insert_2	T	0	0	0	8312	0	4	0	8316	4	4	0.000481000481000481	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	20	Insert_2	T	0	0	0	7331	0	2	0	7333	5	2	0.0002727396699849993	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	20	Insert_2	T	0	0	0	6170	0	2	0	6172	7	2	0.0003240440699935191	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	20	Insert_2	T	0	0	0	5165	0	1	0	5166	10	1	0.00019357336430507162	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	20	Insert_2	T	0	0	0	3674	0	1	0	3675	20	1	0.00027210884353741496	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	20	Insert_2	T	0	0	0	3005	0	1	0	3006	30	1	0.00033266799733865603	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	21	Insert_2	T	366	1	5	635906	0	0	6	636284	0	366	0.0005752148411715523	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	21	Insert_2	T	364	1	5	31849	0	0	6	32225	1	364	0.011295577967416603	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	21	Insert_2	T	1	0	0	12617	0	0	0	12618	2	1	7.925186241876684e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	21	Insert_2	T	1	0	0	9897	0	0	0	9898	3	1	0.00010103051121438674	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	21	Insert_2	T	0	0	0	8314	0	0	0	8314	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	21	Insert_2	T	0	0	0	7333	0	0	0	7333	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	21	Insert_2	T	0	0	0	6172	0	0	0	6172	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	21	Insert_2	T	0	0	0	5166	0	0	0	5166	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	21	Insert_2	T	0	0	0	3675	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	21	Insert_2	T	0	0	0	3006	0	0	0	3006	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	22	Insert_2	G	244	202	635048	135	0	645	3	636277	0	645	0.001013709437870613	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	22	Insert_2	G	26	202	31934	35	0	18	3	32218	1	202	0.006269787075547831	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	22	Insert_2	G	3	0	12607	2	0	6	0	12618	2	6	0.00047551117451260106	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	22	Insert_2	G	2	0	9889	2	0	5	0	9898	3	5	0.0005051525560719338	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	22	Insert_2	G	2	0	8306	2	0	4	0	8314	4	4	0.0004811161895597787	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	22	Insert_2	G	1	0	7326	2	0	4	0	7333	5	4	0.0005454793399699986	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	22	Insert_2	G	1	0	6166	2	0	3	0	6172	7	3	0.0004860661049902787	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	22	Insert_2	G	1	0	5160	2	0	3	0	5166	10	3	0.0005807200929152149	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	22	Insert_2	G	1	0	3669	2	0	3	0	3675	20	3	0.0008163265306122449	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	22	Insert_2	G	1	0	3000	2	0	3	0	3006	30	3	0.000998003992015968	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	23	Insert_2	C	148	635477	0	124	0	8	1	635758	0	148	0.00023279298097703843	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	23	Insert_2	C	148	32052	0	13	0	2	1	32216	1	148	0.0045939905636950586	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	23	Insert_2	C	0	12609	0	6	0	1	0	12616	2	6	0.0004755865567533291	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	23	Insert_2	C	0	9890	0	6	0	1	0	9897	3	6	0.0006062443164595332	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	23	Insert_2	C	0	8308	0	5	0	1	0	8314	4	5	0.0006013952369497233	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	23	Insert_2	C	0	7325	0	5	0	1	0	7331	5	5	0.0006820351930159597	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	23	Insert_2	C	0	6167	0	3	0	1	0	6171	7	3	0.0004861448711716091	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	23	Insert_2	C	0	5162	0	3	0	0	0	5165	10	3	0.0005808325266214908	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	23	Insert_2	C	0	3673	0	1	0	0	0	3674	20	1	0.00027218290691344586	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	23	Insert_2	C	0	3003	0	1	0	0	0	3004	30	1	0.00033288948069241014	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	24	Insert_2	G	599	34	634802	30	31	288	1	635754	0	599	0.0009421883307065311	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	24	Insert_2	G	16	34	32116	30	7	15	1	32212	1	34	0.0010555072643735255	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	24	Insert_2	G	4	0	12607	0	4	5	0	12616	2	5	0.0003963221306277743	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	24	Insert_2	G	4	0	9888	0	1	5	0	9897	3	5	0.000505203597049611	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	24	Insert_2	G	4	0	8307	0	1	3	0	8314	4	4	0.0004811161895597787	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	24	Insert_2	G	4	0	7325	0	1	2	0	7331	5	4	0.0005456281544127677	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	24	Insert_2	G	4	0	6165	0	1	2	0	6171	7	4	0.0006481931615621455	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	24	Insert_2	G	3	0	5160	0	1	2	0	5165	10	3	0.0005808325266214908	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	24	Insert_2	G	3	0	3669	0	1	2	0	3674	20	3	0.0008165487207403375	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	24	Insert_2	G	3	0	3000	0	0	1	0	3004	30	3	0.0009986684420772304	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	25	Insert_2	G	41	121	635625	29	0	0	4	635820	0	121	0.00019030543235506905	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	25	Insert_2	G	41	121	32038	29	0	0	4	32233	1	121	0.0037539167933484316	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	25	Insert_2	G	0	0	12619	0	0	0	0	12619	2	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	25	Insert_2	G	0	0	9899	0	0	0	0	9899	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	25	Insert_2	G	0	0	8316	0	0	0	0	8316	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	25	Insert_2	G	0	0	7333	0	0	0	0	7333	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	25	Insert_2	G	0	0	6172	0	0	0	0	6172	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	25	Insert_2	G	0	0	5166	0	0	0	0	5166	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	25	Insert_2	G	0	0	3675	0	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	25	Insert_2	G	0	0	3005	0	0	0	0	3005	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	26	Insert_2	A	635703	0	5	3	9	108	5	635824	0	108	0.00016985832557437277	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	26	Insert_2	A	32216	0	5	3	5	8	5	32237	1	8	0.0002481620498185315	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	26	Insert_2	A	12616	0	0	0	1	3	0	12619	2	3	0.00023773674617640067	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	26	Insert_2	A	9897	0	0	0	1	2	0	9899	3	2	0.0002020406101626427	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	26	Insert_2	A	8314	0	0	0	1	2	0	8316	4	2	0.0002405002405002405	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	26	Insert_2	A	7331	0	0	0	1	2	0	7333	5	2	0.0002727396699849993	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	26	Insert_2	A	6170	0	0	0	0	2	0	6172	7	2	0.0003240440699935191	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	26	Insert_2	A	5164	0	0	0	0	2	0	5166	10	2	0.00038714672861014324	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	26	Insert_2	A	3674	0	0	0	0	1	0	3675	20	1	0.00027210884353741496	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	26	Insert_2	A	3004	0	0	0	0	1	0	3005	30	1	0.00033277870216306157	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	27	Insert_2	G	3	31	635248	541	369	2	2	635827	0	541	0.0008508603755424039	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	27	Insert_2	G	3	31	31986	216	14	2	2	32240	1	216	0.006699751861042184	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	27	Insert_2	G	0	0	12610	9	6	0	0	12619	2	9	0.000713210238529202	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	27	Insert_2	G	0	0	9890	9	4	0	0	9899	3	9	0.0009091827457318921	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	27	Insert_2	G	0	0	8309	7	3	0	0	8316	4	7	0.0008417508417508417	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	27	Insert_2	G	0	0	7327	6	3	0	0	7333	5	6	0.000818219009954998	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	27	Insert_2	G	0	0	6168	4	3	0	0	6172	7	4	0.0006480881399870382	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	27	Insert_2	G	0	0	5162	4	3	0	0	5166	10	4	0.0007742934572202865	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	27	Insert_2	G	0	0	3673	2	3	0	0	3675	20	3	0.0008163265306122449	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	27	Insert_2	G	0	0	3003	2	2	0	0	3005	30	2	0.0006655574043261231	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	28	Insert_2	A	635545	6	1	2	1	266	0	635820	0	266	0.00041835739674750714	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	28	Insert_2	A	32214	6	1	2	1	10	0	32233	1	10	0.0003102410573015233	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	28	Insert_2	A	12615	0	0	0	0	4	0	12619	2	4	0.0003169823282352009	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	28	Insert_2	A	9895	0	0	0	0	4	0	9899	3	4	0.0004040812203252854	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	28	Insert_2	A	8313	0	0	0	0	3	0	8316	4	3	0.00036075036075036075	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	28	Insert_2	A	7330	0	0	0	0	3	0	7333	5	3	0.000409109504977499	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	28	Insert_2	A	6169	0	0	0	0	3	0	6172	7	3	0.0004860661049902787	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	28	Insert_2	A	5163	0	0	0	0	3	0	5166	10	3	0.0005807200929152149	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	28	Insert_2	A	3672	0	0	0	0	3	0	3675	20	3	0.0008163265306122449	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	28	Insert_2	A	3002	0	0	0	0	3	0	3005	30	3	0.0009983361064891847	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	29	Insert_2	T	78	2	3	635641	0	94	0	635818	0	94	0.00014784104885360276	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	29	Insert_2	T	78	2	3	32134	0	14	0	32231	1	78	0.002420030405510223	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	29	Insert_2	T	0	0	0	12613	0	6	0	12619	2	6	0.00047547349235280134	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	29	Insert_2	T	0	0	0	9895	0	4	0	9899	3	4	0.0004040812203252854	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	29	Insert_2	T	0	0	0	8312	0	4	0	8316	4	4	0.000481000481000481	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	29	Insert_2	T	0	0	0	7329	0	4	0	7333	5	4	0.0005454793399699986	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	29	Insert_2	T	0	0	0	6169	0	3	0	6172	7	3	0.0004860661049902787	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	29	Insert_2	T	0	0	0	5163	0	3	0	5166	10	3	0.0005807200929152149	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	29	Insert_2	T	0	0	0	3673	0	2	0	3675	20	2	0.0005442176870748299	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	29	Insert_2	T	0	0	0	3004	0	1	0	3005	30	1	0.00033277870216306157	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	30	Insert_2	T	513	247	1	635062	0	0	4	635827	0	513	0.0008068232396548118	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	30	Insert_2	T	511	8	1	31716	0	0	4	32240	1	511	0.01584987593052109	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	30	Insert_2	T	1	1	0	12617	0	0	0	12619	2	1	7.924558205880022e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	30	Insert_2	T	1	1	0	9897	0	0	0	9899	3	1	0.00010102030508132135	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	30	Insert_2	T	0	1	0	8315	0	0	0	8316	4	1	0.00012025012025012025	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	30	Insert_2	T	0	1	0	7332	0	0	0	7333	5	1	0.00013636983499249966	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	30	Insert_2	T	0	1	0	6171	0	0	0	6172	7	1	0.00016202203499675956	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	30	Insert_2	T	0	1	0	5165	0	0	0	5166	10	1	0.00019357336430507162	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	30	Insert_2	T	0	1	0	3674	0	0	0	3675	20	1	0.00027210884353741496	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	30	Insert_2	T	0	1	0	3004	0	0	0	3005	30	1	0.00033277870216306157	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	31	Insert_2	C	194	635328	3	69	22	224	1	635819	0	224	0.0003523015197721364	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	31	Insert_2	C	194	32003	3	12	9	19	1	32232	1	194	0.006018863241499132	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	31	Insert_2	C	0	12601	0	8	2	10	0	12619	2	10	0.0007924558205880022	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	31	Insert_2	C	0	9885	0	7	2	7	0	9899	3	7	0.0007071421355692494	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	31	Insert_2	C	0	8303	0	6	1	7	0	8316	4	7	0.0008417508417508417	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	31	Insert_2	C	0	7320	0	6	1	7	0	7333	5	7	0.0009545888449474976	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	31	Insert_2	C	0	6162	0	4	1	6	0	6172	7	6	0.0009721322099805574	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	31	Insert_2	C	0	5159	0	3	1	4	0	5166	10	4	0.0007742934572202865	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	31	Insert_2	C	0	3673	0	0	0	2	0	3675	20	2	0.0005442176870748299	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	31	Insert_2	C	0	3003	0	0	0	2	0	3005	30	2	0.0006655574043261231	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	32	Insert_2	T	95	3	4	635249	0	936	4	636291	0	936	0.0014710250498592625	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	32	Insert_2	T	95	3	4	32073	0	40	4	32219	1	95	0.0029485707191408794	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	32	Insert_2	T	0	0	0	12610	0	9	0	12619	2	9	0.000713210238529202	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	32	Insert_2	T	0	0	0	9891	0	8	0	9899	3	8	0.0008081624406505708	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	32	Insert_2	T	0	0	0	8310	0	5	0	8315	4	5	0.0006013229104028864	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	32	Insert_2	T	0	0	0	7327	0	5	0	7332	5	5	0.0006819421713038735	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	32	Insert_2	T	0	0	0	6168	0	4	0	6172	7	4	0.0006480881399870382	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	32	Insert_2	T	0	0	0	5162	0	4	0	5166	10	4	0.0007742934572202865	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	32	Insert_2	T	0	0	0	3674	0	2	0	3676	20	2	0.000544069640914037	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	32	Insert_2	T	0	0	0	3004	0	2	0	3006	30	2	0.0006653359946773121	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	33	Insert_2	C	217	636097	6	1	0	0	1	636322	0	217	0.00034102231260273885	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	33	Insert_2	C	217	32025	6	1	0	0	1	32250	1	217	0.006728682170542635	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	33	Insert_2	C	0	12619	0	0	0	0	0	12619	2	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	33	Insert_2	C	0	9899	0	0	0	0	0	9899	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	33	Insert_2	C	0	8315	0	0	0	0	0	8315	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	33	Insert_2	C	0	7332	0	0	0	0	0	7332	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	33	Insert_2	C	0	6172	0	0	0	0	0	6172	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	33	Insert_2	C	0	5166	0	0	0	0	0	5166	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	33	Insert_2	C	0	3676	0	0	0	0	0	3676	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	33	Insert_2	C	0	3006	0	0	0	0	0	3006	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	34	Insert_2	T	120	2	1	635672	0	511	1	636307	0	511	0.0008030714733611292	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	34	Insert_2	T	120	2	1	32089	0	22	1	32235	1	120	0.0037226617031177293	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	34	Insert_2	T	0	0	0	12611	0	8	0	12619	2	8	0.0006339646564704018	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	34	Insert_2	T	0	0	0	9893	0	6	0	9899	3	6	0.000606121830487928	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	34	Insert_2	T	0	0	0	8309	0	6	0	8315	4	6	0.0007215874924834636	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	34	Insert_2	T	0	0	0	7326	0	6	0	7332	5	6	0.0008183306055646482	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	34	Insert_2	T	0	0	0	6167	0	5	0	6172	7	5	0.0008101101749837978	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	34	Insert_2	T	0	0	0	5162	0	4	0	5166	10	4	0.0007742934572202865	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	34	Insert_2	T	0	0	0	3672	0	4	0	3676	20	4	0.001088139281828074	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	34	Insert_2	T	0	0	0	3005	0	1	0	3006	30	1	0.00033266799733865603	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	35	Insert_2	T	565	3	0	635711	0	0	2	636281	0	565	0.0008879724524227503	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	35	Insert_2	T	563	3	0	31676	0	0	2	32244	1	563	0.017460612827192655	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	35	Insert_2	T	1	0	0	12613	0	0	0	12614	2	1	7.927699381639449e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	35	Insert_2	T	1	0	0	9896	0	0	0	9897	3	1	0.0001010407194099222	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	35	Insert_2	T	0	0	0	8313	0	0	0	8313	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	35	Insert_2	T	0	0	0	7330	0	0	0	7330	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	35	Insert_2	T	0	0	0	6170	0	0	0	6170	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	35	Insert_2	T	0	0	0	5165	0	0	0	5165	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	35	Insert_2	T	0	0	0	3675	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	35	Insert_2	T	0	0	0	3006	0	0	0	3006	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	36	Insert_2	C	56	636257	5	2	0	4	5	636329	0	56	8.800478997499721e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	36	Insert_2	C	56	32189	5	2	0	1	5	32258	1	56	0.001736003472006944	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	36	Insert_2	C	0	12617	0	0	0	1	0	12618	2	1	7.925186241876684e-05	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	36	Insert_2	C	0	9898	0	0	0	1	0	9899	3	1	0.00010102030508132135	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	36	Insert_2	C	0	8314	0	0	0	1	0	8315	4	1	0.00012026458208057727	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	36	Insert_2	C	0	7332	0	0	0	0	0	7332	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	36	Insert_2	C	0	6172	0	0	0	0	0	6172	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	36	Insert_2	C	0	5166	0	0	0	0	0	5166	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	36	Insert_2	C	0	3676	0	0	0	0	0	3676	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	36	Insert_2	C	0	3006	0	0	0	0	0	3006	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	37	Insert_2	C	59	636214	3	54	0	0	1	636331	0	59	9.271904087652495e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	37	Insert_2	C	59	32184	3	13	0	0	1	32260	1	59	0.001828890266584005	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	37	Insert_2	C	0	12617	0	1	0	0	0	12618	2	1	7.925186241876684e-05	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	37	Insert_2	C	0	9898	0	1	0	0	0	9899	3	1	0.00010102030508132135	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	37	Insert_2	C	0	8314	0	1	0	0	0	8315	4	1	0.00012026458208057727	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	37	Insert_2	C	0	7331	0	1	0	0	0	7332	5	1	0.00013638843426077467	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	37	Insert_2	C	0	6171	0	1	0	0	0	6172	7	1	0.00016202203499675956	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	37	Insert_2	C	0	5165	0	1	0	0	0	5166	10	1	0.00019357336430507162	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	37	Insert_2	C	0	3675	0	1	0	0	0	3676	20	1	0.0002720348204570185	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	37	Insert_2	C	0	3005	0	1	0	0	0	3006	30	1	0.00033266799733865603	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	38	Insert_2	T	265	313	0	635747	0	0	4	636329	0	313	0.0004918839153959665	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	38	Insert_2	T	265	10	0	31979	0	0	4	32258	1	265	0.00821501643003286	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	38	Insert_2	T	0	1	0	12617	0	0	0	12618	2	1	7.925186241876684e-05	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	38	Insert_2	T	0	1	0	9898	0	0	0	9899	3	1	0.00010102030508132135	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	38	Insert_2	T	0	1	0	8314	0	0	0	8315	4	1	0.00012026458208057727	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	38	Insert_2	T	0	1	0	7331	0	0	0	7332	5	1	0.00013638843426077467	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	38	Insert_2	T	0	1	0	6171	0	0	0	6172	7	1	0.00016202203499675956	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	38	Insert_2	T	0	1	0	5165	0	0	0	5166	10	1	0.00019357336430507162	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	38	Insert_2	T	0	1	0	3675	0	0	0	3676	20	1	0.0002720348204570185	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	38	Insert_2	T	0	1	0	3005	0	0	0	3006	30	1	0.00033266799733865603	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	39	Insert_2	C	49	635764	2	359	66	143	2	636319	0	359	0.0005641824305104829	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	39	Insert_2	C	49	32157	2	26	19	13	2	32249	1	49	0.001519426958975472	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	39	Insert_2	C	0	12606	0	5	7	6	0	12617	2	7	0.0005548070064199097	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	39	Insert_2	C	0	9890	0	4	5	5	0	9899	3	5	0.0005051015254066068	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	39	Insert_2	C	0	8307	0	3	4	5	0	8315	4	5	0.0006013229104028864	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	39	Insert_2	C	0	7325	0	3	4	4	0	7332	5	4	0.0005455537370430987	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	39	Insert_2	C	0	6167	0	2	4	3	0	6172	7	4	0.0006480881399870382	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	39	Insert_2	C	0	5162	0	2	2	2	0	5166	10	2	0.00038714672861014324	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	39	Insert_2	C	0	3672	0	2	1	2	0	3676	20	2	0.000544069640914037	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	39	Insert_2	C	0	3003	0	1	0	2	0	3006	30	2	0.0006653359946773121	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	40	Insert_2	T	175	2	1	636089	0	49	5	636321	0	175	0.0002750184262345577	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	40	Insert_2	T	175	2	1	32064	0	5	5	32252	1	175	0.005426020091777254	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	40	Insert_2	T	0	0	0	12614	0	2	0	12616	2	2	0.0001585288522511097	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	40	Insert_2	T	0	0	0	9897	0	2	0	9899	3	2	0.0002020406101626427	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	40	Insert_2	T	0	0	0	8313	0	2	0	8315	4	2	0.00024052916416115455	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	40	Insert_2	T	0	0	0	7330	0	2	0	7332	5	2	0.00027277686852154935	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	40	Insert_2	T	0	0	0	6170	0	2	0	6172	7	2	0.0003240440699935191	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	40	Insert_2	T	0	0	0	5164	0	2	0	5166	10	2	0.00038714672861014324	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	40	Insert_2	T	0	0	0	3675	0	1	0	3676	20	1	0.0002720348204570185	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	40	Insert_2	T	0	0	0	3005	0	1	0	3006	30	1	0.00033266799733865603	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	41	Insert_2	G	8	326	635624	167	0	187	1	636313	0	326	0.0005123264808356893	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	41	Insert_2	G	8	324	31727	167	0	17	1	32244	1	324	0.010048381094157052	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	41	Insert_2	G	0	1	12608	0	0	7	0	12616	2	7	0.0005548509828788839	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	41	Insert_2	G	0	1	9891	0	0	7	0	9899	3	7	0.0007071421355692494	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	41	Insert_2	G	0	0	8308	0	0	7	0	8315	4	7	0.0008418520745640408	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	41	Insert_2	G	0	0	7325	0	0	7	0	7332	5	7	0.0009547190398254228	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	41	Insert_2	G	0	0	6166	0	0	6	0	6172	7	6	0.0009721322099805574	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	41	Insert_2	G	0	0	5161	0	0	5	0	5166	10	5	0.0009678668215253581	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	41	Insert_2	G	0	0	3672	0	0	4	0	3676	20	4	0.001088139281828074	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	41	Insert_2	G	0	0	3002	0	0	4	0	3006	30	4	0.0013306719893546241	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	42	Insert_2	T	488	3	3	635622	0	1	6	636123	0	488	0.0007671472341040962	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	42	Insert_2	T	486	3	3	31725	0	1	6	32224	1	486	0.015081926514399206	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	42	Insert_2	T	1	0	0	12608	0	0	0	12609	2	1	7.930843048616068e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	42	Insert_2	T	1	0	0	9891	0	0	0	9892	3	1	0.00010109179134654265	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	42	Insert_2	T	0	0	0	8308	0	0	0	8308	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	42	Insert_2	T	0	0	0	7325	0	0	0	7325	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	42	Insert_2	T	0	0	0	6166	0	0	0	6166	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	42	Insert_2	T	0	0	0	5161	0	0	0	5161	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	42	Insert_2	T	0	0	0	3672	0	0	0	3672	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	42	Insert_2	T	0	0	0	3002	0	0	0	3002	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	43	Insert_2	G	253	156	635309	92	0	309	2	636121	0	309	0.0004857566406391237	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	43	Insert_2	G	40	156	31952	68	0	4	2	32222	1	156	0.0048414126993979265	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	43	Insert_2	G	8	0	12596	4	0	1	0	12609	2	8	0.0006344674438892855	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	43	Insert_2	G	6	0	9883	2	0	1	0	9892	3	6	0.000606550748079256	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	43	Insert_2	G	4	0	8302	1	0	1	0	8308	4	4	0.00048146364949446316	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	43	Insert_2	G	4	0	7319	1	0	1	0	7325	5	4	0.0005460750853242321	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	43	Insert_2	G	3	0	6161	1	0	1	0	6166	7	3	0.00048653908530651963	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	43	Insert_2	G	3	0	5156	1	0	1	0	5161	10	3	0.0005812826971517147	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	43	Insert_2	G	2	0	3668	1	0	1	0	3672	20	2	0.0005446623093681918	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	43	Insert_2	G	2	0	2999	0	0	1	0	3002	30	2	0.0006662225183211193	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	44	Insert_2	C	166	635636	1	5	0	305	8	636121	0	305	0.00047946852878619006	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	44	Insert_2	C	166	32034	1	5	0	8	8	32222	1	166	0.0051517596673080505	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	44	Insert_2	C	0	12608	0	0	0	1	0	12609	2	1	7.930843048616068e-05	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	44	Insert_2	C	0	9891	0	0	0	1	0	9892	3	1	0.00010109179134654265	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	44	Insert_2	C	0	8307	0	0	0	1	0	8308	4	1	0.00012036591237361579	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	44	Insert_2	C	0	7324	0	0	0	1	0	7325	5	1	0.00013651877133105802	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	44	Insert_2	C	0	6165	0	0	0	1	0	6166	7	1	0.0001621796951021732	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	44	Insert_2	C	0	5160	0	0	0	1	0	5161	10	1	0.00019376089905057158	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	44	Insert_2	C	0	3671	0	0	0	1	0	3672	20	1	0.0002723311546840959	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	44	Insert_2	C	0	3001	0	0	0	1	0	3002	30	1	0.00033311125916055963	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	45	Insert_2	G	53	57	635033	929	115	59	2	636133	0	929	0.001460386428624203	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	45	Insert_2	G	13	57	31894	259	13	9	2	32234	1	259	0.00803499410560278	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	45	Insert_2	G	5	0	12589	8	7	7	0	12609	2	8	0.0006344674438892855	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	45	Insert_2	G	3	0	9875	8	7	6	0	9892	3	8	0.0008087343307723412	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	45	Insert_2	G	2	0	8292	8	7	6	0	8308	4	8	0.0009629272989889263	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	45	Insert_2	G	1	0	7311	8	6	5	0	7325	5	8	0.0010921501706484642	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	45	Insert_2	G	1	0	6153	7	5	5	0	6166	7	7	0.0011352578657152124	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	45	Insert_2	G	1	0	5153	5	4	2	0	5161	10	5	0.000968804495252858	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	45	Insert_2	G	1	0	3668	3	1	0	0	3672	20	3	0.0008169934640522876	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	45	Insert_2	G	1	0	2999	2	1	0	0	3002	30	2	0.0006662225183211193	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	46	Insert_2	C	311	635144	7	610	0	6	1	636079	0	610	0.0009590003757394915	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	46	Insert_2	C	309	31900	7	11	0	2	1	32230	1	309	0.009587340986658394	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	46	Insert_2	C	1	12599	0	1	0	1	0	12602	2	1	7.935248373274083e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	46	Insert_2	C	1	9883	0	1	0	1	0	9886	3	1	0.00010115314586283633	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	46	Insert_2	C	0	8300	0	1	0	1	0	8302	4	1	0.00012045290291496025	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	46	Insert_2	C	0	7318	0	1	0	1	0	7320	5	1	0.0001366120218579235	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	46	Insert_2	C	0	6160	0	1	0	0	0	6161	7	1	0.00016231131309852296	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	46	Insert_2	C	0	5158	0	1	0	0	0	5159	10	1	0.0001938360147315371	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	46	Insert_2	C	0	3671	0	1	0	0	0	3672	20	1	0.0002723311546840959	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	46	Insert_2	C	0	3001	0	1	0	0	0	3002	30	1	0.00033311125916055963	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	47	Insert_2	C	53	635894	2	5	0	129	0	636083	0	129	0.0002028037221557564	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	47	Insert_2	C	53	32171	2	5	0	3	0	32234	1	53	0.0016442265930384067	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	47	Insert_2	C	0	12600	0	0	0	2	0	12602	2	2	0.00015870496746548166	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	47	Insert_2	C	0	9884	0	0	0	2	0	9886	3	2	0.00020230629172567267	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	47	Insert_2	C	0	8300	0	0	0	2	0	8302	4	2	0.0002409058058299205	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	47	Insert_2	C	0	7318	0	0	0	2	0	7320	5	2	0.000273224043715847	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	47	Insert_2	C	0	6159	0	0	0	2	0	6161	7	2	0.00032462262619704593	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	47	Insert_2	C	0	5158	0	0	0	1	0	5159	10	1	0.0001938360147315371	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	47	Insert_2	C	0	3671	0	0	0	1	0	3672	20	1	0.0002723311546840959	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	47	Insert_2	C	0	3001	0	0	0	1	0	3002	30	1	0.00033311125916055963	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	48	Insert_2	G	886	595	633585	294	0	580	0	635940	0	886	0.0013932131962134792	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	48	Insert_2	G	38	337	31591	222	0	29	0	32217	1	337	0.0104603159822454	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	48	Insert_2	G	7	2	12573	3	0	15	0	12600	2	15	0.0011904761904761906	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	48	Insert_2	G	5	2	9861	3	0	13	0	9884	3	13	0.0013152569809793606	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	48	Insert_2	G	4	2	8278	3	0	13	0	8300	4	13	0.0015662650602409638	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	48	Insert_2	G	3	2	7299	2	0	12	0	7318	5	12	0.001639792292976223	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	48	Insert_2	G	3	2	6141	2	0	11	0	6159	7	11	0.0017860042214645235	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	48	Insert_2	G	2	2	5141	2	0	11	0	5158	10	11	0.0021326095385808454	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	48	Insert_2	G	2	2	3658	1	0	8	0	3671	20	8	0.002179242713157178	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	48	Insert_2	G	2	2	2992	1	0	4	0	3001	30	4	0.0013328890369876708	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	49	Insert_2	A	635747	3	4	6	45	112	1	635873	0	112	0.00017613580070234151	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	49	Insert_2	A	32232	3	4	6	5	1	1	32247	1	6	0.00018606381989022235	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	49	Insert_2	A	12607	0	0	0	2	1	0	12608	2	2	0.00015862944162436547	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	49	Insert_2	A	9888	0	0	0	2	1	0	9889	3	2	0.00020224491859642025	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	49	Insert_2	A	8307	0	0	0	2	1	0	8308	4	2	0.00024073182474723158	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	49	Insert_2	A	7324	0	0	0	1	1	0	7325	5	1	0.00013651877133105802	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	49	Insert_2	A	6164	0	0	0	1	1	0	6165	7	1	0.00016220600162206002	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	49	Insert_2	A	5160	0	0	0	1	1	0	5161	10	1	0.00019376089905057158	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	49	Insert_2	A	3671	0	0	0	1	1	0	3672	20	1	0.0002723311546840959	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	49	Insert_2	A	3002	0	0	0	1	1	0	3003	30	1	0.000333000333000333	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	50	Insert_2	T	239	2	0	634724	0	817	0	635782	0	817	0.0012850316617960245	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	50	Insert_2	T	239	2	0	31987	0	11	0	32239	1	239	0.007413381308353237	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	50	Insert_2	T	0	0	0	12607	0	2	0	12609	2	2	0.00015861686097232136	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	50	Insert_2	T	0	0	0	9888	0	2	0	9890	3	2	0.00020222446916076846	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	50	Insert_2	T	0	0	0	8306	0	2	0	8308	4	2	0.00024073182474723158	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	50	Insert_2	T	0	0	0	7324	0	1	0	7325	5	1	0.00013651877133105802	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	50	Insert_2	T	0	0	0	6164	0	1	0	6165	7	1	0.00016220600162206002	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	50	Insert_2	T	0	0	0	5160	0	1	0	5161	10	1	0.00019376089905057158	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	50	Insert_2	T	0	0	0	3671	0	1	0	3672	20	1	0.0002723311546840959	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	50	Insert_2	T	0	0	0	3001	0	1	0	3002	30	1	0.00033311125916055963	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	51	Insert_2	A	634966	6	3	2	0	5	5	634987	0	6	9.449012341984955e-06	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	51	Insert_2	A	32228	6	3	2	0	3	5	32247	1	6	0.00018606381989022235	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	51	Insert_2	A	12607	0	0	0	0	1	0	12608	2	1	7.931472081218273e-05	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	51	Insert_2	A	9888	0	0	0	0	1	0	9889	3	1	0.00010112245929821013	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	51	Insert_2	A	8307	0	0	0	0	0	0	8307	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	51	Insert_2	A	7324	0	0	0	0	0	0	7324	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	51	Insert_2	A	6164	0	0	0	0	0	0	6164	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	51	Insert_2	A	5160	0	0	0	0	0	0	5160	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	51	Insert_2	A	3671	0	0	0	0	0	0	3671	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	51	Insert_2	A	3001	0	0	0	0	0	0	3001	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	52	Insert_2	C	159	634689	7	4	0	171	1	635031	0	171	0.00026927819271815076	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	52	Insert_2	C	159	32067	7	3	0	13	1	32250	1	159	0.004930232558139535	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	52	Insert_2	C	0	12606	0	1	0	4	0	12611	2	4	0.0003171834113075886	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	52	Insert_2	C	0	9888	0	0	0	3	0	9891	3	3	0.00030330603579011223	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	52	Insert_2	C	0	8306	0	0	0	3	0	8309	4	3	0.00036105427849320016	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	52	Insert_2	C	0	7323	0	0	0	3	0	7326	5	3	0.0004095004095004095	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	52	Insert_2	C	0	6164	0	0	0	2	0	6166	7	2	0.0003243593902043464	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	52	Insert_2	C	0	5160	0	0	0	2	0	5162	10	2	0.0003874467260751647	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	52	Insert_2	C	0	3670	0	0	0	2	0	3672	20	2	0.0005446623093681918	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	52	Insert_2	C	0	3001	0	0	0	1	0	3002	30	1	0.00033311125916055963	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	53	Insert_2	A	635127	3	3	13	0	11	2	635159	0	13	2.0467316057868976e-05	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	53	Insert_2	A	32243	3	3	13	0	3	2	32267	1	13	0.000402888399913224	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	53	Insert_2	A	12610	0	0	0	0	2	0	12612	2	2	0.0001585791309863622	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	53	Insert_2	A	9891	0	0	0	0	1	0	9892	3	1	0.00010109179134654265	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	53	Insert_2	A	8309	0	0	0	0	1	0	8310	4	1	0.00012033694344163658	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	53	Insert_2	A	7326	0	0	0	0	1	0	7327	5	1	0.0001364815067558346	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	53	Insert_2	A	6166	0	0	0	0	1	0	6167	7	1	0.00016215339711366953	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	53	Insert_2	A	5163	0	0	0	0	0	0	5163	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	53	Insert_2	A	3673	0	0	0	0	0	0	3673	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	53	Insert_2	A	3003	0	0	0	0	0	0	3003	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	54	Insert_2	G	576	52	634593	61	0	113	0	635395	0	576	0.0009065227142171405	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	54	Insert_2	G	43	52	32088	61	0	19	0	32263	1	61	0.0018907107212596474	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	54	Insert_2	G	3	0	12601	0	0	9	0	12613	2	9	0.0007135495124078332	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	54	Insert_2	G	3	0	9883	0	0	7	0	9893	3	7	0.0007075710098049126	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	54	Insert_2	G	2	0	8304	0	0	5	0	8311	4	5	0.0006016123210203345	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	54	Insert_2	G	2	0	7323	0	0	3	0	7328	5	3	0.0004093886462882096	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	54	Insert_2	G	2	0	6164	0	0	2	0	6168	7	2	0.00032425421530479895	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	54	Insert_2	G	1	0	5161	0	0	2	0	5164	10	2	0.0003872966692486445	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	54	Insert_2	G	1	0	3671	0	0	2	0	3674	20	2	0.0005443658138268917	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	54	Insert_2	G	1	0	3002	0	0	1	0	3004	30	1	0.00033288948069241014	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	55	Insert_2	A	634223	18	1	1	0	1172	1	635416	0	1172	0.0018444609515655885	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	55	Insert_2	A	32205	18	1	1	0	49	1	32275	1	49	0.0015182029434546863	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	55	Insert_2	A	12609	0	0	0	0	12	0	12621	2	12	0.0009507962918944616	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	55	Insert_2	A	9884	0	0	0	0	10	0	9894	3	10	0.001010713563776026	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	55	Insert_2	A	8302	0	0	0	0	9	0	8311	4	9	0.0010829021778366022	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	55	Insert_2	A	7319	0	0	0	0	9	0	7328	5	9	0.0012281659388646289	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	55	Insert_2	A	6160	0	0	0	0	8	0	6168	7	8	0.0012970168612191958	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	55	Insert_2	A	5157	0	0	0	0	7	0	5164	10	7	0.0013555383423702555	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	55	Insert_2	A	3671	0	0	0	0	3	0	3674	20	3	0.0008165487207403375	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	55	Insert_2	A	3001	0	0	0	0	3	0	3004	30	3	0.0009986684420772304	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	56	Insert_2	A	635365	0	2	10	0	55	2	635434	0	55	8.65550159418602e-05	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	56	Insert_2	A	32292	0	2	10	0	2	2	32308	1	10	0.000309520861706079	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	56	Insert_2	A	12618	0	0	0	0	2	0	12620	2	2	0.0001584786053882726	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	56	Insert_2	A	9892	0	0	0	0	1	0	9893	3	1	0.00010108157282927322	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	56	Insert_2	A	8309	0	0	0	0	1	0	8310	4	1	0.00012033694344163658	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	56	Insert_2	A	7326	0	0	0	0	1	0	7327	5	1	0.0001364815067558346	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	56	Insert_2	A	6166	0	0	0	0	1	0	6167	7	1	0.00016215339711366953	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	56	Insert_2	A	5162	0	0	0	0	1	0	5163	10	1	0.0001936858415649816	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	56	Insert_2	A	3673	0	0	0	0	1	0	3674	20	1	0.00027218290691344586	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	56	Insert_2	A	3003	0	0	0	0	1	0	3004	30	1	0.00033288948069241014	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	57	Insert_2	T	248	89	12	635002	55	22	0	635373	0	248	0.0003903219054004498	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	57	Insert_2	T	248	7	12	32027	9	6	0	32300	1	248	0.0076780185758513935	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	57	Insert_2	T	0	2	0	12612	6	4	0	12618	2	6	0.00047551117451260106	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	57	Insert_2	T	0	2	0	9887	5	3	0	9892	3	5	0.0005054589567327133	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	57	Insert_2	T	0	1	0	8306	4	2	0	8309	4	4	0.0004814057046576002	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	57	Insert_2	T	0	1	0	7324	4	1	0	7326	5	4	0.000546000546000546	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	57	Insert_2	T	0	1	0	6164	3	1	0	6166	7	3	0.00048653908530651963	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	57	Insert_2	T	0	1	0	5160	1	1	0	5162	10	1	0.00019372336303758234	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	57	Insert_2	T	0	1	0	3672	1	0	0	3673	20	1	0.0002722570106180234	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	57	Insert_2	T	0	1	0	3002	0	0	0	3003	30	1	0.000333000333000333	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	58	Insert_2	A	635365	0	1	3	0	6	2	635377	0	6	9.44321245496768e-06	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	58	Insert_2	A	32306	0	1	3	0	4	2	32316	1	4	0.00012377769525931428	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	58	Insert_2	A	12617	0	0	0	0	1	0	12618	2	1	7.925186241876684e-05	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	58	Insert_2	A	9888	0	0	0	0	1	0	9889	3	1	0.00010112245929821013	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	58	Insert_2	A	8307	0	0	0	0	0	0	8307	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	58	Insert_2	A	7325	0	0	0	0	0	0	7325	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	58	Insert_2	A	6165	0	0	0	0	0	0	6165	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	58	Insert_2	A	5161	0	0	0	0	0	0	5161	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	58	Insert_2	A	3673	0	0	0	0	0	0	3673	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	58	Insert_2	A	3003	0	0	0	0	0	0	3003	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	59	Insert_2	T	185	4	4	635267	0	0	2	635462	0	185	0.00029112677075891243	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	59	Insert_2	T	185	2	4	32116	0	0	2	32309	1	185	0.005725958711195023	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	59	Insert_2	T	0	1	0	12617	0	0	0	12618	2	1	7.925186241876684e-05	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	59	Insert_2	T	0	1	0	9889	0	0	0	9890	3	1	0.00010111223458038423	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	59	Insert_2	T	0	0	0	8308	0	0	0	8308	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	59	Insert_2	T	0	0	0	7326	0	0	0	7326	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	59	Insert_2	T	0	0	0	6166	0	0	0	6166	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	59	Insert_2	T	0	0	0	5161	0	0	0	5161	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	59	Insert_2	T	0	0	0	3673	0	0	0	3673	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	59	Insert_2	T	0	0	0	3003	0	0	0	3003	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	60	Insert_2	C	270	634819	1	3	0	358	4	635455	0	358	0.0005633758488012527	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	60	Insert_2	C	270	32009	1	3	0	15	4	32302	1	270	0.008358615565599654	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	60	Insert_2	C	0	12613	0	0	0	5	0	12618	2	5	0.0003962593120938342	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	60	Insert_2	C	0	9885	0	0	0	5	0	9890	3	5	0.0005055611729019212	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	60	Insert_2	C	0	8304	0	0	0	4	0	8308	4	4	0.00048146364949446316	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	60	Insert_2	C	0	7324	0	0	0	2	0	7326	5	2	0.000273000273000273	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	60	Insert_2	C	0	6164	0	0	0	2	0	6166	7	2	0.0003243593902043464	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	60	Insert_2	C	0	5159	0	0	0	2	0	5161	10	2	0.00038752179810114316	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	60	Insert_2	C	0	3671	0	0	0	2	0	3673	20	2	0.0005445140212360468	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	60	Insert_2	C	0	3001	0	0	0	2	0	3003	30	2	0.000666000666000666	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	61	Insert_2	T	149	2	17	635554	0	227	2	635951	0	227	0.00035694573953024683	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	61	Insert_2	T	147	2	17	32150	0	5	2	32323	1	147	0.004547845187637286	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	61	Insert_2	T	1	0	0	12612	0	2	0	12615	2	2	0.00015854141894569956	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	61	Insert_2	T	1	0	0	9884	0	2	0	9887	3	2	0.00020228582987761708	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	61	Insert_2	T	0	0	0	8304	0	2	0	8306	4	2	0.00024078979051288225	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	61	Insert_2	T	0	0	0	7324	0	2	0	7326	5	2	0.000273000273000273	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	61	Insert_2	T	0	0	0	6164	0	2	0	6166	7	2	0.0003243593902043464	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	61	Insert_2	T	0	0	0	5159	0	2	0	5161	10	2	0.00038752179810114316	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	61	Insert_2	T	0	0	0	3670	0	2	0	3672	20	2	0.0005446623093681918	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	61	Insert_2	T	0	0	0	3000	0	2	0	3002	30	2	0.0006662225183211193	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	62	Insert_2	G	816	35	634889	201	0	16	2	635959	0	816	0.001283101583592653	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	62	Insert_2	G	115	35	31975	201	0	3	2	32331	1	201	0.006216943490767375	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	62	Insert_2	G	12	0	12602	0	0	1	0	12615	2	12	0.0009512485136741974	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	62	Insert_2	G	9	0	9877	0	0	1	0	9887	3	9	0.0009102862344492768	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	62	Insert_2	G	8	0	8297	0	0	1	0	8306	4	8	0.000963159162051529	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	62	Insert_2	G	8	0	7317	0	0	1	0	7326	5	8	0.001092001092001092	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	62	Insert_2	G	6	0	6159	0	0	1	0	6166	7	6	0.0009730781706130393	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	62	Insert_2	G	4	0	5156	0	0	1	0	5161	10	4	0.0007750435962022863	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	62	Insert_2	G	3	0	3669	0	0	0	0	3672	20	3	0.0008169934640522876	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	62	Insert_2	G	2	0	3000	0	0	0	0	3002	30	2	0.0006662225183211193	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	63	Insert_2	T	677	1	2	635219	0	382	2	636283	0	677	0.0010639919658391	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	63	Insert_2	T	673	1	2	31675	0	13	2	32366	1	673	0.0207934251992832	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	63	Insert_2	T	2	0	0	12610	0	7	0	12619	2	7	0.0005547190744116015	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	63	Insert_2	T	2	0	0	9883	0	6	0	9891	3	6	0.0006066120715802245	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	63	Insert_2	T	0	0	0	8304	0	5	0	8309	4	5	0.0006017571308220002	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	63	Insert_2	T	0	0	0	7323	0	4	0	7327	5	4	0.0005459260270233384	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	63	Insert_2	T	0	0	0	6164	0	3	0	6167	7	3	0.0004864601913410086	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	63	Insert_2	T	0	0	0	5159	0	3	0	5162	10	3	0.000581170089112747	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	63	Insert_2	T	0	0	0	3671	0	2	0	3673	20	2	0.0005445140212360468	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	63	Insert_2	T	0	0	0	3001	0	2	0	3003	30	2	0.000666000666000666	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	64	Insert_2	T	180	897	4	635242	0	0	5	636328	0	897	0.0014096503689920922	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	64	Insert_2	T	180	21	4	32181	0	0	5	32391	1	180	0.005557099194220617	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	64	Insert_2	T	0	3	0	12623	0	0	0	12626	2	3	0.0002376049421827974	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	64	Insert_2	T	0	3	0	9892	0	0	0	9895	3	3	0.0003031834259727135	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	64	Insert_2	T	0	2	0	8309	0	0	0	8311	4	2	0.0002406449284081338	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	64	Insert_2	T	0	2	0	7326	0	0	0	7328	5	2	0.0002729257641921397	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	64	Insert_2	T	0	2	0	6166	0	0	0	6168	7	2	0.00032425421530479895	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	64	Insert_2	T	0	2	0	5161	0	0	0	5163	10	2	0.0003873716831299632	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	64	Insert_2	T	0	2	0	3671	0	0	0	3673	20	2	0.0005445140212360468	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	64	Insert_2	T	0	2	0	3001	0	0	0	3003	30	2	0.000666000666000666	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	65	Insert_2	C	67	635595	0	4	0	653	2	636321	0	653	0.0010262116133209495	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	65	Insert_2	C	67	32278	0	4	0	33	2	32384	1	67	0.002068922924901186	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	65	Insert_2	C	0	12608	0	0	0	18	0	12626	2	18	0.0014256296530967844	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	65	Insert_2	C	0	9879	0	0	0	16	0	9895	3	16	0.001616978271854472	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	65	Insert_2	C	0	8297	0	0	0	14	0	8311	4	14	0.0016845144988569367	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	65	Insert_2	C	0	7314	0	0	0	14	0	7328	5	14	0.001910480349344978	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	65	Insert_2	C	0	6156	0	0	0	12	0	6168	7	12	0.0019455252918287938	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	65	Insert_2	C	0	5152	0	0	0	11	0	5163	10	11	0.0021305442572147975	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	65	Insert_2	C	0	3666	0	0	0	7	0	3673	20	7	0.0019057990743261638	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	65	Insert_2	C	0	2997	0	0	0	6	0	3003	30	6	0.001998001998001998	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	66	Insert_2	G	961	39	634692	443	0	99	3	636237	0	961	0.001510443435386499	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	66	Insert_2	G	68	39	32084	178	0	4	3	32376	1	178	0.005497899678774401	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	66	Insert_2	G	8	0	12607	3	0	1	0	12619	2	8	0.0006339646564704018	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	66	Insert_2	G	6	0	9879	3	0	1	0	9889	3	6	0.0006067347557892608	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	66	Insert_2	G	6	0	8297	2	0	1	0	8306	4	6	0.0007223693715386468	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	66	Insert_2	G	6	0	7314	2	0	1	0	7323	5	6	0.0008193363375665711	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	66	Insert_2	G	6	0	6156	2	0	1	0	6165	7	6	0.0009732360097323601	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	66	Insert_2	G	5	0	5152	2	0	1	0	5160	10	5	0.0009689922480620155	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	66	Insert_2	G	4	0	3665	1	0	1	0	3671	20	4	0.001089621356578589	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	66	Insert_2	G	4	0	2996	1	0	1	0	3002	30	4	0.0013324450366422385	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	67	Insert_2	C	258	636033	5	4	0	11	4	636315	0	258	0.00040545956012352373	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	67	Insert_2	C	258	32120	5	4	0	9	4	32400	1	258	0.007962962962962963	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	67	Insert_2	C	0	12621	0	0	0	1	0	12622	2	1	7.922674694977024e-05	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	67	Insert_2	C	0	9890	0	0	0	1	0	9891	3	1	0.00010110201193003741	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	67	Insert_2	C	0	8308	0	0	0	0	0	8308	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	67	Insert_2	C	0	7325	0	0	0	0	0	7325	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	67	Insert_2	C	0	6167	0	0	0	0	0	6167	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	67	Insert_2	C	0	5162	0	0	0	0	0	5162	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	67	Insert_2	C	0	3673	0	0	0	0	0	3673	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	67	Insert_2	C	0	3003	0	0	0	0	0	3003	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	68	Insert_2	A	636308	25	4	8	0	11	5	636361	0	25	3.92858770414906e-05	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	68	Insert_2	A	32348	25	4	8	0	5	5	32395	1	25	0.0007717240314863404	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	68	Insert_2	A	12620	0	0	0	0	3	0	12623	2	3	0.00023766141170878554	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	68	Insert_2	A	9889	0	0	0	0	2	0	9891	3	2	0.00020220402386007482	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	68	Insert_2	A	8308	0	0	0	0	1	0	8309	4	1	0.00012035142616440005	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	68	Insert_2	A	7326	0	0	0	0	0	0	7326	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	68	Insert_2	A	6168	0	0	0	0	0	0	6168	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	68	Insert_2	A	5163	0	0	0	0	0	0	5163	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	68	Insert_2	A	3674	0	0	0	0	0	0	3674	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	68	Insert_2	A	3004	0	0	0	0	0	0	3004	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	69	Insert_2	C	16	636386	0	2	0	0	4	636408	0	16	2.514110444871843e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	69	Insert_2	C	16	32372	0	2	0	0	4	32394	1	16	0.0004939186269062172	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	69	Insert_2	C	0	12621	0	0	0	0	0	12621	2	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	69	Insert_2	C	0	9890	0	0	0	0	0	9890	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	69	Insert_2	C	0	8309	0	0	0	0	0	8309	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	69	Insert_2	C	0	7327	0	0	0	0	0	7327	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	69	Insert_2	C	0	6169	0	0	0	0	0	6169	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	69	Insert_2	C	0	5164	0	0	0	0	0	5164	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	69	Insert_2	C	0	3675	0	0	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	69	Insert_2	C	0	3005	0	0	0	0	0	3005	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	70	Insert_2	T	148	1	13	636149	569	88	2	636401	0	569	0.0008940903612659314	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	70	Insert_2	T	130	1	13	32232	9	9	2	32387	1	130	0.004013956217000648	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	70	Insert_2	T	2	0	0	12616	2	3	0	12621	2	3	0.0002376990729736154	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	70	Insert_2	T	2	0	0	9886	2	2	0	9890	3	2	0.00020222446916076846	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	70	Insert_2	T	2	0	0	8305	2	2	0	8309	4	2	0.0002407028523288001	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	70	Insert_2	T	1	0	0	7324	2	2	0	7327	5	2	0.0002729630135116692	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	70	Insert_2	T	1	0	0	6166	2	2	0	6169	7	2	0.0003242016534284325	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	70	Insert_2	T	1	0	0	5161	2	2	0	5164	10	2	0.0003872966692486445	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	70	Insert_2	T	0	0	0	3674	2	1	0	3675	20	2	0.0005442176870748299	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	70	Insert_2	T	0	0	0	3004	1	1	0	3005	30	1	0.00033277870216306157	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	71	Insert_2	C	41	636001	0	2	0	356	1	636401	0	356	0.0005593957269080344	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	71	Insert_2	C	41	32310	0	2	0	31	1	32385	1	41	0.0012660182183109464	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	71	Insert_2	C	0	12610	0	0	0	12	0	12622	2	12	0.0009507209633972429	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	71	Insert_2	C	0	9880	0	0	0	11	0	9891	3	11	0.0011121221312304114	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	71	Insert_2	C	0	8300	0	0	0	9	0	8309	4	9	0.0010831628354796004	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	71	Insert_2	C	0	7319	0	0	0	8	0	7327	5	8	0.0010918520540466768	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	71	Insert_2	C	0	6164	0	0	0	5	0	6169	7	5	0.0008105041335710813	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	71	Insert_2	C	0	5159	0	0	0	5	0	5164	10	5	0.0009682416731216112	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	71	Insert_2	C	0	3671	0	0	0	4	0	3675	20	4	0.0010884353741496598	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	71	Insert_2	C	0	3001	0	0	0	4	0	3005	30	4	0.0013311148086522463	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	72	Insert_2	C	237	636161	10	9	0	1	0	636418	0	237	0.0003723967581055218	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	72	Insert_2	C	237	32146	10	8	0	1	0	32402	1	237	0.007314363310906734	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	72	Insert_2	C	0	12621	0	1	0	0	0	12622	2	1	7.922674694977024e-05	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	72	Insert_2	C	0	9891	0	0	0	0	0	9891	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	72	Insert_2	C	0	8309	0	0	0	0	0	8309	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	72	Insert_2	C	0	7327	0	0	0	0	0	7327	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	72	Insert_2	C	0	6169	0	0	0	0	0	6169	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	72	Insert_2	C	0	5164	0	0	0	0	0	5164	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	72	Insert_2	C	0	3675	0	0	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	72	Insert_2	C	0	3005	0	0	0	0	0	3005	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	73	Insert_2	G	565	37	635782	16	0	1	6	636407	0	565	0.0008877966458571323	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	73	Insert_2	G	42	37	32292	16	0	1	6	32394	1	42	0.0012965363956288201	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	73	Insert_2	G	2	0	12619	0	0	0	0	12621	2	2	0.00015846604864907694	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	73	Insert_2	G	2	0	9888	0	0	0	0	9890	3	2	0.00020222446916076846	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	73	Insert_2	G	2	0	8306	0	0	0	0	8308	4	2	0.00024073182474723158	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	73	Insert_2	G	2	0	7325	0	0	0	0	7327	5	2	0.0002729630135116692	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	73	Insert_2	G	2	0	6167	0	0	0	0	6169	7	2	0.0003242016534284325	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	73	Insert_2	G	2	0	5162	0	0	0	0	5164	10	2	0.0003872966692486445	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	73	Insert_2	G	2	0	3673	0	0	0	0	3675	20	2	0.0005442176870748299	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	73	Insert_2	G	2	0	3003	0	0	0	0	3005	30	2	0.0006655574043261231	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	74	Insert_2	A	635895	8	21	3	0	486	3	636416	0	486	0.0007636514481094127	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	74	Insert_2	A	32360	8	7	3	0	16	3	32397	1	16	0.0004938728894650739	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	74	Insert_2	A	12616	0	1	0	0	7	0	12624	2	7	0.0005544993662864385	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	74	Insert_2	A	9887	0	1	0	0	4	0	9892	3	4	0.0004043671653861706	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	74	Insert_2	A	8306	0	1	0	0	2	0	8309	4	2	0.0002407028523288001	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	74	Insert_2	A	7324	0	1	0	0	2	0	7327	5	2	0.0002729630135116692	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	74	Insert_2	A	6166	0	1	0	0	2	0	6169	7	2	0.0003242016534284325	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	74	Insert_2	A	5161	0	1	0	0	2	0	5164	10	2	0.0003872966692486445	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	74	Insert_2	A	3674	0	0	0	0	1	0	3675	20	1	0.00027210884353741496	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	74	Insert_2	A	3004	0	0	0	0	1	0	3005	30	1	0.00033277870216306157	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	75	Insert_2	G	1032	36	634716	636	0	0	1	636421	0	1032	0.0016215681129315342	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	75	Insert_2	G	55	36	32259	51	0	0	1	32402	1	55	0.0016974260848095796	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	75	Insert_2	G	12	0	12605	7	0	0	0	12624	2	12	0.0009505703422053232	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	75	Insert_2	G	11	0	9876	5	0	0	0	9892	3	11	0.0011120097048119692	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	75	Insert_2	G	7	0	8297	5	0	0	0	8309	4	7	0.0008424599831508003	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	75	Insert_2	G	7	0	7316	4	0	0	0	7327	5	7	0.0009553705472908421	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	75	Insert_2	G	7	0	6158	4	0	0	0	6169	7	7	0.0011347057869995137	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	75	Insert_2	G	6	0	5154	4	0	0	0	5164	10	6	0.0011618900077459333	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	75	Insert_2	G	3	0	3671	1	0	0	0	3675	20	3	0.0008163265306122449	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	75	Insert_2	G	2	0	3002	1	0	0	0	3005	30	2	0.0006655574043261231	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	76	Insert_2	T	583	289	4	635377	0	155	1	636409	0	583	0.0009160775539000862	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	76	Insert_2	T	581	9	4	31786	0	10	1	32391	1	581	0.0179370812880121	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	76	Insert_2	T	1	3	0	12616	0	3	0	12623	2	3	0.00023766141170878554	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	76	Insert_2	T	1	3	0	9885	0	3	0	9892	3	3	0.000303275374039628	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	76	Insert_2	T	0	3	0	8304	0	2	0	8309	4	3	0.00036105427849320016	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	76	Insert_2	T	0	3	0	7322	0	2	0	7327	5	3	0.00040944452026750374	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	76	Insert_2	T	0	3	0	6164	0	2	0	6169	7	3	0.0004863024801426487	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	76	Insert_2	T	0	3	0	5159	0	2	0	5164	10	3	0.0005809450038729666	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	76	Insert_2	T	0	3	0	3670	0	2	0	3675	20	3	0.0008163265306122449	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	76	Insert_2	T	0	3	0	3001	0	1	0	3005	30	3	0.0009983361064891847	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	77	Insert_2	G	712	46	635269	99	87	272	2	636400	0	712	0.0011187932118164677	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	77	Insert_2	G	46	46	32186	87	13	16	2	32383	1	87	0.0026865948182688447	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	77	Insert_2	G	13	0	12600	2	7	7	0	12622	2	13	0.0010299477103470132	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	77	Insert_2	G	12	0	9871	2	6	7	0	9892	3	12	0.001213101496158512	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	77	Insert_2	G	10	0	8291	2	6	6	0	8309	4	10	0.0012035142616440004	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	77	Insert_2	G	9	0	7311	1	6	6	0	7327	5	9	0.0012283335608025113	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	77	Insert_2	G	9	0	6154	1	5	5	0	6169	7	9	0.0014589074404279462	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	77	Insert_2	G	9	0	5152	1	4	2	0	5164	10	9	0.0017428350116189002	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	77	Insert_2	G	9	0	3664	0	1	2	0	3675	20	9	0.0024489795918367346	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	77	Insert_2	G	8	0	2995	0	0	2	0	3005	30	8	0.0026622296173044926	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	78	Insert_2	C	61	635680	2	377	0	312	2	636434	0	377	0.0005923630729973571	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	78	Insert_2	C	61	32293	2	33	0	4	2	32395	1	61	0.0018830066368266708	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	78	Insert_2	C	0	12614	0	11	0	1	0	12626	2	11	0.0008712181213369238	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	78	Insert_2	C	0	9887	0	8	0	1	0	9896	3	8	0.0008084074373484236	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	78	Insert_2	C	0	8303	0	8	0	1	0	8312	4	8	0.0009624639076034649	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	78	Insert_2	C	0	7321	0	8	0	1	0	7330	5	8	0.001091405184174625	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	78	Insert_2	C	0	6164	0	5	0	1	0	6170	7	5	0.0008103727714748784	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	78	Insert_2	C	0	5159	0	5	0	1	0	5165	10	5	0.000968054211035818	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	78	Insert_2	C	0	3670	0	4	0	1	0	3675	20	4	0.0010884353741496598	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	78	Insert_2	C	0	3001	0	3	0	1	0	3005	30	3	0.0009983361064891847	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	79	Insert_2	G	896	294	635033	178	351	24	6	636431	0	896	0.0014078509689188616	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	79	Insert_2	G	57	285	31978	64	5	5	6	32395	1	285	0.008797653958944282	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	79	Insert_2	G	12	1	12601	8	4	3	0	12625	2	12	0.0009504950495049505	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	79	Insert_2	G	11	1	9873	8	3	2	0	9895	3	11	0.0011116725618999495	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	79	Insert_2	G	10	1	8292	6	3	2	0	8311	4	10	0.001203224642040669	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	79	Insert_2	G	9	1	7314	4	3	2	0	7330	5	9	0.0012278308321964529	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	79	Insert_2	G	9	1	6155	4	3	1	0	6170	7	9	0.001458670988654781	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	79	Insert_2	G	9	1	5150	4	2	1	0	5165	10	9	0.0017424975798644724	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	79	Insert_2	G	8	0	3664	3	1	0	0	3675	20	8	0.0021768707482993197	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	79	Insert_2	G	8	0	2994	3	1	0	0	3005	30	8	0.0026622296173044926	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	80	Insert_2	G	1042	41	635262	83	0	0	6	636434	0	1042	0.0016372475386293001	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	80	Insert_2	G	102	32	32235	23	0	0	6	32398	1	102	0.0031483424902771775	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	80	Insert_2	G	35	1	12588	1	0	0	0	12625	2	35	0.002772277227722772	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	80	Insert_2	G	30	1	9863	1	0	0	0	9895	3	30	0.003031834259727135	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	80	Insert_2	G	23	1	8286	1	0	0	0	8311	4	23	0.002767416676693539	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	80	Insert_2	G	20	1	7308	1	0	0	0	7330	5	20	0.002728512960436562	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	80	Insert_2	G	18	1	6150	1	0	0	0	6170	7	18	0.002917341977309562	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	80	Insert_2	G	17	1	5146	1	0	0	0	5165	10	17	0.003291384317521781	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	80	Insert_2	G	8	0	3666	1	0	0	0	3675	20	8	0.0021768707482993197	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	80	Insert_2	G	4	0	3000	1	0	0	0	3005	30	4	0.0013311148086522463	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	81	Insert_2	C	21	635841	0	329	0	228	4	636423	0	329	0.0005169517757843447	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	81	Insert_2	C	21	32334	0	14	0	14	4	32387	1	21	0.0006484083119770278	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	81	Insert_2	C	0	12618	0	4	0	3	0	12625	2	4	0.00031683168316831684	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	81	Insert_2	C	0	9888	0	4	0	3	0	9895	3	4	0.000404244567963618	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	81	Insert_2	C	0	8305	0	3	0	3	0	8311	4	3	0.0003609673926122007	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	81	Insert_2	C	0	7324	0	3	0	3	0	7330	5	3	0.0004092769440654843	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	81	Insert_2	C	0	6165	0	2	0	3	0	6170	7	3	0.00048622366288492705	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	81	Insert_2	C	0	5160	0	2	0	3	0	5165	10	3	0.0005808325266214908	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	81	Insert_2	C	0	3670	0	2	0	3	0	3675	20	3	0.0008163265306122449	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	81	Insert_2	C	0	3002	0	1	0	2	0	3005	30	2	0.0006655574043261231	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	82	Insert_2	A	635298	1	5	3	1138	743	4	636054	0	1138	0.0017891562666062944	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	82	Insert_2	A	32207	1	5	3	25	28	4	32248	1	28	0.0008682709005209626	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	82	Insert_2	A	12523	0	0	0	6	9	0	12532	2	9	0.0007181615065432493	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	82	Insert_2	A	9801	0	0	0	6	8	0	9809	3	8	0.0008155775308390254	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	82	Insert_2	A	8263	0	0	0	6	7	0	8270	4	7	0.0008464328899637243	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	82	Insert_2	A	7316	0	0	0	6	7	0	7323	5	7	0.0009558923938276663	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	82	Insert_2	A	6162	0	0	0	5	7	0	6169	7	7	0.0011347057869995137	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	82	Insert_2	A	5159	0	0	0	4	6	0	5165	10	6	0.0011616650532429815	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	82	Insert_2	A	3671	0	0	0	4	4	0	3675	20	4	0.0010884353741496598	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	82	Insert_2	A	3002	0	0	0	4	3	0	3005	30	4	0.0013311148086522463	I
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	83	Insert_2	A	636052	3	7	0	0	0	8	636070	0	8	1.257723206565315e-05	N
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	83	Insert_2	A	32246	3	7	0	0	0	8	32264	1	8	0.0002479543763947434	N
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	83	Insert_2	A	12532	0	0	0	0	0	0	12532	2	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	83	Insert_2	A	9809	0	0	0	0	0	0	9809	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	83	Insert_2	A	8270	0	0	0	0	0	0	8270	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	83	Insert_2	A	7323	0	0	0	0	0	0	7323	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	83	Insert_2	A	6169	0	0	0	0	0	0	6169	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	83	Insert_2	A	5165	0	0	0	0	0	0	5165	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	83	Insert_2	A	3675	0	0	0	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	83	Insert_2	A	3005	0	0	0	0	0	0	3005	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	84	Insert_2	A	636049	3	11	1	0	0	1	636065	0	11	1.72938300330941e-05	G
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	84	Insert_2	A	32244	3	11	1	0	0	1	32260	1	11	0.0003409795412275263	G
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	84	Insert_2	A	12531	0	0	0	0	0	0	12531	2	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	84	Insert_2	A	9809	0	0	0	0	0	0	9809	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	84	Insert_2	A	8270	0	0	0	0	0	0	8270	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	84	Insert_2	A	7323	0	0	0	0	0	0	7323	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	84	Insert_2	A	6169	0	0	0	0	0	0	6169	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	84	Insert_2	A	5165	0	0	0	0	0	0	5165	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	84	Insert_2	A	3675	0	0	0	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	84	Insert_2	A	3005	0	0	0	0	0	0	3005	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	85	Insert_2	G	31	24	635731	259	0	0	3	636048	0	259	0.0004072019721782004	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	85	Insert_2	G	11	24	32184	21	0	0	3	32243	1	24	0.000744347610334026	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	85	Insert_2	G	1	0	12529	1	0	0	0	12531	2	1	7.980209081477934e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	85	Insert_2	G	1	0	9807	1	0	0	0	9809	3	1	0.00010194719135487817	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	85	Insert_2	G	1	0	8268	1	0	0	0	8270	4	1	0.00012091898428053205	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	85	Insert_2	G	1	0	7321	1	0	0	0	7323	5	1	0.00013655605626109517	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	85	Insert_2	G	1	0	6167	1	0	0	0	6169	7	1	0.00016210082671421625	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	85	Insert_2	G	1	0	5163	1	0	0	0	5165	10	1	0.0001936108422071636	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	85	Insert_2	G	1	0	3673	1	0	0	0	3675	20	1	0.00027210884353741496	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	85	Insert_2	G	0	0	3004	1	0	0	0	3005	30	1	0.00033277870216306157	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	86	Insert_2	C	29	636001	4	2	0	0	5	636041	0	29	4.559454500574648e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	86	Insert_2	C	29	32197	4	2	0	0	5	32237	1	29	0.0008995874305921767	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	86	Insert_2	C	0	12530	0	0	0	0	0	12530	2	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	86	Insert_2	C	0	9809	0	0	0	0	0	9809	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	86	Insert_2	C	0	8270	0	0	0	0	0	8270	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	86	Insert_2	C	0	7323	0	0	0	0	0	7323	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	86	Insert_2	C	0	6169	0	0	0	0	0	6169	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	86	Insert_2	C	0	5165	0	0	0	0	0	5165	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	86	Insert_2	C	0	3675	0	0	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	86	Insert_2	C	0	3005	0	0	0	0	0	3005	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	87	Insert_2	T	124	1	5	635888	0	0	5	636023	0	124	0.00019496150296451545	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	87	Insert_2	T	122	1	5	32086	0	0	5	32219	1	122	0.0037865855551072348	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	87	Insert_2	T	1	0	0	12529	0	0	0	12530	2	1	7.980845969672785e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	87	Insert_2	T	1	0	0	9808	0	0	0	9809	3	1	0.00010194719135487817	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	87	Insert_2	T	0	0	0	8270	0	0	0	8270	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	87	Insert_2	T	0	0	0	7323	0	0	0	7323	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	87	Insert_2	T	0	0	0	6169	0	0	0	6169	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	87	Insert_2	T	0	0	0	5165	0	0	0	5165	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	87	Insert_2	T	0	0	0	3675	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	87	Insert_2	T	0	0	0	3005	0	0	0	3005	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	88	Insert_2	G	323	28	635652	8	0	2	3	636016	0	323	0.0005078488591481976	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	88	Insert_2	G	16	28	32155	8	0	2	3	32212	1	28	0.0008692412765429032	C
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	88	Insert_2	G	1	0	12529	0	0	0	0	12530	2	1	7.980845969672785e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	88	Insert_2	G	1	0	9808	0	0	0	0	9809	3	1	0.00010194719135487817	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	88	Insert_2	G	1	0	8269	0	0	0	0	8270	4	1	0.00012091898428053205	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	88	Insert_2	G	1	0	7322	0	0	0	0	7323	5	1	0.00013655605626109517	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	88	Insert_2	G	1	0	6168	0	0	0	0	6169	7	1	0.00016210082671421625	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	88	Insert_2	G	1	0	5164	0	0	0	0	5165	10	1	0.0001936108422071636	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	88	Insert_2	G	1	0	3674	0	0	0	0	3675	20	1	0.00027210884353741496	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	88	Insert_2	G	1	0	3004	0	0	0	0	3005	30	1	0.00033277870216306157	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	89	Insert_2	T	45	9	2	635896	0	40	11	636003	0	45	7.075438323404135e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	89	Insert_2	T	45	3	2	32130	0	9	11	32200	1	45	0.0013975155279503106	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	89	Insert_2	T	0	1	0	12525	0	3	0	12529	2	3	0.00023944448878601644	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	89	Insert_2	T	0	1	0	9806	0	2	0	9809	3	2	0.00020389438270975634	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	89	Insert_2	T	0	1	0	8267	0	2	0	8270	4	2	0.0002418379685610641	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	89	Insert_2	T	0	1	0	7320	0	2	0	7323	5	2	0.00027311211252219035	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	89	Insert_2	T	0	1	0	6166	0	2	0	6169	7	2	0.0003242016534284325	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	89	Insert_2	T	0	0	0	5163	0	2	0	5165	10	2	0.0003872216844143272	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	89	Insert_2	T	0	0	0	3675	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	89	Insert_2	T	0	0	0	3005	0	0	0	3005	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	90	Insert_2	T	91	3	2	635569	0	329	6	636000	0	329	0.0005172955974842768	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	90	Insert_2	T	91	3	2	32089	0	6	6	32197	1	91	0.002826350281082088	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	90	Insert_2	T	0	0	0	12528	0	1	0	12529	2	1	7.981482959533881e-05	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	90	Insert_2	T	0	0	0	9808	0	1	0	9809	3	1	0.00010194719135487817	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	90	Insert_2	T	0	0	0	8269	0	1	0	8270	4	1	0.00012091898428053205	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	90	Insert_2	T	0	0	0	7322	0	1	0	7323	5	1	0.00013655605626109517	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	90	Insert_2	T	0	0	0	6168	0	1	0	6169	7	1	0.00016210082671421625	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	90	Insert_2	T	0	0	0	5164	0	1	0	5165	10	1	0.0001936108422071636	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	90	Insert_2	T	0	0	0	3674	0	1	0	3675	20	1	0.00027210884353741496	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	90	Insert_2	T	0	0	0	3004	0	1	0	3005	30	1	0.00033277870216306157	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	91	Insert_2	C	30	634342	2	3	53	1230	0	635607	0	1230	0.0019351580457735676	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	91	Insert_2	C	30	32047	2	3	1	48	0	32130	1	48	0.0014939309056956115	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	91	Insert_2	C	0	12515	0	0	1	11	0	12526	2	11	0.0008781733993293949	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	91	Insert_2	C	0	9798	0	0	1	9	0	9807	3	9	0.0009177118384827164	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	91	Insert_2	C	0	8261	0	0	1	8	0	8269	4	8	0.0009674688595960818	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	91	Insert_2	C	0	7315	0	0	1	7	0	7322	5	7	0.0009560229445506692	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	91	Insert_2	C	0	6162	0	0	1	6	0	6168	7	6	0.0009727626459143969	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	91	Insert_2	C	0	5158	0	0	1	6	0	5164	10	6	0.0011618900077459333	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	91	Insert_2	C	0	3669	0	0	1	5	0	3674	20	5	0.0013609145345672292	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	91	Insert_2	C	0	3000	0	0	1	4	0	3004	30	4	0.0013315579227696406	D
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	92	Insert_2	C	20	635923	21	8	0	0	1	635973	0	21	3.302026972843187e-05	G
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	92	Insert_2	C	20	32124	21	7	0	0	1	32173	1	21	0.0006527212258726261	G
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	92	Insert_2	C	0	12526	0	1	0	0	0	12527	2	1	7.9827572443522e-05	T
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	92	Insert_2	C	0	9808	0	0	0	0	0	9808	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	92	Insert_2	C	0	8270	0	0	0	0	0	8270	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	92	Insert_2	C	0	7323	0	0	0	0	0	7323	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	92	Insert_2	C	0	6169	0	0	0	0	0	6169	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	92	Insert_2	C	0	5165	0	0	0	0	0	5165	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	92	Insert_2	C	0	3675	0	0	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	92	Insert_2	C	0	3005	0	0	0	0	0	3005	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	93	Insert_2	G	274	14	635651	8	0	0	2	635949	0	274	0.00043085215952851563	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	93	Insert_2	G	35	14	32091	8	0	0	2	32150	1	35	0.001088646967340591	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	93	Insert_2	G	6	0	12520	0	0	0	0	12526	2	6	0.0004790036723614881	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	93	Insert_2	G	6	0	9802	0	0	0	0	9808	3	6	0.0006117455138662316	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	93	Insert_2	G	6	0	8264	0	0	0	0	8270	4	6	0.0007255139056831923	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	93	Insert_2	G	6	0	7317	0	0	0	0	7323	5	6	0.0008193363375665711	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	93	Insert_2	G	5	0	6164	0	0	0	0	6169	7	5	0.0008105041335710813	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	93	Insert_2	G	5	0	5160	0	0	0	0	5165	10	5	0.000968054211035818	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	93	Insert_2	G	5	0	3670	0	0	0	0	3675	20	5	0.0013605442176870747	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	93	Insert_2	G	3	0	3002	0	0	0	0	3005	30	3	0.0009983361064891847	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	94	Insert_2	T	62	2	4	635821	0	0	9	635898	0	62	9.749991350814124e-05	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	94	Insert_2	T	62	2	4	32042	0	0	9	32119	1	62	0.0019303216164886826	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	94	Insert_2	T	0	0	0	12519	0	0	0	12519	2	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	94	Insert_2	T	0	0	0	9803	0	0	0	9803	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	94	Insert_2	T	0	0	0	8267	0	0	0	8267	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	94	Insert_2	T	0	0	0	7321	0	0	0	7321	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	94	Insert_2	T	0	0	0	6168	0	0	0	6168	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	94	Insert_2	T	0	0	0	5165	0	0	0	5165	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	94	Insert_2	T	0	0	0	3675	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	94	Insert_2	T	0	0	0	3005	0	0	0	3005	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	95	Insert_2	C	37	635630	218	5	0	0	3	635893	0	218	0.00034282497212581364	G
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	95	Insert_2	C	18	32080	10	3	0	0	3	32114	1	18	0.0005605032073239085	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	95	Insert_2	C	2	12514	2	1	0	0	0	12519	2	2	0.0001597571691029635	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	95	Insert_2	C	2	9798	2	1	0	0	0	9803	3	2	0.00020401917780271344	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	95	Insert_2	C	2	8263	2	0	0	0	0	8267	4	2	0.00024192572880125802	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	95	Insert_2	C	2	7317	2	0	0	0	0	7321	5	2	0.0002731867231252561	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	95	Insert_2	C	2	6165	1	0	0	0	0	6168	7	2	0.00032425421530479895	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	95	Insert_2	C	1	5163	1	0	0	0	0	5165	10	1	0.0001936108422071636	A
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	95	Insert_2	C	0	3674	1	0	0	0	0	3675	20	1	0.00027210884353741496	G
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	95	Insert_2	C	0	3004	1	0	0	0	0	3005	30	1	0.00033277870216306157	G
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	96	Insert_2	C	0	635779	0	0	0	0	5	635784	0	5	7.864306116542724e-06	N
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	96	Insert_2	C	0	32057	0	0	0	0	5	32062	1	5	0.00015594785103861269	N
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	96	Insert_2	C	0	12501	0	0	0	0	0	12501	2	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	96	Insert_2	C	0	9791	0	0	0	0	0	9791	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	96	Insert_2	C	0	8260	0	0	0	0	0	8260	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	96	Insert_2	C	0	7317	0	0	0	0	0	7317	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	96	Insert_2	C	0	6166	0	0	0	0	0	6166	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	96	Insert_2	C	0	5164	0	0	0	0	0	5164	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	96	Insert_2	C	0	3675	0	0	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	96	Insert_2	C	0	3005	0	0	0	0	0	3005	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	97	Insert_2	C	0	635640	0	0	0	0	2	635642	0	2	3.1464251890214933e-06	N
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	97	Insert_2	C	0	31976	0	0	0	0	2	31978	1	2	6.254299831133904e-05	N
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	97	Insert_2	C	0	12483	0	0	0	0	0	12483	2	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	97	Insert_2	C	0	9785	0	0	0	0	0	9785	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	97	Insert_2	C	0	8257	0	0	0	0	0	8257	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	97	Insert_2	C	0	7314	0	0	0	0	0	7314	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	97	Insert_2	C	0	6163	0	0	0	0	0	6163	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	97	Insert_2	C	0	5161	0	0	0	0	0	5161	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	97	Insert_2	C	0	3675	0	0	0	0	0	3675	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	97	Insert_2	C	0	3005	0	0	0	0	0	3005	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	98	Insert_2	A	635359	0	0	0	0	0	2	635361	0	2	3.147816752995541e-06	N
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	98	Insert_2	A	31855	0	0	0	0	0	2	31857	1	2	6.278055058542864e-05	N
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	98	Insert_2	A	12442	0	0	0	0	0	0	12442	2	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	98	Insert_2	A	9759	0	0	0	0	0	0	9759	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	98	Insert_2	A	8238	0	0	0	0	0	0	8238	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	98	Insert_2	A	7300	0	0	0	0	0	0	7300	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	98	Insert_2	A	6157	0	0	0	0	0	0	6157	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	98	Insert_2	A	5157	0	0	0	0	0	0	5157	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	98	Insert_2	A	3673	0	0	0	0	0	0	3673	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	98	Insert_2	A	3005	0	0	0	0	0	0	3005	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	99	Insert_2	G	0	0	635268	0	0	0	0	635268	0	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	99	Insert_2	G	0	0	31802	0	0	0	0	31802	1	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	99	Insert_2	G	0	0	12434	0	0	0	0	12434	2	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	99	Insert_2	G	0	0	9756	0	0	0	0	9756	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	99	Insert_2	G	0	0	8236	0	0	0	0	8236	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	99	Insert_2	G	0	0	7298	0	0	0	0	7298	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	99	Insert_2	G	0	0	6155	0	0	0	0	6155	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	99	Insert_2	G	0	0	5155	0	0	0	0	5155	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	99	Insert_2	G	0	0	3673	0	0	0	0	3673	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	99	Insert_2	G	0	0	3005	0	0	0	0	3005	30	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	100	Insert_2	T	0	0	0	635125	0	0	0	635125	0	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	100	Insert_2	T	0	0	0	31696	0	0	0	31696	1	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	100	Insert_2	T	0	0	0	12421	0	0	0	12421	2	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	100	Insert_2	T	0	0	0	9747	0	0	0	9747	3	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	100	Insert_2	T	0	0	0	8232	0	0	0	8232	4	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	100	Insert_2	T	0	0	0	7294	0	0	0	7294	5	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	100	Insert_2	T	0	0	0	6153	0	0	0	6153	7	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	100	Insert_2	T	0	0	0	5155	0	0	0	5155	10	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	100	Insert_2	T	0	0	0	3673	0	0	0	3673	20	0	0	
+idt_rev_ultramer_b2_3_S30_L001_R1_001	TP1_synth_reverse	100	Insert_2	T	0	0	0	3005	0	0	0	3005	30	0	0	
