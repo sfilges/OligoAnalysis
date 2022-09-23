@@ -203,7 +203,7 @@ code block or set eval=FALSE.
 ```{r, warning=FALSE, echo=FALSE, message=FALSE, eval=TRUE}
 # TODO change or remove this part as necessary. 
 # Change names of factor variables. 
-# Recode manufacturers names from file anmes to short forms
+# Re-code manufacturers names from file names to short forms
 cons.table$Manufacturer <- forcats::fct_recode(
   cons.table$Manufacturer, 
   IDT = 'idt', 
