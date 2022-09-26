@@ -320,20 +320,23 @@ amplicon.plot.data1 <- cons.table.filtered %>%
       total_error = 100*(A+C+G+T+D+I)/Coverage
     ) %>%
     dplyr::filter(
-      Manufacturer != "control", 
-      InsertType == "Insert_1"
+      Manufacturer != 'control', 
+      InsertType == 'Insert_1',
+      Batch == 'b1',
+      Position >= 19,
+      Position <= 80
     ) %>%
     tidyr::unite('Type', Manufacturer, Purification, sep = ' ') %>%
-    dplyr::group_by(Position, InsertType, Reference, `Consensus group size`) %>%
+    dplyr::group_by(Position, InsertType, `Consensus group size`, Reference) %>%
     dplyr::summarise(
       total_error = mean(total_error)
     ) %>% 
-  tidyr::gather("error_type", "error", -c("Position", "InsertType", "Reference", `Consensus group size`))
+  tidyr::gather("error_type", "error", -c("Position", "InsertType","Reference", `Consensus group size`))
 
 # Get x-axis labels
 labels1 <- amplicon.plot.data1 %>%
   dplyr::ungroup() %>%
-  dplyr::distinct(Position, Reference)
+  dplyr::distinct(Position,Reference)
 
 # Generate plot for Insert_1
 error_plot_1 <- ggplot(
@@ -372,7 +375,10 @@ amplicon.plot.data2 <- cons.table.filtered %>%
     ) %>%
     dplyr::filter(
       Manufacturer != "control", 
-      InsertType == "Insert_2"
+      InsertType == "Insert_2",
+      Batch == 'b1',
+      Position >= 19,
+      Position <= 80
     ) %>%
     tidyr::unite('Type', Manufacturer, Purification, sep = ' ') %>%
     dplyr::group_by(Position, InsertType, Reference, `Consensus group size`) %>%
